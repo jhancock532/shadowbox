@@ -3,7 +3,7 @@ import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import path from "path";
 import fs from "fs";
-import WebpageSummary from "@/components/WebpageSummary";
+import WebsiteSummary from "@/components/WebsiteSummary";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +23,7 @@ export default function Home({ statistics }: { statistics: any }) {
         </p>
         <div className={styles.grid}>
           {statistics.pages.map((website: any) => (
-            <WebpageSummary key={website.id} webpage={website} />
+            <WebsiteSummary key={website.id} webpage={website} />
           ))}
         </div>
       </main>
@@ -32,7 +32,7 @@ export default function Home({ statistics }: { statistics: any }) {
 }
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), "data/2023-02-07+11:39:44.json");
+  const filePath = path.join(process.cwd(), "data/2023-02-07+17:20:00.json");
   const fileData = fs.readFileSync(filePath);
   const statistics = JSON.parse(fileData as unknown as string);
 

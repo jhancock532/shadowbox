@@ -1,10 +1,30 @@
+#!/usr/bin/env node
+"use strict";
+
 const CHC = require("chrome-har-capturer");
 const fs = require("fs");
+const chalk = require("chalk");
+const { parse, format } = require("url");
 
-const WEBSITE_URLS = [
-  "https://torchbox.com",
-  "https://torchbox.com/careers",
+const TORCHBOX_URLS = [
+  "https://torchbox.com/",
+  "https://torchbox.com/digital-products/",
+  "https://torchbox.com/wagtail-cms/",
+  "https://torchbox.com/digital-marketing/",
+  "https://torchbox.com/blog/",
+  "https://torchbox.com/team/",
+  "https://torchbox.com/careers/",
+  "https://torchbox.com/careers/jobs/",
+];
+
+const OXFAM_URLS = [
   "https://www.oxfam.org.uk/",
+  "https://www.oxfam.org.uk/donate/",
+  "https://www.oxfam.org.uk/about-us/",
+  "https://www.oxfam.org.uk/get-involved/fundraise-with-oxfam/pay-your-fundraising/",
+  "https://www.oxfam.org.uk/about-us/working-oxfam/oxfam-trainee-scheme/",
+  "https://www.oxfam.org.uk/oxfam-in-action/water-for-all/",
+  "https://www.oxfam.org.uk/oxfam-in-action/impact-stories/emmily-celebrating-getting-water-running-zimbabwe/",
 ];
 
 function getDateTimeString() {
@@ -19,19 +39,7 @@ function getDateTimeString() {
   let minutes = date_time.getMinutes();
   let seconds = date_time.getSeconds();
 
-  return (
-    year +
-    "-" +
-    month +
-    "-" +
-    date +
-    "+" +
-    hours +
-    ":" +
-    minutes +
-    ":" +
-    seconds
-  );
+  return `${year}-${month}-${date}+${hours}:${minutes}:${seconds}`;
 }
 
 function generateWebpageOutputJSON(pages, entries) {
@@ -90,14 +98,30 @@ function outputHar(har) {
 }
 */
 
-CHC.run(WEBSITE_URLS, {
+function prettify(url) {
+  try {
+    const urlObject = parse(url);
+    urlObject.protocol = chalk.gray(urlObject.protocol.slice(0, -1));
+    urlObject.host = chalk.bold(urlObject.host);
+    return format(urlObject).replace(/[:/?=#]/g, chalk.gray("$&"));
+  } catch (err) {
+    // invalid URL delegate error detection
+    return url;
+  }
+}
+
+function log(string) {
+  process.stderr.write(string);
+}
+
+CHC.run(TORCHBOX_URLS, {
   content: false,
 })
   .on("load", (url) => {
-    process.stderr.write("loading\n");
+    log(`- ${prettify(url)} `);
   })
   .on("done", (url) => {
-    process.stderr.write("done\n");
+    log(chalk.green("✓\n"));
   })
   .on("fail", (url, err) => {
     process.stderr.write("failed\n");
@@ -108,5 +132,9 @@ CHC.run(WEBSITE_URLS, {
       har.log.entries
     );
     outputStats(minifiedStats);
-    process.stderr.write("output\n");
+    log("\n");
+    log(
+      chalk.bold(chalk.bgGreen(chalk.black(" * Success! * "))) +
+        "\nResults saved to data folder.\n"
+    );
   });

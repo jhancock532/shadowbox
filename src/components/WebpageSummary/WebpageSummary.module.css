@@ -1,0 +1,22 @@
+.container {
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.title {
+  margin: 0 0 0.8rem 0;
+  line-height: 1.15;
+  font-size: 1.7rem;
+}
+
+.title a:visited,
+.title a {
+  color: #0070f3;
+}
+
+.keyStatistic {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}

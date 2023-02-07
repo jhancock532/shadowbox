@@ -1,0 +1,414 @@
+{
+    "pages": [
+        {
+            "title": "https://torchbox.com",
+            "id": "page_1_5209358052703412",
+            "timings": {
+                "onContentLoad": 144.43300000578165,
+                "onLoad": 243.9079999998212
+            },
+            "requests": [
+                {
+                    "url": "https://torchbox.com/",
+                    "resourceType": "document",
+                    "transferSize": 9153
+                },
+                {
+                    "url": "https://torchbox.com/static/css/main.05f6a3df7628.css",
+                    "resourceType": "stylesheet",
+                    "transferSize": 17022
+                },
+                {
+                    "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+                    "resourceType": "script",
+                    "transferSize": 1034
+                },
+                {
+                    "url": "https://torchbox.com/static/js/main.ac0f52090b47.js",
+                    "resourceType": "script",
+                    "transferSize": 69186
+                },
+                {
+                    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+                    "resourceType": "script",
+                    "transferSize": 59012
+                },
+                {
+                    "url": "https://media.torchbox.com/images/2019-03-19_06.27.53_1.max-1000x500.jpg",
+                    "resourceType": "image",
+                    "transferSize": 62556
+                },
+                {
+                    "url": "https://torchbox.com/static/4aa0abf35762d3d96221.0cd7caae30ac.woff",
+                    "resourceType": "font",
+                    "transferSize": 61444
+                },
+                {
+                    "url": "https://torchbox.com/static/df348384f91cc9ecf2f7.8cf7315c70cb.woff",
+                    "resourceType": "font",
+                    "transferSize": 61794
+                },
+                {
+                    "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
+                    "resourceType": "font",
+                    "transferSize": 61934
+                },
+                {
+                    "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.fill-100x100.jpg",
+                    "resourceType": "image",
+                    "transferSize": 3967
+                },
+                {
+                    "url": "https://www.google-analytics.com/analytics.js",
+                    "resourceType": "script",
+                    "transferSize": 20389
+                },
+                {
+                    "url": "https://cdn.segment.com/analytics.js/v1/tBct9WguzJg2dFRhPLLbc8ezAFf6WhAM/analytics.min.js",
+                    "resourceType": "script",
+                    "transferSize": 28365
+                },
+                {
+                    "url": "https://www.googletagmanager.com/gtag/js?id=G-G87VZZVTT2&l=dataLayer&cx=c",
+                    "resourceType": "script",
+                    "transferSize": 76580
+                },
+                {
+                    "url": "https://www.google-analytics.com/collect?v=1&_v=j99&a=161769419&t=pageview&_s=1&dl=https%3A%2F%2Ftorchbox.com%2F&ul=en-us&de=UTF-8&dt=Torchbox%20%7C%20Digital%20Agency%20-%20Charity%2C%20Nonprofit%20%26%20Education%20Sectors&sd=30-bit&sr=1440x900&vp=800x600&je=0&_u=YCDAgEABAAAAAAAAI~&jid=269656372&gjid=1959829448&cid=64364435.1675769983&tid=UA-112981-1&_gid=238846250.1675769983&gtm=45He3210n71K5HPMR&cd7=Ignored&z=1763038383",
+                    "resourceType": "image",
+                    "transferSize": 194
+                },
+                {
+                    "url": "https://www.google-analytics.com/collect?v=1&_v=j99&a=161769419&t=pageview&_s=1&dl=https%3A%2F%2Ftorchbox.com%2F&ul=en-us&de=UTF-8&dt=Torchbox%20%7C%20Digital%20Agency%20-%20Charity%2C%20Nonprofit%20%26%20Education%20Sectors&sd=30-bit&sr=1440x900&vp=800x600&je=0&_u=YCDAiEABBAAAAEAAI~&jid=1885360169&gjid=1294743406&cid=64364435.1675769983&tid=UA-112981-56&_gid=238846250.1675769983&gtm=45He3210n71K5HPMR&z=412201992",
+                    "resourceType": "image",
+                    "transferSize": 91
+                }
+            ]
+        },
+        {
+            "title": "https://torchbox.com/careers",
+            "id": "page_2_6475356533612389",
+            "timings": {
+                "onContentLoad": 209.07199999690056,
+                "onLoad": 428.20199999958277
+            },
+            "requests": [
+                {
+                    "url": "https://torchbox.com/careers",
+                    "resourceType": "document",
+                    "transferSize": 18522
+                },
+                {
+                    "url": "https://torchbox.com/careers/fonts/apercu/apercu-light-pro.woff2",
+                    "resourceType": "font",
+                    "transferSize": 45852
+                },
+                {
+                    "url": "https://torchbox.com/careers/fonts/apercu/apercu-regular-pro.woff2",
+                    "resourceType": "font",
+                    "transferSize": 47220
+                },
+                {
+                    "url": "https://torchbox.com/careers/fonts/apercu/apercu-bold-pro.woff2",
+                    "resourceType": "font",
+                    "transferSize": 46814
+                },
+                {
+                    "url": "https://torchbox.com/careers/fonts/apercu/apercu-black-pro.woff2",
+                    "resourceType": "font",
+                    "transferSize": 47202
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fj97ble2qvn7g%2FTaymztyxoXanw0ug3txLk%2Fd5d15a16ff921ca2a03c4ac51beb24de%2Fbeachclean.jpeg%3Fw%3D1400%26h%3D1000&w=1920&q=75",
+                    "resourceType": "image",
+                    "transferSize": 217135
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/static/css/6c2f2fca48caa2a6.css",
+                    "resourceType": "stylesheet",
+                    "transferSize": 2384
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/static/css/b674af4e994596bc.css",
+                    "resourceType": "stylesheet",
+                    "transferSize": 5005
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/static/css/3f705ab421e93250.css",
+                    "resourceType": "stylesheet",
+                    "transferSize": 5324
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/static/chunks/webpack-9994b79a6661ba17.js",
+                    "resourceType": "script",
+                    "transferSize": 1304
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/static/chunks/framework-5f4595e5518b5600.js",
+                    "resourceType": "script",
+                    "transferSize": 43664
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/static/chunks/main-15536af2c324b7c6.js",
+                    "resourceType": "script",
+                    "transferSize": 29158
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/static/chunks/pages/_app-51d005eadd324937.js",
+                    "resourceType": "script",
+                    "transferSize": 5212
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/static/chunks/479-c1def6e0a03589e8.js",
+                    "resourceType": "script",
+                    "transferSize": 8784
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/static/chunks/143-18b3936b301ee6bb.js",
+                    "resourceType": "script",
+                    "transferSize": 11061
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/static/chunks/pages/index-c1b062c367db0931.js",
+                    "resourceType": "script",
+                    "transferSize": 7479
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/static/CWTItfkesG7awLYk-YrVi/_buildManifest.js",
+                    "resourceType": "script",
+                    "transferSize": 951
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/static/CWTItfkesG7awLYk-YrVi/_ssgManifest.js",
+                    "resourceType": "script",
+                    "transferSize": 546
+                },
+                {
+                    "url": "https://torchbox.com/careers/_next/static/CWTItfkesG7awLYk-YrVi/_middlewareManifest.js",
+                    "resourceType": "script",
+                    "transferSize": 609
+                },
+                {
+                    "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+                    "resourceType": "script",
+                    "transferSize": 1066
+                },
+                {
+                    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR&gtm_auth=&gtm_preview=&gtm_cookies_win=x",
+                    "resourceType": "script",
+                    "transferSize": 59015
+                },
+                {
+                    "url": "https://www.google-analytics.com/analytics.js",
+                    "resourceType": "script",
+                    "transferSize": 20389
+                },
+                {
+                    "url": "https://cdn.segment.com/analytics.js/v1/tBct9WguzJg2dFRhPLLbc8ezAFf6WhAM/analytics.min.js",
+                    "resourceType": "script",
+                    "transferSize": 28364
+                },
+                {
+                    "url": "https://www.googletagmanager.com/gtag/js?id=G-G87VZZVTT2&l=dataLayer&cx=c",
+                    "resourceType": "script",
+                    "transferSize": 76567
+                },
+                {
+                    "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-G87VZZVTT2&gtm=45je3210&_p=841559484&cid=781281799.1675769984&ul=en-us&sr=1440x900&uaW=1&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1675769983&sct=1&seg=0&dl=https%3A%2F%2Ftorchbox.com%2Fcareers&dt=Careers%20%7C%20Torchbox&en=page_view&_fv=1&_nsi=1&_ss=1",
+                    "resourceType": "ping",
+                    "transferSize": 252
+                },
+                {
+                    "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j99&tid=UA-112981-1&cid=781281799.1675769984&jid=1916272754&gjid=1715082458&_gid=2037201474.1675769984&_u=YCDAgEABAAAAAEAAI~&z=603883888",
+                    "resourceType": "xhr",
+                    "transferSize": 344
+                },
+                {
+                    "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j99&tid=UA-112981-56&cid=781281799.1675769984&jid=702850567&gjid=446645620&_gid=2037201474.1675769984&_u=YCDAiEABBAAAAEAAI~&z=1018849567",
+                    "resourceType": "xhr",
+                    "transferSize": 67
+                },
+                {
+                    "url": "https://www.google-analytics.com/collect?v=1&_v=j99&a=841559484&t=pageview&_s=1&dl=https%3A%2F%2Ftorchbox.com%2Fcareers&ul=en-us&de=UTF-8&dt=Careers%20%7C%20Torchbox&sd=30-bit&sr=1440x900&vp=800x600&je=0&_u=YCDAgEABAAAAAAAAI~&jid=1916272754&gjid=1715082458&cid=781281799.1675769984&tid=UA-112981-1&_gid=2037201474.1675769984&gtm=45He3210n71K5HPMR&cd7=Ignored&z=553408398",
+                    "resourceType": "image",
+                    "transferSize": 194
+                },
+                {
+                    "url": "https://www.google-analytics.com/collect?v=1&_v=j99&a=841559484&t=pageview&_s=1&dl=https%3A%2F%2Ftorchbox.com%2Fcareers&ul=en-us&de=UTF-8&dt=Careers%20%7C%20Torchbox&sd=30-bit&sr=1440x900&vp=800x600&je=0&_u=YCDAiEABBAAAAEAAI~&jid=702850567&gjid=446645620&cid=781281799.1675769984&tid=UA-112981-56&_gid=2037201474.1675769984&gtm=45He3210n71K5HPMR&z=370846241",
+                    "resourceType": "image",
+                    "transferSize": 91
+                },
+                {
+                    "url": "https://cdn.segment.com/v1/projects/tBct9WguzJg2dFRhPLLbc8ezAFf6WhAM/settings",
+                    "resourceType": "fetch",
+                    "transferSize": 1075
+                }
+            ]
+        },
+        {
+            "title": "https://www.oxfam.org.uk/",
+            "id": "page_3_796811676955316",
+            "timings": {
+                "onContentLoad": 196.3179999962449,
+                "onLoad": 613.5520000010729
+            },
+            "requests": [
+                {
+                    "url": "https://www.oxfam.org.uk/",
+                    "resourceType": "document",
+                    "transferSize": 46403
+                },
+                {
+                    "url": "https://www.oxfam.org.uk/static/css/main.46222cb9b3f9.css",
+                    "resourceType": "stylesheet",
+                    "transferSize": 28855
+                },
+                {
+                    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5ZF5TVV",
+                    "resourceType": "script",
+                    "transferSize": 106582
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/RS353311_Southeast_Turkey_and_Syri.2e16d0ba.fill-500x235.jpg",
+                    "resourceType": "image",
+                    "transferSize": 50367
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/AAA_6887.2e16d0ba.fill-500x235.jpg",
+                    "resourceType": "image",
+                    "transferSize": 40830
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/RS353310_Southeast_Turkey_an.2e16d0ba.fill-1300x600-c100.jpg",
+                    "resourceType": "image",
+                    "transferSize": 260414
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/RS347779_654A9874-lpr.2e16d0ba.fill-1300x600-c100.jpg",
+                    "resourceType": "image",
+                    "transferSize": 57461
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/RS119451_Juanita_and_Johnny__Cash_.2e16d0ba.fill-800x500.jpg",
+                    "resourceType": "image",
+                    "transferSize": 123550
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/Oxfam-support.2e16d0ba.fill-800x500.png",
+                    "resourceType": "image",
+                    "transferSize": 673103
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/Oxfam-Glastonbury-1500x950.origina.2e16d0ba.fill-800x500.jpg",
+                    "resourceType": "image",
+                    "transferSize": 109614
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/OGB_123330_07-Fozah.0b3e6233.fill-600x440.jpg",
+                    "resourceType": "image",
+                    "transferSize": 40893
+                },
+                {
+                    "url": "https://www.oxfam.org.uk/static/js/donationchooser.d8fcf14972ea.js",
+                    "resourceType": "script",
+                    "transferSize": 44012
+                },
+                {
+                    "url": "https://www.oxfam.org.uk/static/images/fr-reg-logo.600eb0825089.png",
+                    "resourceType": "image",
+                    "transferSize": 11512
+                },
+                {
+                    "url": "https://www.oxfam.org.uk/static/js/main.83bbafaf10d6.js",
+                    "resourceType": "script",
+                    "transferSize": 52193
+                },
+                {
+                    "url": "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=block",
+                    "resourceType": "stylesheet",
+                    "transferSize": 1058
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/marco-and-alejandra-at-glaston.2e16d0ba.fill-470x540-c75.jpg",
+                    "resourceType": "image",
+                    "transferSize": 57472
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/RS347775_Seinab__Isiolo-lpr.2e16d0ba.fill-470x540-c75.jpg",
+                    "resourceType": "image",
+                    "transferSize": 38105
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/ATS_Nicky_002_SM.3b5c6c40.fill-470x540-c75.jpg",
+                    "resourceType": "image",
+                    "transferSize": 53374
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/OGB_122697_DSC_7622.2e16d0ba.fill-470x540-c75.jpg",
+                    "resourceType": "image",
+                    "transferSize": 59934
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/BrightonStoreClose_2.2e16d0ba.fill-470x540-c75.png",
+                    "resourceType": "image",
+                    "transferSize": 343599
+                },
+                {
+                    "url": "https://www.oxfam.org.uk/static/images/icons/black-chevron-right.520d37a1ea98.svg",
+                    "resourceType": "image",
+                    "transferSize": 381
+                },
+                {
+                    "url": "https://www.oxfam.org.uk/static/images/icons/green-chevron-right.594f4826e4e7.svg",
+                    "resourceType": "image",
+                    "transferSize": 507
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/9594_PM_CampaignPage_Tile_600x600.2e16d0ba.fill-370x360.jpg",
+                    "resourceType": "image",
+                    "transferSize": 34786
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/OGB_108123_Oxfam_Tag_your_Bag.6a830269.fill-370x360.jpg",
+                    "resourceType": "image",
+                    "transferSize": 36890
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/OGB_113454.9c6e7228.fill-370x360.jpg",
+                    "resourceType": "image",
+                    "transferSize": 33380
+                },
+                {
+                    "url": "https://staticassets.oxfam.org.uk/oxfamgb-production/images/OGB_123330_07-Fozah.0b3e6233.fill-1900x860.jpg",
+                    "resourceType": "image",
+                    "transferSize": 170800
+                },
+                {
+                    "url": "https://www.oxfam.org.uk/static/fonts/OxfamTSTARRegularWebWOFF.1b5dd982751d.woff",
+                    "resourceType": "font",
+                    "transferSize": 37846
+                },
+                {
+                    "url": "https://www.oxfam.org.uk/static/fonts/OxfamTSTARHeavyWebWOFF.a7bfeeac4ec6.woff",
+                    "resourceType": "font",
+                    "transferSize": 38475
+                },
+                {
+                    "url": "https://www.oxfam.org.uk/static/fonts/OxfamTSTARBoldWebWOFF.7f994e3e69e6.woff",
+                    "resourceType": "font",
+                    "transferSize": 39274
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+                    "resourceType": "font",
+                    "transferSize": 11561
+                },
+                {
+                    "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+                    "resourceType": "script",
+                    "transferSize": 8939
+                }
+            ]
+        }
+    ]
+}

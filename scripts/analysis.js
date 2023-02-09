@@ -15,6 +15,12 @@ const TORCHBOX_URLS = [
   "https://torchbox.com/team/",
   "https://torchbox.com/careers/",
   "https://torchbox.com/careers/jobs/",
+  "https://torchbox.com/careers/about-us/",
+  "https://torchbox.com/careers/academy/",
+  "https://torchbox.com/seo-super-trumps/",
+  "https://torchbox.com/seo-super-trumps/state-of-the-sector/",
+  "https://torchbox.com/seo-super-trumps/childrens-charities/",
+  "https://torchbox.com/seo-super-trumps/homelessness-charity-seo/",
 ];
 
 const OXFAM_URLS = [

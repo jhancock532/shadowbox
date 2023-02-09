@@ -40,7 +40,7 @@ function generateChartDataByResourceType(requests: RequestType[]) {
   return data;
 }
 
-export function RequestSummaryBarChart({ webpage }: { webpage: any }) {
+export function RequestSummaryChart({ webpage }: { webpage: any }) {
   return (
     <BarChart
       id={webpage.id}

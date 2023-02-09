@@ -6,8 +6,8 @@ type WebsiteSummaryProps = {
 };
 
 // Use dynamic import to prevent server-side rendering of the chart
-const RequestSummaryBarChart = dynamic(
-  import("../Charts/Charts").then((mod) => mod.RequestSummaryBarChart),
+const RequestSummaryChart = dynamic(
+  import("./RequestSummaryChart").then((mod) => mod.RequestSummaryChart),
   { ssr: false }
 );
 
@@ -38,7 +38,7 @@ const WebsiteSummary = ({ webpage }: WebsiteSummaryProps) => {
       <p className={styles.keyStatistic}>
         Page weight: <strong>{Math.floor(totalPageSize / 1000)}kb</strong>
       </p>
-      <RequestSummaryBarChart webpage={webpage} />
+      <RequestSummaryChart webpage={webpage} />
     </div>
   );
 };

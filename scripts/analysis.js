@@ -4,9 +4,10 @@
 const CHC = require("chrome-har-capturer");
 const fs = require("fs");
 const chalk = require("chalk");
+const parser = require("xml2json");
 const { parse, format } = require("url");
 
-const TORCHBOX_URLS = [
+const TORCHBOX_SAMPLE_URLS = [
   "https://torchbox.com/",
   "https://torchbox.com/digital-products/",
   "https://torchbox.com/wagtail-cms/",
@@ -21,16 +22,6 @@ const TORCHBOX_URLS = [
   "https://torchbox.com/seo-super-trumps/state-of-the-sector/",
   "https://torchbox.com/seo-super-trumps/childrens-charities/",
   "https://torchbox.com/seo-super-trumps/homelessness-charity-seo/",
-];
-
-const OXFAM_URLS = [
-  "https://www.oxfam.org.uk/",
-  "https://www.oxfam.org.uk/donate/",
-  "https://www.oxfam.org.uk/about-us/",
-  "https://www.oxfam.org.uk/get-involved/fundraise-with-oxfam/pay-your-fundraising/",
-  "https://www.oxfam.org.uk/about-us/working-oxfam/oxfam-trainee-scheme/",
-  "https://www.oxfam.org.uk/oxfam-in-action/water-for-all/",
-  "https://www.oxfam.org.uk/oxfam-in-action/impact-stories/emmily-celebrating-getting-water-running-zimbabwe/",
 ];
 
 function getDateTimeString() {
@@ -120,27 +111,45 @@ function log(string) {
   process.stderr.write(string);
 }
 
-CHC.run(TORCHBOX_URLS, {
-  content: false,
-})
-  .on("load", (url) => {
-    log(`- ${prettify(url)} `);
+async function fetchSitemap(sitemapURL) {
+  const rawXML = await fetch(sitemapURL)
+    .then((response) => response.text())
+    .catch(function (err) {
+      console.log("Unable to fetch -", err);
+    });
+  log("Parsing sitemap.xml...\n");
+  const sitemapItems = JSON.parse(parser.toJson(rawXML)).urlset.url;
+  const urls = sitemapItems.map((item) => item.loc);
+  console.log("Now analysing " + urls.length + " urls.");
+  return urls;
+}
+
+async function main() {
+  const urls = await fetchSitemap("https://torchbox.com/sitemap.xml");
+  CHC.run(urls, {
+    content: false,
   })
-  .on("done", (url) => {
-    log(chalk.green("✓\n"));
-  })
-  .on("fail", (url, err) => {
-    process.stderr.write("failed\n");
-  })
-  .on("har", (har) => {
-    let minifiedStats = generateWebpageOutputJSON(
-      har.log.pages,
-      har.log.entries
-    );
-    outputStats(minifiedStats);
-    log("\n");
-    log(
-      chalk.bold(chalk.bgGreen(chalk.black(" * Success! * "))) +
-        "\nResults saved to data folder.\n"
-    );
-  });
+    .on("load", (url) => {
+      log(`- ${prettify(url)} `);
+    })
+    .on("done", (url) => {
+      log(chalk.green("✓\n"));
+    })
+    .on("fail", (url, err) => {
+      process.stderr.write("failed\n");
+    })
+    .on("har", (har) => {
+      let minifiedStats = generateWebpageOutputJSON(
+        har.log.pages,
+        har.log.entries
+      );
+      outputStats(minifiedStats);
+      log("\n");
+      log(
+        chalk.bold(chalk.bgGreen(chalk.black(" * Success! * "))) +
+          "\nResults saved to data folder.\n"
+      );
+    });
+}
+
+main();

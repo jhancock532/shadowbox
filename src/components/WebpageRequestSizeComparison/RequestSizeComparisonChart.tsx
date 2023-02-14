@@ -9,7 +9,10 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-function generateWebpageRequestComparisonChartData(webpages: any[]) {
+function generateWebpageRequestComparisonChartData(
+  webpages: any[],
+  sortByTag: string
+) {
   const data = [];
 
   for (let i = 0; i < webpages.length; i++) {
@@ -20,10 +23,14 @@ function generateWebpageRequestComparisonChartData(webpages: any[]) {
     for (let j = 0; j < requests.length; j++) {
       const request = requests[j];
 
-      if (Object.keys(requestTransferTotals).includes(request.resourceType)) {
-        requestTransferTotals[request.resourceType] += request.transferSize;
+      if (request.transferSize) {
+        if (Object.keys(requestTransferTotals).includes(request.resourceType)) {
+          requestTransferTotals[request.resourceType] += request.transferSize;
+        } else {
+          requestTransferTotals[request.resourceType] = request.transferSize;
+        }
       } else {
-        requestTransferTotals[request.resourceType] = request.transferSize;
+        console.log(`Forbidden request detected on: ${webpages[i].title}`);
       }
     }
 
@@ -32,6 +39,7 @@ function generateWebpageRequestComparisonChartData(webpages: any[]) {
     const requestTypes: { [x: string]: number | string } = {
       name: axisLabel,
     };
+
     for (const key in requestTransferTotals) {
       requestTypes[key] = Math.round(requestTransferTotals[key] / 1000);
     }
@@ -39,37 +47,85 @@ function generateWebpageRequestComparisonChartData(webpages: any[]) {
     data.push(requestTypes);
   }
 
-  console.log(data);
+  if (sortByTag === "total") {
+    // When sorting by the total page size, sum all the request totals for each type
+    return data.sort((a, b) => {
+      let aTotal = 0;
+      let bTotal = 0;
 
-  return data;
+      for (const key in a) {
+        if (key !== "name") {
+          aTotal += a[key] as number;
+        }
+      }
+
+      for (const key in b) {
+        if (key !== "name") {
+          bTotal += b[key] as number;
+        }
+      }
+
+      return aTotal - bTotal;
+    });
+  }
+
+  const newData = data.sort((a, b) => {
+    if (a[sortByTag] === undefined || b[sortByTag] === undefined) {
+      return -1;
+    }
+    return (a[sortByTag] as number) - (b[sortByTag] as number);
+  });
+
+  return newData;
 }
 
-export function RequestSizeComparisonChart({ webpages }: { webpages: any }) {
+type RequestSizeComparisonChartProps = {
+  webpages: any;
+  sortByTag: string;
+  filterByTags: string[];
+};
+
+export function RequestSizeComparisonChart({
+  webpages,
+  sortByTag,
+  filterByTags,
+}: RequestSizeComparisonChartProps) {
   return (
     <ResponsiveContainer>
       <BarChart
         id="request-size-comparison-chart"
         layout="vertical"
-        // barCategoryGap={1}
-        data={generateWebpageRequestComparisonChartData(webpages)}
+        data={generateWebpageRequestComparisonChartData(webpages, sortByTag)}
         margin={{
           top: 30,
           right: 0,
-          left: 100,
+          left: 300,
           bottom: 0,
         }}
       >
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis type="number" />
+        <XAxis type="number" tickCount={9} />
         <YAxis type="category" dataKey="name" />
         <Tooltip />
         <Legend />
-        <Bar dataKey="document" stackId="a" fill="#007380" />
-        <Bar dataKey="script" stackId="a" fill="#008B7B" />
-        <Bar dataKey="image" stackId="a" fill="#00A270" />
-        <Bar dataKey="stylesheet" stackId="a" fill="#00B863" />
-        <Bar dataKey="font" stackId="a" fill="#70CC55" />
-        <Bar dataKey="xhr" stackId="a" fill="#B3DE4B" />
+        {filterByTags.includes("document") ? (
+          <Bar dataKey="document" stackId="a" fill="#eb4747" />
+        ) : undefined}
+        {filterByTags.includes("script") ? (
+          <Bar dataKey="script" stackId="a" fill="#ebb447" />
+        ) : undefined}
+        {filterByTags.includes("image") ? (
+          <Bar dataKey="image" stackId="a" fill="#b4eb47" />
+        ) : undefined}
+        {filterByTags.includes("font") ? (
+          <Bar dataKey="font" stackId="a" fill="#47b4eb" />
+        ) : undefined}
+        {filterByTags.includes("stylesheet") ? (
+          <Bar dataKey="stylesheet" stackId="a" fill="#4747eb" />
+        ) : undefined}
+        {filterByTags.includes("xhr") ? (
+          <Bar dataKey="xhr" stackId="a" fill="#eb47b4" />
+        ) : undefined}
       </BarChart>
     </ResponsiveContainer>
   );

@@ -4,7 +4,7 @@ import path from "path";
 import fs from "fs";
 import WebpageRequestSizeComparison from "@/components/WebpageRequestSizeComparison";
 
-export default function Home({ statistics }: { statistics: any }) {
+export default function DetailedView({ statistics }: { statistics: any }) {
   return (
     <>
       <Head>
@@ -16,19 +16,18 @@ export default function Home({ statistics }: { statistics: any }) {
       <main className={styles.main}>
         <h1 className={styles.title}>Compared Results</h1>
         <p className={styles.description}>
-          Here are the request statistics for different pages within the site.
+          Here are the request statistics for different pages within
+          Torchbox.com.
         </p>
 
-        <div className={styles.chartContainer}>
-          <WebpageRequestSizeComparison webpages={statistics.pages} />
-        </div>
+        <WebpageRequestSizeComparison webpages={statistics.pages} />
       </main>
     </>
   );
 }
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), "data/2023-02-09+17:29:32.json");
+  const filePath = path.join(process.cwd(), "data/2023-02-14+10:46:30.json");
   const fileData = fs.readFileSync(filePath);
   const statistics = JSON.parse(fileData as unknown as string);
 

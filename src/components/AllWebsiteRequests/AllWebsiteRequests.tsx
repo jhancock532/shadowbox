@@ -1,8 +1,8 @@
 import dynamic from "next/dynamic";
 import { useState } from "react";
-import styles from "./WebpageRequestSizeComparison.module.css";
+import styles from "./AllWebsiteRequests.module.css";
 
-type WebpageRequestSizeComparisonProps = {
+type AllWebsiteRequestsProps = {
   webpages: any;
   tall?: boolean;
 };
@@ -26,10 +26,7 @@ const FILTER_OPTIONS = [
 
 const SORT_BY_OPTIONS = ["total", ...FILTER_OPTIONS];
 
-const WebpageRequestSizeComparison = ({
-  webpages,
-  tall,
-}: WebpageRequestSizeComparisonProps) => {
+const AllWebsiteRequests = ({ webpages, tall }: AllWebsiteRequestsProps) => {
   const [sortByTag, setSortByTag] = useState("total");
   const [filterByTags, setFilterByTags] = useState<string[]>(FILTER_OPTIONS);
 
@@ -103,4 +100,4 @@ const WebpageRequestSizeComparison = ({
   );
 };
 
-export default WebpageRequestSizeComparison;
+export default AllWebsiteRequests;

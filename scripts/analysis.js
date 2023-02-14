@@ -7,34 +7,21 @@ const chalk = require("chalk");
 const parser = require("xml2json");
 const { parse, format } = require("url");
 
-const TORCHBOX_SAMPLE_URLS = [
-  "https://torchbox.com/",
-  "https://torchbox.com/digital-products/",
-  "https://torchbox.com/wagtail-cms/",
-  "https://torchbox.com/digital-marketing/",
-  "https://torchbox.com/blog/",
-  "https://torchbox.com/team/",
-  "https://torchbox.com/careers/",
-  "https://torchbox.com/careers/jobs/",
-  "https://torchbox.com/careers/about-us/",
-  "https://torchbox.com/careers/academy/",
-  "https://torchbox.com/seo-super-trumps/",
-  "https://torchbox.com/seo-super-trumps/state-of-the-sector/",
-  "https://torchbox.com/seo-super-trumps/childrens-charities/",
-  "https://torchbox.com/seo-super-trumps/homelessness-charity-seo/",
+const TORCHBOX_SITEMAP_URLS = [
+  "https://torchbox.com/sitemap.xml",
+  "https://torchbox.com/careers/sitemap.xml",
+  "https://torchbox.com/seo-super-trumps/sitemap.xml",
 ];
 
 function getDateTimeString() {
   let date_time = new Date();
 
-  // get current date
-  // adjust 0 before single digit date
   let date = ("0" + date_time.getDate()).slice(-2);
   let month = ("0" + (date_time.getMonth() + 1)).slice(-2);
   let year = date_time.getFullYear();
-  let hours = date_time.getHours();
-  let minutes = date_time.getMinutes();
-  let seconds = date_time.getSeconds();
+  let hours = ("0" + date_time.getHours()).slice(-2);
+  let minutes = ("0" + date_time.getMinutes()).slice(-2);
+  let seconds = ("0" + date_time.getSeconds()).slice(-2);
 
   return `${year}-${month}-${date}+${hours}:${minutes}:${seconds}`;
 }
@@ -125,7 +112,7 @@ async function fetchSitemap(sitemapURL) {
 }
 
 async function main() {
-  const urls = await fetchSitemap("https://torchbox.com/sitemap.xml");
+  const urls = await fetchSitemap("https://torchbox.com/careers/sitemap.xml");
   CHC.run(urls, {
     content: false,
   })

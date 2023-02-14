@@ -25,3 +25,12 @@
   padding: 0 2rem;
   gap: 2rem;
 }
+
+.link {
+  margin-top: 20px;
+}
+
+.links {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}

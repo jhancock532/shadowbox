@@ -1,7 +1,13 @@
+.chartContainerTall,
+.chartContainerTall > div {
+  width: 100%;
+  height: 12000px;
+}
+
 .chartContainer,
 .chartContainer > div {
   width: 100%;
-  height: 12000px;
+  height: 800px;
 }
 
 .formContainer {

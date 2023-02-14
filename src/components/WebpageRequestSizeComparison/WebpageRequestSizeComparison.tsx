@@ -4,6 +4,7 @@ import styles from "./WebpageRequestSizeComparison.module.css";
 
 type WebpageRequestSizeComparisonProps = {
   webpages: any;
+  tall?: boolean;
 };
 
 // Use dynamic import to prevent server-side rendering of the chart
@@ -27,6 +28,7 @@ const SORT_BY_OPTIONS = ["total", ...FILTER_OPTIONS];
 
 const WebpageRequestSizeComparison = ({
   webpages,
+  tall,
 }: WebpageRequestSizeComparisonProps) => {
   const [sortByTag, setSortByTag] = useState("total");
   const [filterByTags, setFilterByTags] = useState<string[]>(FILTER_OPTIONS);
@@ -80,7 +82,7 @@ const WebpageRequestSizeComparison = ({
 
   return (
     <div className={styles.formContainer}>
-      <div className={styles.chartContainer}>
+      <div className={tall ? styles.chartContainerTall : styles.chartContainer}>
         <RequestSizeComparisonChart
           webpages={webpages}
           sortByTag={sortByTag}

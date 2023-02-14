@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Link from "next/link";
 import path from "path";
 import fs from "fs";
@@ -40,14 +39,14 @@ export default function Home({ statistics }: { statistics: any }) {
   );
 }
 
-export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), "data/2023-02-07+17:20:00.json");
-  const fileData = fs.readFileSync(filePath);
-  const statistics = JSON.parse(fileData as unknown as string);
+// export async function getStaticProps() {
+//   const filePath = path.join(process.cwd(), "data/2023-02-07+17:20:00.json");
+//   const fileData = fs.readFileSync(filePath);
+//   const statistics = JSON.parse(fileData as unknown as string);
 
-  return {
-    props: {
-      statistics: statistics,
-    },
-  };
-}
+//   return {
+//     props: {
+//       statistics: statistics,
+//     },
+//   };
+// }

@@ -31,11 +31,11 @@ export default function Home({ statistics }: { statistics: any }) {
             <Link href="/super-trumps">/seo-super-trumps/</Link>
           </li>
         </ul>
-        <div className={styles.grid}>
+        {/* <div className={styles.grid}>
           {statistics.pages.map((website: any) => (
             <WebsiteSummary key={website.id} webpage={website} />
           ))}
-        </div>
+        </div> */}
       </main>
     </>
   );

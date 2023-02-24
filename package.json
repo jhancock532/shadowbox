@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "analysis": "node scripts/analysis.js"
+    "analysis": "node scripts/analysis.js",
+    "puppeteer": "node scripts/puppeteer.js"
   },
   "dependencies": {
     "@next/font": "^13.1.6",
@@ -19,6 +20,7 @@
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
+    "puppeteer": "^19.7.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "recharts": "^2.3.2",

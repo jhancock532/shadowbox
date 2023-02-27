@@ -2,7 +2,10 @@
 "use strict";
 
 const puppeteer = require("puppeteer");
+const chalk = require("chalk");
 const fs = require("fs");
+const parser = require("xml2json");
+const { parse, format } = require("url");
 
 function getDateTimeString() {
   let date_time = new Date();
@@ -41,8 +44,12 @@ function getAssetTypeFromResource(resource) {
   if (url.endsWith(".css")) return "stylesheet";
   if (url.endsWith(".js")) return "script";
   if (url.endsWith(".png")) return "image";
-  if (url.endsWith(".jpg")) return "image";
-  if (url.endsWith(".jpeg")) return "image";
+
+  // Note use of includes as some image URLs end with query parameters
+  // Todo: replace with Regex
+  if (url.includes(".jpg")) return "image";
+  if (url.includes(".jpeg")) return "image";
+
   if (url.endsWith(".webp")) return "image";
   if (url.endsWith(".gif")) return "image";
   if (url.endsWith(".svg")) return "image";
@@ -71,6 +78,9 @@ function getAssetTypeFromResource(resource) {
 
   console.log("No resource type found for:");
   console.log(resource);
+
+  // Todo: handle YouTube embeds and similar with unique resource types.
+  // Instead of resource type, is there more relevant info we can return for visualisation?
 }
 
 function parsePerformanceResources(resources) {
@@ -97,32 +107,77 @@ function parsePerformanceResources(resources) {
   return output;
 }
 
+function prettify(url) {
+  try {
+    const urlObject = parse(url);
+    urlObject.protocol = chalk.gray(urlObject.protocol.slice(0, -1));
+    urlObject.host = chalk.bold(urlObject.host);
+    return format(urlObject).replace(/[:/?=#]/g, chalk.gray("$&"));
+  } catch (err) {
+    // invalid URL delegate error detection
+    return url;
+  }
+}
+
+function log(string) {
+  process.stderr.write(string);
+}
+
+async function fetchSitemap(sitemapURL) {
+  const rawXML = await fetch(sitemapURL)
+    .then((response) => response.text())
+    .catch(function (err) {
+      console.log("Unable to fetch -", err);
+    });
+  log("Parsing sitemap.xml...\n");
+  const sitemapItems = JSON.parse(parser.toJson(rawXML)).urlset.url;
+  const urls = sitemapItems.map((item) => item.loc);
+  console.log("Now analysing " + urls.length + " urls.");
+  return urls;
+}
+
 (async () => {
+  const urls = await fetchSitemap("https://torchbox.com/sitemap.xml");
+
   const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-  const client = await page.target().createCDPSession();
-  await client.send("Network.setCacheDisabled", {
-    cacheDisabled: true,
+  const analysedPages = [];
+
+  for (let i = 0; i < urls.length; i++) {
+    log(`- ${prettify(urls[i])} `);
+
+    const page = await browser.newPage();
+    const client = await page.target().createCDPSession();
+    await client.send("Network.setCacheDisabled", {
+      cacheDisabled: true,
+    });
+    await page.setCacheEnabled(false);
+
+    // domContentLoaded doesn't allow secondary scripts to load
+    // networkIdle waits for 500ms of no network activity
+    // 250ms seems good enough for our purposes - test this on different websites!
+    await Promise.all([
+      page.goto(urls[i], {
+        waitUntil: "domcontentloaded",
+      }),
+      page.waitForNetworkIdle({ idleTime: 250 }),
+    ]);
+
+    const performanceEntries = JSON.parse(
+      await page.evaluate(() => JSON.stringify(window.performance.getEntries()))
+    );
+
+    const results = parsePerformanceResources(performanceEntries);
+
+    results.title = urls[i];
+    analysedPages.push(results);
+    log(chalk.green("✓\n"));
+
+    await page.close();
+  }
+
+  outputStats({
+    pages: analysedPages,
   });
-  await page.setCacheEnabled(false);
-
-  // domContentLoaded doesn't allow secondary scripts to load
-  // networkIdle waits for 500ms of no network activity
-  // 250ms seems good enough for our purposes - test this on different websites!
-  await Promise.all([
-    page.goto("https://torchbox.com/careers/jobs", {
-      waitUntil: "domcontentloaded",
-    }),
-    page.waitForNetworkIdle({ idleTime: 250 }),
-  ]);
-
-  const performanceEntries = JSON.parse(
-    await page.evaluate(() => JSON.stringify(window.performance.getEntries()))
-  );
-
-  const results = parsePerformanceResources(performanceEntries);
-  outputStats(results);
-  console.log(results);
 
   await browser.close();
 })();

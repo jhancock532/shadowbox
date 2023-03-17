@@ -8,10 +8,19 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
+import {
+  BAR_COLORS,
+  FILTER_OPTIONS,
+  NetworkRequest,
+} from "../../utils/constants";
 
 function generateWebpageRequestComparisonChartData(
   webpages: any[],
-  sortByTag: string
+  sortByTag: string,
+  filterByPath: string,
+  paginationStart: number,
+  paginationEnd: number,
+  setPaginationTotal: (value: number) => void
 ) {
   const data = [];
 
@@ -47,9 +56,16 @@ function generateWebpageRequestComparisonChartData(
     data.push(requestTypes);
   }
 
+  const filteredData = data.filter((item) => {
+    if ((item.name as string).includes(filterByPath)) {
+      return true;
+    }
+    return false;
+  });
+
   if (sortByTag === "total") {
     // When sorting by the total page size, sum all the request totals for each type
-    return data.sort((a, b) => {
+    const sortedResults = filteredData.sort((a, b) => {
       let aTotal = 0;
       let bTotal = 0;
 
@@ -65,37 +81,89 @@ function generateWebpageRequestComparisonChartData(
         }
       }
 
-      return aTotal - bTotal;
+      return bTotal - aTotal;
     });
+
+    setPaginationTotal(sortedResults.length);
+
+    const paginatedResults = sortedResults.slice(
+      paginationStart,
+      paginationEnd
+    );
+
+    return paginatedResults;
   }
 
-  const newData = data.sort((a, b) => {
-    if (a[sortByTag] === undefined || b[sortByTag] === undefined) {
-      return -1;
+  // Remove all the results that don't have a value for the sorting tag
+  const dataFilteredBySortingTag = filteredData.filter((item) => {
+    if (item[sortByTag] !== undefined && item[sortByTag] !== 0) {
+      return true;
     }
-    return (a[sortByTag] as number) - (b[sortByTag] as number);
+    return false;
   });
 
-  return newData;
+  const newData = dataFilteredBySortingTag.sort((a, b) => {
+    return (b[sortByTag] as number) - (a[sortByTag] as number);
+  });
+
+  setPaginationTotal(newData.length);
+
+  const paginatedResults = newData.slice(paginationStart, paginationEnd);
+
+  return paginatedResults;
 }
 
 type RequestSizeComparisonChartProps = {
   webpages: any;
   sortByTag: string;
-  filterByTags: string[];
+  filterByPath: string;
+  paginationStart: number;
+  paginationEnd: number;
+  setPaginationTotal: (value: number) => void;
 };
 
 export function RequestSizeComparisonChart({
   webpages,
   sortByTag,
-  filterByTags,
+  filterByPath,
+  paginationStart,
+  paginationEnd,
+  setPaginationTotal,
 }: RequestSizeComparisonChartProps) {
+  const orderedBarsArray = [];
+
+  if (sortByTag !== "total") {
+    orderedBarsArray.push(sortByTag);
+  }
+
+  FILTER_OPTIONS.forEach((option) => {
+    if (option !== sortByTag) {
+      orderedBarsArray.push(option);
+    }
+  });
+
+  const bars = orderedBarsArray.map((option) => (
+    <Bar
+      key={option}
+      dataKey={option}
+      stackId="a"
+      fill={BAR_COLORS[option as NetworkRequest]}
+    />
+  ));
+
   return (
     <ResponsiveContainer>
       <BarChart
         id="request-size-comparison-chart"
         layout="vertical"
-        data={generateWebpageRequestComparisonChartData(webpages, sortByTag)}
+        data={generateWebpageRequestComparisonChartData(
+          webpages,
+          sortByTag,
+          filterByPath,
+          paginationStart,
+          paginationEnd,
+          setPaginationTotal
+        )}
         margin={{
           top: 30,
           right: 0,
@@ -108,24 +176,7 @@ export function RequestSizeComparisonChart({
         <YAxis type="category" dataKey="name" />
         <Tooltip />
         <Legend />
-        {filterByTags.includes("document") ? (
-          <Bar dataKey="document" stackId="a" fill="#eb4747" />
-        ) : undefined}
-        {filterByTags.includes("script") ? (
-          <Bar dataKey="script" stackId="a" fill="#ebb447" />
-        ) : undefined}
-        {filterByTags.includes("image") ? (
-          <Bar dataKey="image" stackId="a" fill="#b4eb47" />
-        ) : undefined}
-        {filterByTags.includes("font") ? (
-          <Bar dataKey="font" stackId="a" fill="#47b4eb" />
-        ) : undefined}
-        {filterByTags.includes("stylesheet") ? (
-          <Bar dataKey="stylesheet" stackId="a" fill="#4747eb" />
-        ) : undefined}
-        {filterByTags.includes("xhr") ? (
-          <Bar dataKey="xhr" stackId="a" fill="#eb47b4" />
-        ) : undefined}
+        {bars}
       </BarChart>
     </ResponsiveContainer>
   );

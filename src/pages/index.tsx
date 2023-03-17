@@ -2,8 +2,7 @@ import path from "path";
 import fs from "fs";
 import styles from "@/styles/Home.module.css";
 import Metadata from "@/components/Metadata";
-import AllWebsiteRequests from "@/components/AllWebsiteRequests";
-import Link from "next/link";
+import RequestVisualiser from "@/components/RequestVisualiser";
 
 export default function Home({ statistics }: { statistics: any }) {
   return (
@@ -21,20 +20,9 @@ export default function Home({ statistics }: { statistics: any }) {
               Torchbox.com&apos;s sitemaps.
             </p>
           </div>
-          <h2>General statistics</h2>
-          <p>
-            <strong>{statistics.pages.length}</strong> pages were analysed
-            across <strong>3</strong> sitemaps.
-          </p>
-
-          <p>
-            Sitemaps were found at <Link href="/main">torchbox.com</Link>,{" "}
-            <Link href="/careers">/careers/</Link>,{" "}
-            <Link href="/super-trumps">/seo-super-trumps/</Link>.
-          </p>
         </div>
 
-        <AllWebsiteRequests webpages={statistics.pages} tall />
+        <RequestVisualiser webpages={statistics.pages} />
       </main>
     </>
   );

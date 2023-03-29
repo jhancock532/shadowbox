@@ -225,7 +225,7 @@ export function RequestSizeComparisonChart({
           stroke="#ff7300"
           strokeWidth="2"
         />
-        <ReferenceLine x={medianWebpageSize} stroke="#8884d8" strokeWidth="2" />
+        {/* <ReferenceLine x={medianWebpageSize} stroke="#8884d8" strokeWidth="2" /> */}
       </BarChart>
     </ResponsiveContainer>
   );

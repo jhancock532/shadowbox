@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "analysis": "node scripts/analysis.js",
-    "puppeteer": "node scripts/puppeteer.js"
+    "puppeteer": "node scripts/puppeteer.js",
+    "multipage": "node scripts/multipage.js"
   },
   "dependencies": {
     "@next/font": "^13.1.6",

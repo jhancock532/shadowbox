@@ -142,6 +142,38 @@ const RequestVisualiser = ({ webpages }: RequestVisualiserProps) => {
             </div>
           </div>
         </div>
+
+        {/* <div className={styles.lineMarkerOptions}>
+          <div className={styles.lineMarkerOption}>
+            <input
+              type="checkbox"
+              id="show-largest-webpage-line-marker"
+              checked={true}
+              onChange={() => {}}
+            />
+            <label
+              className={styles.lineMarkerLabel}
+              htmlFor="show-line-marker"
+            >
+              Show largest webpage line marker
+            </label>
+          </div>
+
+          <div className={styles.lineMarkerOption}>
+            <input
+              type="checkbox"
+              id="show-average-webpage-line-marker"
+              checked={true}
+              onChange={() => {}}
+            />
+            <label
+              className={styles.lineMarkerLabel}
+              htmlFor="show-average-webpage-line-marker"
+            >
+              Show average webpage line marker
+            </label>
+          </div>
+        </div> */}
       </div>
 
       {/* Add custom class to div as responsive chart container doesn't style height correctly otherwise. */}

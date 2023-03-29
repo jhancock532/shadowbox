@@ -7,6 +7,7 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
+  ReferenceLine,
 } from "recharts";
 import {
   BAR_COLORS,
@@ -39,7 +40,7 @@ function generateWebpageRequestComparisonChartData(
           requestTransferTotals[request.resourceType] = request.transferSize;
         }
       } else {
-        console.log(`Forbidden request detected on: ${webpages[i].title}`);
+        // console.log(`Forbidden request detected on: ${webpages[i].title}`);
       }
     }
 
@@ -113,6 +114,41 @@ function generateWebpageRequestComparisonChartData(
   return paginatedResults;
 }
 
+function findTotalWebpageSizeStatistics(webpages: any[]) {
+  const totalWebpageSizes = [];
+
+  for (let i = 0; i < webpages.length; i++) {
+    const requests = webpages[i].requests;
+
+    let requestTransferTotal = 0;
+
+    for (let j = 0; j < requests.length; j++) {
+      const request = requests[j];
+
+      if (request.transferSize) {
+        requestTransferTotal += request.transferSize;
+      }
+    }
+
+    requestTransferTotal = Math.round(requestTransferTotal / 1000);
+    totalWebpageSizes.push(requestTransferTotal);
+  }
+
+  // When sorting by the total page size, sum all the request totals for each type
+  const sortedPageSizes = totalWebpageSizes.sort((a, b) => {
+    return b - a;
+  });
+
+  return {
+    largestWebpageSize: sortedPageSizes[0],
+    smallestWebpageSize: sortedPageSizes[sortedPageSizes.length - 1],
+    averageWebpageSize: Math.round(
+      sortedPageSizes.reduce((a, b) => a + b, 0) / sortedPageSizes.length
+    ),
+    medianWebpageSize: sortedPageSizes[Math.floor(sortedPageSizes.length / 2)],
+  };
+}
+
 type RequestSizeComparisonChartProps = {
   webpages: any;
   sortByTag: string;
@@ -151,6 +187,13 @@ export function RequestSizeComparisonChart({
     />
   ));
 
+  const {
+    largestWebpageSize,
+    smallestWebpageSize,
+    averageWebpageSize,
+    medianWebpageSize,
+  } = findTotalWebpageSizeStatistics(webpages);
+
   return (
     <ResponsiveContainer>
       <BarChart
@@ -172,11 +215,17 @@ export function RequestSizeComparisonChart({
         }}
       >
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis type="number" tickCount={9} />
+        <XAxis type="number" tickCount={10} domain={[0, largestWebpageSize]} />
         <YAxis type="category" dataKey="name" />
         <Tooltip />
         <Legend />
         {bars}
+        <ReferenceLine
+          x={averageWebpageSize}
+          stroke="#ff7300"
+          strokeWidth="2"
+        />
+        <ReferenceLine x={medianWebpageSize} stroke="#8884d8" strokeWidth="2" />
       </BarChart>
     </ResponsiveContainer>
   );

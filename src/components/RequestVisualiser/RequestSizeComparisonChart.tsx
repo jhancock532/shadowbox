@@ -113,7 +113,6 @@ function generateWebpageRequestComparisonChartData(
 
   return paginatedResults;
 }
-
 function findTotalWebpageSizeStatistics(webpages: any[]) {
   const totalWebpageSizes = [];
 
@@ -134,14 +133,16 @@ function findTotalWebpageSizeStatistics(webpages: any[]) {
     totalWebpageSizes.push(requestTransferTotal);
   }
 
-  // When sorting by the total page size, sum all the request totals for each type
   const sortedPageSizes = totalWebpageSizes.sort((a, b) => {
     return b - a;
   });
 
+  console.log(sortedPageSizes);
+
+  //console.log(sortedPageSizes[Math.floor(sortedPageSizes.length / 2) + 6]);
+
   return {
     largestWebpageSize: sortedPageSizes[0],
-    smallestWebpageSize: sortedPageSizes[sortedPageSizes.length - 1],
     averageWebpageSize: Math.round(
       sortedPageSizes.reduce((a, b) => a + b, 0) / sortedPageSizes.length
     ),
@@ -156,6 +157,8 @@ type RequestSizeComparisonChartProps = {
   paginationStart: number;
   paginationEnd: number;
   setPaginationTotal: (value: number) => void;
+  showAverageWebpageSize: boolean;
+  showMedianWebpageSize: boolean;
 };
 
 export function RequestSizeComparisonChart({
@@ -165,6 +168,8 @@ export function RequestSizeComparisonChart({
   paginationStart,
   paginationEnd,
   setPaginationTotal,
+  showAverageWebpageSize,
+  showMedianWebpageSize,
 }: RequestSizeComparisonChartProps) {
   const orderedBarsArray = [];
 
@@ -187,12 +192,8 @@ export function RequestSizeComparisonChart({
     />
   ));
 
-  const {
-    largestWebpageSize,
-    smallestWebpageSize,
-    averageWebpageSize,
-    medianWebpageSize,
-  } = findTotalWebpageSizeStatistics(webpages);
+  const { largestWebpageSize, averageWebpageSize, medianWebpageSize } =
+    findTotalWebpageSizeStatistics(webpages);
 
   return (
     <ResponsiveContainer>
@@ -220,12 +221,20 @@ export function RequestSizeComparisonChart({
         <Tooltip />
         <Legend />
         {bars}
-        <ReferenceLine
-          x={averageWebpageSize}
-          stroke="#ff7300"
-          strokeWidth="2"
-        />
-        {/* <ReferenceLine x={medianWebpageSize} stroke="#8884d8" strokeWidth="2" /> */}
+        {showAverageWebpageSize && (
+          <ReferenceLine
+            x={averageWebpageSize}
+            stroke="#c95b00"
+            strokeWidth="3"
+          />
+        )}
+        {showMedianWebpageSize && (
+          <ReferenceLine
+            x={medianWebpageSize}
+            stroke="#423cbe"
+            strokeWidth="3"
+          />
+        )}
       </BarChart>
     </ResponsiveContainer>
   );

@@ -37,9 +37,10 @@ const RequestVisualiser = ({ webpages }: RequestVisualiserProps) => {
     webpages.length
   );
   const [filterByPath, setFilterByPath] = useState<string>("");
-  const [showRequestSize, setShowRequestSize] = useState<"true" | "false">(
-    "true"
-  );
+  const [showAverageWebpageSize, setShowAverageWebpageSize] =
+    useState<boolean>(false);
+  const [showMedianWebpageSize, setShowMedianWebpageSize] =
+    useState<boolean>(false);
 
   const sortByTypeIdCode = useId();
   const filterByPathIdCode = useId();
@@ -143,19 +144,23 @@ const RequestVisualiser = ({ webpages }: RequestVisualiserProps) => {
           </div>
         </div>
 
-        {/* <div className={styles.lineMarkerOptions}>
+        <div className={styles.lineMarkerOptions}>
+          <p className={styles.lineMarkerOptionsTitle}>Marker Lines:</p>
           <div className={styles.lineMarkerOption}>
             <input
               type="checkbox"
-              id="show-largest-webpage-line-marker"
-              checked={true}
-              onChange={() => {}}
+              id="show-median-webpage-line-marker"
+              checked={showMedianWebpageSize}
+              onChange={() => {
+                setShowMedianWebpageSize(!showMedianWebpageSize);
+              }}
             />
             <label
               className={styles.lineMarkerLabel}
-              htmlFor="show-line-marker"
+              htmlFor="show-median-webpage-line-marker"
             >
-              Show largest webpage line marker
+              Show median webpage size
+              <div className={styles.medianWebpageLineDemonstrator}></div>
             </label>
           </div>
 
@@ -163,17 +168,20 @@ const RequestVisualiser = ({ webpages }: RequestVisualiserProps) => {
             <input
               type="checkbox"
               id="show-average-webpage-line-marker"
-              checked={true}
-              onChange={() => {}}
+              checked={showAverageWebpageSize}
+              onChange={() => {
+                setShowAverageWebpageSize(!showAverageWebpageSize);
+              }}
             />
             <label
               className={styles.lineMarkerLabel}
               htmlFor="show-average-webpage-line-marker"
             >
-              Show average webpage line marker
+              Show average webpage size
+              <div className={styles.averageWebpageLineDemonstrator}></div>
             </label>
           </div>
-        </div> */}
+        </div>
       </div>
 
       {/* Add custom class to div as responsive chart container doesn't style height correctly otherwise. */}
@@ -185,36 +193,10 @@ const RequestVisualiser = ({ webpages }: RequestVisualiserProps) => {
           paginationStart={paginationStart}
           paginationEnd={paginationEnd}
           setPaginationTotal={setPaginationTotal}
+          showAverageWebpageSize={showAverageWebpageSize}
+          showMedianWebpageSize={showMedianWebpageSize}
         />
       </div>
-
-      {/* <div className="contentContainer">
-        <div className={styles.requestSizeOrCountRadioGroup}>
-          <input
-            type="radio"
-            id="show-request-size"
-            value="true"
-            checked={showRequestSize === "true"}
-            onChange={(event) => {
-              setShowRequestSize(event.target.value as "true" | "false");
-            }}
-          />
-          <label className={styles.radioLabel} htmlFor="show-request-size">
-            Size of requests
-          </label>
-
-          <input
-            type="radio"
-            id="show-request-count"
-            value="false"
-            checked={showRequestSize === "false"}
-            onChange={(event) => {
-              setShowRequestSize(event.target.value as "true" | "false");
-            }}
-          ></input>
-          <label htmlFor="show-request-count">Number of requests</label>
-        </div>
-      </div> */}
     </div>
   );
 };

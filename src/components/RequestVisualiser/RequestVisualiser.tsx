@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import { useId, useState } from "react";
+import { useEffect, useId, useState } from "react";
 import { FILTER_OPTIONS } from "../../utils/constants";
 import styles from "./RequestVisualiser.module.css";
 
@@ -15,6 +15,8 @@ const RequestSizeComparisonChart = dynamic(
   ),
   { ssr: false }
 );
+
+const PAGINATION_INCREMENT = 25;
 
 function generatePathFilters(webpages: any) {
   const pathFilters = new Set();
@@ -32,7 +34,8 @@ const SORT_BY_OPTIONS = ["total", ...FILTER_OPTIONS];
 const RequestVisualiser = ({ webpages }: RequestVisualiserProps) => {
   const [sortByType, setSortByType] = useState<string>("total");
   const [paginationStart, setPaginationStart] = useState<number>(0);
-  const [paginationEnd, setPaginationEnd] = useState<number>(25);
+  const [paginationEnd, setPaginationEnd] =
+    useState<number>(PAGINATION_INCREMENT);
   const [paginationTotal, setPaginationTotal] = useState<number>(
     webpages.length
   );
@@ -49,23 +52,37 @@ const RequestVisualiser = ({ webpages }: RequestVisualiserProps) => {
 
   const pathFilterOptions = generatePathFilters(webpages);
 
+  // Reset the pagination whenever the filter has changed.
+  useEffect(() => {
+    setPaginationStart(0);
+    if (paginationTotal < PAGINATION_INCREMENT) {
+      setPaginationEnd(paginationTotal);
+    } else {
+      setPaginationEnd(PAGINATION_INCREMENT);
+    }
+  }, [paginationTotal]);
+
   const reducePagination = () => {
-    if (paginationStart >= 25) {
-      setPaginationStart(paginationStart - 25);
-      setPaginationEnd(paginationEnd - 25);
+    if (paginationStart >= PAGINATION_INCREMENT) {
+      setPaginationStart(paginationStart - PAGINATION_INCREMENT);
+      setPaginationEnd(paginationEnd - PAGINATION_INCREMENT);
     } else {
       setPaginationStart(0);
-      setPaginationEnd(25);
+      if (paginationTotal < PAGINATION_INCREMENT)
+        setPaginationEnd(paginationTotal);
+      else setPaginationEnd(PAGINATION_INCREMENT);
     }
   };
 
   const increasePagination = () => {
-    if (paginationEnd <= paginationTotal - 25) {
-      setPaginationStart(paginationStart + 25);
-      setPaginationEnd(paginationEnd + 25);
+    if (paginationEnd <= paginationTotal - PAGINATION_INCREMENT) {
+      setPaginationStart(paginationStart + PAGINATION_INCREMENT);
+      setPaginationEnd(paginationEnd + PAGINATION_INCREMENT);
     } else {
-      setPaginationStart(paginationTotal - 25);
       setPaginationEnd(paginationTotal);
+      let paginationStart = paginationTotal - PAGINATION_INCREMENT;
+      if (paginationStart < 0) paginationStart = 0;
+      setPaginationStart(paginationStart);
     }
   };
 
@@ -106,6 +123,7 @@ const RequestVisualiser = ({ webpages }: RequestVisualiserProps) => {
   return (
     <div className={styles.container}>
       <div className="contentContainer">
+        {/* Form to filter and paginate webpages */}
         <div className={styles.pageFilterOptions}>
           <div className={styles.pageFilterOption}>
             <label
@@ -127,23 +145,30 @@ const RequestVisualiser = ({ webpages }: RequestVisualiserProps) => {
           </div>
           <div className={styles.paginationControls}>
             <p className={styles.paginationDescription}>
-              <strong>{paginationStart}</strong> to{" "}
-              <strong>{paginationEnd}</strong> of{" "}
-              <strong>{paginationTotal}</strong> pages
+              {paginationTotal > PAGINATION_INCREMENT && (
+                <>
+                  <strong>{paginationStart}</strong> to{" "}
+                  <strong>{paginationEnd}</strong> of{" "}
+                </>
+              )}
+              <strong>{paginationTotal}</strong> webpages
             </p>
-            <div className={styles.paginationButtons}>
-              <button
-                className={styles.paginationButton}
-                onClick={() => reducePagination()}
-              >{`<`}</button>
-              <button
-                className={styles.paginationButton}
-                onClick={() => increasePagination()}
-              >{`>`}</button>
-            </div>
+            {paginationTotal > PAGINATION_INCREMENT && (
+              <div className={styles.paginationButtons}>
+                <button
+                  className={styles.paginationButton}
+                  onClick={() => reducePagination()}
+                >{`<`}</button>
+                <button
+                  className={styles.paginationButton}
+                  onClick={() => increasePagination()}
+                >{`>`}</button>
+              </div>
+            )}
           </div>
         </div>
 
+        {/* Form to display or hide overlay lines */}
         <div className={styles.lineMarkerOptions}>
           <p className={styles.lineMarkerOptionsTitle}>Marker Lines:</p>
           <div className={styles.lineMarkerOption}>

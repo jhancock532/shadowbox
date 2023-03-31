@@ -1,5 +1,5 @@
 .container {
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .chartContainer,
@@ -115,7 +115,7 @@
 .lineMarkerOptions {
   display: flex;
   flex-direction: row;
-  align-items: end;
+  align-items: flex-end;
   gap: 10px;
   margin-top: 10px;
 }

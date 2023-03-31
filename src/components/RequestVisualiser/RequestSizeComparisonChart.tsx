@@ -40,6 +40,8 @@ function generateWebpageRequestComparisonChartData(
           requestTransferTotals[request.resourceType] = request.transferSize;
         }
       } else {
+        // A few ad tracking requests don't have a transfer size due to CORS restrictions
+        // Some other requests don't have a transfer size due to the request being blocked or 404'd
         // console.log(`Forbidden request detected on: ${webpages[i].title}`);
       }
     }
@@ -136,10 +138,6 @@ function findTotalWebpageSizeStatistics(webpages: any[]) {
   const sortedPageSizes = totalWebpageSizes.sort((a, b) => {
     return b - a;
   });
-
-  console.log(sortedPageSizes);
-
-  //console.log(sortedPageSizes[Math.floor(sortedPageSizes.length / 2) + 6]);
 
   return {
     largestWebpageSize: sortedPageSizes[0],

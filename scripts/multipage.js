@@ -64,6 +64,7 @@ function getAssetTypeFromResource(resource) {
 
   if (url.endsWith(".css")) return "stylesheet";
   if (url.endsWith(".js")) return "script";
+  if (url.endsWith(".mjs")) return "script";
   if (url.endsWith(".png")) return "image";
 
   // Note use of includes as some image URLs end with query parameters

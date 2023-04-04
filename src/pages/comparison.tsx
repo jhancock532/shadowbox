@@ -29,7 +29,7 @@ export default function Comparison({ journeys }: { journeys: any }) {
           </div>
         </div>
 
-        <JourneyStepChart resources={journeys[0][0].resources} />
+        <JourneyStepChart requests={journeys[0][0].resources} />
       </main>
     </>
   );

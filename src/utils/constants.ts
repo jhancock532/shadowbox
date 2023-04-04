@@ -16,4 +16,5 @@ export const BAR_COLORS: { [key: string]: string } = {
   image: "#47b4eb",
   font: "#4747eb",
   xhr: "#eb47b4",
+  json: "#8884d8",
 };

@@ -1,14 +1,16 @@
+import { totalRequestsByType } from "@/utils/requestToChartData";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from "recharts";
+import { BAR_COLORS } from "@/utils/constants";
 
-function chartDataByIndividualSize(resources: any) {
+function chartDataByIndividualRequest(requests: any) {
   const data: any[] | undefined = [];
 
-  // sort resources by size
-  resources.sort((a: any, b: any) => {
+  // sort requests by size
+  requests.sort((a: any, b: any) => {
     return b.transferSize - a.transferSize;
   });
 
-  resources.map((resource: any) => {
+  requests.map((resource: any) => {
     data.push({
       name: resource.url,
       size: resource.transferSize,
@@ -18,14 +20,32 @@ function chartDataByIndividualSize(resources: any) {
   return data;
 }
 
-export const JourneyStepChart = ({ resources }: { resources: any }) => {
-  const data = chartDataByIndividualSize(resources);
+function chartDataByRequestType(requests: any) {
+  const totalRequestSizesByType = totalRequestsByType(requests);
+
+  const data: any[] | undefined = [];
+
+  for (const key in totalRequestSizesByType) {
+    data.push({
+      name: key,
+      size: totalRequestSizesByType[key],
+      fill: BAR_COLORS[key],
+    });
+  }
+  // console.log(data);
+  return data;
+}
+
+export const JourneyStepChart = ({ requests }: { requests: any }) => {
+  const data = chartDataByIndividualRequest(requests);
+
+  const newData = chartDataByRequestType(requests);
 
   return (
     <BarChart
-      width={550}
-      height={20 * data.length}
-      data={data}
+      width={500}
+      height={300}
+      data={newData}
       layout="vertical"
       margin={{
         top: 40,
@@ -34,7 +54,7 @@ export const JourneyStepChart = ({ resources }: { resources: any }) => {
         bottom: 0,
       }}
     >
-      <Bar dataKey="size" fill="#8884d8" />
+      <Bar dataKey="size" fill="#777777" />
       <XAxis type="number" />
       <YAxis
         type="category"

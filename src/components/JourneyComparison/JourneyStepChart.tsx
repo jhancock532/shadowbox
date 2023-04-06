@@ -2,6 +2,7 @@ import { totalRequestsByType } from "@/utils/requestToChartData";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from "recharts";
 import { BAR_COLORS } from "@/utils/constants";
 
+// todo: utils file?
 function chartDataByIndividualRequest(requests: any) {
   const data: any[] | undefined = [];
 
@@ -20,6 +21,7 @@ function chartDataByIndividualRequest(requests: any) {
   return data;
 }
 
+// todo: utils file?
 function chartDataByRequestType(requests: any) {
   const totalRequestSizesByType = totalRequestsByType(requests);
 
@@ -32,7 +34,7 @@ function chartDataByRequestType(requests: any) {
       fill: BAR_COLORS[key],
     });
   }
-  // console.log(data);
+
   return data;
 }
 

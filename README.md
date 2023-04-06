@@ -1,5 +1,3 @@
-<img width="1217" alt="image" src="https://user-images.githubusercontent.com/18164832/217257035-9d818e62-cf25-4cae-b6ae-f949c75cf963.png">
-
 A site performance dashboard...
 
 <img width="1425" alt="image" src="https://user-images.githubusercontent.com/18164832/230440224-96522218-f7bc-4455-b713-451c36e4019e.png">

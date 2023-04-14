@@ -31,6 +31,8 @@ function JourneySummary({ journey }: { journey: any }) {
 export const JourneyComparison = ({ journeys }: { journeys: any }) => {
   const [leftJourneyIndex, setLeftJourneyIndex] = React.useState(0);
   const [rightJourneyIndex, setRightJourneyIndex] = React.useState(1);
+  const [showIndividualRequests, setShowIndividualRequests] =
+    React.useState(false);
 
   const leftJourneySelectOptions = (
     <select
@@ -68,13 +70,25 @@ export const JourneyComparison = ({ journeys }: { journeys: any }) => {
 
   const leftJourneySteps = journeys[leftJourneyIndex].map(
     (step: any, index: number) => {
-      return <JourneyStep key={index} journey={step} />;
+      return (
+        <JourneyStep
+          key={index}
+          journey={step}
+          showIndividualRequests={showIndividualRequests}
+        />
+      );
     }
   );
 
   const rightJourneySteps = journeys[rightJourneyIndex].map(
     (step: any, index: number) => {
-      return <JourneyStep key={index} journey={step} />;
+      return (
+        <JourneyStep
+          key={index}
+          journey={step}
+          showIndividualRequests={showIndividualRequests}
+        />
+      );
     }
   );
 
@@ -89,6 +103,25 @@ export const JourneyComparison = ({ journeys }: { journeys: any }) => {
 
   return (
     <div className="contentContainer">
+      <p></p>
+      <div className={styles.showIndividualRequestsForm}>
+        <input
+          type="checkbox"
+          id="show-individual-requests"
+          className={styles.showIndividualRequestsCheckbox}
+          checked={showIndividualRequests}
+          onChange={() => {
+            setShowIndividualRequests(!showIndividualRequests);
+          }}
+        />
+        <label
+          className={styles.showIndividualRequestsLabel}
+          htmlFor="show-individual-requests"
+        >
+          Show individual requests
+        </label>
+      </div>
+
       <div className={styles.comparisonForm}>
         <div>
           <label

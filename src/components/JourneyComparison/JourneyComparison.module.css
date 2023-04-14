@@ -1,3 +1,16 @@
+.showIndividualRequestsForm {
+  font-size: 1.4rem;
+}
+
+.showIndividualRequestsLabel {
+  margin-left: 10px;
+  user-select: none;
+}
+
+.showIndividualRequestsCheckbox {
+  font-size: 2rem;
+}
+
 .comparisonContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;

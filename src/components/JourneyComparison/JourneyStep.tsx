@@ -14,7 +14,26 @@ function calculateTotalResourceTransferSize(resources: any) {
   );
 }
 
-export const JourneyStep = ({ journey }: { journey: any }) => {
+const RequestList = ({ requests }: { requests: any }) => {
+  return (
+    <div className={styles.requestList}>
+      {requests.map((request: any) => (
+        <div key={request.url} className={styles.request}>
+          <strong>{Math.round(request.transferSize / 1000)}kB</strong>
+          <span className={styles.requestUrl}>{request.url}</span>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export const JourneyStep = ({
+  journey,
+  showIndividualRequests,
+}: {
+  journey: any;
+  showIndividualRequests: boolean;
+}) => {
   const resources = journey.resources;
 
   const totalRequestTransferSize = Math.round(
@@ -30,7 +49,11 @@ export const JourneyStep = ({ journey }: { journey: any }) => {
   return (
     <div>
       <p className={styles.title}>{truncatedStepTitle}</p>
-      <JourneyStepChart requests={resources} />
+      {showIndividualRequests ? (
+        <RequestList requests={resources} />
+      ) : (
+        <JourneyStepChart requests={resources} />
+      )}
       <p>
         {journey.resources.length} requests totalling {totalRequestTransferSize}{" "}
         kB

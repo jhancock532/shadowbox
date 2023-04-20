@@ -33,6 +33,7 @@ export const JourneyComparison = ({ journeys }: { journeys: any }) => {
   const [rightJourneyIndex, setRightJourneyIndex] = React.useState(1);
   const [showIndividualRequests, setShowIndividualRequests] =
     React.useState(false);
+  const [showRequestDetails, setShowRequestDetails] = React.useState(false);
 
   const leftJourneySelectOptions = (
     <select
@@ -45,7 +46,7 @@ export const JourneyComparison = ({ journeys }: { journeys: any }) => {
     >
       {journeys.map((journey: any, index: number) => (
         <option value={index.toString()} key={`left-journey-option--${index}`}>
-          {index}
+          {journey[0].url}
         </option>
       ))}
     </select>
@@ -62,7 +63,7 @@ export const JourneyComparison = ({ journeys }: { journeys: any }) => {
     >
       {journeys.map((journey: any, index: number) => (
         <option value={index.toString()} key={`right-journey-option--${index}`}>
-          {index}
+          {journey[0].url}
         </option>
       ))}
     </select>
@@ -74,6 +75,7 @@ export const JourneyComparison = ({ journeys }: { journeys: any }) => {
         <JourneyStep
           key={index}
           journey={step}
+          showRequestDetails={showRequestDetails}
           showIndividualRequests={showIndividualRequests}
         />
       );
@@ -86,6 +88,7 @@ export const JourneyComparison = ({ journeys }: { journeys: any }) => {
         <JourneyStep
           key={index}
           journey={step}
+          showRequestDetails={showRequestDetails}
           showIndividualRequests={showIndividualRequests}
         />
       );
@@ -103,23 +106,42 @@ export const JourneyComparison = ({ journeys }: { journeys: any }) => {
 
   return (
     <div className="contentContainer">
-      <p></p>
-      <div className={styles.showIndividualRequestsForm}>
-        <input
-          type="checkbox"
-          id="show-individual-requests"
-          className={styles.showIndividualRequestsCheckbox}
-          checked={showIndividualRequests}
-          onChange={() => {
-            setShowIndividualRequests(!showIndividualRequests);
-          }}
-        />
-        <label
-          className={styles.showIndividualRequestsLabel}
-          htmlFor="show-individual-requests"
-        >
-          Show individual requests
-        </label>
+      <div className={styles.showRequestsForm}>
+        <div>
+          <input
+            type="checkbox"
+            id="show-individual-requests"
+            className={styles.showRequestsCheckbox}
+            checked={showIndividualRequests}
+            onChange={() => {
+              setShowIndividualRequests(!showIndividualRequests);
+            }}
+          />
+          <label
+            className={styles.showRequestsLabel}
+            htmlFor="show-individual-requests"
+          >
+            Show individual requests
+          </label>
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            id="show-request-details"
+            className={styles.showRequestsCheckbox}
+            checked={showRequestDetails}
+            onChange={() => {
+              setShowRequestDetails(!showRequestDetails);
+            }}
+          />
+          <label
+            className={styles.showRequestsLabel}
+            htmlFor="show-request-details"
+          >
+            Show full request details
+          </label>
+        </div>
       </div>
 
       <div className={styles.comparisonForm}>

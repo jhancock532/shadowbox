@@ -6,6 +6,27 @@ const chalk = require("chalk");
 const fs = require("fs");
 const parser = require("xml2json");
 const { parse, format } = require("url");
+const https = require("https");
+
+async function getResponseSize(url) {
+  const protocol = url.startsWith("https") ? https : http;
+
+  return new Promise((resolve, reject) => {
+    protocol
+      .get(url, (response) => {
+        let size = 0;
+        response.on("data", (chunk) => {
+          size += chunk.length;
+        });
+        response.on("end", () => {
+          resolve(size);
+        });
+      })
+      .on("error", (err) => {
+        reject(err);
+      });
+  });
+}
 
 function getDateTimeString() {
   let date_time = new Date();
@@ -42,6 +63,7 @@ function getAssetTypeFromResource(resource) {
   const url = resource.name;
 
   if (url.endsWith(".css")) return "stylesheet";
+  if (url.includes(".min.css")) return "stylesheet";
   if (url.endsWith(".js")) return "script";
   if (url.endsWith(".png")) return "image";
 
@@ -76,6 +98,11 @@ function getAssetTypeFromResource(resource) {
   if (resource.initiatorType === "css") return "stylesheet";
   if (resource.initiatorType === "beacon") return "beacon";
 
+  if (url.includes("www.youtube.com/embed/")) return "embed";
+  if (resource.initiatorType === "iframe") return "embed";
+
+  if (url.includes(".css")) return "stylesheet";
+
   console.log("No resource type found for:");
   console.log(resource);
 
@@ -83,7 +110,7 @@ function getAssetTypeFromResource(resource) {
   // Instead of resource type, is there more relevant info we can return for visualisation?
 }
 
-function parsePerformanceResources(resources) {
+async function parsePerformanceResources(resources) {
   let output = {};
   output.requests = [];
 
@@ -96,10 +123,17 @@ function parsePerformanceResources(resources) {
     ) {
       const resourceType = getAssetTypeFromResource(resource);
 
+      let transferSize = resource.transferSize;
+
+      // Todo: this slows down the analysis significantly, cache these results or estimate them?
+      // if (transferSize === 0) {
+      //   transferSize = await getResponseSize(resource.name);
+      // }
+
       output.requests.push({
         url: resource.name,
         resourceType: resourceType,
-        transferSize: resource.transferSize,
+        transferSize: transferSize,
       });
     }
   }
@@ -137,42 +171,74 @@ async function fetchSitemap(sitemapURL) {
 }
 
 (async () => {
-  const urls = await fetchSitemap("https://torchbox.com/sitemap.xml");
+  const urls = await fetchSitemap("https://www.rnib.org.uk/sitemap.xml");
 
   const browser = await puppeteer.launch();
   const analysedPages = [];
 
+  const startTime = new Date();
+
   for (let i = 0; i < urls.length; i++) {
-    log(`- ${prettify(urls[i])} `);
+    try {
+      log(
+        `${chalk.blue(i)}/${chalk.blue(urls.length)} - ${prettify(urls[i])} `
+      );
 
-    const page = await browser.newPage();
-    const client = await page.target().createCDPSession();
-    await client.send("Network.setCacheDisabled", {
-      cacheDisabled: true,
-    });
-    await page.setCacheEnabled(false);
+      const page = await browser.newPage();
+      const client = await page.target().createCDPSession();
+      await client.send("Network.setCacheDisabled", {
+        cacheDisabled: true,
+      });
+      await page.setCacheEnabled(false);
 
-    // domContentLoaded doesn't allow secondary scripts to load
-    // networkIdle waits for 500ms of no network activity
-    // 250ms seems good enough for our purposes - test this on different websites!
-    await Promise.all([
-      page.goto(urls[i], {
-        waitUntil: "domcontentloaded",
-      }),
-      page.waitForNetworkIdle({ idleTime: 250 }),
-    ]);
+      // domContentLoaded doesn't allow secondary scripts to load
+      // networkIdle waits for 500ms of no network activity
+      // 250ms seems good enough for our purposes - test this on different websites!
+      await Promise.all([
+        page.goto(urls[i], {
+          waitUntil: "domcontentloaded",
+        }),
+        page.waitForNetworkIdle({ idleTime: 250 }),
+      ]);
 
-    const performanceEntries = JSON.parse(
-      await page.evaluate(() => JSON.stringify(window.performance.getEntries()))
-    );
+      const performanceEntries = JSON.parse(
+        await page.evaluate(() =>
+          JSON.stringify(window.performance.getEntries())
+        )
+      );
 
-    const results = parsePerformanceResources(performanceEntries);
+      const results = await parsePerformanceResources(performanceEntries);
 
-    results.title = urls[i];
-    analysedPages.push(results);
-    log(chalk.green("✓\n"));
+      results.title = urls[i];
+      analysedPages.push(results);
+      log(chalk.green("✓\n"));
 
-    await page.close();
+      await page.close();
+
+      if (i % 10 === 0 && i !== 0) {
+        const currentTime = new Date();
+        const timeElapsed = currentTime - startTime;
+        const seconds = Math.floor(timeElapsed / 1000);
+
+        log(chalk.gray(`Evaluated ${i} urls in ${seconds} seconds\n`));
+        log(chalk.gray(`Time per page: ${seconds / i} seconds\n`));
+        log(
+          chalk.gray(
+            `Time remaining: ${Math.round(
+              (seconds / i) * (urls.length - i)
+            )} seconds\n`
+          )
+        );
+      }
+
+      if (i % 100 === 0 && i !== 0) {
+        outputStats({
+          pages: analysedPages,
+        });
+      }
+    } catch (err) {
+      console.log(chalk.red(`Unable to fetch - ${urls[i]}`), err);
+    }
   }
 
   outputStats({

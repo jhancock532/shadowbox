@@ -29,7 +29,8 @@ export default function Home({ statistics }: { statistics: any }) {
 }
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), "data/combined-2023-02-14.json");
+  // const filePath = path.join(process.cwd(), "data/combined-2023-02-14.json"); // tbx sites
+  const filePath = path.join(process.cwd(), "data/rnib-2023-04-25.json"); // tbx sites
   const fileData = fs.readFileSync(filePath);
   const statistics = JSON.parse(fileData as unknown as string);
 

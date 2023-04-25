@@ -8,16 +8,16 @@ export default function Home({ statistics }: { statistics: any }) {
   return (
     <>
       <Metadata
-        title="Torchbox Request Performance Overview"
+        title="RNIB Request Performance Overview"
         description="An overview of the request performance of Torchbox's digital estate."
       />
       <main className={styles.main}>
         <div className="contentContainer">
           <div className={styles.header}>
-            <h1>Torchbox.com Network Request Audit</h1>
+            <h1>RNIB Network Request Audit</h1>
             <p>
               View a breakdown of the requests made by each page listed in
-              Torchbox.com&apos;s sitemaps.
+              RNIB&apos;s sitemaps.
             </p>
           </div>
         </div>

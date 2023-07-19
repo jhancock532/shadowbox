@@ -1,0 +1,132 @@
+[
+    {
+        "url": "https://torchbox.com/wagtail-cms/",
+        "resourceType": "document",
+        "transferSize": 12840
+    },
+    {
+        "url": "https://torchbox.com/static/css/main.ea909493a42f.css",
+        "resourceType": "stylesheet",
+        "transferSize": 18446
+    },
+    {
+        "url": "https://media.torchbox.com/images/IMG_1711.2e16d0ba.fill-746x500.jpg",
+        "resourceType": "image",
+        "transferSize": 48973
+    },
+    {
+        "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "resourceType": "script",
+        "transferSize": 955
+    },
+    {
+        "url": "https://torchbox.com/static/js/main.130c2993220d.js",
+        "resourceType": "script",
+        "transferSize": 69073
+    },
+    {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+        "resourceType": "script",
+        "transferSize": 242269
+    },
+    {
+        "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
+        "resourceType": "font",
+        "transferSize": 61865
+    },
+    {
+        "url": "https://torchbox.com/static/4aa0abf35762d3d96221.0cd7caae30ac.woff",
+        "resourceType": "font",
+        "transferSize": 61227
+    },
+    {
+        "url": "https://torchbox.com/static/df348384f91cc9ecf2f7.8cf7315c70cb.woff",
+        "resourceType": "font",
+        "transferSize": 61695
+    },
+    {
+        "url": "https://torchbox.com/static/f86b36700825a41a1b4a.27eaf2a5c297.woff",
+        "resourceType": "font",
+        "transferSize": 60027
+    },
+    {
+        "url": "https://media.torchbox.com/images/client-NASA.width-400.png",
+        "resourceType": "image",
+        "transferSize": 14138
+    },
+    {
+        "url": "https://media.torchbox.com/images/client-mozilla.width-400.png",
+        "resourceType": "image",
+        "transferSize": 3356
+    },
+    {
+        "url": "https://media.torchbox.com/images/ny.width-400.png",
+        "resourceType": "image",
+        "transferSize": 10281
+    },
+    {
+        "url": "https://media.torchbox.com/images/Oxfam_America_logo_on_6x4_background_wHjunCY.width-400.png",
+        "resourceType": "image",
+        "transferSize": 18368
+    },
+    {
+        "url": "https://media.torchbox.com/images/Oxfam-logo-new.width-400.png",
+        "resourceType": "image",
+        "transferSize": 16123
+    },
+    {
+        "url": "https://media.torchbox.com/images/NHS_Digital_logo_on_6x4_background_vUvgAau.width-400.png",
+        "resourceType": "image",
+        "transferSize": 13509
+    },
+    {
+        "url": "https://media.torchbox.com/images/wharton_interactive.max-800x600.width-400.png",
+        "resourceType": "image",
+        "transferSize": 4350
+    },
+    {
+        "url": "https://media.torchbox.com/images/Blood-Cancer-UK-440.width-400.jpg",
+        "resourceType": "image",
+        "transferSize": 9427
+    },
+    {
+        "url": "https://media.torchbox.com/images/dit.width-400.png",
+        "resourceType": "image",
+        "transferSize": 21531
+    },
+    {
+        "url": "https://media.torchbox.com/images/client-gosh.width-400.png",
+        "resourceType": "image",
+        "transferSize": 19902
+    },
+    {
+        "url": "https://media.torchbox.com/images/client-RNIB.width-400.png",
+        "resourceType": "image",
+        "transferSize": 3951
+    },
+    {
+        "url": "https://media.torchbox.com/images/Google_logo_on_6x4_XOYGMQi.width-400.png",
+        "resourceType": "image",
+        "transferSize": 18126
+    },
+    {
+        "url": "https://media.torchbox.com/images/Certified_B_Corporation_B_Corp_Logo_2022_Black.height-90.png",
+        "resourceType": "image",
+        "transferSize": 2438
+    },
+    {
+        "url": "https://media.torchbox.com/images/2022-Top25_Best-Mid-Sized-Companies_1.original.height-90.png",
+        "resourceType": "image",
+        "transferSize": 5830
+    },
+    {
+        "url": "https://media.torchbox.com/images/Inhabit-Carbon-Neutral-Badge-Connected-Blue.or.height-90.png",
+        "resourceType": "image",
+        "transferSize": 3829
+    },
+    {
+        "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.fill-100x100.jpg",
+        "resourceType": "image",
+        "transferSize": 3568
+    }
+]

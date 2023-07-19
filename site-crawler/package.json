@@ -1,0 +1,17 @@
+{
+  "name": "my-crawler",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A crawler that crawls the web.",
+  "dependencies": {
+    "crawlee": "^3.0.0",
+    "puppeteer": "*"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "network-requests": "node src/analysis/processNetworkRequests.js",
+    "test": "echo \"Error: the app has no tests yet.\" && exit 1"
+  },
+  "author": "Johnny English",
+  "license": "ISC"
+}

@@ -38,6 +38,7 @@ function outputStats(minifiedStats) {
  */
 function getAssetTypeFromResource(resource) {
   if (resource.initiatorType === "navigation") return "document";
+  if (resource.initiatorType === "iframe") return "document";
 
   const url = resource.name;
 
@@ -137,7 +138,9 @@ async function fetchSitemap(sitemapURL) {
 }
 
 (async () => {
-  const urls = await fetchSitemap("https://torchbox.com/sitemap.xml");
+  const urls = await fetchSitemap(
+    "https://www.childrenshealthireland.ie/sitemap.xml"
+  );
 
   const browser = await puppeteer.launch();
   const analysedPages = [];

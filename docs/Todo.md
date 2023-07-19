@@ -1,12 +1,8 @@
 # Todo List
 
-## Done
+## Bugs
 
-- [x] Update the analysis script to use Chome-Har-Capturer's better console logging setup
-- [x] When sorting by a request type, that request type should show as the leftmost column in the stacked bar chart.
-- [x] Average / median webpage transfer size plotted on x-axis.
-- [x] The ability to view all the pages within a specific path subdirectory.
-- [x] Sorting by xhr doesn't work
+When crawling next.js, the images don't load in until the page is scrolled down to when they are in view. Auto scrolling of the page on load should occur before fetching all the performance statistics.
 
 ## Todo
 

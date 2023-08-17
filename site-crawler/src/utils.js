@@ -245,11 +245,11 @@ export function saveNetworkRequestsToFileSystem(pageData, requestSizes) {
 
     const title = page.url.replace(/[^a-zA-Z0-9]/g, "_");
 
-    fs.mkdirSync(`../data/webpages/${title}/${formattedDate}/`, {
+    fs.mkdirSync(`../data/${formattedDate}/${title}/`, {
       recursive: true,
     });
     fs.writeFileSync(
-      `../data/webpages/${title}/${formattedDate}/networkRequests.json`,
+      `../data/${formattedDate}/${title}/networkRequests.json`,
       requestsJSON + "\n"
     );
   }
@@ -263,12 +263,12 @@ export function saveNetworkRequestsToFileSystem(pageData, requestSizes) {
     4
   );
 
-  fs.mkdirSync(`../data/webpages/${formattedDate}/`, {
+  fs.mkdirSync(`../data/${formattedDate}/`, {
     recursive: true,
   });
 
   fs.writeFileSync(
-    `../data/webpages/${formattedDate}/networkRequestsSummary.json`,
+    `../data/${formattedDate}/networkRequestsSummary.json`,
     requestSummaryJSON + "\n"
   );
 }

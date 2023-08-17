@@ -12,7 +12,7 @@ export default function Bar({
   colors: any;
 }) {
   return (
-    <a className={styles.container} href="#">
+    <div className={styles.container}>
       {Object.keys(values).map((value: any, index: number) => {
         return (
           <div
@@ -30,6 +30,6 @@ export default function Bar({
           </div>
         );
       })}
-    </a>
+    </div>
   );
 }

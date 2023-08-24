@@ -1,3 +1,3 @@
-import { JourneyComparison } from "./JourneyComparison";
+import { JourneyComparison } from './JourneyComparison';
 
 export default JourneyComparison;

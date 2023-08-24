@@ -6,7 +6,6 @@ with visual comparison tool for requests loaded on different user journeys.
 
 <img width="1370" alt="image" src="https://user-images.githubusercontent.com/18164832/230439930-4d8b311b-e691-428a-b478-a433e2660dda.png">
 
-
 Additional documentation for how the site statistics are generated can be found in [docs/Generating Statistics.md](docs/Generating%20Statistics.md).
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

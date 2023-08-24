@@ -1,13 +1,13 @@
-import fs from "fs";
+import fs from 'fs';
 
 import {
-  saveNetworkRequestsToFileSystem,
-  getNetworkRequestSizes,
-  TEST_REQUEST_SIZES,
-} from "../utils.js";
+    saveNetworkRequestsToFileSystem,
+    getNetworkRequestSizes,
+    TEST_REQUEST_SIZES,
+} from '../utils.js';
 
 let pageData = JSON.parse(
-  fs.readFileSync("./storage/key_value_stores/output/results.json", "utf8")
+    fs.readFileSync('./storage/key_value_stores/output/results.json', 'utf8'),
 );
 
 // const requestSizes = await getNetworkRequestSizes(pageData);

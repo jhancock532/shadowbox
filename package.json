@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "format:check": "prettier --check .",
+    "format": "prettier --write .",
     "analysis": "node scripts/analysis.js",
     "puppeteer": "node scripts/puppeteer.js",
     "multipage": "node scripts/multipage.js"
@@ -21,6 +23,7 @@
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
+    "prettier": "^3.0.2",
     "puppeteer": "^19.7.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",

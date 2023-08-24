@@ -1,32 +1,32 @@
 .title {
-  margin-top: 0;
-  font-size: 1.5rem;
-  font-weight: bold;
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .requestList {
-  overflow-y: scroll;
-  overflow-x: scroll;
-  max-width: 40vw;
-  height: 340px;
-  padding: 10px;
-  background-color: #d8d8d8;
-  color: #000;
-  margin-top: 15px;
-  border-radius: 5px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    max-width: 40vw;
+    height: 340px;
+    padding: 10px;
+    background-color: #d8d8d8;
+    color: #000;
+    margin-top: 15px;
+    border-radius: 5px;
 }
 
 .request {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin: 0;
-  font-size: 1.3rem;
-  margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
 }
 
 .requestUrl {
-  overflow-wrap: anywhere;
+    overflow-wrap: anywhere;
 }

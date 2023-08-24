@@ -1,3 +1,3 @@
-import RequestVisualiser from "./RequestVisualiser";
+import RequestVisualiser from './RequestVisualiser';
 
 export default RequestVisualiser;

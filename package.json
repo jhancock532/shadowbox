@@ -6,12 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "format:check": "prettier --check .",
-    "format": "prettier --write .",
-    "analysis": "node scripts/analysis.js",
-    "puppeteer": "node scripts/puppeteer.js",
-    "multipage": "node scripts/multipage.js"
+    "lint": "next lint && prettier --check '**/?(.)*.{md,css,scss,js,ts,tsx,json,yaml,yml}'",
+    "format": "prettier --write '**/?(.)*.{md,css,scss,js,ts,tsx,json,yaml,yml}'"
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -31,5 +27,8 @@
     "sass": "1.66.1",
     "typescript": "4.9.5",
     "xml2json": "^0.12.0"
+  },
+  "devDependencies": {
+    "eslint-config-torchbox": "^1.1.0"
   }
 }

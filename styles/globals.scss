@@ -1,0 +1,219 @@
+@forward "normalize.scss";
+
+:root {
+  --color--coral: #fd5765;
+  --color--coral-dark: #e00517;
+  --color--lagoon: #3beccd;
+  --color--indigo: #2f128d;
+  --color--dark-indigo: #251657;
+
+  /* Primary color gradient */
+  --color--purple-200: #631c69;
+  --color--purple-300: #9c2471;
+  --color--rose-300: #d1366f;
+  --color--orange-300: #ff8a5a;
+  --color--orange-600: #ffba62;
+  --color--yellow-600: #ffe681;
+
+  --color--primary-gradient-1: var(--color--dark-indigo);
+  --color--primary-gradient-2: var(--color--purple-200);
+  --color--primary-gradient-3: var(--color--purple-300);
+  --color--primary-gradient-4: var(--color--rose-300);
+  --color--primary-gradient-5: var(--color--coral);
+  --color--primary-gradient-6: var(--color--orange-300);
+  --color--primary-gradient-7: var(--color--orange-600);
+  --color--primary-gradient-8: var(--color--yellow-600);
+
+  /* Secondary color gradient */
+  --color--white: #fff;
+  --color--grey-900: #f4f3f6;
+  --color--grey-800: #e9e7ee;
+  --color--grey-700: #c8c8c8;
+  --color--grey-600: #979797;
+  --color--grey-500: #727272;
+  --color--grey-400: #444;
+  --color--grey-300: #333;
+  --color--grey-200: #2d2d2d;
+  --color--black: #000;
+
+  --color--secondary-gradient-1: var(--color--black);
+  --color--secondary-gradient-2: var(--color--grey-200);
+  --color--secondary-gradient-3: var(--color--grey-300);
+  --color--secondary-gradient-4: var(--color--grey-400);
+  --color--secondary-gradient-5: var(--color--grey-500);
+  --color--secondary-gradient-6: var(--color--grey-600);
+  --color--secondary-gradient-7: var(--color--grey-700);
+  --color--secondary-gradient-8: var(--color--grey-800);
+
+  /* Theme base */
+  --color--primary: var(--color--coral);
+  --color--text: var(--color--grey-200);
+  --color--border: var(--color--grey-700);
+  --color--link: var(--color--coral);
+  --color--underline: var(--color--coral);
+  --color--hover: var(--color--coral-dark);
+  --color--background: var(--color--indigo);
+  --color--section-title: var(--color--dark-indigo);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font--primary;
+  line-height: 1.4;
+  color: var(--color--text);
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: math.div(map-get($small-font-sizes, xs), 16px) * 100%;
+
+  @include media-query(medium) {
+    font-size: math.div(map-get($medium-font-sizes, xs), 16px) * 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  @include font-size(s);
+  overflow-x: hidden;
+  background-color: var(--color--white);
+  font-variant-ligatures: none;
+
+  &.no-scroll {
+    overflow-y: hidden;
+  }
+}
+
+// Prevent empty space below images appearing
+img,
+svg {
+  vertical-align: top;
+}
+
+// Responsive images
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+a {
+  color: var(--color--link);
+  text-decoration: none;
+  transition: color $transition;
+
+  &:hover {
+    color: var(--color--hover);
+    cursor: pointer;
+  }
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  list-style-type: square;
+}
+
+li > p {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  @include heading-text();
+}
+
+html,
+.body-text {
+  @include body-text();
+}
+
+blockquote {
+  @include quote-text();
+}
+
+// Default sizes
+h1,
+.heading--1 {
+  @include font-size(xl);
+  font-weight: $weight--bold;
+  margin: 0 0 math.div($gutter, 2);
+  color: var(--color--text);
+}
+
+h2,
+.heading--2 {
+  @include font-size(l);
+  font-weight: $weight--heavy;
+  margin: ($gutter * 3) 0 $gutter;
+  color: var(--color--text);
+}
+
+h3,
+h4,
+.heading--3,
+.heading--4 {
+  @include font-size(m);
+  font-weight: $weight--bold;
+  margin: ($gutter * 3) 0 math.div($gutter, 2);
+  color: var(--color--dark-indigo);
+}
+
+h5,
+h6,
+.heading--5,
+.heading--6 {
+  @include font-size(m);
+}
+
+small {
+  @include font-size(xxs);
+}
+
+p {
+  margin: 0 0 ($gutter * 1.5);
+  color: var(--color--grey);
+}
+
+b,
+strong {
+  font-weight: $weight--bold;
+}
+
+.strong-black {
+  font-weight: $weight--heavy;
+}
+
+i {
+  font-style: italic;
+}
+
+pre {
+  margin: 0 0 ($gutter * 1.5) 0;
+  padding: math.div($gutter, 2);
+  font-family: monospace;
+  word-break: break-all;
+  white-space: pre-wrap;
+  border-radius: 5px;
+}

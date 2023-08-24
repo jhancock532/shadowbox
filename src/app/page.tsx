@@ -1,6 +1,7 @@
 import path from "path";
 import fs from "fs";
 import styles from "@/styles/Home.module.css";
+import "styles/globals.scss";
 import Link from "next/link";
 import Header from "@/components/Header";
 

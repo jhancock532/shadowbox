@@ -12,7 +12,7 @@
     "multipage": "node scripts/multipage.js"
   },
   "dependencies": {
-    "@next/font": "^13.1.6",
+    "@next/font": "13.1.6",
     "@types/node": "18.13.0",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
@@ -25,6 +25,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "recharts": "^2.3.2",
+    "sass": "1.66.1",
     "typescript": "4.9.5",
     "xml2json": "^0.12.0"
   }

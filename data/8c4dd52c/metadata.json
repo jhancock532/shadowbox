@@ -1,0 +1,34 @@
+{
+    "reportId": "8c4dd52c",
+    "reportDateTime": "2023-08-31T09:30:31.325Z",
+    "crawlerStatistics": {
+        "requestsFinished": 3,
+        "requestsFailed": 0,
+        "requestsRetries": 0,
+        "requestsFailedPerMinute": 0,
+        "requestsFinishedPerMinute": 101,
+        "requestMinDurationMillis": 537,
+        "requestMaxDurationMillis": 1133,
+        "requestTotalFailedDurationMillis": 0,
+        "requestTotalFinishedDurationMillis": 2230,
+        "crawlerStartedAt": "2023-08-31T09:30:31.325Z",
+        "crawlerFinishedAt": "2023-08-31T09:30:33.081Z",
+        "statsPersistedAt": "2023-08-31T09:30:33.081Z",
+        "crawlerRuntimeMillis": 1784,
+        "crawlerLastStartTimestamp": 1693474231297,
+        "requestRetryHistogram": [
+            3
+        ],
+        "statsId": 0,
+        "requestAvgFailedDurationMillis": null,
+        "requestAvgFinishedDurationMillis": 743,
+        "requestTotalDurationMillis": 2230,
+        "requestsTotal": 3,
+        "requestsWithStatusCode": {
+            "200": 3
+        },
+        "errors": {},
+        "retryErrors": {},
+        "reportId": "8c4dd52c"
+    }
+}

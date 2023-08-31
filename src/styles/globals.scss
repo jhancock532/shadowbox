@@ -63,7 +63,6 @@
 }
 
 html {
-    font-family: $font--primary;
     line-height: 1.4;
     color: var(--color--text);
     text-size-adjust: 100%;
@@ -103,13 +102,6 @@ img {
     max-width: 100%;
 }
 
-button,
-input,
-select,
-textarea {
-    font-family: inherit;
-}
-
 a {
     color: var(--color--link);
     text-decoration: none;
@@ -132,25 +124,6 @@ ol {
 
 li > p {
     margin-bottom: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.heading {
-    @include heading-text();
-}
-
-html,
-.body-text {
-    @include body-text();
-}
-
-blockquote {
-    @include quote-text();
 }
 
 // Default sizes
@@ -207,13 +180,4 @@ strong {
 
 i {
     font-style: italic;
-}
-
-pre {
-    margin: 0 0 ($gutter * 1.5) 0;
-    padding: math.div($gutter, 2);
-    font-family: monospace;
-    word-break: break-all;
-    white-space: pre-wrap;
-    border-radius: 5px;
 }

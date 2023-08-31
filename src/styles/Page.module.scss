@@ -1,0 +1,73 @@
+.container {
+    display: grid;
+    grid-template-columns: $grid 1fr $grid;
+    padding-top: $grid;
+
+    @include media-query(medium) {
+        grid-template-columns: $grid * 2 1fr $grid * 2;
+        padding-top: $grid * 2;
+    }
+
+    @include media-query(large) {
+        grid-template-columns: $grid * 6 1fr $grid * 6;
+        padding-top: $grid * 3;
+    }
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin-left: auto;
+
+    &__name {
+        font-size: 1.5rem;
+        font-weight: 900;
+        background: linear-gradient(356deg, #000 50%, rgba(0, 0, 0, 0) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0;
+
+        text-align: center;
+        font-weight: 900;
+        line-height: 1.4rem;
+        letter-spacing: 0.24px;
+    }
+
+    &__tagline {
+        color: var(--color--text, #2d2d2d);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.18px;
+        margin: 0;
+    }
+}
+
+.reportSiteName {
+    color: var(--color--text, #2d2d2d);
+
+    font-size: 36px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    margin-top: $grid * 2;
+    margin-bottom: 0;
+}
+
+.title {
+    color: var(--color--text, #2d2d2d);
+    font-size: 46px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.46px;
+    margin-top: $grid * 2;
+
+    @include media-query(medium) {
+        margin-top: $grid * 4;
+    }
+}

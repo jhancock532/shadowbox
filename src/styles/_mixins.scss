@@ -92,12 +92,6 @@
 /* ============================================
     Animations
 */
-
-@mixin menu-animation($time: 350ms) {
-    transition: all $time cubic-bezier(0.705, 0, 1, 1.13);
-    transition-timing-function: cubic-bezier(0.705, 0, 1, 1.13);
-}
-
 @mixin animation() {
     @keyframes fadeOut {
         0% {
@@ -137,49 +131,5 @@
         left: 0;
         background-color: var(--color--underline);
         transition: height $transition-quick;
-    }
-}
-
-@mixin heading-text() {
-    font-family: $font--primary;
-    font-style: inherit;
-    font-weight: inherit;
-}
-
-@mixin body-text() {
-    font-family: $font--primary;
-    font-style: inherit;
-    font-weight: inherit;
-    text-transform: inherit;
-}
-
-@mixin quote-text() {
-    font-family: $font--primary;
-    font-style: italic;
-    font-weight: inherit;
-    text-transform: inherit;
-}
-
-@mixin component-spacing() {
-    margin-bottom: $component-spacing--small;
-
-    @include media-query(medium) {
-        margin-bottom: $component-spacing--medium;
-    }
-
-    @include media-query(large) {
-        margin-bottom: $component-spacing--large;
-    }
-}
-
-@mixin component-spacing-centered() {
-    margin: 0 auto $component-spacing--small;
-
-    @include media-query(medium) {
-        margin: 0 auto $component-spacing--medium;
-    }
-
-    @include media-query(large) {
-        margin: 0 auto $component-spacing--large;
     }
 }

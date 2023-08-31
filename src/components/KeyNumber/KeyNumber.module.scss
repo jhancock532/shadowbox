@@ -1,0 +1,36 @@
+.container {
+    max-width: 200px;
+}
+
+.title {
+    color: var(--color--text, #2d2d2d);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.24px;
+}
+
+.baseNumber {
+    color: var(--color--text, #2d2d2d);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    background: #d9d9d9;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.accentNumber {
+    color: #f6f6f6;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    background: linear-gradient(32deg, #251657 0%, #710462 100%);
+    border-radius: 3px;
+    padding: 5px 10px;
+}

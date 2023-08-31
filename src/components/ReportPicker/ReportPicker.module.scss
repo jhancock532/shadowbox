@@ -1,0 +1,16 @@
+.container {
+    width: 100%;
+}
+
+.dropdownContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: $grid;
+    gap: $grid;
+
+    @include media-query(medium) {
+        margin-top: $grid * 2;
+        flex-direction: row;
+        gap: $grid * 2;
+    }
+}

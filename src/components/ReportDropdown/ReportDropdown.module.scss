@@ -1,0 +1,16 @@
+.description {
+    color: var(--color--grey-400, hsla(0, 0%, 25%, 1));
+    font-weight: 600;
+    letter-spacing: 0.16px;
+    font-size: 16px;
+}
+
+.select {
+    color: var(--color--text);
+    font-family: var(--font--outfit);
+    border: none;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.22px;
+    padding: 0;
+}

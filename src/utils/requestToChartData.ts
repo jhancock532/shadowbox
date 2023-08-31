@@ -1,7 +1,7 @@
 export function totalRequestsByType(requests: any) {
     const requestTransferTotals: { [x: string]: number } = {};
 
-    for (let j = 0; j < requests.length; j++) {
+    for (let j = 0; j < requests.length; j += 1) {
         const request = requests[j];
 
         if (request.transferSize) {
@@ -23,6 +23,7 @@ export function totalRequestsByType(requests: any) {
         }
     }
 
+    // eslint-disable-next-line guard-for-in
     for (const key in requestTransferTotals) {
         requestTransferTotals[key] = Math.round(
             requestTransferTotals[key] / 1000,

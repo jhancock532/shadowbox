@@ -41,6 +41,8 @@
     "prefer-const": "off",
     "prefer-destructuring": "off",
     "prefer-template": "off",
+    "import/extensions": "off", // Todo: fix
+    "import/no-extraneous-dependencies": "off", // Todo: fix
     "react/button-has-type": "off",
     "react/destructuring-assignment": "off",
     "react/jsx-curly-brace-presence": "off",

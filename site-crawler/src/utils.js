@@ -1,6 +1,24 @@
 import fs from 'fs';
 import https from 'https';
 
+export function getReportID() {
+    return JSON.parse(
+        fs.readFileSync(
+            './storage/key_value_stores/output/reportMetadata.json',
+            'utf8',
+        ),
+    ).reportId;
+}
+
+export function getReportPageData() {
+    return JSON.parse(
+        fs.readFileSync(
+            './storage/key_value_stores/output/results.json',
+            'utf8',
+        ),
+    );
+}
+
 export async function getMetadata(page) {
     return await page.evaluate(() => {
         const metaDescriptionElement = document.querySelector(
@@ -102,11 +120,10 @@ function getAssetTypeFromResource(resource) {
     // Todo: handle YouTube embeds and similar with unique resource types.
     // Instead of resource type, is there more relevant info we can return for visualisation?
 }
-
 function parsePerformanceResources(resources) {
     let output = [];
 
-    for (let i = 0; i < resources.length; i++) {
+    for (let i = 0; i < resources.length; i += 1) {
         let resource = resources[i];
 
         if (
@@ -124,18 +141,6 @@ function parsePerformanceResources(resources) {
     }
 
     return output;
-}
-
-function getCurrentDateFormatted() {
-    const currentDate = new Date();
-
-    const year = currentDate.getFullYear();
-    const month = String(currentDate.getMonth() + 1).padStart(2, '0');
-    const day = String(currentDate.getDate()).padStart(2, '0');
-
-    const formattedDate = `${year}-${month}-${day}`;
-
-    return formattedDate;
 }
 
 export async function getNetworkRequests(page) {
@@ -173,10 +178,10 @@ async function getResponseSize(url) {
 export async function getNetworkRequestSizes(pageData) {
     let requestSizes = {};
 
-    for (let i = 0; i < pageData.length; i++) {
+    for (let i = 0; i < pageData.length; i += 1) {
         const page = pageData[i];
 
-        for (let j = 0; j < page.networkRequests.length; j++) {
+        for (let j = 0; j < page.networkRequests.length; j += 1) {
             const request = page.networkRequests[j];
 
             if (request.transferSize !== 0) {
@@ -184,6 +189,7 @@ export async function getNetworkRequestSizes(pageData) {
             } else {
                 // Update any resources which don't have a valid transfer size with their actual transfer size
                 console.log(`Fetching request size: ${request.url}`);
+                // eslint-disable-next-line no-await-in-loop
                 let transferSize = await getResponseSize(request.url);
                 requestSizes[request.url] = transferSize;
             }
@@ -196,7 +202,7 @@ export async function getNetworkRequestSizes(pageData) {
 function tallyNetworkRequestSizeByType(networkRequests) {
     let output = {};
 
-    for (let i = 0; i < networkRequests.length; i++) {
+    for (let i = 0; i < networkRequests.length; i += 1) {
         const request = networkRequests[i];
 
         if (output[request.resourceType] === undefined) {
@@ -209,19 +215,21 @@ function tallyNetworkRequestSizeByType(networkRequests) {
     return output;
 }
 
-export function saveNetworkRequestsToFileSystem(pageData, requestSizes) {
-    const formattedDate = getCurrentDateFormatted();
-
+export function saveNetworkRequestsToFileSystem(
+    pageData,
+    reportUUID,
+    requestSizes,
+) {
     let largestWebpageTotalNetworkRequestSize = 0;
 
     const websiteNetworkRequestSummary = [];
 
-    for (let i = 0; i < pageData.length; i++) {
+    for (let i = 0; i < pageData.length; i += 1) {
         const page = pageData[i];
 
         const outputRequestData = [];
 
-        for (let j = 0; j < page.networkRequests.length; j++) {
+        for (let j = 0; j < page.networkRequests.length; j += 1) {
             const request = page.networkRequests[j];
 
             if (
@@ -251,13 +259,11 @@ export function saveNetworkRequestsToFileSystem(pageData, requestSizes) {
 
         const requestsJSON = JSON.stringify(outputRequestData, null, 4);
 
-        const title = page.url.replace(/[^a-zA-Z0-9]/g, '_');
-
-        fs.mkdirSync(`../data/${formattedDate}/${title}/`, {
+        fs.mkdirSync(`../data/${reportUUID}/${page.id}/`, {
             recursive: true,
         });
         fs.writeFileSync(
-            `../data/${formattedDate}/${title}/networkRequests.json`,
+            `../data/${reportUUID}/${page.id}/networkRequests.json`,
             requestsJSON + '\n',
         );
     }
@@ -271,12 +277,12 @@ export function saveNetworkRequestsToFileSystem(pageData, requestSizes) {
         4,
     );
 
-    fs.mkdirSync(`../data/${formattedDate}/`, {
+    fs.mkdirSync(`../data/${reportUUID}/`, {
         recursive: true,
     });
 
     fs.writeFileSync(
-        `../data/${formattedDate}/networkRequestsSummary.json`,
+        `../data/${reportUUID}/networkRequestsSummary.json`,
         requestSummaryJSON + '\n',
     );
 }

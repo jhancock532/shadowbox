@@ -10,8 +10,11 @@
   "scripts": {
     "start": "node src/main.js",
     "network-requests": "node src/analysis/processNetworkRequests.js",
+    "report-metadata": "node src/analysis/processReportMetadata.js",
+    "page-metadata": "node src/analysis/processPageMetadata.js",
+    "export": "node src/analysis/processNetworkRequests.js && node src/analysis/processReportMetadata.js && node src/analysis/processPageMetadata.js",
     "test": "echo \"Error: the app has no tests yet.\" && exit 1"
   },
-  "author": "Johnny English",
+  "author": "TBX",
   "license": "ISC"
 }

@@ -1,0 +1,114 @@
+{
+    "largestWebpageTotalNetworkRequestSize": 5321890,
+    "websiteNetworkRequestSummary": [
+        {
+            "url": "https://torchbox.com/",
+            "networkRequestSizeTallies": {
+                "document": 10030,
+                "stylesheet": 21354,
+                "script": 320674,
+                "font": 184786,
+                "image": 95780
+            }
+        },
+        {
+            "url": "https://torchbox.com/wagtail-cms/",
+            "networkRequestSizeTallies": {
+                "document": 12903,
+                "stylesheet": 130052,
+                "image": 229180,
+                "script": 458683,
+                "font": 244027
+            }
+        },
+        {
+            "url": "https://torchbox.com/digital-products/",
+            "networkRequestSizeTallies": {
+                "document": 12347,
+                "stylesheet": 130052,
+                "script": 458683,
+                "image": 280679,
+                "font": 243720
+            }
+        },
+        {
+            "url": "https://torchbox.com/digital-marketing/",
+            "networkRequestSizeTallies": {
+                "document": 12974,
+                "stylesheet": 130052,
+                "script": 458683,
+                "font": 243720,
+                "image": 435323
+            }
+        },
+        {
+            "url": "https://ai.torchbox.com/",
+            "networkRequestSizeTallies": {
+                "document": 6196,
+                "font": 186404,
+                "stylesheet": 8144,
+                "image": 502376,
+                "script": 111919
+            }
+        },
+        {
+            "url": "https://torchbox.com/careers/jobs",
+            "networkRequestSizeTallies": {
+                "document": 10975,
+                "font": 186404,
+                "stylesheet": 10665,
+                "script": 362768
+            }
+        },
+        {
+            "url": "https://torchbox.com/careers",
+            "networkRequestSizeTallies": {
+                "document": 18218,
+                "font": 1200,
+                "stylesheet": 45102,
+                "image": 395912,
+                "script": 560936
+            }
+        },
+        {
+            "url": "https://torchbox.com/events/",
+            "networkRequestSizeTallies": {
+                "document": 9958,
+                "stylesheet": 130052,
+                "script": 458683,
+                "image": 23603,
+                "font": 184000
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/",
+            "networkRequestSizeTallies": {
+                "document": 14676,
+                "stylesheet": 130052,
+                "script": 458683,
+                "font": 184000,
+                "image": 2249214
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/",
+            "networkRequestSizeTallies": {
+                "document": 10610,
+                "stylesheet": 130052,
+                "script": 458683,
+                "image": 40700,
+                "font": 184000
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/",
+            "networkRequestSizeTallies": {
+                "document": 11387,
+                "stylesheet": 130052,
+                "script": 458683,
+                "image": 4537768,
+                "font": 184000
+            }
+        }
+    ]
+}

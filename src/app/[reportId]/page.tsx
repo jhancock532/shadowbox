@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { cookies } from 'next/headers';
 import {
     loadReportNetworkRequestSummary,
     loadListOfReportWebpageMetadata,
@@ -6,7 +7,7 @@ import {
 } from '@/utils/loadFileData';
 
 import styles from '@/styles/Page.module.scss';
-import KeyNumber from '@/components/KeyNumber/KeyNumber';
+import KeyNumber from '@/components/KeyNumber';
 
 export default function Report({ params }: any) {
     const networkRequestSummary = loadReportNetworkRequestSummary(
@@ -15,13 +16,35 @@ export default function Report({ params }: any) {
     const webpageMetadata = loadListOfReportWebpageMetadata(params.reportId);
     const reportMetadata = loadReportMetadata(params.reportId);
 
+    const comparedReportId = cookies().get('compared-report-id')?.value || null;
+
+    let comparedNumberOfWebpages;
+
+    if (comparedReportId) {
+        const comparedWebpageMetadata =
+            loadListOfReportWebpageMetadata(comparedReportId);
+        comparedNumberOfWebpages = comparedWebpageMetadata.length;
+    }
+
     const numberOfWebpages = webpageMetadata.length;
 
     return (
         <main>
             <h1 className={styles.title}>Website overview report</h1>
 
-            <KeyNumber title="Page count" number={numberOfWebpages} />
+            <div className={styles.keyStatisticsContainer}>
+                <KeyNumber
+                    title="Page count"
+                    number={numberOfWebpages}
+                    comparisonNumber={comparedNumberOfWebpages}
+                />
+
+                <KeyNumber
+                    title="Average page weight"
+                    number={numberOfWebpages}
+                    comparisonNumber={comparedNumberOfWebpages}
+                />
+            </div>
 
             <details>
                 <summary>Webpages analysed</summary>

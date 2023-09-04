@@ -1,5 +1,6 @@
 .container {
-    max-width: 200px;
+    width: 300px;
+    flex-shrink: 0;
 }
 
 .title {
@@ -21,6 +22,8 @@
     background: #d9d9d9;
     border-radius: 3px;
     padding: 5px 10px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .accentNumber {
@@ -33,4 +36,5 @@
     background: linear-gradient(32deg, #251657 0%, #710462 100%);
     border-radius: 3px;
     padding: 5px 10px;
+    margin: 0;
 }

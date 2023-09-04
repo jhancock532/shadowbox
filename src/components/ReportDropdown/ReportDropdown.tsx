@@ -40,6 +40,7 @@ const ReportDropdown = ({
                         if (event.target.value === 'None') {
                             setSelected(null);
                             Cookie.remove('compared-report-id');
+                            router.refresh();
                         } else {
                             setSelected(event.target.value);
                             Cookie.set(
@@ -49,12 +50,16 @@ const ReportDropdown = ({
                                     expires: 1000,
                                 },
                             );
+                            // Refresh the current page with the new cookie value
+                            router.refresh();
                         }
                     }}
                 >
-                    <option value="None" key="none">
-                        None
-                    </option>
+                    {!isBaseReport && (
+                        <option value="None" key="none">
+                            None
+                        </option>
+                    )}
                     {options.map((option: any) => {
                         return (
                             <option

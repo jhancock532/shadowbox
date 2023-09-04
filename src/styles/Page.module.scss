@@ -71,3 +71,14 @@
         margin-top: $grid * 4;
     }
 }
+
+.keyStatisticsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: $grid;
+
+    @include media-query(large) {
+        flex-direction: row;
+        gap: $grid * 6;
+    }
+}

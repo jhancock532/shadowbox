@@ -14,18 +14,43 @@ const KeyNumber = ({
     title,
     description,
 }: KeyNumberProps) => {
+    let widthPercentage = 0;
+
+    if (comparisonNumber) {
+        if (comparisonNumber > number) {
+            widthPercentage = (number / comparisonNumber) * 100;
+        } else {
+            widthPercentage = (comparisonNumber / number) * 100;
+        }
+    }
+
     return (
         <div className={styles.container}>
             <p className={styles.title}>{title}</p>
             <p
-                className={
-                    comparisonNumber ? styles.baseNumber : styles.accentNumber
-                }
+                className={styles.baseNumber}
+                style={{
+                    width: comparisonNumber
+                        ? comparisonNumber > number
+                            ? `${widthPercentage}%`
+                            : '100%'
+                        : '100%',
+                }}
             >
                 {number}
             </p>
             {comparisonNumber && (
-                <p className={styles.accentNumber}>{comparisonNumber}</p>
+                <p
+                    className={styles.accentNumber}
+                    style={{
+                        width:
+                            comparisonNumber < number
+                                ? `${widthPercentage}%`
+                                : '100%',
+                    }}
+                >
+                    {comparisonNumber}
+                </p>
             )}
             <p className={styles.description}>{description}</p>
         </div>

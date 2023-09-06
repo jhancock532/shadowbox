@@ -7,12 +7,12 @@
     {
         "url": "https://torchbox.com/static/css/main.d7a9d94bd09b.css",
         "resourceType": "stylesheet",
-        "transferSize": 130052
+        "transferSize": 32235
     },
     {
         "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
         "resourceType": "script",
-        "transferSize": 250734
+        "transferSize": 250581
     },
     {
         "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
@@ -72,22 +72,22 @@
     {
         "url": "https://media.torchbox.com/images/Greenpeace-logo.width-400.png",
         "resourceType": "image",
-        "transferSize": 22754
+        "transferSize": 18360
     },
     {
         "url": "https://media.torchbox.com/images/DEC_logo.width-400.png",
         "resourceType": "image",
-        "transferSize": 11052
+        "transferSize": 9265
     },
     {
         "url": "https://media.torchbox.com/images/oxfam_logo.width-400.png",
         "resourceType": "image",
-        "transferSize": 7465
+        "transferSize": 5871
     },
     {
         "url": "https://media.torchbox.com/images/Crisis-logo.width-400.jpg",
         "resourceType": "image",
-        "transferSize": 13521
+        "transferSize": 11770
     },
     {
         "url": "https://media.torchbox.com/images/Mind_logo_on_6x4_background_OIoVgqp.width-400.png",
@@ -102,7 +102,7 @@
     {
         "url": "https://media.torchbox.com/images/client-action-for-children.width-400.png",
         "resourceType": "image",
-        "transferSize": 24296
+        "transferSize": 19357
     },
     {
         "url": "https://media.torchbox.com/images/Girlguiding_logo_on_6x4_background_9DTxHJu.width-400.png",
@@ -112,7 +112,7 @@
     {
         "url": "https://media.torchbox.com/images/iruk-logo-400px.width-400.png",
         "resourceType": "image",
-        "transferSize": 54178
+        "transferSize": 61321
     },
     {
         "url": "https://media.torchbox.com/images/shelterbox-logo.width-400.png",
@@ -127,7 +127,7 @@
     {
         "url": "https://media.torchbox.com/images/bma_dual_brandmark_grey_dark_rgb-copy-1971x576.width-400.png",
         "resourceType": "image",
-        "transferSize": 21249
+        "transferSize": 15347
     },
     {
         "url": "https://media.torchbox.com/images/MSS-logo-orange.width-400.jpg",

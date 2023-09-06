@@ -1,5 +1,6 @@
 import { Outfit } from '@next/font/google';
 import styles from '@/styles/Page.module.scss';
+import '@/styles/globals.scss';
 
 // Optimize font loading with the next/font package
 // https://nextjs.org/docs/app/building-your-application/optimizing/fonts

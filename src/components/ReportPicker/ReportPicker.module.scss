@@ -11,6 +11,6 @@
     @include media-query(medium) {
         margin-top: $grid * 2;
         flex-direction: row;
-        gap: $grid * 2;
+        gap: $grid * 3;
     }
 }

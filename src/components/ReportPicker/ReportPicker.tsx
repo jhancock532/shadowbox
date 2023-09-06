@@ -24,7 +24,7 @@ export default function ReportPicker({
         <div className={styles.container}>
             <div className={styles.dropdownContainer}>
                 <ReportDropdown
-                    description="Select report"
+                    title="Select report"
                     options={reportList}
                     selected={baseReportId}
                     setSelected={setBaseReportId}
@@ -32,7 +32,7 @@ export default function ReportPicker({
                 />
                 {baseReportId !== null && (
                     <ReportDropdown
-                        description="Compare with"
+                        title="Compare with"
                         options={reportList}
                         selected={comparedReportId}
                         setSelected={setComparedReportId}

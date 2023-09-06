@@ -222,6 +222,7 @@ export function saveNetworkRequestsToFileSystem(
 ) {
     let largestWebpageTotalNetworkRequestSize = 0;
 
+    const totalPageWeights = [];
     const websiteNetworkRequestSummary = [];
 
     for (let i = 0; i < pageData.length; i += 1) {
@@ -257,6 +258,8 @@ export function saveNetworkRequestsToFileSystem(
             largestWebpageTotalNetworkRequestSize = totalNetworkRequestSize;
         }
 
+        totalPageWeights.push(totalNetworkRequestSize);
+
         const requestsJSON = JSON.stringify(outputRequestData, null, 4);
 
         fs.mkdirSync(`../data/${reportUUID}/${page.id}/`, {
@@ -268,8 +271,17 @@ export function saveNetworkRequestsToFileSystem(
         );
     }
 
+    const averagePageWeight =
+        totalPageWeights.reduce((total, weight) => total + weight, 0) /
+        totalPageWeights.length;
+
+    const medianPageWeight =
+        totalPageWeights.sort()[Math.floor(totalPageWeights.length / 2)];
+
     const requestSummaryJSON = JSON.stringify(
         {
+            averagePageWeight,
+            medianPageWeight,
             largestWebpageTotalNetworkRequestSize,
             websiteNetworkRequestSummary,
         },

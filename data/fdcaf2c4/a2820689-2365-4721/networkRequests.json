@@ -7,17 +7,17 @@
     {
         "url": "https://torchbox.com/static/css/main.d7a9d94bd09b.css",
         "resourceType": "stylesheet",
-        "transferSize": 130052
+        "transferSize": 32235
     },
     {
         "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
         "resourceType": "script",
-        "transferSize": 250734
+        "transferSize": 250581
     },
     {
         "url": "https://media.torchbox.com/images/IMG_1714.2e16d0ba.fill-746x500.jpg",
         "resourceType": "image",
-        "transferSize": 75864
+        "transferSize": 68709
     },
     {
         "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
@@ -67,7 +67,7 @@
     {
         "url": "https://media.torchbox.com/images/client-oxfam.width-400.png",
         "resourceType": "image",
-        "transferSize": 6971
+        "transferSize": 9326
     },
     {
         "url": "https://media.torchbox.com/images/client-tate.width-400.png",
@@ -82,7 +82,7 @@
     {
         "url": "https://media.torchbox.com/images/client-sue-ryder.width-400.png",
         "resourceType": "image",
-        "transferSize": 22449
+        "transferSize": 18010
     },
     {
         "url": "https://media.torchbox.com/images/client-RCA.width-400.png",
@@ -97,7 +97,7 @@
     {
         "url": "https://media.torchbox.com/images/client-wharton.width-400.png",
         "resourceType": "image",
-        "transferSize": 34619
+        "transferSize": 30221
     },
     {
         "url": "https://media.torchbox.com/images/client-KCL.width-400.png",

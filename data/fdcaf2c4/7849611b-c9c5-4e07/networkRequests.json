@@ -7,12 +7,12 @@
     {
         "url": "https://torchbox.com/static/css/main.d7a9d94bd09b.css",
         "resourceType": "stylesheet",
-        "transferSize": 130052
+        "transferSize": 32235
     },
     {
         "url": "https://media.torchbox.com/images/IMG_1711.2e16d0ba.fill-746x500.jpg",
         "resourceType": "image",
-        "transferSize": 48973
+        "transferSize": 53983
     },
     {
         "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
@@ -27,7 +27,7 @@
     {
         "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
         "resourceType": "script",
-        "transferSize": 250734
+        "transferSize": 250581
     },
     {
         "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
@@ -82,27 +82,27 @@
     {
         "url": "https://media.torchbox.com/images/wharton_interactive.max-800x600.width-400.png",
         "resourceType": "image",
-        "transferSize": 4350
+        "transferSize": 11769
     },
     {
         "url": "https://media.torchbox.com/images/Blood-Cancer-UK-440.width-400.jpg",
         "resourceType": "image",
-        "transferSize": 11429
+        "transferSize": 9427
     },
     {
         "url": "https://media.torchbox.com/images/dit.width-400.png",
         "resourceType": "image",
-        "transferSize": 24534
+        "transferSize": 21531
     },
     {
         "url": "https://media.torchbox.com/images/client-gosh.width-400.png",
         "resourceType": "image",
-        "transferSize": 26377
+        "transferSize": 19902
     },
     {
         "url": "https://media.torchbox.com/images/Google_logo_on_6x4_XOYGMQi.width-400.png",
         "resourceType": "image",
-        "transferSize": 18126
+        "transferSize": 22436
     },
     {
         "url": "https://media.torchbox.com/images/client-RNIB.width-400.png",

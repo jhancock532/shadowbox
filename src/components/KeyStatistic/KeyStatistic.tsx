@@ -1,19 +1,21 @@
 import React from 'react';
-import styles from './KeyNumber.module.scss';
+import styles from './KeyStatistic.module.scss';
 
-type KeyNumberProps = {
+type KeyStatisticProps = {
     number: number;
     comparisonNumber?: number;
     title: string;
     description?: string;
+    units?: string;
 };
 
-const KeyNumber = ({
+const KeyStatistic = ({
     number,
     comparisonNumber,
     title,
     description,
-}: KeyNumberProps) => {
+    units,
+}: KeyStatisticProps) => {
     let widthPercentage = 0;
 
     if (comparisonNumber) {
@@ -38,6 +40,7 @@ const KeyNumber = ({
                 }}
             >
                 {number}
+                {units || ''}
             </p>
             {comparisonNumber && (
                 <p
@@ -50,6 +53,7 @@ const KeyNumber = ({
                     }}
                 >
                     {comparisonNumber}
+                    {units || ''}
                 </p>
             )}
             <p className={styles.description}>{description}</p>
@@ -57,4 +61,4 @@ const KeyNumber = ({
     );
 };
 
-export default KeyNumber;
+export default KeyStatistic;

@@ -1,0 +1,11 @@
+.keyStatisticsContainer {
+    margin-top: $grid * 2;
+    display: flex;
+    flex-direction: column;
+    gap: $grid;
+
+    @include media-query(large) {
+        flex-direction: row;
+        gap: $grid * 5;
+    }
+}

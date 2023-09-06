@@ -1,0 +1,28 @@
+.title {
+    color: var(--color--text);
+    margin: $grid * 4 0 $grid * 2 0;
+    line-height: 1.3;
+
+    @include media-query(large) {
+        max-width: 80vw;
+    }
+
+    &__link {
+        word-wrap: break-word;
+    }
+
+    &__icon {
+        height: 0.8em;
+        width: 0.8em;
+        margin-top: 8px;
+
+        @include media-query(large) {
+            margin-top: 10px;
+        }
+    }
+}
+
+.networkRequestsList {
+    margin: 0;
+    list-style: number;
+}

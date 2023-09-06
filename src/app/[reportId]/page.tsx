@@ -5,9 +5,10 @@ import {
     loadListOfReportWebpageMetadata,
     loadReportMetadata,
 } from '@/utils/loadFileData';
+import KeyStatistic from '@/components/KeyStatistic';
 
-import styles from '@/styles/Page.module.scss';
-import KeyNumber from '@/components/KeyNumber';
+import pageStyles from '@/styles/Page.module.scss';
+import reportPageStyles from './ReportPage.module.scss';
 
 export default function Report({ params }: any) {
     const networkRequestSummary = loadReportNetworkRequestSummary(
@@ -19,30 +20,43 @@ export default function Report({ params }: any) {
     const comparedReportId = cookies().get('compared-report-id')?.value || null;
 
     let comparedNumberOfWebpages;
+    let comparedMedianPageWeight;
 
     if (comparedReportId) {
         const comparedWebpageMetadata =
             loadListOfReportWebpageMetadata(comparedReportId);
         comparedNumberOfWebpages = comparedWebpageMetadata.length;
+
+        const comparedNetworkRequestSummary =
+            loadReportNetworkRequestSummary(comparedReportId);
+        comparedMedianPageWeight =
+            comparedNetworkRequestSummary.medianPageWeight;
     }
 
     const numberOfWebpages = webpageMetadata.length;
 
     return (
         <main>
-            <h1 className={styles.title}>Website overview report</h1>
+            <h1 className={pageStyles.title}>
+                Website overview{comparedReportId ? ' comparison' : ''}
+            </h1>
 
-            <div className={styles.keyStatisticsContainer}>
-                <KeyNumber
+            <div className={reportPageStyles.keyStatisticsContainer}>
+                <KeyStatistic
                     title="Page count"
                     number={numberOfWebpages}
                     comparisonNumber={comparedNumberOfWebpages}
                 />
 
-                <KeyNumber
-                    title="Average page weight"
-                    number={numberOfWebpages}
-                    comparisonNumber={comparedNumberOfWebpages}
+                <KeyStatistic
+                    title="Median page weight"
+                    number={Math.floor(
+                        networkRequestSummary.medianPageWeight / 1000,
+                    )}
+                    comparisonNumber={Math.floor(
+                        comparedMedianPageWeight / 1000,
+                    )}
+                    units=" kB"
                 />
             </div>
 
@@ -75,6 +89,10 @@ export default function Report({ params }: any) {
 
                 {JSON.stringify(reportMetadata)}
             </details>
+
+            <br />
+            <br />
+            <br />
         </main>
     );
 }

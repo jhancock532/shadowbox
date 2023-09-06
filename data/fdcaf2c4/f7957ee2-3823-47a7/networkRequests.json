@@ -7,7 +7,7 @@
     {
         "url": "https://torchbox.com/static/css/main.d7a9d94bd09b.css",
         "resourceType": "stylesheet",
-        "transferSize": 130052
+        "transferSize": 32235
     },
     {
         "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
@@ -22,7 +22,7 @@
     {
         "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
         "resourceType": "script",
-        "transferSize": 250734
+        "transferSize": 250581
     },
     {
         "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
@@ -92,7 +92,7 @@
     {
         "url": "https://media.torchbox.com/images/Ania_web_pic.2e16d0ba.fill-550x550.jpg",
         "resourceType": "image",
-        "transferSize": 62261
+        "transferSize": 69260
     },
     {
         "url": "https://media.torchbox.com/images/Anna_Grieve.2e16d0ba.fill-550x550.jpg",
@@ -107,7 +107,7 @@
     {
         "url": "https://media.torchbox.com/images/20210412_081652.2e16d0ba.fill-550x550.jpg",
         "resourceType": "image",
-        "transferSize": 71737
+        "transferSize": 65387
     },
     {
         "url": "https://media.torchbox.com/images/tbx_team-ben_1.2e16d0ba.fill-550x550.jpg",
@@ -137,7 +137,7 @@
     {
         "url": "https://media.torchbox.com/images/IMG_6303.2e16d0ba.fill-550x550.jpg",
         "resourceType": "image",
-        "transferSize": 43264
+        "transferSize": 38827
     },
     {
         "url": "https://media.torchbox.com/images/E2525D02-500C-4C86-8FE3-F07D65E3B5.2e16d0ba.fill-550x550.jpg",

@@ -42,7 +42,7 @@ export const JourneyComparison = ({ journeys }: { journeys: any }) => {
             id={`leftJourneyIndex`}
             className={styles.journeySelect}
             onChange={(event) => {
-                setLeftJourneyIndex(parseInt(event.target.value));
+                setLeftJourneyIndex(parseInt(event.target.value, 10));
             }}
         >
             {journeys.map((journey: any, index: number) => (
@@ -62,7 +62,7 @@ export const JourneyComparison = ({ journeys }: { journeys: any }) => {
             id={`rightJourneyIndex`}
             className={styles.journeySelect}
             onChange={(event) => {
-                setRightJourneyIndex(parseInt(event.target.value));
+                setRightJourneyIndex(parseInt(event.target.value, 10));
             }}
         >
             {journeys.map((journey: any, index: number) => (

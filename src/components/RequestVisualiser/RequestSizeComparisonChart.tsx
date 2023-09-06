@@ -25,12 +25,12 @@ function generateWebpageRequestComparisonChartData(
 ) {
     const data = [];
 
-    for (let i = 0; i < webpages.length; i++) {
+    for (let i = 0; i < webpages.length; i += 1) {
         const requests = webpages[i].requests;
 
         const requestTransferTotals: { [x: string]: number } = {};
 
-        for (let j = 0; j < requests.length; j++) {
+        for (let j = 0; j < requests.length; j += 1) {
             const request = requests[j];
 
             if (request.transferSize) {
@@ -58,6 +58,7 @@ function generateWebpageRequestComparisonChartData(
             name: axisLabel,
         };
 
+        // eslint-disable-next-line guard-for-in
         for (const key in requestTransferTotals) {
             requestTypes[key] = Math.round(requestTransferTotals[key] / 1000);
         }
@@ -124,12 +125,12 @@ function generateWebpageRequestComparisonChartData(
 function findTotalWebpageSizeStatistics(webpages: any[]) {
     const totalWebpageSizes = [];
 
-    for (let i = 0; i < webpages.length; i++) {
+    for (let i = 0; i < webpages.length; i += 1) {
         const requests = webpages[i].requests;
 
         let requestTransferTotal = 0;
 
-        for (let j = 0; j < requests.length; j++) {
+        for (let j = 0; j < requests.length; j += 1) {
             const request = requests[j];
 
             if (request.transferSize) {

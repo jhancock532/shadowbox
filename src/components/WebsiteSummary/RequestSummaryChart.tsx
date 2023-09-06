@@ -17,7 +17,7 @@ type RequestType = {
 function generateChartDataByResourceType(requests: RequestType[]) {
     const requestTransferSizes: { [x: string]: number } = {};
 
-    for (let i = 0; i < requests.length; i++) {
+    for (let i = 0; i < requests.length; i += 1) {
         const request = requests[i];
 
         if (Object.keys(requestTransferSizes).includes(request.resourceType)) {
@@ -29,6 +29,7 @@ function generateChartDataByResourceType(requests: RequestType[]) {
 
     const data = [];
 
+    // eslint-disable-next-line guard-for-in
     for (const key in requestTransferSizes) {
         data.push({
             name: key,

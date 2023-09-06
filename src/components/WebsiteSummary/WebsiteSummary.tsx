@@ -1,5 +1,5 @@
-import styles from './WebsiteSummary.module.css';
 import dynamic from 'next/dynamic';
+import styles from './WebsiteSummary.module.css';
 
 type WebsiteSummaryProps = {
     webpage: any;
@@ -14,7 +14,7 @@ const RequestSummaryChart = dynamic(
 const WebsiteSummary = ({ webpage }: WebsiteSummaryProps) => {
     let totalPageSize = 0;
 
-    for (let i = 0; i < webpage.requests.length; i++) {
+    for (let i = 0; i < webpage.requests.length; i += 1) {
         totalPageSize += webpage.requests[i].transferSize;
     }
 

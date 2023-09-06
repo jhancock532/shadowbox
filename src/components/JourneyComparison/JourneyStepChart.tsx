@@ -18,6 +18,8 @@ function chartDataByIndividualRequest(requests: any) {
             size: Math.round(resource.transferSize / 1000),
             fill: BAR_COLORS[resource.resourceType],
         });
+
+        return undefined;
     });
 
     return data;
@@ -29,6 +31,7 @@ function chartDataByRequestType(requests: any) {
 
     const data: any[] | undefined = [];
 
+    // eslint-disable-next-line guard-for-in
     for (const key in totalRequestSizesByType) {
         data.push({
             name: key,

@@ -12,6 +12,16 @@ const nextConfig = {
         // Todo: this prepend trick isn't working in _mixins.scss...
         prependData: `@use "sass:math"; @use "variables" as *; @use "mixins" as *;`,
     },
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'i.ytimg.com',
+                port: '',
+                pathname: '/**',
+            },
+        ],
+    },
 };
 
 module.exports = nextConfig;

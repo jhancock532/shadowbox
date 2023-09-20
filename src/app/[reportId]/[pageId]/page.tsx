@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
     loadWebpageMetadata,
     loadWebpageNetworkRequests,
@@ -29,14 +30,46 @@ export default function ReportPageDetailsView({ params }: any) {
                 </a>
             </h1>
 
+            {metadata.youtubeEmbeds && metadata.youtubeEmbeds.length > 0 && (
+                <>
+                    <h2>Sustainability</h2>
+                    <p>
+                        <strong>{metadata.youtubeEmbeds.length}</strong> youtube
+                        embed
+                        {metadata.youtubeEmbeds.length > 1
+                            ? 's were'
+                            : ' was'}{' '}
+                        found on this page. Consider replacing these with lazy
+                        loaded YouTube videos.
+                    </p>
+                    <div className={pageDetailsStyles.youtubeEmbedList}>
+                        {metadata.youtubeEmbeds.map(
+                            (embed: any, index: number) => {
+                                return (
+                                    <div key={index}>
+                                        <Image
+                                            width="266"
+                                            height="150"
+                                            src={embed.thumbnail}
+                                            alt={embed.title}
+                                        />
+                                        <p>{embed.title}</p>
+                                    </div>
+                                );
+                            },
+                        )}
+                    </div>
+                </>
+            )}
+
             <h2>Network requests</h2>
 
             <ol className={pageDetailsStyles.networkRequestsList}>
                 {networkRequests
                     .sort((a: any, b: any) => b.transferSize - a.transferSize)
-                    .map((request: any) => {
+                    .map((request: any, index: number) => {
                         return (
-                            <li key={request.url}>
+                            <li key={index}>
                                 <Link
                                     className={pageDetailsStyles.link}
                                     href={request.url}

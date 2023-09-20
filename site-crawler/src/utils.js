@@ -68,8 +68,30 @@ export async function getWithinSiteLinks(page) {
     return await page.$$eval('a', (as) => {
         as = as.filter((a) => {
             if (a.href.match(/http(s)?:\/\/[a-z]*.?torchbox.com/g)) return true;
+            return false;
         });
-        return [...new Set(as.map((a) => a.href))];
+        return as.map((a) => a.href);
+    });
+}
+
+export async function getYouTubeEmbeds(page) {
+    return await page.$$eval('iframe', (iframes) => {
+        iframes = iframes.filter((iframe) => {
+            if (iframe.src.match(/http(s)?:\/\/www.youtube(-nocookie)?.com/g))
+                return true;
+            return false;
+        });
+        return iframes.map((iframe) => {
+            return {
+                src: iframe.src,
+                title: iframe.title,
+                // get video ID from URL
+                thumbnail: `https://i.ytimg.com/vi/${iframe.src
+                    .split('?')[0]
+                    .split('/')
+                    .slice(-1)}/mqdefault.jpg`,
+            };
+        });
     });
 }
 

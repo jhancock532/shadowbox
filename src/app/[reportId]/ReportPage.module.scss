@@ -9,3 +9,15 @@
         gap: $grid * 5;
     }
 }
+
+.title {
+    color: var(--color--text, #2d2d2d);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    margin: 0;
+    margin-bottom: $grid + 5px;
+    margin-top: $grid;
+}

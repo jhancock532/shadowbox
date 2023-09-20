@@ -8,6 +8,7 @@ import {
 import KeyStatistic from '@/components/KeyStatistic';
 
 import pageStyles from '@/styles/Page.module.scss';
+import NetworkRequestSummaryChart from '@/components/NetworkRequestSummaryChart';
 import reportPageStyles from './ReportPage.module.scss';
 
 export default function Report({ params }: any) {
@@ -21,13 +22,14 @@ export default function Report({ params }: any) {
 
     let comparedNumberOfWebpages;
     let comparedMedianPageWeight;
+    let comparedNetworkRequestSummary;
 
     if (comparedReportId) {
         const comparedWebpageMetadata =
             loadListOfReportWebpageMetadata(comparedReportId);
         comparedNumberOfWebpages = comparedWebpageMetadata.length;
 
-        const comparedNetworkRequestSummary =
+        comparedNetworkRequestSummary =
             loadReportNetworkRequestSummary(comparedReportId);
         comparedMedianPageWeight =
             comparedNetworkRequestSummary.medianPageWeight;
@@ -60,13 +62,23 @@ export default function Report({ params }: any) {
                 />
             </div>
 
-            <details>
-                <summary>Webpages analysed</summary>
+            <p className={reportPageStyles.title}>
+                Largest webpages by resource size
+            </p>
 
+            <NetworkRequestSummaryChart
+                data={networkRequestSummary}
+                comparedData={comparedNetworkRequestSummary}
+            />
+
+            <br />
+
+            <details>
+                <summary>Report page urls</summary>
                 <ul>
-                    {webpageMetadata.map((webpage: any) => {
+                    {webpageMetadata.map((webpage: any, index: number) => {
                         return (
-                            <li key={webpage.webpageID}>
+                            <li key={index}>
                                 <Link
                                     href={`/${params.reportId}/${webpage.id}`}
                                 >
@@ -78,11 +90,7 @@ export default function Report({ params }: any) {
                 </ul>
             </details>
 
-            <details>
-                <summary>Network request summary </summary>
-
-                {JSON.stringify(networkRequestSummary)}
-            </details>
+            <br />
 
             <details>
                 <summary>Report metadata</summary>

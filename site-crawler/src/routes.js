@@ -4,6 +4,7 @@ import {
     getMetadata,
     getNetworkRequests,
     getWithinSiteLinks,
+    getYouTubeEmbeds,
 } from './utils.js';
 
 export const router = createPuppeteerRouter();
@@ -21,6 +22,8 @@ router.addDefaultHandler(async ({ enqueueLinks, request, page, log }) => {
 
     const networkRequests = await getNetworkRequests(page);
 
+    const youtubeEmbeds = await getYouTubeEmbeds(page);
+
     log.info(`${title}`, { url: request.loadedUrl });
 
     await Dataset.pushData({
@@ -30,5 +33,6 @@ router.addDefaultHandler(async ({ enqueueLinks, request, page, log }) => {
         metadata,
         links,
         networkRequests,
+        youtubeEmbeds,
     });
 });

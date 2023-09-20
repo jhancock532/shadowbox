@@ -1,0 +1,36 @@
+{
+    "averagePageWeight": 714493,
+    "medianPageWeight": 645013,
+    "largestWebpageTotalNetworkRequestSize": 866217,
+    "websiteNetworkRequestSummary": [
+        {
+            "url": "https://torchbox.com/careers/employee-owned-trust",
+            "networkRequestSizeTallies": {
+                "document": 94472,
+                "font": 186404,
+                "stylesheet": 9253,
+                "script": 354884
+            }
+        },
+        {
+            "url": "https://torchbox.com/digital-products/",
+            "networkRequestSizeTallies": {
+                "document": 12233,
+                "stylesheet": 21313,
+                "image": 267155,
+                "script": 320701,
+                "font": 244815
+            }
+        },
+        {
+            "url": "https://torchbox.com/",
+            "networkRequestSizeTallies": {
+                "document": 9668,
+                "stylesheet": 21313,
+                "script": 320701,
+                "font": 184787,
+                "image": 95780
+            }
+        }
+    ]
+}

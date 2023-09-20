@@ -14,6 +14,7 @@ for (let i = 0; i < pageData.length; i += 1) {
             title: page.title,
             metadata: page.metadata,
             pageLinks: page.links,
+            youtubeEmbeds: page.youtubeEmbeds,
         },
         null,
         4,

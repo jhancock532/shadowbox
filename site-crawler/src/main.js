@@ -7,7 +7,7 @@ import { router } from './routes.js';
 
 // For more information, see https://crawlee.dev/
 
-const startUrls = ['https://torchbox.com/'];
+const startUrls = ['https://torchbox.com/careers/employee-owned-trust/'];
 
 let failedURLs = [];
 
@@ -17,7 +17,7 @@ const crawler = new PuppeteerCrawler({
             headless: true,
         },
     },
-    maxRequestsPerCrawl: 10,
+    maxRequestsPerCrawl: 2,
     requestHandlerTimeoutSecs: 10,
     requestHandler: router,
     failedRequestHandler: ({ request }, error) => {

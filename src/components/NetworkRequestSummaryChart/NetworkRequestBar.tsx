@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './NetworkRequestSummaryChart.module.scss';
+import Pattern from '../Pattern';
 
 const mapRequestTypeToBackground = (
     requestType: string,
@@ -40,6 +41,40 @@ const mapRequestTypeToBackground = (
     }
 };
 
+const mapRequestTypeToPattern = (requestType: string) => {
+    switch (requestType) {
+        case 'document':
+            return 'ExRegular';
+        case 'font':
+            return 'CheckerRegular';
+        case 'image':
+            return 'DiagonalARegular';
+        case 'script':
+            return 'DiagonalBLoose';
+        case 'stylesheet':
+            return 'CheckerDense';
+        default:
+            return 'ExRegular';
+    }
+};
+
+const mapRequestTypeToPatternColor = (requestType: string) => {
+    switch (requestType) {
+        case 'document':
+            return '#ddd';
+        case 'font':
+            return '#ddd';
+        case 'image':
+            return '#ddd';
+        case 'script':
+            return '#555';
+        case 'stylesheet':
+            return '#555';
+        default:
+            return '#555';
+    }
+};
+
 // Todo: return as array of objects
 const orderNetworkRequestSizeTallies = (networkRequestSizeTallies: any) => {
     const orderedNetworkRequestSizeTallies: any = {};
@@ -54,7 +89,14 @@ const orderNetworkRequestSizeTallies = (networkRequestSizeTallies: any) => {
     return orderedNetworkRequestSizeTallies;
 };
 
-const BarSegment: React.FC<any> = ({ value, totalValue, color, text }) => {
+const BarSegment: React.FC<any> = ({
+    value,
+    totalValue,
+    color,
+    text,
+    pattern,
+    patternColor,
+}) => {
     const [isLabelShown, setIsLabelShown] = React.useState(false);
 
     const segmentWidth = `${(value / totalValue) * 100}%`;
@@ -69,6 +111,11 @@ const BarSegment: React.FC<any> = ({ value, totalValue, color, text }) => {
             onMouseEnter={() => setIsLabelShown(true)}
             onMouseLeave={() => setIsLabelShown(false)}
         >
+            <Pattern
+                pattern={pattern}
+                color={patternColor}
+                className={styles.segment__pattern}
+            />
             {isLabelShown ? (
                 <div className={styles.segment__label}>
                     <p className={styles.segment__text}>{text}</p>
@@ -126,6 +173,12 @@ const Bar: React.FC<any> = ({
                                     colorTheme,
                                 )}
                                 text={segmentText}
+                                pattern={mapRequestTypeToPattern(
+                                    networkRequestSizeTally,
+                                )}
+                                patternColor={mapRequestTypeToPatternColor(
+                                    networkRequestSizeTally,
+                                )}
                             />
                         );
                     },

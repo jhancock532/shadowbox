@@ -1,3 +1,4 @@
+import React from 'react';
 import Link from 'next/link';
 import { cookies } from 'next/headers';
 import {
@@ -23,16 +24,29 @@ export default function Report({ params }: any) {
     let comparedNumberOfWebpages;
     let comparedMedianPageWeight;
     let comparedNetworkRequestSummary;
+    let comparedReportMetadata;
+
+    let linkMapping = {
+        baseReportId: params.reportId,
+        baseLinks: reportMetadata.urlToIdMapping || [],
+        comparedReportId: comparedReportId,
+        comparedLinks: [],
+    };
 
     if (comparedReportId) {
         const comparedWebpageMetadata =
             loadListOfReportWebpageMetadata(comparedReportId);
         comparedNumberOfWebpages = comparedWebpageMetadata.length;
 
+        comparedReportMetadata = loadReportMetadata(comparedReportId);
+
         comparedNetworkRequestSummary =
             loadReportNetworkRequestSummary(comparedReportId);
         comparedMedianPageWeight =
             comparedNetworkRequestSummary.medianPageWeight;
+
+        linkMapping.comparedReportId = comparedReportId;
+        linkMapping.comparedLinks = comparedReportMetadata.urlToIdMapping;
     }
 
     const numberOfWebpages = webpageMetadata.length;
@@ -69,6 +83,9 @@ export default function Report({ params }: any) {
             <NetworkRequestSummaryChart
                 data={networkRequestSummary}
                 comparedData={comparedNetworkRequestSummary}
+                linkMapping={linkMapping}
+                reportId={params.reportId}
+                comparedReportId={comparedReportId}
             />
 
             <br />

@@ -129,6 +129,7 @@ const Bar: React.FC<any> = ({
     maxPossibleValue,
     unsortedNetworkRequestTallies,
     colorTheme,
+    link,
 }) => {
     // Find the total size of the webpage resources
     const webpageTotalSize = Object.values(
@@ -145,7 +146,8 @@ const Bar: React.FC<any> = ({
 
     return (
         <div className={styles.bar__container}>
-            <div
+            <Link
+                href={link}
                 className={styles.bar}
                 style={{
                     width: barWidth,
@@ -183,7 +185,7 @@ const Bar: React.FC<any> = ({
                         );
                     },
                 )}
-            </div>
+            </Link>
             <p className={styles.bar__label}>{barLabel}</p>
         </div>
     );
@@ -207,6 +209,7 @@ export const NetworkRequestBar: React.FC<any> = ({
                     networkRequestData.webpage.networkRequestSizeTallies
                 }
                 colorTheme={'secondary'}
+                link={networkRequestData.webpageReportUrl}
             />
         );
         url = networkRequestData.webpage.url;
@@ -220,6 +223,7 @@ export const NetworkRequestBar: React.FC<any> = ({
                     networkRequestData.comparedWebpage.networkRequestSizeTallies
                 }
                 colorTheme="primary"
+                link={networkRequestData.comparedWebpageReportUrl}
             />
         );
         url = networkRequestData.comparedWebpage.url;

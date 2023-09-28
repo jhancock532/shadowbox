@@ -1,11 +1,14 @@
 import React from 'react';
 
-import styles from './NetworkRequestSummaryChart.module.scss';
 import { NetworkRequestBar } from './NetworkRequestBar';
+import styles from './NetworkRequestSummaryChart.module.scss';
 
 type NetworkRequestSummaryChartProps = {
     data: any;
     comparedData?: any;
+    linkMapping: any;
+    reportId: string;
+    comparedReportId?: string | null;
 };
 
 const sumNetworkRequestSizeTallies = (
@@ -17,13 +20,28 @@ const sumNetworkRequestSizeTallies = (
     ) as number;
 };
 
-const processNetworkRequestData = (data: any, comparedData: any) => {
+const processNetworkRequestData = (
+    data: any,
+    comparedData: any,
+    linkMapping: any,
+    reportId: string,
+    comparedReportId?: string | null,
+) => {
     // Pair the data of the two reports together
     const pairedWebpageData = data.websiteNetworkRequestSummary.map(
         (webpage: any) => {
             if (!comparedData) {
                 return {
                     webpage,
+                    webpageReportUrl: `${reportId}/${
+                        Object.values(
+                            linkMapping.baseLinks.find((linkMapping: any) => {
+                                return (
+                                    Object.keys(linkMapping)[0] === webpage.url
+                                );
+                            }),
+                        )[0]
+                    }`,
                     comparedWebpage: null,
                 };
             }
@@ -37,7 +55,24 @@ const processNetworkRequestData = (data: any, comparedData: any) => {
 
             return {
                 webpage,
+                webpageReportUrl: `${reportId}/${
+                    Object.values(
+                        linkMapping.baseLinks.find((linkMapping: any) => {
+                            return Object.keys(linkMapping)[0] === webpage.url;
+                        }),
+                    )[0]
+                }`,
                 comparedWebpage: comparedWebpage || null,
+                comparedWebpageReportUrl: `${comparedReportId}/${
+                    Object.values(
+                        linkMapping.comparedLinks.find((linkMapping: any) => {
+                            return (
+                                Object.keys(linkMapping)[0] ===
+                                comparedWebpage.url
+                            );
+                        }),
+                    )[0]
+                }`,
             };
         },
     );
@@ -58,6 +93,14 @@ const processNetworkRequestData = (data: any, comparedData: any) => {
                 return {
                     webpage: null,
                     comparedWebpage,
+                    comparedWebpageReportUrl: `${comparedReportId}/${linkMapping.comparedLinks.find(
+                        (linkMapping: any) => {
+                            return (
+                                Object.keys(linkMapping)[0] ===
+                                comparedWebpage.url
+                            );
+                        },
+                    )}`,
                 };
             });
 
@@ -107,24 +150,33 @@ const processNetworkRequestData = (data: any, comparedData: any) => {
 const NetworkRequestSummaryChart: React.FC<NetworkRequestSummaryChartProps> = ({
     data,
     comparedData,
+    linkMapping,
+    reportId,
+    comparedReportId,
 }) => {
     const largestOverallWebpageTotalNetworkRequestSize = Math.max(
         data.largestWebpageTotalNetworkRequestSize,
         comparedData?.largestWebpageTotalNetworkRequestSize || null,
     );
 
-    const sortedWebpageData = processNetworkRequestData(data, comparedData);
+    const sortedWebpageData = processNetworkRequestData(
+        data,
+        comparedData,
+        linkMapping,
+        reportId,
+        comparedReportId,
+    );
 
     return (
         <div className={styles.container}>
-            {sortedWebpageData.map((pages: any, index: number) => {
+            {sortedWebpageData.map((data: any, index: number) => {
                 return (
                     <NetworkRequestBar
                         key={index}
                         maxPossibleValue={
                             largestOverallWebpageTotalNetworkRequestSize
                         }
-                        networkRequestData={pages}
+                        networkRequestData={data}
                     />
                 );
             })}

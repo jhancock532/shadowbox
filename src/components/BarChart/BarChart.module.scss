@@ -1,0 +1,49 @@
+.bar {
+    height: 40px;
+    position: relative;
+    z-index: 1;
+    border-radius: 3px;
+
+    &__label {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 8px;
+        background-color: var(--color--white);
+        padding: 0 5px;
+        font-size: 18px;
+        border-radius: 3px;
+    }
+
+    &__container {
+        position: relative;
+        z-index: 1;
+        height: 100%;
+        margin-bottom: 8px;
+    }
+
+    &__tooltip {
+        position: absolute;
+        z-index: 3;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--color--black);
+        width: max-content;
+        height: min-content;
+        padding: 5px;
+
+        &Text {
+            display: block;
+            font-size: 14px;
+            color: var(--color--white);
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    &__pattern {
+        opacity: 0.6;
+    }
+}

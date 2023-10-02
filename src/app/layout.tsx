@@ -1,6 +1,7 @@
 import { Outfit } from '@next/font/google';
 import styles from '@/styles/Page.module.scss';
 import '@/styles/globals.scss';
+import Link from 'next/link';
 
 // Optimize font loading with the next/font package
 // https://nextjs.org/docs/app/building-your-application/optimizing/fonts
@@ -30,9 +31,9 @@ export default function RootLayout({
                         </div>
 
                         {/* Website name is a p tag as this is not the main page title. */}
-                        <p className={styles.reportSiteName}>
+                        <Link className={styles.reportSiteName} href={'/'}>
                             https://torchbox.com
-                        </p>
+                        </Link>
                         {children}
                     </div>
                     <div></div>

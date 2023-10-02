@@ -5,8 +5,70 @@ import {
     loadWebpageMetadata,
     loadWebpageNetworkRequests,
 } from '@/utils/loadFileData';
+import { BarChartItem } from '@/types/types';
 import ExternalLinkIcon from '@/components/Icons/ExternalLinkIcon';
+import BarChart from '@/components/BarChart';
 import pageDetailsStyles from './PageDetails.module.scss';
+
+const tallyImagesByFileExtension = (networkRequests: any) => {
+    const imageExtensions = [
+        '.image',
+        '.jpg',
+        '.jpeg',
+        '.png',
+        '.gif',
+        '.svg',
+        '.webp',
+    ];
+
+    type ImageTypeTally = {
+        extension: string;
+        totalSize: number;
+        count: number;
+    };
+
+    const talliedImageTypes: ImageTypeTally[] = [];
+
+    networkRequests.forEach((request: any) => {
+        for (let i = 0; i < imageExtensions.length; i += 1) {
+            const extension = imageExtensions[i];
+
+            if (request.url.includes(extension)) {
+                if (
+                    !talliedImageTypes.find(
+                        (item) => item.extension === extension,
+                    )
+                ) {
+                    talliedImageTypes.push({
+                        extension: extension,
+                        count: 1,
+                        totalSize: request.transferSize,
+                    });
+                } else {
+                    const index = talliedImageTypes.findIndex(
+                        (item) => item.extension === extension,
+                    );
+                    talliedImageTypes[index].count += 1;
+                    talliedImageTypes[index].totalSize += request.transferSize;
+                }
+            }
+        }
+    });
+
+    const chartData: BarChartItem[] = [];
+
+    talliedImageTypes.forEach((item) => {
+        chartData.push({
+            key: item.extension,
+            value: item.totalSize,
+            label: `${item.count} ${
+                item.extension
+            } images totalling ${Math.floor(item.totalSize / 1000)} kB`,
+        });
+    });
+
+    return chartData;
+};
 
 export default function ReportPageDetailsView({ params }: any) {
     const networkRequests = loadWebpageNetworkRequests(
@@ -14,6 +76,7 @@ export default function ReportPageDetailsView({ params }: any) {
         params.pageId,
     );
     const metadata = loadWebpageMetadata(params.reportId, params.pageId);
+    const imageTally = tallyImagesByFileExtension(networkRequests);
 
     return (
         <div>
@@ -29,6 +92,22 @@ export default function ReportPageDetailsView({ params }: any) {
                     />
                 </a>
             </h1>
+
+            <h2>Images</h2>
+
+            {!Object.keys(imageTally).includes('webp') ||
+            (Object.keys(imageTally).includes('webp') &&
+                Object.keys(imageTally).length > 1) ? (
+                <p>
+                    Some images on this page are not in the{' '}
+                    <strong>WebP</strong> format. Consider converting these to
+                    WebP to reduce page weight.
+                </p>
+            ) : (
+                <p>All images on this page are in the WebP format.</p>
+            )}
+
+            <BarChart data={imageTally} />
 
             {metadata.youtubeEmbeds && metadata.youtubeEmbeds.length > 0 && (
                 <>

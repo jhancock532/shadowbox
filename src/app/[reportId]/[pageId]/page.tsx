@@ -1,4 +1,5 @@
 import React from 'react';
+import { cookies } from 'next/headers';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
@@ -61,9 +62,10 @@ const tallyImagesByFileExtension = (networkRequests: any) => {
         chartData.push({
             key: item.extension,
             value: item.totalSize,
-            label: `${item.count} ${
+            tooltip: `${item.count} ${
                 item.extension
             } images totalling ${Math.floor(item.totalSize / 1000)} kB`,
+            label: `${Math.floor(item.totalSize / 1000)} kB`,
         });
     });
 
@@ -71,12 +73,34 @@ const tallyImagesByFileExtension = (networkRequests: any) => {
 };
 
 export default function ReportPageDetailsView({ params }: any) {
+    // Todo: remove when favicons are supported
+    if (params.reportId === 'favicons') {
+        return null;
+    }
+
     const networkRequests = loadWebpageNetworkRequests(
         params.reportId,
         params.pageId,
     );
+
     const metadata = loadWebpageMetadata(params.reportId, params.pageId);
     const imageTally = tallyImagesByFileExtension(networkRequests);
+
+    const comparedReportId = cookies().get('compared-report-id')?.value || null;
+
+    let comparedNetworkRequests;
+    let comparedImageTally;
+
+    if (comparedReportId) {
+        comparedNetworkRequests = loadWebpageNetworkRequests(
+            comparedReportId,
+            params.pageId,
+        );
+
+        comparedImageTally = tallyImagesByFileExtension(
+            comparedNetworkRequests,
+        );
+    }
 
     return (
         <div>
@@ -107,7 +131,7 @@ export default function ReportPageDetailsView({ params }: any) {
                 <p>All images on this page are in the WebP format.</p>
             )}
 
-            <BarChart data={imageTally} />
+            <BarChart data={imageTally} comparisonData={comparedImageTally} />
 
             {metadata.youtubeEmbeds && metadata.youtubeEmbeds.length > 0 && (
                 <>

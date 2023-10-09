@@ -1,6 +1,7 @@
 export type BarChartItem = {
     key: string;
     value: number;
+    tooltip?: string;
     label?: string;
 };
 

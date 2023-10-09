@@ -297,8 +297,9 @@ export function saveNetworkRequestsToFileSystem(
         totalPageWeights.reduce((total, weight) => total + weight, 0) /
         totalPageWeights.length;
 
-    const medianPageWeight =
-        totalPageWeights.sort()[Math.floor(totalPageWeights.length / 2)];
+    const medianPageWeight = totalPageWeights.sort((a, b) => {
+        return b - a;
+    })[Math.floor(totalPageWeights.length / 2)];
 
     const requestSummaryJSON = JSON.stringify(
         {

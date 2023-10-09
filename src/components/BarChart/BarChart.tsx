@@ -89,7 +89,26 @@ const sortBarChartData = (
     }
 
     const sortedWebpageData = pairedChartData.sort((a: any, b: any) => {
-        return b.value - a.value;
+        let comparisonValueA = 0;
+        let comparisonValueB = 0;
+
+        if (a.item) {
+            comparisonValueA = a.item.value;
+        }
+
+        if (a.comparedItem) {
+            comparisonValueA = Math.max(a.comparedItem.value, comparisonValueA);
+        }
+
+        if (b.item) {
+            comparisonValueB = b.item.value;
+        }
+
+        if (b.comparedItem) {
+            comparisonValueB = Math.max(b.comparedItem.value, comparisonValueB);
+        }
+
+        return comparisonValueB - comparisonValueA;
     });
 
     return sortedWebpageData;
@@ -99,6 +118,7 @@ const Bar: React.FC<any> = ({
     value,
     totalValue,
     tooltip,
+    label,
     isComparedItem = false,
     index = 0,
 }) => {
@@ -125,6 +145,11 @@ const Bar: React.FC<any> = ({
                 color={PATTERN_COLORS[moduloIndex]}
                 className={styles.bar__pattern}
             />
+            {label && (
+                <div className={styles.bar__label}>
+                    <p className={styles.bar__labelText}>{label}</p>
+                </div>
+            )}
             {isTooltipShown ? (
                 <div className={styles.bar__tooltip}>
                     <p className={styles.bar__tooltipText}>{tooltip}</p>
@@ -149,7 +174,8 @@ const PairedBar = ({ itemPair, maxValue, index }: PairedBarProps) => {
             <Bar
                 totalValue={maxValue}
                 value={itemPair.item.value}
-                tooltip={itemPair.item.label}
+                tooltip={itemPair.item.tooltip}
+                label={itemPair.item.label}
                 isComparedItem={false}
                 index={index}
             />
@@ -161,7 +187,8 @@ const PairedBar = ({ itemPair, maxValue, index }: PairedBarProps) => {
             <Bar
                 totalValue={maxValue}
                 value={itemPair.comparedItem.value}
-                tooltip={itemPair.item.label}
+                tooltip={itemPair.comparedItem.tooltip}
+                label={itemPair.comparedItem.label}
                 isComparedItem
                 index={index}
             />
@@ -169,11 +196,11 @@ const PairedBar = ({ itemPair, maxValue, index }: PairedBarProps) => {
     }
     return (
         <div className={styles.bar__container}>
-            <p className={styles.bar__label}>{`${itemPair.item.key}`}</p>
             <div>
                 {itemBar}
                 {comparedItemBar}
             </div>
+            <p className={styles.bar__legend}>{`${itemPair.item.key}`}</p>
         </div>
     );
 };

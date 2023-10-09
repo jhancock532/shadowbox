@@ -1,19 +1,23 @@
 .bar {
-    height: 40px;
+    height: 30px;
     position: relative;
     z-index: 1;
     border-radius: 3px;
 
-    &__label {
-        position: absolute;
-        z-index: 2;
-        top: 50%;
-        transform: translateY(-50%);
-        left: 8px;
+    &__legend {
         background-color: var(--color--white);
         padding: 0 5px;
         font-size: 18px;
         border-radius: 3px;
+        margin-bottom: 0;
+    }
+
+    &__label {
+        font-size: 18px;
+        position: absolute;
+        top: 2px;
+        left: 5px;
+        color: var(--color--white);
     }
 
     &__container {

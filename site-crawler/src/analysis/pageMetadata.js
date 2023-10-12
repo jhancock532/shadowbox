@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { getReportID, getReportPageData } from '../utils.js';
+import { getReportID, getReportPageData } from './loadData.js';
 
 const reportId = getReportID();
 const pageData = getReportPageData();

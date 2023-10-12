@@ -1,0 +1,176 @@
+{
+    "url": "https://torchbox.com/digital-products/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/digital-products/",
+            "resourceType": "document",
+            "transferSize": 12215,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.7ffc1e73be1e.css",
+            "resourceType": "stylesheet",
+            "transferSize": 130193,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IMG_1714.2e16d0ba.fill-746x500.jpg",
+            "resourceType": "image",
+            "transferSize": 68709,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.d536022fa2da.js",
+            "resourceType": "script",
+            "transferSize": 206710,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 265223,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
+            "resourceType": "font",
+            "transferSize": 61624,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/4aa0abf35762d3d96221.0cd7caae30ac.woff",
+            "resourceType": "font",
+            "transferSize": 60920,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/df348384f91cc9ecf2f7.8cf7315c70cb.woff",
+            "resourceType": "font",
+            "transferSize": 61456,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/f86b36700825a41a1b4a.27eaf2a5c297.woff",
+            "resourceType": "font",
+            "transferSize": 60028,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://media.torchbox.com/images/client-mozilla.width-400.png",
+            "resourceType": "image",
+            "transferSize": 3356,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/client-penn.width-400.png",
+            "resourceType": "image",
+            "transferSize": 8445,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/client-oxfam.width-400.png",
+            "resourceType": "image",
+            "transferSize": 6971,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/client-tate.width-400.png",
+            "resourceType": "image",
+            "transferSize": 49446,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/client-RNIB.width-400.png",
+            "resourceType": "image",
+            "transferSize": 3951,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/client-sue-ryder.width-400.png",
+            "resourceType": "image",
+            "transferSize": 18010,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/client-RCA.width-400.png",
+            "resourceType": "image",
+            "transferSize": 26790,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/client-samaritans.width-400.png",
+            "resourceType": "image",
+            "transferSize": 8055,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Certified_B_Corporation_B_Corp_Logo_2022_Black.height-90.png",
+            "resourceType": "image",
+            "transferSize": 2438,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/client-wharton.width-400.png",
+            "resourceType": "image",
+            "transferSize": 30221,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/client-KCL.width-400.png",
+            "resourceType": "image",
+            "transferSize": 4407,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/client-M.width-400.png",
+            "resourceType": "image",
+            "transferSize": 8991,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-Top25_Best-Mid-Sized-Companies_1.original.height-90.png",
+            "resourceType": "image",
+            "transferSize": 5830,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Inhabit-Carbon-Neutral-Badge-Connected-Blue.or.height-90.png",
+            "resourceType": "image",
+            "transferSize": 3829,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://www.googletagmanager.com/a?v=3&t=l&pid=693555161&rv=3ab0&u=AAAAAAAAAAAAAACA&ut=Ag&h=Ag&gtm=45He3ab0&ccid=1622124&cid=GTM-K5HPMR&l=GTM-K5HPMR.L369.S1.Y7.B3.E22.EC6.TC34.HTC0~gtm.init.S0.V0.E4~gtm.js.S0.V0.TS5lcl.TI265.TE0.TS5lcl.TI266.TE0.TS5lcl.TI267.TE0.TS5lcl.TI268.TE0.TS1sdl.TI269.TE0.TS5lcl.TI270.TE0.TS5lcl.TI271.TE0.TS5lcl.TI272.TE0.TS5lcl.TI273.TE0.TS5lcl.TI274.TE0.TS5lcl.TI275.TE0.TS5lcl.TI276.TE0.TS5evl.TI277.TE0.TS5lcl.TI278.TE0.TS5lcl.TI279.TE0.TS5lcl.TI280.TE0.TS5lcl.TI281.TE0.TS5lcl.TI282.TE0.TS5lcl.TI283.TE0.TS5lcl.TI284.TE0.TS5lcl.TI285.TE0.TS5lcl.TI286.TE0.TS5lcl.TI287.TE0.TS5lcl.TI289.TE0.TS5lcl.TI290.TE0.TS5cl.TI291.TE0.TS5cl.TI292.TE0.TS5lcl.TI293.TE0.TS5lcl.TI294.TE0.TS5lcl.TI295.TE0.TS5lcl.TI296.TE0.TS5lcl.TI297.TE0.TS5lcl.TI298.TE0~gtm.dom.S0.V0.E6.TS5ytl.TI288.TE0~gtm.elementVisibility.S0.V0.E0~gtm.load.S0.V0.E0~gtm.init_consent.S1.V0.E5",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        }
+    ],
+    "images": {
+        "jpg": {
+            "count": 1,
+            "size": 68709
+        },
+        "png": {
+            "count": 14,
+            "size": 180740
+        },
+        "unknown": {
+            "count": 1,
+            "size": 0
+        }
+    },
+    "fonts": {
+        "woff": {
+            "count": 4,
+            "size": 244028
+        }
+    },
+    "pageWeight": 1109057
+}

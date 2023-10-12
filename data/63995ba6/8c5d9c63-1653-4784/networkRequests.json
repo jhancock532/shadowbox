@@ -1,0 +1,110 @@
+{
+    "url": "https://torchbox.com/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/",
+            "resourceType": "document",
+            "transferSize": 9747,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.7ffc1e73be1e.css",
+            "resourceType": "stylesheet",
+            "transferSize": 21297,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 265223,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.d536022fa2da.js",
+            "resourceType": "script",
+            "transferSize": 68985,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
+            "resourceType": "font",
+            "transferSize": 61871,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/df348384f91cc9ecf2f7.8cf7315c70cb.woff",
+            "resourceType": "font",
+            "transferSize": 61695,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/4aa0abf35762d3d96221.0cd7caae30ac.woff",
+            "resourceType": "font",
+            "transferSize": 61228,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Certified_B_Corporation_B_Corp_Logo_2022_Black.height-90.png",
+            "resourceType": "image",
+            "transferSize": 2438,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-Top25_Best-Mid-Sized-Companies_1.original.height-90.png",
+            "resourceType": "image",
+            "transferSize": 5830,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Inhabit-Carbon-Neutral-Badge-Connected-Blue.or.height-90.png",
+            "resourceType": "image",
+            "transferSize": 3829,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.fill-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 3568,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/valuesday2.original.2e16d0ba.fill-1022x576.jpg",
+            "resourceType": "image",
+            "transferSize": 87066,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://www.googletagmanager.com/a?v=3&t=l&pid=802584749&rv=3ab0&u=AAAAAAAAAAAAAACA&ut=Ag&h=Ag&gtm=45He3ab0&ccid=1622124&cid=GTM-K5HPMR&l=GTM-K5HPMR.L192.S2.Y7.B3.E113.EC6.TC34.HTC0~gtm.init.S0.V0.E2~gtm.js.S0.V0.TS5lcl.TI265.TE0.TS5lcl.TI266.TE0.TS5lcl.TI267.TE0.TS5lcl.TI268.TE0.TS1sdl.TI269.TE0.TS5lcl.TI270.TE0.TS5lcl.TI271.TE0.TS5lcl.TI272.TE0.TS5lcl.TI273.TE0.TS5lcl.TI274.TE0.TS5lcl.TI275.TE0.TS5lcl.TI276.TE0.TS5evl.TI277.TE0.TS5lcl.TI278.TE0.TS5lcl.TI279.TE0.TS5lcl.TI280.TE0.TS5lcl.TI281.TE0.TS5lcl.TI282.TE0.TS5lcl.TI283.TE0.TS5lcl.TI284.TE0.TS5lcl.TI285.TE0.TS5lcl.TI286.TE0.TS5lcl.TI287.TE0.TS5lcl.TI289.TE0.TS5lcl.TI290.TE0.TS5cl.TI291.TE0.TS5cl.TI292.TE0.TS5lcl.TI293.TE0.TS5lcl.TI294.TE0.TS5lcl.TI295.TE0.TS5lcl.TI296.TE0.TS5lcl.TI297.TE0.TS5lcl.TI298.TE0~gtm.dom.S0.V0.E2.TS5ytl.TI288.TE0~gtm.elementVisibility.S0.V0.E0~gtm.load.S0.V0.E0~gtm.init_consent.S1.V0.E4",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        }
+    ],
+    "images": {
+        "png": {
+            "count": 3,
+            "size": 12097
+        },
+        "jpg": {
+            "count": 2,
+            "size": 90634
+        },
+        "unknown": {
+            "count": 1,
+            "size": 0
+        }
+    },
+    "fonts": {
+        "woff": {
+            "count": 3,
+            "size": 184794
+        }
+    },
+    "pageWeight": 654016
+}

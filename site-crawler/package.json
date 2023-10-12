@@ -9,12 +9,17 @@
   },
   "scripts": {
     "start": "node src/main.js",
-    "network-requests": "node src/analysis/processNetworkRequests.js",
-    "report-metadata": "node src/analysis/processReportMetadata.js",
-    "page-metadata": "node src/analysis/processPageMetadata.js",
-    "export": "node src/analysis/processNetworkRequests.js && node src/analysis/processReportMetadata.js && node src/analysis/processPageMetadata.js",
-    "test": "echo \"Error: the app has no tests yet.\" && exit 1"
+    "crawl": "node src/main.js",
+    "download-requests": "node src/analysis/downloadRequests.js",
+    "process-requests": "node src/analysis/processRequests.js",
+    "report-metadata": "node src/analysis/reportMetadata.js",
+    "page-metadata": "node src/analysis/pageMetadata.js",
+    "export": "node src/analysis/networkRequests.js && node src/analysis/reportMetadata.js && node src/analysis/pageMetadata.js",
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
   },
   "author": "TBX",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

@@ -1,0 +1,133 @@
+{
+    "url": "https://torchbox.com/careers/employee-owned-trust",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/careers/employee-owned-trust",
+            "resourceType": "document",
+            "transferSize": 11515,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/careers/fonts/apercu/apercu-light-pro.woff2",
+            "resourceType": "font",
+            "transferSize": 45640,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://torchbox.com/careers/fonts/apercu/apercu-regular-pro.woff2",
+            "resourceType": "font",
+            "transferSize": 47076,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://torchbox.com/careers/fonts/apercu/apercu-bold-pro.woff2",
+            "resourceType": "font",
+            "transferSize": 46672,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://torchbox.com/careers/fonts/apercu/apercu-black-pro.woff2",
+            "resourceType": "font",
+            "transferSize": 47016,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/css/3b6902c2001dedb0.css",
+            "resourceType": "stylesheet",
+            "transferSize": 2330,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/css/be5361a9c10c48f2.css",
+            "resourceType": "stylesheet",
+            "transferSize": 5633,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/css/d337508f5ce1fdb8.css",
+            "resourceType": "stylesheet",
+            "transferSize": 1290,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/webpack-8efdb749f000e7a4.js",
+            "resourceType": "script",
+            "transferSize": 1124,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/main-c4a446960822f6d5.js",
+            "resourceType": "script",
+            "transferSize": 27578,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/framework-3b5a00d5d7e8d93b.js",
+            "resourceType": "script",
+            "transferSize": 46797,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/72-da23d4e70aeb4db8.js",
+            "resourceType": "script",
+            "transferSize": 8758,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/960-a74a28069203ef8a.js",
+            "resourceType": "script",
+            "transferSize": 10833,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/pages/_app-0466f45a84800200.js",
+            "resourceType": "script",
+            "transferSize": 4934,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/pages/employee-owned-trust-5af7368e15d1c7ab.js",
+            "resourceType": "script",
+            "transferSize": 2088,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/d72mWw3hFXh8WQIulDrxo/_buildManifest.js",
+            "resourceType": "script",
+            "transferSize": 841,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 955,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/d72mWw3hFXh8WQIulDrxo/_ssgManifest.js",
+            "resourceType": "script",
+            "transferSize": 420,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.youtube-nocookie.com/embed/Mea30YK8rs8",
+            "resourceType": "iframe",
+            "transferSize": 84147,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR&gtm_auth=&gtm_preview=&gtm_cookies_win=x",
+            "resourceType": "script",
+            "transferSize": 265213,
+            "fileExtension": "js"
+        }
+    ],
+    "images": {},
+    "fonts": {
+        "woff2": {
+            "count": 4,
+            "size": 186404
+        }
+    },
+    "pageWeight": 660860
+}

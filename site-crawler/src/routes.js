@@ -5,7 +5,7 @@ import {
     getNetworkRequests,
     getWithinSiteLinks,
     getYouTubeEmbeds,
-} from './utils.js';
+} from './collecting.js';
 
 export const router = createPuppeteerRouter();
 

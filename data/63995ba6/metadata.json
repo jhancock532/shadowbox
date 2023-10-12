@@ -1,0 +1,69 @@
+{
+    "reportId": "63995ba6",
+    "reportDateTime": "2023-10-12T10:12:59.395Z",
+    "crawlerStatistics": {
+        "requestsFinished": 11,
+        "requestsFailed": 0,
+        "requestsRetries": 0,
+        "requestsFailedPerMinute": 0,
+        "requestsFinishedPerMinute": 141,
+        "requestMinDurationMillis": 237,
+        "requestMaxDurationMillis": 1731,
+        "requestTotalFailedDurationMillis": 0,
+        "requestTotalFinishedDurationMillis": 7592,
+        "crawlerStartedAt": "2023-10-12T10:12:59.395Z",
+        "crawlerFinishedAt": "2023-10-12T10:13:04.058Z",
+        "statsPersistedAt": "2023-10-12T10:13:04.058Z",
+        "crawlerRuntimeMillis": 4687,
+        "crawlerLastStartTimestamp": 1697105579371,
+        "requestRetryHistogram": [
+            11
+        ],
+        "statsId": 0,
+        "requestAvgFailedDurationMillis": null,
+        "requestAvgFinishedDurationMillis": 690,
+        "requestTotalDurationMillis": 7592,
+        "requestsTotal": 11,
+        "requestsWithStatusCode": {
+            "200": 11
+        },
+        "errors": {},
+        "retryErrors": {},
+        "reportId": "63995ba6"
+    },
+    "urlToIdMapping": [
+        {
+            "https://torchbox.com/careers/employee-owned-trust": "7867bfab-b854-4c42"
+        },
+        {
+            "https://torchbox.com/": "8c5d9c63-1653-4784"
+        },
+        {
+            "https://torchbox.com/digital-products/": "25c4c5e8-efc2-4f51"
+        },
+        {
+            "https://torchbox.com/wagtail-cms/": "0c9c7ee1-262e-4744"
+        },
+        {
+            "https://torchbox.com/digital-marketing/": "eb6f49a3-80ee-48c8"
+        },
+        {
+            "https://ai.torchbox.com/": "849fd2d5-50d8-4e27"
+        },
+        {
+            "https://torchbox.com/careers/jobs": "d03194d4-5af6-455d"
+        },
+        {
+            "https://torchbox.com/careers": "e206fd70-f708-48be"
+        },
+        {
+            "https://torchbox.com/events/": "89d5ba70-84a6-4788"
+        },
+        {
+            "https://torchbox.com/team/": "fdb70428-0d0d-4601"
+        },
+        {
+            "https://torchbox.com/blog/": "33b5fb60-4296-48a0"
+        }
+    ]
+}

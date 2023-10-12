@@ -1,0 +1,176 @@
+{
+    "url": "https://torchbox.com/team/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/team/",
+            "resourceType": "document",
+            "transferSize": 14068,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.7ffc1e73be1e.css",
+            "resourceType": "stylesheet",
+            "transferSize": 130193,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 265223,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.d536022fa2da.js",
+            "resourceType": "script",
+            "transferSize": 206710,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/df348384f91cc9ecf2f7.8cf7315c70cb.woff",
+            "resourceType": "font",
+            "transferSize": 61456,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
+            "resourceType": "font",
+            "transferSize": 61624,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/4aa0abf35762d3d96221.0cd7caae30ac.woff",
+            "resourceType": "font",
+            "transferSize": 60920,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Abigail.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 50719,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/20211015_1803000_1.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 32703,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-alex.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 57028,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Alina.2e16d0ba.fill-550x550.png",
+            "resourceType": "image",
+            "transferSize": 345949,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Amanda_-_Image_-_Daytime_shot.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 49995,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Ali_j4az1oD.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 47959,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Amina.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 43870,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Andrew_WS_Meet_the_Team.2e16d0ba.fill-550x550.png",
+            "resourceType": "image",
+            "transferSize": 527836,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 43670,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Andy.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 34554,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Ania_web_pic.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 62261,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Anna_Grieve.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 36514,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/20210412_081652.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 65387,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-ben_1.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 64773,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Ben_Dickinson.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 33968,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IMG_7756_nAztGhQ.2e16d0ba.fill-550x550.jpg",
+            "resourceType": "image",
+            "transferSize": 81201,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://www.googletagmanager.com/a?v=3&t=l&pid=1969864926&rv=3ab0&u=AAAAAAAAAAAAAACA&ut=Ag&h=Ag&gtm=45He3ab0&ccid=1622124&cid=GTM-K5HPMR&l=GTM-K5HPMR.L665.S1.Y0.B5.E70.EC5.TC34.HTC0~gtm.init.S0.V0.E27~gtm.js.S0.V0.TS5lcl.TI265.TE0.TS5lcl.TI266.TE0.TS5lcl.TI267.TE0.TS5lcl.TI268.TE0.TS1sdl.TI269.TE0.TS5lcl.TI270.TE0.TS5lcl.TI271.TE0.TS5lcl.TI272.TE0.TS5lcl.TI273.TE0.TS5lcl.TI274.TE0.TS5lcl.TI275.TE0.TS5lcl.TI276.TE0.TS5evl.TI277.TE0.TS5lcl.TI278.TE0.TS5lcl.TI279.TE0.TS5lcl.TI280.TE0.TS5lcl.TI281.TE0.TS5lcl.TI282.TE0.TS5lcl.TI283.TE0.TS5lcl.TI284.TE0.TS5lcl.TI285.TE0.TS5lcl.TI286.TE0.TS5lcl.TI287.TE0.TS5lcl.TI289.TE0.TS5lcl.TI290.TE0.TS5cl.TI291.TE0.TS5cl.TI292.TE0.TS5lcl.TI293.TE0.TS5lcl.TI294.TE0.TS5lcl.TI295.TE0.TS5lcl.TI296.TE0.TS5lcl.TI297.TE0.TS5lcl.TI298.TE0~gtm.dom.S0.V0.E0.TS5ytl.TI288.TE0~gtm.load.S0.V0.E0~gtm.init_consent.S1.V1.E29",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        }
+    ],
+    "images": {
+        "jpg": {
+            "count": 14,
+            "size": 704602
+        },
+        "png": {
+            "count": 2,
+            "size": 873785
+        },
+        "unknown": {
+            "count": 1,
+            "size": 0
+        }
+    },
+    "fonts": {
+        "woff": {
+            "count": 3,
+            "size": 184000
+        }
+    },
+    "pageWeight": 2379820
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://torchbox.com/team/",
+    "id": "fdb70428-0d0d-4601",
+    "title": "Meet the Torchbox Team",
+    "metadata": {
+        "description": "Find out all about our great team of designers, developers, project managers and digital marketers and spot their hidden talents!",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Team",
+            "description": "Find out all about our great team of designers, developers, project managers and digital marketers and spot their hidden talents!"
+        },
+        "og": {
+            "type": "website",
+            "url": "/team/",
+            "title": "Team",
+            "description": "Find out all about our great team of designers, developers, project managers and digital marketers and spot their hidden talents!"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

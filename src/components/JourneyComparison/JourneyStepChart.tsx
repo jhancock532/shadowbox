@@ -12,9 +12,11 @@ function chartDataByIndividualRequest(requests: any) {
   });
 
   requests.map((resource: any) => {
+    if (Math.round(resource.transferSize / 1000) === 0) return;
     data.push({
       name: resource.url,
-      size: resource.transferSize,
+      size: Math.round(resource.transferSize / 1000),
+      fill: BAR_COLORS[resource.resourceType],
     });
   });
 
@@ -38,16 +40,22 @@ function chartDataByRequestType(requests: any) {
   return data;
 }
 
-export const JourneyStepChart = ({ requests }: { requests: any }) => {
-  const data = chartDataByIndividualRequest(requests);
-
-  const newData = chartDataByRequestType(requests);
+export const JourneyStepChart = ({
+  requests,
+  showIndividualRequests,
+}: {
+  requests: any;
+  showIndividualRequests: boolean;
+}) => {
+  const data = showIndividualRequests
+    ? chartDataByIndividualRequest(requests)
+    : chartDataByRequestType(requests);
 
   return (
     <BarChart
       width={500}
-      height={300}
-      data={newData}
+      height={350}
+      data={data}
       layout="vertical"
       margin={{
         top: 40,

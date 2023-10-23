@@ -29,9 +29,11 @@ const RequestList = ({ requests }: { requests: any }) => {
 
 export const JourneyStep = ({
   journey,
+  showRequestDetails,
   showIndividualRequests,
 }: {
   journey: any;
+  showRequestDetails: boolean;
   showIndividualRequests: boolean;
 }) => {
   const resources = journey.resources;
@@ -49,10 +51,13 @@ export const JourneyStep = ({
   return (
     <div>
       <p className={styles.title}>{truncatedStepTitle}</p>
-      {showIndividualRequests ? (
+      {showRequestDetails ? (
         <RequestList requests={resources} />
       ) : (
-        <JourneyStepChart requests={resources} />
+        <JourneyStepChart
+          requests={resources}
+          showIndividualRequests={showIndividualRequests}
+        />
       )}
       <p>
         {journey.resources.length} requests totalling {totalRequestTransferSize}{" "}

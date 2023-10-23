@@ -1,13 +1,16 @@
-.showIndividualRequestsForm {
+.showRequestsForm {
+  padding-top: 30px;
   font-size: 1.4rem;
+  display: flex;
+  gap: 30px;
 }
 
-.showIndividualRequestsLabel {
+.showRequestsLabel {
   margin-left: 10px;
   user-select: none;
 }
 
-.showIndividualRequestsCheckbox {
+.showRequestsCheckbox {
   font-size: 2rem;
 }
 

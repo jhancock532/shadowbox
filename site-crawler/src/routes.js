@@ -5,6 +5,7 @@ import {
     getNetworkRequests,
     getWithinSiteLinks,
     getYouTubeEmbeds,
+    scrollToBottom,
 } from './collecting.js';
 
 export const router = createPuppeteerRouter();
@@ -13,6 +14,8 @@ router.addDefaultHandler(async ({ enqueueLinks, request, page, log }) => {
     await enqueueLinks({
         strategy: EnqueueStrategy.SameDomain,
     });
+
+    await scrollToBottom(page);
 
     const title = await page.title();
 

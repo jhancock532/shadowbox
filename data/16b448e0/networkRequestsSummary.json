@@ -1,0 +1,303 @@
+{
+    "averagePageWeight": 2930725.909090909,
+    "medianPageWeight": 1063148,
+    "largestPageWeight": 16460057,
+    "websiteNetworkRequestSummary": [
+        {
+            "url": "https://torchbox.com/team/",
+            "networkRequestSizeTallies": {
+                "document": 14695,
+                "stylesheet": 21391,
+                "script": 335195,
+                "font": 184787,
+                "image": 15903989
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 108,
+                    "size": 5332578
+                },
+                "png": {
+                    "count": 25,
+                    "size": 10571411
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184787
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/",
+            "networkRequestSizeTallies": {
+                "document": 9912,
+                "stylesheet": 130281,
+                "script": 473162,
+                "font": 184000,
+                "image": 136731
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                },
+                "jpg": {
+                    "count": 2,
+                    "size": 124634
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/digital-products/",
+            "networkRequestSizeTallies": {
+                "document": 12476,
+                "stylesheet": 130281,
+                "script": 473162,
+                "image": 253017,
+                "font": 243969
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 72277
+                },
+                "png": {
+                    "count": 14,
+                    "size": 180740
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 4,
+                    "size": 243969
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/wagtail-cms/",
+            "networkRequestSizeTallies": {
+                "document": 12423,
+                "stylesheet": 130281,
+                "script": 473162,
+                "font": 243720,
+                "image": 203562
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 61968
+                },
+                "png": {
+                    "count": 13,
+                    "size": 141594
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 4,
+                    "size": 243720
+                }
+            }
+        },
+        {
+            "url": "https://ai.torchbox.com/",
+            "networkRequestSizeTallies": {
+                "document": 6193,
+                "font": 186404,
+                "stylesheet": 8144,
+                "image": 578135,
+                "script": 114340
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 6,
+                    "size": 98134
+                },
+                "jpg": {
+                    "count": 11,
+                    "size": 480001
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 4,
+                    "size": 186404
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/digital-marketing/",
+            "networkRequestSizeTallies": {
+                "document": 12981,
+                "stylesheet": 130281,
+                "script": 473162,
+                "image": 612512,
+                "font": 243720
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 5,
+                    "size": 311611
+                },
+                "png": {
+                    "count": 19,
+                    "size": 300901
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 4,
+                    "size": 243720
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/careers/jobs",
+            "networkRequestSizeTallies": {
+                "document": 10855,
+                "font": 186404,
+                "stylesheet": 46372,
+                "script": 392194,
+                "json": 5003,
+                "image": 58230
+            },
+            "imageFileTallies": {
+                "jpeg": {
+                    "count": 1,
+                    "size": 58230
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 4,
+                    "size": 186404
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/careers",
+            "networkRequestSizeTallies": {
+                "document": 18082,
+                "font": 1200,
+                "stylesheet": 92507,
+                "image": 379555,
+                "script": 672414,
+                "json": 4490
+            },
+            "imageFileTallies": {
+                "jpeg": {
+                    "count": 4,
+                    "size": 234334
+                },
+                "webp": {
+                    "count": 2,
+                    "size": 61386
+                },
+                "png": {
+                    "count": 4,
+                    "size": 63346
+                },
+                "svg": {
+                    "count": 1,
+                    "size": 5445
+                },
+                "jpg": {
+                    "count": 3,
+                    "size": 15044
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 4,
+                    "size": 1200
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/events/",
+            "networkRequestSizeTallies": {
+                "document": 10096,
+                "stylesheet": 130281,
+                "image": 23457,
+                "script": 473162,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 11360
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/",
+            "networkRequestSizeTallies": {
+                "document": 10670,
+                "stylesheet": 130281,
+                "script": 473162,
+                "font": 184000,
+                "image": 101837
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 6,
+                    "size": 79633
+                },
+                "jpg": {
+                    "count": 7,
+                    "size": 22204
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/",
+            "networkRequestSizeTallies": {
+                "document": 11397,
+                "stylesheet": 130281,
+                "script": 473162,
+                "image": 5914825,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 9,
+                    "size": 5026581
+                },
+                "jpg": {
+                    "count": 5,
+                    "size": 888244
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        }
+    ]
+}

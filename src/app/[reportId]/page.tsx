@@ -26,6 +26,8 @@ export default function Report({ params }: any) {
     let comparedNetworkRequestSummary;
     let comparedReportMetadata;
 
+    let largestPageWeight = networkRequestSummary.largestPageWeight;
+
     let linkMapping = {
         baseReportId: params.reportId,
         baseLinks: reportMetadata.urlToIdMapping || [],
@@ -47,6 +49,12 @@ export default function Report({ params }: any) {
 
         linkMapping.comparedReportId = comparedReportId;
         linkMapping.comparedLinks = comparedReportMetadata.urlToIdMapping;
+
+        if (
+            comparedNetworkRequestSummary.largestPageWeight > largestPageWeight
+        ) {
+            largestPageWeight = comparedNetworkRequestSummary.largestPageWeight;
+        }
     }
 
     const numberOfWebpages = webpageMetadata.length;
@@ -83,6 +91,7 @@ export default function Report({ params }: any) {
             <NetworkRequestSummaryChart
                 data={networkRequestSummary}
                 comparedData={comparedNetworkRequestSummary}
+                largestPageWeight={largestPageWeight}
                 linkMapping={linkMapping}
                 reportId={params.reportId}
                 comparedReportId={comparedReportId}

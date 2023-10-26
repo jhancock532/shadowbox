@@ -3,6 +3,7 @@ import { cookies } from 'next/headers';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
+    findComparedReportPageId,
     loadWebpageMetadata,
     loadWebpageNetworkRequests,
 } from '@/utils/loadFileData';
@@ -11,66 +12,77 @@ import ExternalLinkIcon from '@/components/Icons/ExternalLinkIcon';
 import BarChart from '@/components/BarChart';
 import pageDetailsStyles from './PageDetails.module.scss';
 
-const tallyImagesByFileExtension = (networkRequests: any) => {
-    const imageExtensions = [
-        '.image',
-        '.jpg',
-        '.jpeg',
-        '.png',
-        '.gif',
-        '.svg',
-        '.webp',
-    ];
-
-    type ImageTypeTally = {
-        extension: string;
-        totalSize: number;
-        count: number;
-    };
-
-    const talliedImageTypes: ImageTypeTally[] = [];
-
-    networkRequests.forEach((request: any) => {
-        for (let i = 0; i < imageExtensions.length; i += 1) {
-            const extension = imageExtensions[i];
-
-            if (request.url.includes(extension)) {
-                if (
-                    !talliedImageTypes.find(
-                        (item) => item.extension === extension,
-                    )
-                ) {
-                    talliedImageTypes.push({
-                        extension: extension,
-                        count: 1,
-                        totalSize: request.transferSize,
-                    });
-                } else {
-                    const index = talliedImageTypes.findIndex(
-                        (item) => item.extension === extension,
-                    );
-                    talliedImageTypes[index].count += 1;
-                    talliedImageTypes[index].totalSize += request.transferSize;
-                }
-            }
-        }
-    });
-
+const generateImageChartData = (requestData: any) => {
     const chartData: BarChartItem[] = [];
 
-    talliedImageTypes.forEach((item) => {
+    Object.keys(requestData.images).forEach((key) => {
+        const item = requestData.images[key];
+
         chartData.push({
-            key: item.extension,
-            value: item.totalSize,
-            tooltip: `${item.count} ${
-                item.extension
-            } images totalling ${Math.floor(item.totalSize / 1000)} kB`,
-            label: `${Math.floor(item.totalSize / 1000)} kB`,
+            key: `.${key}`,
+            value: item.size,
+            tooltip: `${item.count} ${key} images totalling ${Math.floor(
+                item.size / 1000,
+            )} kB`,
+            label: `${Math.floor(item.size / 1000)} kB`,
         });
     });
 
     return chartData;
 };
+
+function combineListWithCommas(listOfStrings: string[]) {
+    if (listOfStrings.length === 0) {
+        return '';
+    }
+    if (listOfStrings.length === 1) {
+        return listOfStrings[0];
+    }
+    if (listOfStrings.length === 2) {
+        return listOfStrings[0] + ' and ' + listOfStrings[1];
+    }
+
+    return (
+        listOfStrings.slice(0, -2).join(', ') +
+        ' and ' +
+        listOfStrings.slice(-1)
+    );
+}
+
+function WebpageImageReport({ requestData, comparedRequestData }: any) {
+    const images = requestData.images;
+    const imageChartData = generateImageChartData(requestData);
+
+    let comparedImageChartData;
+    if (comparedRequestData) {
+        comparedImageChartData = generateImageChartData(comparedRequestData);
+    }
+
+    const imageStatMessages = [];
+
+    for (const key in images) {
+        if (key !== 'webp' && key !== 'svg' && key !== 'ico') {
+            if (images[key].count > 0 && images[key].size > 0) {
+                imageStatMessages.push(`${images[key].count} ${key}`);
+            }
+        }
+    }
+
+    return (
+        <>
+            <h2>Images</h2>
+            <p>
+                To save data using more effective image compression, consider
+                replacing the {combineListWithCommas(imageStatMessages)} images
+                with webp.
+            </p>
+            <BarChart
+                data={imageChartData}
+                comparisonData={comparedImageChartData}
+            />
+        </>
+    );
+}
 
 export default function ReportPageDetailsView({ params }: any) {
     // Todo: remove when favicons are supported
@@ -78,27 +90,25 @@ export default function ReportPageDetailsView({ params }: any) {
         return null;
     }
 
-    const networkRequests = loadWebpageNetworkRequests(
+    const requestData = loadWebpageNetworkRequests(
         params.reportId,
         params.pageId,
     );
 
     const metadata = loadWebpageMetadata(params.reportId, params.pageId);
-    const imageTally = tallyImagesByFileExtension(networkRequests);
 
     const comparedReportId = cookies().get('compared-report-id')?.value || null;
+    const comparedPageId = findComparedReportPageId(
+        comparedReportId,
+        metadata.url,
+    );
 
-    let comparedNetworkRequests;
-    let comparedImageTally;
+    let comparedRequestData;
 
-    if (comparedReportId) {
-        comparedNetworkRequests = loadWebpageNetworkRequests(
+    if (comparedReportId && comparedPageId) {
+        comparedRequestData = loadWebpageNetworkRequests(
             comparedReportId,
             params.pageId,
-        );
-
-        comparedImageTally = tallyImagesByFileExtension(
-            comparedNetworkRequests,
         );
     }
 
@@ -117,21 +127,10 @@ export default function ReportPageDetailsView({ params }: any) {
                 </a>
             </h1>
 
-            <h2>Images</h2>
-
-            {!Object.keys(imageTally).includes('webp') ||
-            (Object.keys(imageTally).includes('webp') &&
-                Object.keys(imageTally).length > 1) ? (
-                <p>
-                    Some images on this page are not in the{' '}
-                    <strong>WebP</strong> format. Consider converting these to
-                    WebP to reduce page weight.
-                </p>
-            ) : (
-                <p>All images on this page are in the WebP format.</p>
-            )}
-
-            <BarChart data={imageTally} comparisonData={comparedImageTally} />
+            <WebpageImageReport
+                requestData={requestData}
+                comparedRequestData={comparedRequestData}
+            />
 
             {metadata.youtubeEmbeds && metadata.youtubeEmbeds.length > 0 && (
                 <>
@@ -168,7 +167,7 @@ export default function ReportPageDetailsView({ params }: any) {
             <h2>Network requests</h2>
 
             <ol className={pageDetailsStyles.networkRequestsList}>
-                {networkRequests
+                {requestData.networkRequests
                     .sort((a: any, b: any) => b.transferSize - a.transferSize)
                     .map((request: any, index: number) => {
                         return (

@@ -6,6 +6,7 @@ import styles from './NetworkRequestSummaryChart.module.scss';
 type NetworkRequestSummaryChartProps = {
     data: any;
     comparedData?: any;
+    largestPageWeight: number;
     linkMapping: any;
     reportId: string;
     comparedReportId?: string | null;
@@ -150,15 +151,11 @@ const processNetworkRequestData = (
 const NetworkRequestSummaryChart: React.FC<NetworkRequestSummaryChartProps> = ({
     data,
     comparedData,
+    largestPageWeight,
     linkMapping,
     reportId,
     comparedReportId,
 }) => {
-    const largestOverallWebpageTotalNetworkRequestSize = Math.max(
-        data.largestWebpageTotalNetworkRequestSize,
-        comparedData?.largestWebpageTotalNetworkRequestSize || null,
-    );
-
     const sortedWebpageData = processNetworkRequestData(
         data,
         comparedData,
@@ -173,9 +170,7 @@ const NetworkRequestSummaryChart: React.FC<NetworkRequestSummaryChartProps> = ({
                 return (
                     <NetworkRequestBar
                         key={index}
-                        maxPossibleValue={
-                            largestOverallWebpageTotalNetworkRequestSize
-                        }
+                        maxPossibleValue={largestPageWeight}
                         networkRequestData={data}
                     />
                 );

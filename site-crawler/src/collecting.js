@@ -1,6 +1,32 @@
 import { parsePerformanceResources } from './processing.js';
 
 /**
+ * Scrolls to the bottom of the page using page.evaluate and a Promise.
+ * @param {Object} page - The page object to scroll.
+ * @returns {void}
+ */
+export async function scrollToBottom(page) {
+    await page.evaluate(async () => {
+        await new Promise((resolve) => {
+            let scrollHeight = document.body.scrollHeight;
+            window.scrollBy(0, scrollHeight);
+
+            // Wait for the scroll to finish
+            let timer = setInterval(() => {
+                // Stop waiting if we've reached the bottom of the page
+                if (
+                    window.scrollY >=
+                    scrollHeight - (window.innerHeight + 100)
+                ) {
+                    clearInterval(timer);
+                    resolve();
+                }
+            }, 300);
+        });
+    });
+}
+
+/**
  * @param {Page} page - The page to search for links.
  * @returns {Promise<string[]>} - An array of links going to the same site as the given page.
  */

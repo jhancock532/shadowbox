@@ -3,7 +3,7 @@ import { PuppeteerCrawler, Dataset } from 'crawlee';
 import { exportReportMetadataToJSON } from './metadataExport.js';
 import { router } from './routes.js';
 
-const startUrls = ['https://torchbox.com/careers/employee-owned-trust/'];
+const startUrls = ['https://torchbox.com/team/'];
 let failedURLs = [];
 
 // Documentation: https://crawlee.dev/
@@ -14,7 +14,7 @@ const crawler = new PuppeteerCrawler({
         },
     },
     maxRequestsPerCrawl: 10,
-    requestHandlerTimeoutSecs: 10,
+    requestHandlerTimeoutSecs: 30,
     requestHandler: router,
     failedRequestHandler: ({ request }, error) => {
         console.error(`Request ${request.url} failed`, error);

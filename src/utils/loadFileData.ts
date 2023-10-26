@@ -7,6 +7,28 @@ const getDirectories = (source: string) =>
         .filter((dirent) => dirent.isDirectory())
         .map((dirent) => dirent.name);
 
+export const findComparedReportPageId = (
+    comparedReportId: string | null,
+    pageUrl: string,
+) => {
+    if (!comparedReportId) {
+        return null;
+    }
+
+    const reportFilePath = path.join(
+        process.cwd(),
+        `data/${comparedReportId}/metadata.json`,
+    );
+    const reportFileData = fs.readFileSync(reportFilePath);
+    const reportMetadata = JSON.parse(reportFileData.toString());
+
+    if (Object.keys(reportMetadata.urlToIdMapping).includes(pageUrl)) {
+        return reportMetadata.urlToIdMapping[pageUrl];
+    }
+
+    return null;
+};
+
 export const loadListOfReports = () => {
     const reportDataFilePath = path.join(process.cwd(), `data/`);
 

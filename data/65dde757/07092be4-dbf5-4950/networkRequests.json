@@ -1,0 +1,154 @@
+{
+    "url": "https://torchbox.com/work/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/work/",
+            "resourceType": "document",
+            "transferSize": 11370,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.fb7f458caf89.css",
+            "resourceType": "stylesheet",
+            "transferSize": 130281,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.d536022fa2da.js",
+            "resourceType": "script",
+            "transferSize": 206710,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 266265,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://media.torchbox.com/images/GOSH_Image.width-1280.png",
+            "resourceType": "image",
+            "transferSize": 1527288,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Mind-Sharing-Image.width-1280.png",
+            "resourceType": "image",
+            "transferSize": 164160,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/iStock-856980680.width-1280.jpg",
+            "resourceType": "image",
+            "transferSize": 309647,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Action_for_children_case_study.width-1280.png",
+            "resourceType": "image",
+            "transferSize": 641498,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/12309_CATHERINE_HELPLINE__BCN7213.width-1280.jpg",
+            "resourceType": "image",
+            "transferSize": 91385,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Orphans_Images113.width-1280.png",
+            "resourceType": "image",
+            "transferSize": 1258951,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/BCN-Afternoon-Tea-Scones_1.width-1280.jpg",
+            "resourceType": "image",
+            "transferSize": 431197,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/RMCC-pippa-doctor-site-header_1.width-1280.png",
+            "resourceType": "image",
+            "transferSize": 1037831,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/RNIB-FearlessFuture_Holly_leaving_house.af8fa.width-1280.jpg",
+            "resourceType": "image",
+            "transferSize": 52447,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/MS_Society.width-1280.png",
+            "resourceType": "image",
+            "transferSize": 361848,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
+            "resourceType": "font",
+            "transferSize": 61624,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/4aa0abf35762d3d96221.0cd7caae30ac.woff",
+            "resourceType": "font",
+            "transferSize": 60920,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/df348384f91cc9ecf2f7.8cf7315c70cb.woff",
+            "resourceType": "font",
+            "transferSize": 61456,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Certified_B_Corporation_B_Corp_Logo_2022_Black.height-90.png",
+            "resourceType": "image",
+            "transferSize": 2438,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-Top25_Best-Mid-Sized-Companies_1.original.height-90.png",
+            "resourceType": "image",
+            "transferSize": 5830,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Inhabit-Carbon-Neutral-Badge-Connected-Blue.or.height-90.png",
+            "resourceType": "image",
+            "transferSize": 3829,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.fill-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 3568,
+            "fileExtension": "jpg"
+        }
+    ],
+    "images": {
+        "png": {
+            "count": 9,
+            "size": 5003673
+        },
+        "jpg": {
+            "count": 5,
+            "size": 888244
+        }
+    },
+    "fonts": {
+        "woff": {
+            "count": 3,
+            "size": 184000
+        }
+    },
+    "pageWeight": 6691782
+}

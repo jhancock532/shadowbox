@@ -22,3 +22,17 @@ I've added a function that scrolls to the bottom of each page before continuing 
 ## Features
 
 - A button to go back to the parent page.
+
+- A dark mode toggle.
+
+- A loading bar for the crawler asset download process.
+
+- Add console log messages to the crawler export stages to show progress.
+
+## Documentation
+
+- How to run the crawler and process its results.
+
+## Bug
+
+- Link mapping in the network request summary chart is broken

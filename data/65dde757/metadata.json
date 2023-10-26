@@ -1,0 +1,72 @@
+{
+    "reportId": "65dde757",
+    "reportDateTime": "2023-10-26T15:28:36.083Z",
+    "crawlerStatistics": {
+        "requestsFinished": 12,
+        "requestsFailed": 0,
+        "requestsRetries": 0,
+        "requestsFailedPerMinute": 0,
+        "requestsFinishedPerMinute": 58,
+        "requestMinDurationMillis": 871,
+        "requestMaxDurationMillis": 4855,
+        "requestTotalFailedDurationMillis": 0,
+        "requestTotalFinishedDurationMillis": 21996,
+        "crawlerStartedAt": "2023-10-26T15:28:36.083Z",
+        "crawlerFinishedAt": "2023-10-26T15:28:48.393Z",
+        "statsPersistedAt": "2023-10-26T15:28:48.393Z",
+        "crawlerRuntimeMillis": 12345,
+        "crawlerLastStartTimestamp": 1698334116048,
+        "requestRetryHistogram": [
+            12
+        ],
+        "statsId": 0,
+        "requestAvgFailedDurationMillis": null,
+        "requestAvgFinishedDurationMillis": 1833,
+        "requestTotalDurationMillis": 21996,
+        "requestsTotal": 12,
+        "requestsWithStatusCode": {
+            "200": 12
+        },
+        "errors": {},
+        "retryErrors": {},
+        "reportId": "65dde757"
+    },
+    "urlToIdMapping": [
+        {
+            "https://torchbox.com/team/": "6f3a7f74-d9d9-4a26"
+        },
+        {
+            "https://torchbox.com/": "8d2128e6-40f4-4cca"
+        },
+        {
+            "https://torchbox.com/wagtail-cms/": "21deddc2-5bb0-496e"
+        },
+        {
+            "https://torchbox.com/digital-products/": "d57f4bcc-8ecd-4557"
+        },
+        {
+            "https://torchbox.com/innovation/": "8209bdd3-6c42-4991"
+        },
+        {
+            "https://torchbox.com/digital-marketing/": "296f623f-88f5-40f7"
+        },
+        {
+            "https://torchbox.com/careers/jobs": "5079f907-54c6-4a53"
+        },
+        {
+            "https://torchbox.com/careers": "864a566b-c70a-45fb"
+        },
+        {
+            "https://torchbox.com/events/": "c3f57705-6e16-49a6"
+        },
+        {
+            "https://torchbox.com/blog/": "d06e17d8-9061-4aa5"
+        },
+        {
+            "https://torchbox.com/work/": "07092be4-dbf5-4950"
+        },
+        {
+            "https://torchbox.com/team/abigail-hampson/": "5ea001d1-f5ad-4c33"
+        }
+    ]
+}

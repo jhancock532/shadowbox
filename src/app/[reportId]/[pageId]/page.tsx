@@ -41,6 +41,13 @@ export default function ReportPageDetailsView({ params }: any) {
 
     return (
         <div>
+            <Link
+                className={pageDetailsStyles.backLink}
+                href={`/${params.reportId}`}
+            >
+                Back to website overview
+            </Link>
+
             <h1 className={pageDetailsStyles.title}>
                 Page details for{' '}
                 <a

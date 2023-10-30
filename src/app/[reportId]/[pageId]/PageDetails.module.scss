@@ -26,3 +26,15 @@
     margin: 0;
     list-style: number;
 }
+
+.backLink {
+    @include font-size(s);
+    color: var(--color--text);
+    text-decoration: underline;
+    display: block;
+    margin-top: $grid;
+
+    @include media-query(large) {
+        margin-top: $grid * 2;
+    }
+}

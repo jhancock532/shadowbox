@@ -37,6 +37,7 @@ I've added a function that scrolls to the bottom of each page before continuing 
 
 - [x] Link mapping in the network request summary chart is broken (now fixed & refactored)
 - [ ] PageLinks in pageMetadata.json is empty?
+- [ ] Network summary request tooltip with link to page goes to root of site instead of report page or live website page.
 
 ### Unknown resources to handle
 

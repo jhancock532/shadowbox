@@ -21,3 +21,11 @@
     margin-bottom: $grid + 5px;
     margin-top: $grid;
 }
+
+.code {
+    padding-top: $grid;
+    max-width: 80ch;
+    font-family: monospace;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}

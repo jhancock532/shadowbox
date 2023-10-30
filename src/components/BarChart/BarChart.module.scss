@@ -5,7 +5,7 @@
     border-radius: 3px;
 
     &__legend {
-        background-color: var(--color--white);
+        background-color: var(--color--background);
         padding: 0 5px;
         font-size: 18px;
         border-radius: 3px;
@@ -17,7 +17,7 @@
         position: absolute;
         top: 2px;
         left: 5px;
-        color: var(--color--white);
+        color: var(--color--background);
     }
 
     &__container {
@@ -33,7 +33,7 @@
         bottom: 100%;
         left: 50%;
         transform: translateX(-50%);
-        background-color: var(--color--black);
+        background-color: var(--color--text);
         width: max-content;
         height: min-content;
         padding: 5px;
@@ -41,7 +41,7 @@
         &Text {
             display: block;
             font-size: 14px;
-            color: var(--color--white);
+            color: var(--color--background);
             padding: 0;
             margin: 0;
         }

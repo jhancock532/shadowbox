@@ -1,5 +1,5 @@
 .title {
-    color: var(--color--grey-400, hsla(0, 0%, 25%, 1));
+    color: var(--color--text-muted);
     margin: 0 0 12px 0;
     font-weight: 600;
     letter-spacing: 0.16px;
@@ -8,6 +8,7 @@
 
 .select {
     color: var(--color--text);
+    background-color: var(--color--background);
     font-family: var(--font--outfit);
     border: none;
     font-size: 22px;
@@ -21,7 +22,7 @@
     font-weight: 600;
     font-size: 16px;
     margin: 0px;
-    color: var(--color--grey-500);
+    color: var(--color--text-muted);
 }
 
 .border {

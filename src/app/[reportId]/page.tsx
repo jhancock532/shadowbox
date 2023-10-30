@@ -121,12 +121,10 @@ export default function Report({ params }: any) {
             <details>
                 <summary>Report metadata</summary>
 
-                {JSON.stringify(reportMetadata)}
+                <div className={reportPageStyles.code}>
+                    {JSON.stringify(reportMetadata)}
+                </div>
             </details>
-
-            <br />
-            <br />
-            <br />
         </main>
     );
 }

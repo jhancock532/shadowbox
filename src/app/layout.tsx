@@ -2,6 +2,10 @@ import { Outfit } from '@next/font/google';
 import styles from '@/styles/Page.module.scss';
 import '@/styles/globals.scss';
 import Link from 'next/link';
+import { DARK_COLORS, LIGHT_COLORS } from '@/constants';
+import { cookies } from 'next/headers';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 // Optimize font loading with the next/font package
 // https://nextjs.org/docs/app/building-your-application/optimizing/fonts
@@ -16,20 +20,21 @@ export default function RootLayout({
 }: {
     children: React.ReactNode;
 }) {
+    const savedTheme = cookies().get('color-theme');
+    const theme = savedTheme?.value || 'light';
+
+    const themeColors = theme === 'light' ? LIGHT_COLORS : DARK_COLORS;
+
     return (
-        <html lang="en" className={outfit.className}>
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore:next-line
+        <html lang="en" className={outfit.className} style={themeColors}>
             <head />
             <body>
                 <div className={styles.container}>
                     <div></div>
                     <div>
-                        <div className={styles.logo}>
-                            <p className={styles.logo__name}>SHADOWBOX</p>
-                            <p className={styles.logo__tagline}>
-                                Website analytics
-                            </p>
-                        </div>
-
+                        <Header />
                         {/* Website name is a p tag as this is not the main page title. */}
                         <Link className={styles.reportSiteName} href={'/'}>
                             https://torchbox.com
@@ -39,6 +44,10 @@ export default function RootLayout({
                     <div></div>
                 </div>
             </body>
+            <div className={styles.container}>
+                <div></div>
+                <Footer />
+            </div>
         </html>
     );
 }

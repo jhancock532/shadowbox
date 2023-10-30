@@ -26,11 +26,6 @@
     z-index: z-index($key);
 }
 
-// Todo: not required?
-@function z-index($key) {
-    @return map-get($z-index, $key);
-}
-
 /* ============================================
   Hide text
 */
@@ -58,7 +53,6 @@
 /* ============================================
     Font sizes
 */
-
 @mixin font-size($size) {
     @if $size == null {
         @warn 'Font size ‘#{$keyword}’ does not exist';
@@ -79,17 +73,6 @@
 }
 
 /* ============================================
-    Streamfield spacing
-*/
-
-@mixin streamblock-padding() {
-    @include media-query(large) {
-        max-width: 50vw;
-        margin-left: $variable-gutter--medium;
-    }
-}
-
-/* ============================================
     Animations
 */
 @mixin animation() {
@@ -103,17 +86,6 @@
             opacity: 0;
             display: none;
         }
-    }
-}
-
-/* ============================================
-    IE11 target
-*/
-
-// All credits go to: https://gist.github.com/tcrammond/99fd936007685dba97b7
-@mixin target-ie {
-    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-        @content;
     }
 }
 

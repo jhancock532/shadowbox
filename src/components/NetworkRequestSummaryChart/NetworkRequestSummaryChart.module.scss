@@ -7,9 +7,8 @@
         font-size: 16px;
         margin: 0 0 -8px 0;
         padding: 0px 4px;
-        border-left: 2px solid var(--color--border);
         transition: opacity $transition;
-        background-color: var(--color--white);
+        background-color: var(--color--background);
         color: var(--color--text);
         width: max-content;
     }
@@ -47,7 +46,8 @@
         bottom: 100%;
         left: 50%;
         transform: translateX(-50%);
-        background-color: var(--color--black);
+        background-color: var(--color--text);
+        color: var(--color--background);
         width: max-content;
         height: min-content;
         padding: 5px;
@@ -56,7 +56,7 @@
     &__text {
         display: block;
         font-size: 14px;
-        color: var(--color--white);
+        color: var(--color--background);
         padding: 0;
         margin: 0;
     }

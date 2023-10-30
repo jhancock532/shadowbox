@@ -1,11 +1,14 @@
 @forward 'normalize.scss';
 
 :root {
+    /* Torchbox color scheme */
     --color--coral: #fd5765;
     --color--coral-dark: #e00517;
     --color--lagoon: #3beccd;
     --color--indigo: #2f128d;
     --color--dark-indigo: #251657;
+    --color--white: #fff;
+    --color--black: #000;
 
     /* Primary color gradient */
     --color--purple-200: #631c69;
@@ -14,6 +17,26 @@
     --color--orange-300: #ff8a5a;
     --color--orange-600: #ffba62;
     --color--yellow-600: #ffe681;
+
+    /* Secondary color gradient */
+    --color--grey-900: #f4f3f6;
+    --color--grey-800: #e9e7ee;
+    --color--grey-700: #c8c8c8;
+    --color--grey-600: #979797;
+    --color--grey-500: #727272;
+    --color--grey-400: #444;
+    --color--grey-300: #333;
+    --color--grey-200: #2d2d2d;
+
+    /* Theme base colors (Light mode by default) */
+    --color--primary: var(--color--coral);
+    --color--text: var(--color--grey-200);
+    --color--text-muted: var(--color--grey-400);
+    --color--background: var(--color--white);
+    --color--border: var(--color--grey-700);
+    --color--link: var(--color--coral);
+    --color--hover: var(--color--coral-dark);
+    --color--underline: var(--color--coral);
 
     --color--primary-gradient-1: var(--color--dark-indigo);
     --color--primary-gradient-2: var(--color--purple-200);
@@ -24,18 +47,6 @@
     --color--primary-gradient-7: var(--color--orange-600);
     --color--primary-gradient-8: var(--color--yellow-600);
 
-    /* Secondary color gradient */
-    --color--white: #fff;
-    --color--grey-900: #f4f3f6;
-    --color--grey-800: #e9e7ee;
-    --color--grey-700: #c8c8c8;
-    --color--grey-600: #979797;
-    --color--grey-500: #727272;
-    --color--grey-400: #444;
-    --color--grey-300: #333;
-    --color--grey-200: #2d2d2d;
-    --color--black: #000;
-
     --color--secondary-gradient-1: var(--color--black);
     --color--secondary-gradient-2: var(--color--grey-200);
     --color--secondary-gradient-3: var(--color--grey-300);
@@ -44,16 +55,6 @@
     --color--secondary-gradient-6: var(--color--grey-600);
     --color--secondary-gradient-7: var(--color--grey-700);
     --color--secondary-gradient-8: var(--color--grey-800);
-
-    /* Theme base */
-    --color--primary: var(--color--coral);
-    --color--text: var(--color--grey-200);
-    --color--border: var(--color--grey-700);
-    --color--link: var(--color--coral);
-    --color--underline: var(--color--coral);
-    --color--hover: var(--color--coral-dark);
-    --color--background: var(--color--indigo);
-    --color--section-title: var(--color--dark-indigo);
 }
 
 *,
@@ -69,6 +70,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: math.div(map-get($small-font-sizes, xs), 16px) * 100%;
+    background-color: var(--color--background);
 
     @include media-query(medium) {
         font-size: math.div(map-get($medium-font-sizes, xs), 16px) * 100%;
@@ -82,7 +84,7 @@ html {
 body {
     @include font-size(s);
     overflow-x: hidden;
-    background-color: var(--color--white);
+    background-color: var(--color--background);
     font-variant-ligatures: none;
 
     &.no-scroll {

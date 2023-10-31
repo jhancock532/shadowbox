@@ -21,7 +21,7 @@ I've added a function that scrolls to the bottom of each page before continuing 
 - [x] Page details font summary
 - [x] Better renderer for report metadata JSON output (code formatting)
 - [ ] Include warning in report summary outlining pages with poor image optimisation & poor font optimisation.
-- [ ] KeyStatistic component could have an optional % difference value show
+- [x] KeyStatistic component could have an optional % difference value show
 - [ ] Page details title to include report date
 - [ ] Page details image summary to include a warning icon or tick if the images are optimised or not.
 - [ ] Page details to include comparison information against the previous report, if page to compare found.
@@ -40,6 +40,9 @@ I've added a function that scrolls to the bottom of each page before continuing 
 - [x] Link mapping in the network request summary chart is broken (now fixed & refactored)
 - [ ] Crawler - PageLinks in pageMetadata.json is empty for team page profiles?
 - [ ] Network summary request tooltip with link to page goes to root of site instead of report page or live website page.
+- [ ] Woff2 font files from the careers site only weigh 300, while the same file from the innovation site 46672.
+      "https://torchbox.com/careers/fonts/apercu/apercu-bold-pro.woff2": 300,
+      "https://torchbox.com/innovation/fonts/apercu-bold-pro.woff2": 46672,
 
 ### Unknown resources to handle
 

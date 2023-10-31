@@ -1,4 +1,4 @@
-import { Outfit } from '@next/font/google';
+import { Outfit } from 'next/font/google';
 import styles from '@/styles/Page.module.scss';
 import '@/styles/globals.scss';
 import Link from 'next/link';
@@ -7,8 +7,7 @@ import { cookies } from 'next/headers';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-// Optimize font loading with the next/font package
-// https://nextjs.org/docs/app/building-your-application/optimizing/fonts
+// Optimize font loading with next/font
 const outfit = Outfit({
     subsets: ['latin'],
     variable: '--font--outfit',

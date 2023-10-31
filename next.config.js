@@ -3,9 +3,6 @@
 const path = require('path');
 const nextConfig = {
     reactStrictMode: true,
-    experimental: {
-        appDir: true,
-    },
     sassOptions: {
         // allow all scss files access to these files
         includePaths: [path.join(__dirname, 'src/styles')],

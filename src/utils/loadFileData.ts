@@ -46,6 +46,19 @@ export const loadListOfReports = () => {
     return availableReports;
 };
 
+export const loadRequestSizes = (reportId: string) => {
+    const requestSizesFilePath = path.join(
+        process.cwd(),
+        `data/${reportId}/requestSizes.json`,
+    );
+
+    const requestSizes = JSON.parse(
+        fs.readFileSync(requestSizesFilePath, 'utf8'),
+    );
+
+    return requestSizes;
+};
+
 export const loadReportNetworkRequestSummary = (reportId: string) => {
     const networkRequestSummaryFilePath = path.join(
         process.cwd(),

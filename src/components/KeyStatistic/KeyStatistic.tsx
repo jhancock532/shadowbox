@@ -7,6 +7,7 @@ type KeyStatisticProps = {
     title: string;
     description?: string;
     units?: string;
+    showPercentageChange?: boolean;
 };
 
 const KeyStatistic = ({
@@ -15,14 +16,31 @@ const KeyStatistic = ({
     title,
     description,
     units,
+    showPercentageChange,
 }: KeyStatisticProps) => {
     let widthPercentage = 0;
+    let percentageChange;
+
+    if (Number.isNaN(comparisonNumber)) {
+        comparisonNumber = undefined;
+    }
 
     if (comparisonNumber) {
         if (comparisonNumber > number) {
             widthPercentage = (number / comparisonNumber) * 100;
+            percentageChange = `increased by ${Math.abs(
+                Math.round(
+                    ((number - comparisonNumber) / comparisonNumber) * 100,
+                ),
+            )}%`;
         } else {
             widthPercentage = (comparisonNumber / number) * 100;
+            percentageChange = `decreased by ${Math.abs(
+                Math.round(((comparisonNumber - number) / number) * 100),
+            )}%`;
+        }
+        if (comparisonNumber === number) {
+            percentageChange = '';
         }
     }
 
@@ -56,7 +74,10 @@ const KeyStatistic = ({
                     {units || ''}
                 </p>
             )}
-            <p className={styles.description}>{description}</p>
+            {showPercentageChange && (
+                <p className={styles.percentageChange}>{percentageChange}</p>
+            )}
+            {description && <p className={styles.description}>{description}</p>}
         </div>
     );
 };

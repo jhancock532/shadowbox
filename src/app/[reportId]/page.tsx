@@ -8,11 +8,11 @@ import {
     loadRequestSizes,
 } from '@/utils/loadFileData';
 import KeyStatistic from '@/components/KeyStatistic';
-
-import pageStyles from '@/styles/Page.module.scss';
 import NetworkRequestSummaryChart from '@/components/NetworkRequestSummaryChart';
 import FontReport from '@/components/SiteWideReports/FontReport';
 import ImageReport from '@/components/SiteWideReports/ImageReport';
+
+import pageStyles from '@/styles/Page.module.scss';
 import reportPageStyles from './ReportPage.module.scss';
 
 export default function Report({ params }: any) {

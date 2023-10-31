@@ -7,3 +7,12 @@
 .container {
     margin-bottom: $grid * 2;
 }
+
+.details {
+    margin: $grid * 1.5;
+    margin-left: $grid;
+
+    &__list {
+        margin-top: $grid;
+    }
+}

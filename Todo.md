@@ -16,13 +16,15 @@ I've added a function that scrolls to the bottom of each page before continuing 
 
 ### Dashboard
 
-- [ ] A button to go back to the parent page.
-- [ ] Dark mode
+- [x] A button to go back to the parent page.
+- [x] Dark mode
+- [x] Page details font summary
+- [x] Better renderer for report metadata JSON output (code formatting)
+- [ ] Include warning in report summary outlining pages with poor image optimisation & poor font optimisation.
 - [ ] KeyStatistic component could have an optional % difference value show
-- [ ] Better renderer for report metadata JSON output (code formatting)
 - [ ] Page details title to include report date
 - [ ] Page details image summary to include a warning icon or tick if the images are optimised or not.
-- [ ] Page details font summary
+- [ ] Page details to include comparison information against the previous report, if page to compare found.
 
 ### Crawler
 
@@ -36,7 +38,7 @@ I've added a function that scrolls to the bottom of each page before continuing 
 ## Bug
 
 - [x] Link mapping in the network request summary chart is broken (now fixed & refactored)
-- [ ] PageLinks in pageMetadata.json is empty?
+- [ ] Crawler - PageLinks in pageMetadata.json is empty for team page profiles?
 - [ ] Network summary request tooltip with link to page goes to root of site instead of report page or live website page.
 
 ### Unknown resources to handle

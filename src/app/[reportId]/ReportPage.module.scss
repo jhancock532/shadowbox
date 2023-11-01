@@ -1,30 +1,11 @@
-.keyStatisticsContainer {
-    margin-top: $grid;
-    display: flex;
-    flex-direction: column;
-    gap: $grid;
-
-    @include media-query(large) {
-        margin-top: $grid * 2;
-        flex-direction: row;
-        gap: $grid * 5;
-    }
-}
+@use 'typography' as *;
 
 .title {
-    @include font-size(xl);
-    color: var(--color--text);
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0.24px;
-    margin-bottom: $grid;
-    margin-top: $grid;
+    @include h1();
+}
 
-    @include media-query(large) {
-        margin-bottom: $grid;
-        margin-top: $grid * 2;
-    }
+.secondaryTitle {
+    @include h2();
 }
 
 .code {

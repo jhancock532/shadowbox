@@ -1,0 +1,30 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+@mixin h1() {
+    @include font-size(xxl);
+    color: var(--color--text);
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.46px;
+    margin-top: $grid * 2;
+
+    @include media-query(medium) {
+        margin-top: $grid * 4;
+    }
+}
+
+@mixin h2() {
+    @include font-size(xl);
+    color: var(--color--text);
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    margin-bottom: $grid;
+    margin-top: $grid;
+
+    @include media-query(large) {
+        margin-bottom: $grid;
+        margin-top: $grid * 2;
+    }
+}

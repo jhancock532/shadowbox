@@ -1,0 +1,12 @@
+.container {
+    margin-top: $grid;
+    display: flex;
+    flex-direction: column;
+    gap: $grid;
+
+    @include media-query(large) {
+        margin-top: $grid * 2;
+        flex-direction: row;
+        gap: $grid * 5;
+    }
+}

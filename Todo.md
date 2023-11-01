@@ -8,9 +8,9 @@ I've added a function that scrolls to the bottom of each page before continuing 
 
 ## Refactoring
 
-- [ ] Create a header component and include it in the Layout for the report system.
-- [ ] Move the `Page.module.scss` out of `styles`
-- [ ] A consistent font mixin used throughout the site.
+- [x] Create a header component and include it in the Layout for the report system.
+- [x] Move the `Page.module.scss` out of `styles`
+- [x] A consistent font mixin used throughout the site.
 
 ## Features
 

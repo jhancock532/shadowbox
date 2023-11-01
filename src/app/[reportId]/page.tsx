@@ -7,13 +7,13 @@ import {
     loadReportMetadata,
     loadRequestSizes,
 } from '@/utils/loadFileData';
-import KeyStatistic from '@/components/KeyStatistic';
+
 import NetworkRequestSummaryChart from '@/components/NetworkRequestSummaryChart';
+import KeyStatisticsReport from '@/components/KeyStatisticsReport';
 import FontOverview from '@/components/SiteWideReports/FontOverview';
 import ImageOverview from '@/components/SiteWideReports/ImageOverview';
 
-import pageStyles from '@/styles/Page.module.scss';
-import reportPageStyles from './ReportPage.module.scss';
+import styles from './ReportPage.module.scss';
 
 export default function Report({ params }: any) {
     const networkRequestSummary = loadReportNetworkRequestSummary(
@@ -25,8 +25,6 @@ export default function Report({ params }: any) {
 
     const comparedReportId = cookies().get('compared-report-id')?.value || null;
 
-    let comparedNumberOfWebpages;
-    let comparedMedianPageWeight;
     let comparedNetworkRequestSummary;
     let comparedReportMetadata;
     let comparedRequestSizes;
@@ -41,17 +39,11 @@ export default function Report({ params }: any) {
     };
 
     if (comparedReportId) {
-        const comparedWebpageMetadata =
-            loadListOfReportWebpageMetadata(comparedReportId);
-        comparedNumberOfWebpages = comparedWebpageMetadata.length;
-
         comparedReportMetadata = loadReportMetadata(comparedReportId);
         comparedRequestSizes = loadRequestSizes(comparedReportId);
 
         comparedNetworkRequestSummary =
             loadReportNetworkRequestSummary(comparedReportId);
-        comparedMedianPageWeight =
-            comparedNetworkRequestSummary.medianPageWeight;
 
         linkMapping.comparedReportId = comparedReportId;
         linkMapping.comparedLinks = comparedReportMetadata.urlToIdMapping;
@@ -63,37 +55,20 @@ export default function Report({ params }: any) {
         }
     }
 
-    const numberOfWebpages = webpageMetadata.length;
-
     return (
         <main>
-            <h1 className={pageStyles.title}>
+            <h1 className={styles.title}>
                 Website overview{comparedReportId ? ' comparison' : ''}
             </h1>
 
-            <h2 className={reportPageStyles.title}>Key statistics</h2>
+            <h2 className={styles.secondaryTitle}>Key statistics</h2>
 
-            <div className={reportPageStyles.keyStatisticsContainer}>
-                <KeyStatistic
-                    title="Pages analyzed"
-                    number={numberOfWebpages}
-                    comparisonNumber={comparedNumberOfWebpages}
-                />
+            <KeyStatisticsReport
+                networkRequestSummary={networkRequestSummary}
+                comparedNetworkRequestSummary={comparedNetworkRequestSummary}
+            />
 
-                <KeyStatistic
-                    title="Median page weight"
-                    number={Math.floor(
-                        networkRequestSummary.medianPageWeight / 1000,
-                    )}
-                    comparisonNumber={Math.floor(
-                        comparedMedianPageWeight / 1000,
-                    )}
-                    units=" kB"
-                    showPercentageChange
-                />
-            </div>
-
-            <h2 className={reportPageStyles.title}>
+            <h2 className={styles.secondaryTitle}>
                 Largest webpages by resource size
             </h2>
 
@@ -121,16 +96,16 @@ export default function Report({ params }: any) {
                 comparedRequestSizes={comparedRequestSizes}
             />
 
-            <h2 className={reportPageStyles.title}>Report metadata</h2>
+            <h2 className={styles.secondaryTitle}>Report metadata</h2>
 
             <p>
                 Additional information about the report and crawling of the
                 website.
             </p>
 
-            <details className={reportPageStyles.details}>
+            <details className={styles.details}>
                 <summary>List of webpage urls analyzed in this report</summary>
-                <ul className={reportPageStyles.details__list}>
+                <ul className={styles.details__list}>
                     {webpageMetadata.map((webpage: any, index: number) => {
                         return (
                             <li key={index}>
@@ -147,10 +122,10 @@ export default function Report({ params }: any) {
 
             <br />
 
-            <details className={reportPageStyles.details}>
+            <details className={styles.details}>
                 <summary>Crawler statistics</summary>
 
-                <div className={reportPageStyles.code}>
+                <div className={styles.code}>
                     {JSON.stringify(reportMetadata)}
                 </div>
             </details>

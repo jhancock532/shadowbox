@@ -17,7 +17,7 @@
 .reportSiteName {
     color: var(--color--text, #2d2d2d);
 
-    font-size: 26px;
+    @include font-size(l);
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.72px;
@@ -27,7 +27,7 @@
 
 .title {
     color: var(--color--text, #2d2d2d);
-    font-size: 46px;
+    @include font-size(xxl);
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.46px;

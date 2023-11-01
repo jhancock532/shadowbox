@@ -10,6 +10,10 @@
     --color--white: #fff;
     --color--black: #0a0508;
 
+    /* Bar pattern colors */
+    --color--pattern-light: #ddd;
+    --color--pattern-dark: #555;
+
     /* Primary color gradient */
     --color--purple-200: #631c69;
     --color--purple-300: #9c2471;
@@ -37,6 +41,8 @@
     --color--link: var(--color--coral);
     --color--hover: var(--color--coral-dark);
     --color--underline: var(--color--coral);
+    --color--pattern: var(--color--pattern-light);
+    --color--pattern-inverse: var(--color--pattern-dark);
 
     --color--primary-gradient-1: var(--color--dark-indigo);
     --color--primary-gradient-2: var(--color--purple-200);
@@ -82,7 +88,7 @@ html {
 }
 
 body {
-    @include font-size(s);
+    @include font-size(m);
     overflow-x: hidden;
     background-color: var(--color--background);
     font-variant-ligatures: none;
@@ -131,7 +137,7 @@ li > p {
 // Default sizes
 h1,
 .heading--1 {
-    @include font-size(xl);
+    @include font-size(xxl);
     font-weight: $weight--bold;
     margin: 0 0 math.div($gutter, 2);
     color: var(--color--text);
@@ -139,7 +145,7 @@ h1,
 
 h2,
 .heading--2 {
-    @include font-size(l);
+    @include font-size(xl);
     font-weight: $weight--heavy;
     margin: ($gutter * 3) 0 $gutter;
     color: var(--color--text);
@@ -149,7 +155,7 @@ h3,
 h4,
 .heading--3,
 .heading--4 {
-    @include font-size(m);
+    @include font-size(l);
     font-weight: $weight--bold;
     margin: ($gutter * 3) 0 math.div($gutter, 2);
     color: var(--color--dark-indigo);
@@ -159,7 +165,7 @@ h5,
 h6,
 .heading--5,
 .heading--6 {
-    @include font-size(m);
+    @include font-size(l);
 }
 
 small {
@@ -167,6 +173,7 @@ small {
 }
 
 p {
+    @include font-size(m);
     margin: 0 0 ($gutter * 1.5);
     color: var(--color--grey);
 }

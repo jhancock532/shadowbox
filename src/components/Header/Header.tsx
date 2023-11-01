@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Cookie from 'js-cookie';
-import { DARK_COLORS, LIGHT_COLORS } from '@/constants';
+import { DARK_COLORS, LIGHT_COLORS } from '@/utils/constants';
 import styles from './Header.module.scss';
 import { MoonIcon } from '../Icons/MoonIcon';
 import { SunIcon } from '../Icons/SunIcon';

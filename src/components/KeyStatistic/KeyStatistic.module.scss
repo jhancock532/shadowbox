@@ -5,7 +5,7 @@
 
 .title {
     color: var(--color--text);
-    font-size: 24px;
+    @include font-size(l);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -16,7 +16,7 @@
 
 .baseNumber {
     color: var(--color--secondary-gradient-1);
-    font-size: 32px;
+    @include font-size(xl);
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -30,7 +30,7 @@
 
 .accentNumber {
     color: var(--color--background);
-    font-size: 32px;
+    @include font-size(xl);
     font-style: normal;
     font-weight: 900;
     line-height: normal;

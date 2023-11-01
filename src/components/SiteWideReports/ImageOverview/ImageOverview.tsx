@@ -3,7 +3,7 @@ import BarChart from '@/components/BarChart';
 import { BarChartItem } from '@/types/types';
 import styles from '../ReportStyles.module.scss';
 
-type ImageReportProps = {
+type ImageOverviewProps = {
     networkRequestSummary: any;
     comparedNetworkRequestSummary: any;
 };
@@ -75,10 +75,10 @@ const tallyTotalNumberOfAllImageTypes = (talliedImages: any) => {
     return totalNumberOfAllImageTypes;
 };
 
-export function ImageReport({
+export function ImageOverview({
     networkRequestSummary,
     comparedNetworkRequestSummary,
-}: ImageReportProps) {
+}: ImageOverviewProps) {
     const talliedImages = tallyAllImages(
         networkRequestSummary.websiteNetworkRequestSummary,
     );
@@ -100,10 +100,10 @@ export function ImageReport({
         <div className={styles.container}>
             <h2 className={styles.title}>Image overview</h2>
             <p>
-                Of the {totalNumberOfAllImageTypes} images across all pages of
-                the site, {talliedImages.webp.count} where found using the .webp
-                file format. The more images that use .webp, the less data that
-                needs transferred while loading a webpage.
+                Of the {totalNumberOfAllImageTypes} images loaded across all
+                pages of the site, {talliedImages.webp.count} where found using
+                the .webp file format. The more images that use .webp, the less
+                data that needs transferred while loading a webpage.
             </p>
             <BarChart data={chartData} comparisonData={comparedChartData} />
         </div>

@@ -14,7 +14,7 @@
     position: absolute;
     display: inline-block;
     background-color: white;
-    font-size: 18px;
+    @include font-size(xs);
     margin: 0px;
     padding: 4px;
     line-height: 1;
@@ -27,7 +27,7 @@
 }
 
 .title {
-    font-size: 18px;
+    @include font-size(xs);
     color: black;
     position: absolute;
     right: 0;

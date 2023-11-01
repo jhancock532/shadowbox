@@ -9,8 +9,8 @@ import {
 } from '@/utils/loadFileData';
 import KeyStatistic from '@/components/KeyStatistic';
 import NetworkRequestSummaryChart from '@/components/NetworkRequestSummaryChart';
-import FontReport from '@/components/SiteWideReports/FontReport';
-import ImageReport from '@/components/SiteWideReports/ImageReport';
+import FontOverview from '@/components/SiteWideReports/FontOverview';
+import ImageOverview from '@/components/SiteWideReports/ImageOverview';
 
 import pageStyles from '@/styles/Page.module.scss';
 import reportPageStyles from './ReportPage.module.scss';
@@ -71,9 +71,11 @@ export default function Report({ params }: any) {
                 Website overview{comparedReportId ? ' comparison' : ''}
             </h1>
 
+            <h2 className={reportPageStyles.title}>Key statistics</h2>
+
             <div className={reportPageStyles.keyStatisticsContainer}>
                 <KeyStatistic
-                    title="Page count"
+                    title="Pages analyzed"
                     number={numberOfWebpages}
                     comparisonNumber={comparedNumberOfWebpages}
                 />
@@ -95,6 +97,11 @@ export default function Report({ params }: any) {
                 Largest webpages by resource size
             </h2>
 
+            <p>
+                Hover over bars to see the page URL, and click on the bar for a
+                detailed analysis of that page.
+            </p>
+
             <NetworkRequestSummaryChart
                 data={networkRequestSummary}
                 comparedData={comparedNetworkRequestSummary}
@@ -104,21 +111,26 @@ export default function Report({ params }: any) {
                 comparedReportId={comparedReportId}
             />
 
-            <ImageReport
+            <ImageOverview
                 networkRequestSummary={networkRequestSummary}
                 comparedNetworkRequestSummary={comparedNetworkRequestSummary}
             />
 
-            <FontReport
+            <FontOverview
                 requestSizes={requestSizes}
                 comparedRequestSizes={comparedRequestSizes}
             />
 
             <h2 className={reportPageStyles.title}>Report metadata</h2>
 
-            <details>
+            <p>
+                Additional information about the report and crawling of the
+                website.
+            </p>
+
+            <details className={reportPageStyles.details}>
                 <summary>List of webpage urls analyzed in this report</summary>
-                <ul>
+                <ul className={reportPageStyles.details__list}>
                     {webpageMetadata.map((webpage: any, index: number) => {
                         return (
                             <li key={index}>
@@ -135,7 +147,7 @@ export default function Report({ params }: any) {
 
             <br />
 
-            <details>
+            <details className={reportPageStyles.details}>
                 <summary>Crawler statistics</summary>
 
                 <div className={reportPageStyles.code}>

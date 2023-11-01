@@ -4,7 +4,7 @@
     &__text {
         position: relative;
         top: 0;
-        font-size: 16px;
+        @include font-size(xs);
         margin: 0 0 -8px 0;
         padding: 0px 4px;
         transition: opacity $transition;
@@ -27,8 +27,9 @@
     }
 
     &__label {
+        @include font-size(xs);
+        font-weight: 300;
         padding-left: $grid / 2;
-        font-size: 16px;
         margin: 0;
         flex-shrink: 0;
         color: var(--color--text);
@@ -55,7 +56,7 @@
 
     &__text {
         display: block;
-        font-size: 14px;
+        @include font-size(xxs);
         color: var(--color--background);
         padding: 0;
         margin: 0;

@@ -20,15 +20,15 @@ const extractFontsFromRequestSizes = (requestSizes: any) => {
     return fonts;
 };
 
-type FontReportProps = {
+type FontOverviewProps = {
     requestSizes: any;
     comparedRequestSizes: any;
 };
 
-export function FontReport({
+export function FontOverview({
     requestSizes,
     comparedRequestSizes,
-}: FontReportProps) {
+}: FontOverviewProps) {
     const fontList = extractFontsFromRequestSizes(requestSizes);
 
     const numberOfFontsNotUsingWoff2 = fontList.filter((url: string) => {

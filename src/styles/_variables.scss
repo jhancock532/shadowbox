@@ -8,57 +8,37 @@ $weight--normal: 400;
 $weight--light: 100;
 
 // Font sizes
-$base-font-size: 18px;
-
 $large-font-sizes: (
-    xxxxl: 100px,
-    xxxl: 70px,
-    xxl: 64px,
-    mxl: 50px,
-    xl: 45px,
-    l: 38px,
-    ml: 28px,
-    m: 24px,
-    s: 20px,
-    xs: 18px,
-    mxs: 16px,
-    xxs: 14px,
-    xxxs: 13px,
-    xxxxs: 12px,
-);
-
-$medium-font-sizes: (
-    xxxxl: 70px,
-    xxxl: 65px,
-    xxl: 52px,
-    mxl: 44px,
-    xl: 38px,
-    l: 28px,
-    ml: 26px,
-    m: 22px,
-    s: 20px,
-    xs: 18px,
-    mxs: 16px,
-    xxs: 14px,
-    xxxs: 13px,
-    xxxxs: 12px,
-);
-
-$small-font-sizes: (
-    xxxxl: 60px,
-    xxxl: 45px,
-    xxl: 32px,
-    mxl: 30px,
-    xl: 28px,
-    l: 26px,
-    ml: 24px,
+    xxl: 46px,
+    xl: 32px,
+    l: 24px,
     m: 20px,
     s: 18px,
     xs: 16px,
-    mxs: 16px,
     xxs: 14px,
     xxxs: 13px,
-    xxxxs: 12px,
+);
+
+$medium-font-sizes: (
+    xxl: 38px,
+    xl: 28px,
+    l: 22px,
+    m: 20px,
+    s: 18px,
+    xs: 16px,
+    xxs: 14px,
+    xxxs: 13px,
+);
+
+$small-font-sizes: (
+    xxl: 28px,
+    xl: 24px,
+    l: 20px,
+    m: 18px,
+    s: 16px,
+    xs: 15px,
+    xxs: 14px,
+    xxxs: 13px,
 );
 
 // --------------------------------- Breakpoints --------------------------------------

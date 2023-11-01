@@ -1,25 +1,30 @@
 .keyStatisticsContainer {
-    margin-top: $grid * 2;
+    margin-top: $grid;
     display: flex;
     flex-direction: column;
     gap: $grid;
 
     @include media-query(large) {
+        margin-top: $grid * 2;
         flex-direction: row;
         gap: $grid * 5;
     }
 }
 
 .title {
-    color: var(--color--text, #2d2d2d);
-    font-size: 24px;
+    @include font-size(xl);
+    color: var(--color--text);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.24px;
-    margin: 0;
-    margin-bottom: $grid + 5px;
+    margin-bottom: $grid;
     margin-top: $grid;
+
+    @include media-query(large) {
+        margin-bottom: $grid;
+        margin-top: $grid * 2;
+    }
 }
 
 .code {
@@ -28,4 +33,10 @@
     font-family: monospace;
     overflow-wrap: break-word;
     word-wrap: break-word;
+}
+
+.details {
+    &__list {
+        padding-top: $grid;
+    }
 }

@@ -28,7 +28,7 @@
 }
 
 .backLink {
-    @include font-size(s);
+    @include font-size(m);
     color: var(--color--text);
     text-decoration: underline;
     display: block;

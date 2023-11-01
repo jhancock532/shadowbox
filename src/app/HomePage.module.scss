@@ -1,6 +1,6 @@
 .title {
     color: var(--color--text);
-    font-size: 46px;
+    @include font-size(xxl);
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.46px;
@@ -13,12 +13,12 @@
 
 .subtitle {
     color: var(--color--text);
-    font-size: 22px;
+    @include font-size(l);
     margin: $grid 0 0 0;
 }
 
 .reportList {
-    font-size: 22px;
+    @include font-size(m);
     list-style: none;
     margin: $grid * 2 0 0 0;
     display: flex;

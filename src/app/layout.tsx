@@ -2,7 +2,7 @@ import { Outfit } from 'next/font/google';
 import styles from '@/styles/Page.module.scss';
 import '@/styles/globals.scss';
 import Link from 'next/link';
-import { DARK_COLORS, LIGHT_COLORS } from '@/constants';
+import { DARK_COLORS, LIGHT_COLORS } from '@/utils/constants';
 import { cookies } from 'next/headers';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';

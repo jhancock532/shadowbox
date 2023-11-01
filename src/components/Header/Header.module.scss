@@ -41,21 +41,3 @@
         margin: 0;
     }
 }
-
-.themeButton {
-    border: none;
-    background: none;
-    cursor: pointer;
-    padding: 10px;
-    margin: -10px;
-    border-radius: 50%;
-    height: max-content;
-
-    &:hover {
-        outline: 3px solid var(--color--primary);
-    }
-
-    &:focus-visible {
-        background: var(--color--primary);
-    }
-}

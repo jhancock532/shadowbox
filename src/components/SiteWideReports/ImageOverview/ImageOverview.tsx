@@ -1,7 +1,7 @@
 import React from 'react';
 import BarChart from '@/components/BarChart';
 import { BarChartItem } from '@/types/types';
-import styles from '../ReportStyles.module.scss';
+import styles from '../OverviewReportStyles.module.scss';
 
 type ImageOverviewProps = {
     networkRequestSummary: any;

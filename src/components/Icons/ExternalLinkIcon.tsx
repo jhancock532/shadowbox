@@ -1,10 +1,6 @@
 import React from 'react';
 
-export default function ExternalLinkIcon({
-    className,
-}: {
-    className?: string;
-}) {
+export const ExternalLinkIcon = ({ className }: { className?: string }) => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -20,4 +16,4 @@ export default function ExternalLinkIcon({
             />
         </svg>
     );
-}
+};

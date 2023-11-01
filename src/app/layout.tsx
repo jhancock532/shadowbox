@@ -39,14 +39,11 @@ export default function RootLayout({
                             https://torchbox.com
                         </Link>
                         {children}
+                        <Footer />
                     </div>
                     <div></div>
                 </div>
             </body>
-            <div className={styles.container}>
-                <div></div>
-                <Footer />
-            </div>
         </html>
     );
 }

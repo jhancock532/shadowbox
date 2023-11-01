@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../ReportStyles.module.scss';
+import styles from '../OverviewReportStyles.module.scss';
 
 // Todo: make as utility function and add tests
 const extractFontsFromRequestSizes = (requestSizes: any) => {

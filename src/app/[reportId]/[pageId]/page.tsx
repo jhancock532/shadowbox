@@ -7,7 +7,7 @@ import {
     loadWebpageMetadata,
     loadWebpageNetworkRequests,
 } from '@/utils/loadFileData';
-import ExternalLinkIcon from '@/components/Icons/ExternalLinkIcon';
+import { ExternalLinkIcon } from '@/components/Icons';
 import WebpageReports from '@/components/WebpageReports';
 import pageDetailsStyles from './PageDetails.module.scss';
 

@@ -4,6 +4,7 @@ import '@/styles/globals.scss';
 import Link from 'next/link';
 import { DARK_COLORS, LIGHT_COLORS } from '@/utils/constants';
 import { cookies } from 'next/headers';
+import { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -13,6 +14,12 @@ const outfit = Outfit({
     variable: '--font--outfit',
     display: 'swap',
 });
+
+export const metadata: Metadata = {
+    title: 'Shadowbox',
+    description:
+        'A dashboard for visualizing and tracking the sustainability of a website.',
+};
 
 export default function RootLayout({
     children,

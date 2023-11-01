@@ -26,6 +26,7 @@ I've added a function that scrolls to the bottom of each page before continuing 
 - [ ] Page details image summary to include a warning icon or tick if the images are optimised or not.
 - [ ] Page details to include comparison information against the previous report, if page to compare found.
 - [ ] Include key statistic of total image weight across site / number of site pages.
+- [ ] Convert metadata component to new metadata export from layout routes
 
 ### Crawler
 

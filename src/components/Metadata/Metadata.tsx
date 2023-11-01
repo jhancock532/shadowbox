@@ -68,7 +68,7 @@ const Metadata = ({ title, description }: MetadataProps) => {
                 name="dcterms.dateCopyrighted"
                 content={new Date().getFullYear().toString()}
             />
-            <meta name="dcterms.rightsHolder" content="James Hancock" />
+            <meta name="dcterms.rightsHolder" content="Torchbox" />
         </Head>
     );
 };

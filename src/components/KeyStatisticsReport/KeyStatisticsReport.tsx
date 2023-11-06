@@ -7,6 +7,25 @@ interface KeyStatisticsReportProps {
     comparedNetworkRequestSummary?: any;
 }
 
+const calculateAverageImagePageWeight = (networkRequestSummary: any) => {
+    const totalImageWeight =
+        networkRequestSummary.websiteNetworkRequestSummary.reduce(
+            (acc: number, webpage: any) => {
+                if (webpage.networkRequestSizeTallies.image) {
+                    return acc + webpage.networkRequestSizeTallies.image;
+                }
+                return acc;
+            },
+            0,
+        );
+
+    return Math.floor(
+        totalImageWeight /
+            networkRequestSummary.websiteNetworkRequestSummary.length /
+            1000,
+    );
+};
+
 const KeyStatisticsReport: React.FC<KeyStatisticsReportProps> = ({
     networkRequestSummary,
     comparedNetworkRequestSummary,
@@ -22,6 +41,13 @@ const KeyStatisticsReport: React.FC<KeyStatisticsReportProps> = ({
         : undefined;
     const comparedMedianPageWeight = comparedNetworkRequestSummary
         ? Math.floor(comparedNetworkRequestSummary.medianPageWeight / 1000)
+        : undefined;
+
+    const averageImagePageWeight = calculateAverageImagePageWeight(
+        networkRequestSummary,
+    );
+    const comparedAverageImagePageWeight = comparedNetworkRequestSummary
+        ? calculateAverageImagePageWeight(comparedNetworkRequestSummary)
         : undefined;
 
     return (
@@ -40,17 +66,13 @@ const KeyStatisticsReport: React.FC<KeyStatisticsReportProps> = ({
                 showPercentageChange
             />
 
-            {/* <KeyStatistic
-                title="Image weight per page"
-                number={Math.floor(
-                    networkRequestSummary.medianPageWeight / 1000,
-                )}
-                comparisonNumber={Math.floor(
-                    comparedNetworkRequestSummary.medianPageWeight / 1000,
-                )}
+            <KeyStatistic
+                title="Average image page weight"
+                number={averageImagePageWeight}
+                comparisonNumber={comparedAverageImagePageWeight}
                 units=" kB"
                 showPercentageChange
-            /> */}
+            />
         </div>
     );
 };

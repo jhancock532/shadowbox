@@ -22,8 +22,14 @@ export const findComparedReportPageId = (
     const reportFileData = fs.readFileSync(reportFilePath);
     const reportMetadata = JSON.parse(reportFileData.toString());
 
-    if (Object.keys(reportMetadata.urlToIdMapping).includes(pageUrl)) {
-        return reportMetadata.urlToIdMapping[pageUrl];
+    const urlToId = reportMetadata.urlToIdMapping.find(
+        (urlToIdMapping: any) => {
+            return Object.keys(urlToIdMapping).includes(pageUrl);
+        },
+    );
+
+    if (urlToId) {
+        return urlToId[pageUrl];
     }
 
     return null;

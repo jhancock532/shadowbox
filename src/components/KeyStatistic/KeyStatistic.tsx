@@ -74,7 +74,7 @@ const KeyStatistic = ({
                     {units || ''}
                 </p>
             )}
-            {showPercentageChange && (
+            {showPercentageChange && percentageChange && (
                 <p className={styles.percentageChange}>{percentageChange}</p>
             )}
             {description && <p className={styles.description}>{description}</p>}

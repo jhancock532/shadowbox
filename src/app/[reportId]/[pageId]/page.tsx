@@ -35,7 +35,7 @@ export default function ReportPageDetailsView({ params }: any) {
     if (comparedReportId && comparedPageId) {
         comparedRequestData = loadWebpageNetworkRequests(
             comparedReportId,
-            params.pageId,
+            comparedPageId,
         );
     }
 

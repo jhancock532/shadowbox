@@ -73,8 +73,8 @@ export default function Report({ params }: any) {
             </h2>
 
             <p>
-                Hover over bars to see the page URL, and click on the bar for a
-                detailed analysis of that page.
+                Hover over bars to see more information, and click on the bar
+                for a detailed analysis of that page.
             </p>
 
             <NetworkRequestSummaryChart

@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 
 import { processNetworkRequestData } from './processNetworkRequestChartData';
@@ -21,6 +23,8 @@ const NetworkRequestSummaryChart: React.FC<NetworkRequestSummaryChartProps> = ({
     reportId,
     comparedReportId,
 }) => {
+    const [displayedBars, setDisplayedBars] = React.useState(15);
+
     const sortedChartItems = processNetworkRequestData(
         data,
         comparedData,
@@ -31,13 +35,24 @@ const NetworkRequestSummaryChart: React.FC<NetworkRequestSummaryChartProps> = ({
 
     return (
         <div className={styles.container}>
-            {sortedChartItems.map((data: any, index: number) => (
-                <NetworkRequestBar
-                    key={index}
-                    maxPossibleValue={largestPageWeight}
-                    networkRequestData={data}
-                />
-            ))}
+            {sortedChartItems
+                .slice(0, displayedBars)
+                .map((data: any, index: number) => (
+                    <NetworkRequestBar
+                        key={index}
+                        maxPossibleValue={largestPageWeight}
+                        networkRequestData={data}
+                    />
+                ))}
+
+            {displayedBars < sortedChartItems.length && (
+                <button
+                    className={styles.showMoreButton}
+                    onClick={() => setDisplayedBars(displayedBars + 15)}
+                >
+                    Show more
+                </button>
+            )}
         </div>
     );
 };

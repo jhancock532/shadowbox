@@ -66,3 +66,18 @@
         opacity: 0.6;
     }
 }
+
+.showMoreButton {
+    @include font-size(m);
+    cursor: pointer;
+    border: none;
+    border-radius: $border-radius;
+    padding: 6px 10px;
+    margin-top: $grid / 2;
+    background-color: var(--color--button);
+    color: var(--color--background);
+
+    &:hover {
+        background-color: var(--color--button-hover);
+    }
+}

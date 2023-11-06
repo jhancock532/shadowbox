@@ -13,7 +13,7 @@ const crawler = new PuppeteerCrawler({
             headless: true,
         },
     },
-    maxRequestsPerCrawl: 10,
+    maxRequestsPerCrawl: 100,
     requestHandlerTimeoutSecs: 30,
     requestHandler: router,
     failedRequestHandler: ({ request }, error) => {

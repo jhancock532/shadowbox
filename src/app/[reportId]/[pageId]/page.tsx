@@ -61,9 +61,7 @@ export default function ReportPageDetailsView({ params }: any) {
                 </a>
             </h1>
 
-            <WebpageReports
-                {...{ requestData, comparedRequestData, metadata }}
-            />
+            <WebpageReports {...{ requestData, comparedRequestData }} />
 
             <h2>Network requests</h2>
 

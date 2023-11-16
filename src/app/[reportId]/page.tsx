@@ -6,12 +6,14 @@ import {
     loadListOfReportWebpageMetadata,
     loadReportMetadata,
     loadRequestSizes,
+    loadIframeData,
 } from '@/utils/loadFileData';
 
 import NetworkRequestSummaryChart from '@/components/NetworkRequestSummaryChart';
 import KeyStatisticsReport from '@/components/KeyStatisticsReport';
 import FontOverview from '@/components/SiteWideReports/FontOverview';
 import ImageOverview from '@/components/SiteWideReports/ImageOverview';
+import IframeOverview from '@/components/SiteWideReports/IframeOverview';
 
 import styles from './ReportPage.module.scss';
 
@@ -22,12 +24,14 @@ export default function Report({ params }: any) {
     const webpageMetadata = loadListOfReportWebpageMetadata(params.reportId);
     const reportMetadata = loadReportMetadata(params.reportId);
     const requestSizes = loadRequestSizes(params.reportId);
+    const iframes = loadIframeData(params.reportId);
 
     const comparedReportId = cookies().get('compared-report-id')?.value || null;
 
     let comparedNetworkRequestSummary;
     let comparedReportMetadata;
     let comparedRequestSizes;
+    let comparedIframes;
 
     let largestPageWeight = networkRequestSummary.largestPageWeight;
 
@@ -41,6 +45,7 @@ export default function Report({ params }: any) {
     if (comparedReportId) {
         comparedReportMetadata = loadReportMetadata(comparedReportId);
         comparedRequestSizes = loadRequestSizes(comparedReportId);
+        comparedIframes = loadIframeData(comparedReportId);
 
         comparedNetworkRequestSummary =
             loadReportNetworkRequestSummary(comparedReportId);
@@ -94,6 +99,11 @@ export default function Report({ params }: any) {
             <FontOverview
                 requestSizes={requestSizes}
                 comparedRequestSizes={comparedRequestSizes}
+            />
+
+            <IframeOverview
+                iframes={iframes}
+                comparedIframes={comparedIframes}
             />
 
             <h2 className={styles.secondaryTitle}>Report metadata</h2>

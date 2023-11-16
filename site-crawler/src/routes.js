@@ -39,3 +39,22 @@ router.addDefaultHandler(async ({ enqueueLinks, request, page, log }) => {
         youtubeEmbeds,
     });
 });
+
+export const iframeRouter = createPuppeteerRouter();
+
+iframeRouter.addDefaultHandler(async ({ request, page, log }) => {
+    await scrollToBottom(page);
+
+    const title = await page.title();
+
+    const networkRequests = await getNetworkRequests(page);
+
+    log.info(`${title}`, { url: request.loadedUrl });
+
+    await Dataset.pushData({
+        id: crypto.randomUUID().substring(0, 18),
+        url: request.loadedUrl,
+        title,
+        networkRequests,
+    });
+});

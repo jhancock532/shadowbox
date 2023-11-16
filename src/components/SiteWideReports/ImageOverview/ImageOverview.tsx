@@ -1,6 +1,7 @@
 import React from 'react';
 import BarChart from '@/components/BarChart';
 import { BarChartItem } from '@/types/types';
+import { calculateLabelOnSize } from '@/utils/statistics';
 import styles from '../OverviewReportStyles.module.scss';
 
 type ImageOverviewProps = {
@@ -14,14 +15,6 @@ const calculateTooltip = (item: any, fileType: string) => {
     )} kB`;
 };
 
-const calculateLabel = (item: any) => {
-    if (item.size > 1000000) {
-        return `${Math.floor(item.size / 1000000)} MB`;
-    }
-
-    return `${Math.floor(item.size / 1000)} kB`;
-};
-
 const generateTalliedImageChartData = (talliedImages: any) => {
     const chartData: BarChartItem[] = [];
 
@@ -32,7 +25,7 @@ const generateTalliedImageChartData = (talliedImages: any) => {
             key: `.${key}`,
             value: item.size,
             tooltip: calculateTooltip(item, key),
-            label: calculateLabel(item),
+            label: calculateLabelOnSize(item),
         });
     });
 
@@ -99,12 +92,21 @@ export function ImageOverview({
     return (
         <div className={styles.container}>
             <h2 className={styles.title}>Image overview</h2>
-            <p>
-                Of the {totalNumberOfAllImageTypes} images loaded across all
-                pages of the site, {talliedImages.webp.count} where found using
-                the .webp file format. The more images that use .webp, the less
-                data that needs transferred while loading a webpage.
-            </p>
+            {talliedImages.webp && talliedImages.webp.count ? (
+                <p>
+                    Of the {totalNumberOfAllImageTypes} images loaded across all
+                    pages of the site, {talliedImages.webp.count} were found
+                    using the .webp file format. The more images that use .webp,
+                    the less data that needs transferred while loading a
+                    webpage.
+                </p>
+            ) : (
+                <p>
+                    Of the {totalNumberOfAllImageTypes} images loaded across all
+                    pages of the site, no images using the webp file format were
+                    found.
+                </p>
+            )}
             <BarChart data={chartData} comparisonData={comparedChartData} />
         </div>
     );

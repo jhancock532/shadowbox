@@ -1,6 +1,12 @@
 import fs from 'fs';
 
-import { getRequestSizes, getReportID, getReportPageData } from './loadData.js';
+import {
+    getRequestSizes,
+    getIframeRequestSizes,
+    getReportID,
+    getReportPageData,
+    getReportIframeData,
+} from './loadData.js';
 
 import {
     calculateAverageFromArray,
@@ -13,7 +19,7 @@ import {
  * @param {Array} networkRequests - An array of network request objects.
  * @returns {Object} An object containing the total transfer size of network requests by type.
  */
-function tallyNetworkRequestSizeByType(networkRequests) {
+export function tallyNetworkRequestSizeByType(networkRequests) {
     let output = {};
 
     for (let i = 0; i < networkRequests.length; i += 1) {
@@ -68,9 +74,10 @@ function tallyNetworkRequestsByResourceTypeExtension(
  *
  * @param {Object} page - The page object to load request transfer sizes for.
  * @param {Object} requestSizes - The object containing request sizes.
+ * @param {Object} iframeData - The object containing iframe data.
  * @returns {Array} - An array of network requests for the page with updated transfer sizes.
  */
-const loadRequestTransferSizesForPage = (page, requestSizes) => {
+const loadRequestTransferSizesForPage = (page, requestSizes, iframeData) => {
     const pageNetworkRequests = [];
 
     for (let j = 0; j < page.networkRequests.length; j += 1) {
@@ -81,6 +88,18 @@ const loadRequestTransferSizesForPage = (page, requestSizes) => {
             request.transferSize === 0
         ) {
             request.transferSize = requestSizes[request.url];
+        }
+
+        if (request.resourceType === 'iframe') {
+            const iframe = iframeData.find(
+                (iframe) => iframe.url === request.url,
+            );
+
+            if (iframe !== undefined) {
+                request.transferSize = iframe.totalSize;
+                request.networkRequests = iframe.networkRequests;
+                request.resourceSizes = iframe.resourceSizes;
+            }
         }
 
         pageNetworkRequests.push(request);
@@ -150,7 +169,12 @@ const saveNetworkRequestsSummary = (
     );
 };
 
-function processNetworkRequests(pageData, reportUUID, requestSizes) {
+function processNetworkRequests(
+    pageData,
+    iframeData,
+    reportUUID,
+    requestSizes,
+) {
     const websitePageWeights = [];
     const websiteNetworkRequestSummary = [];
 
@@ -160,6 +184,7 @@ function processNetworkRequests(pageData, reportUUID, requestSizes) {
         const pageNetworkRequests = loadRequestTransferSizesForPage(
             page,
             requestSizes,
+            iframeData,
         );
 
         const pageWeight =
@@ -173,9 +198,14 @@ function processNetworkRequests(pageData, reportUUID, requestSizes) {
             pageNetworkRequests,
             'image',
         );
+
         const fontFileTallies = tallyNetworkRequestsByResourceTypeExtension(
             pageNetworkRequests,
             'font',
+        );
+
+        const iframes = pageNetworkRequests.filter(
+            (request) => request.resourceType === 'iframe',
         );
 
         websiteNetworkRequestSummary.push({
@@ -191,6 +221,7 @@ function processNetworkRequests(pageData, reportUUID, requestSizes) {
             images: imageFileTallies,
             fonts: fontFileTallies,
             pageWeight,
+            iframes,
         };
 
         saveNetworkRequestDetailsForPage(
@@ -207,9 +238,37 @@ function processNetworkRequests(pageData, reportUUID, requestSizes) {
     );
 }
 
-const pageData = getReportPageData();
 const reportId = getReportID();
+const pageData = getReportPageData();
 const requestSizes = getRequestSizes(reportId);
+const iframeData = getReportIframeData();
+const iframeRequestSizes = getIframeRequestSizes(reportId);
+
+// Process the iframe data
+for (let i = 0; i < iframeData.length; i += 1) {
+    const iframe = iframeData[i];
+
+    let totalSize = 0;
+
+    // Update the iframe network requests with accurate transfer sizes
+    for (let j = 0; j < iframe.networkRequests.length; j += 1) {
+        const request = iframe.networkRequests[j];
+        if (request.transferSize === 0) {
+            request.transferSize = iframeRequestSizes[request.url];
+        }
+        totalSize += request.transferSize;
+    }
+
+    iframe.totalSize = totalSize;
+
+    iframe.resourceSizes = tallyNetworkRequestSizeByType(
+        iframe.networkRequests,
+    );
+}
+
+const iframesJSON = JSON.stringify(iframeData, null, 4);
+
+fs.writeFileSync(`../data/${reportId}/iframes.json`, iframesJSON + '\n');
 
 // Save the results to a new JSON file in a webpage specific subdirectory
-processNetworkRequests(pageData, reportId, requestSizes);
+processNetworkRequests(pageData, iframeData, reportId, requestSizes);

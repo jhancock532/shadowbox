@@ -3,7 +3,7 @@ import { PuppeteerCrawler, Dataset } from 'crawlee';
 import { exportReportMetadataToJSON } from './metadataExport.js';
 import { router } from './routes.js';
 
-const startUrls = ['https://torchbox.com/team/'];
+const startUrls = ['http://127.0.0.1:5500/index.html'];
 let failedURLs = [];
 
 // Documentation: https://crawlee.dev/
@@ -13,7 +13,7 @@ const crawler = new PuppeteerCrawler({
             headless: true,
         },
     },
-    maxRequestsPerCrawl: 100,
+    maxRequestsPerCrawl: 1,
     requestHandlerTimeoutSecs: 30,
     requestHandler: router,
     failedRequestHandler: ({ request }, error) => {

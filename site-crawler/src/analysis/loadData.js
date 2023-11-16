@@ -19,13 +19,32 @@ export function getReportPageData() {
     );
 }
 
+export function getReportIframeData() {
+    return JSON.parse(
+        fs.readFileSync(
+            './storage/key_value_stores/iframe_output/iframe_results.json',
+            'utf8',
+        ),
+    );
+}
+
 export function getRequestSizes(reportId) {
     return JSON.parse(
         fs.readFileSync(`../data/${reportId}/requestSizes.json`, 'utf8'),
     );
 }
 
+export function getIframeRequestSizes(reportId) {
+    return JSON.parse(
+        fs.readFileSync(`../data/${reportId}/iframeRequestSizes.json`, 'utf8'),
+    );
+}
+
 async function getResponseSize(url) {
+    // if the url uses http, replace it with https
+    if (url.startsWith('http://')) {
+        url = url.replace('http://', 'https://');
+    }
     return new Promise((resolve, reject) => {
         https
             .get(url, (response) => {

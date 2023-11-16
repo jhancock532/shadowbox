@@ -1,0 +1,23 @@
+{
+    "url": "http://127.0.0.1:5500/index.html",
+    "id": "efc7fc6c-bdf3-4b46",
+    "title": "Document",
+    "metadata": {
+        "description": "",
+        "twitter": {},
+        "og": {}
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": [
+        {
+            "src": "https://www.youtube.com/embed/ce6SCCqyL2c?si=S9tcQBf9zAmP98M8",
+            "title": "YouTube video player",
+            "thumbnail": "https://i.ytimg.com/vi/ce6SCCqyL2c/mqdefault.jpg"
+        },
+        {
+            "src": "https://www.youtube-nocookie.com/embed/ce6SCCqyL2c?si=S9tcQBf9zAmP98M8",
+            "title": "YouTube video player",
+            "thumbnail": "https://i.ytimg.com/vi/ce6SCCqyL2c/mqdefault.jpg"
+        }
+    ]
+}

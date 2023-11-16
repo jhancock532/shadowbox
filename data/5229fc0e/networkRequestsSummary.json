@@ -1,0 +1,18 @@
+{
+    "averagePageWeight": 6819189,
+    "medianPageWeight": 6819189,
+    "largestPageWeight": 6819189,
+    "websiteNetworkRequestSummary": [
+        {
+            "url": "http://127.0.0.1:5500/index.html",
+            "networkRequestSizeTallies": {
+                "document": 12365,
+                "script": 168979,
+                "iframe": 6636211,
+                "stylesheet": 1634
+            },
+            "imageFileTallies": {},
+            "fontFileTallies": {}
+        }
+    ]
+}

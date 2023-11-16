@@ -22,16 +22,19 @@ I've added a function that scrolls to the bottom of each page before continuing 
 - [x] Better renderer for report metadata JSON output (code formatting)
 - [x] Include warning in report summary outlining pages with poor image optimisation & poor font optimisation.
 - [x] KeyStatistic component could have an optional % difference value show
+- [x] Page details to include comparison information against the previous report, if page to compare found.
+- [x] Include key statistic of total image weight across site / number of site pages.
 - [ ] Page details title to include report date
 - [ ] Page details image summary to include a warning icon or tick if the images are optimised or not.
-- [ ] Page details to include comparison information against the previous report, if page to compare found.
-- [ ] Include key statistic of total image weight across site / number of site pages.
 - [ ] Convert metadata component to new metadata export from layout routes
+- [ ] Organise site reports in chronological order in home page and report comparison dropdowns
+- [ ] Add comparison view for embedded content in page details report
 
 ### Crawler
 
 - [ ] A loading bar for the crawler asset download process.
 - [ ] Add console log messages to the crawler export stages to show progress.
+- [ ] Add support for multiple crawler asset download workers working in parallel?
 
 ## Documentation
 

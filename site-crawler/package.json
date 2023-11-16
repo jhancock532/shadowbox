@@ -4,11 +4,12 @@
   "type": "module",
   "description": "Fetches resources from a website to identify sustainability and performance issues",
   "dependencies": {
-    "crawlee": "3.0.0",
+    "crawlee": "3.5.8",
     "puppeteer": "*"
   },
   "scripts": {
     "start": "node src/main.js",
+    "iframes": "node src/iframes.js",
     "crawl": "node src/main.js",
     "download-requests": "node src/analysis/downloadRequests.js",
     "process-requests": "node src/analysis/processRequests.js",

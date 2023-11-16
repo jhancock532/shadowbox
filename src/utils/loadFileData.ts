@@ -65,6 +65,17 @@ export const loadRequestSizes = (reportId: string) => {
     return requestSizes;
 };
 
+export const loadIframeData = (reportId: string) => {
+    const iframesFilePath = path.join(
+        process.cwd(),
+        `data/${reportId}/iframes.json`,
+    );
+
+    const iframes = JSON.parse(fs.readFileSync(iframesFilePath, 'utf8'));
+
+    return iframes;
+};
+
 export const loadReportNetworkRequestSummary = (reportId: string) => {
     const networkRequestSummaryFilePath = path.join(
         process.cwd(),

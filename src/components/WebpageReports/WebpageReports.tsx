@@ -1,12 +1,8 @@
-import EmbedReport from './EmbedReport';
+import IframeReport from './IframeReport';
 import FontReport from './FontReport';
 import ImageReport from './ImageReport';
 
-export const WebpageReports = ({
-    requestData,
-    comparedRequestData,
-    metadata,
-}: any) => {
+export const WebpageReports = ({ requestData, comparedRequestData }: any) => {
     return (
         <>
             <ImageReport
@@ -19,7 +15,7 @@ export const WebpageReports = ({
                 comparedRequestData={comparedRequestData}
             />
 
-            <EmbedReport metadata={metadata} />
+            <IframeReport requestData={requestData} />
         </>
     );
 };

@@ -31,18 +31,26 @@ export async function scrollToBottom(page) {
  * @returns {Promise<string[]>} - An array of links going to the same site as the given page.
  */
 export async function getWithinSiteLinks(page) {
-    const baseUrl = new URL(page.url());
-    return await page.$$eval(
-        'a',
-        (as, baseUrl) => {
-            as = as.filter((a) => {
-                const url = new URL(a.href);
-                return url.origin === baseUrl.origin;
-            });
-            return as.map((a) => a.href);
-        },
-        baseUrl,
-    );
+    // Todo: not all page URLs will be valid, for some reason YouTube embeds always fail here.
+    try {
+        const baseUrl = new URL(page.url());
+        return await page.$$eval(
+            'a',
+            (as, baseUrl) => {
+                as = as.filter((a) => {
+                    const url = new URL(a.href);
+                    return url.origin === baseUrl.origin;
+                });
+                return as.map((a) => a.href);
+            },
+            baseUrl,
+        );
+    } catch (error) {
+        console.error(
+            "* Couldn't get links from within page due to invalid URL format. *",
+            page.url(),
+        );
+    }
 }
 
 /**

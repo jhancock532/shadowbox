@@ -64,6 +64,7 @@ export const IframeReport = ({ requestData }: any) => {
                         <summary className={styles.summary}>
                             Show resource breakdown
                         </summary>
+                        <div style={{ marginTop: '10px' }} />
                         <BarChart
                             data={generateEmbedChartData(iframe.resourceSizes)}
                         />

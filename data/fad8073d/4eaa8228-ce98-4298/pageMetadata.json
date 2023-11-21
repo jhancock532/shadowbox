@@ -1,0 +1,22 @@
+{
+    "url": "https://torchbox.com/events/?filter=digital-products",
+    "id": "4eaa8228-ce98-4298",
+    "title": "Events",
+    "metadata": {
+        "description": "",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Events",
+            "description": "Torchbox - the digital product agency for tomorrow’s nonprofits."
+        },
+        "og": {
+            "type": "website",
+            "url": "/events/",
+            "title": "Events",
+            "description": "Torchbox - the digital product agency for tomorrow’s nonprofits."
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

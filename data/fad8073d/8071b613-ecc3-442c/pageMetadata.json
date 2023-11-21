@@ -1,0 +1,22 @@
+{
+    "url": "https://torchbox.com/wagtail-cms/accelerator-kit/",
+    "id": "8071b613-ecc3-442c",
+    "title": "The Wagtail Accelerator built by Wagtail's founding developers.",
+    "metadata": {
+        "description": "Are you looking to kickstart your project and propel yourself forwards? Enter Wagtail Accelerator kit. A solid, tested kit to onboard you to Wagtail.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Wagtail accelerator kit",
+            "description": "Are you looking to kickstart your project and propel yourself forwards? Enter Wagtail Accelerator kit. A solid, tested kit to onboard you to Wagtail."
+        },
+        "og": {
+            "type": "website",
+            "url": "/wagtail-cms/accelerator-kit/",
+            "title": "Wagtail accelerator kit",
+            "description": "Are you looking to kickstart your project and propel yourself forwards? Enter Wagtail Accelerator kit. A solid, tested kit to onboard you to Wagtail."
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

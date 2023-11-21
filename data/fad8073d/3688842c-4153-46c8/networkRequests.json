@@ -1,0 +1,209 @@
+{
+    "url": "https://torchbox.com/wagtail-cms/development/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/wagtail-cms/development/",
+            "resourceType": "document",
+            "transferSize": 14356,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.4ae77b7a8130.css",
+            "resourceType": "stylesheet",
+            "transferSize": 129345,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 230966,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.fill-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 3568,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IMG_3157.2e16d0ba.fill-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 4075,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tom_d.2e16d0ba.fill-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 3374,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.d536022fa2da.js",
+            "resourceType": "script",
+            "transferSize": 206710,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Anthony_Indraus_on_UnSplash.width-1280.jpg",
+            "resourceType": "image",
+            "transferSize": 90986,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/_MG_4836.width-1280.jpg",
+            "resourceType": "image",
+            "transferSize": 204264,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/HRA_testing.width-1280.jpg",
+            "resourceType": "image",
+            "transferSize": 80369,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Children.width-1280.jpg",
+            "resourceType": "image",
+            "transferSize": 247547,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
+            "resourceType": "font",
+            "transferSize": 61624,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/4aa0abf35762d3d96221.0cd7caae30ac.woff",
+            "resourceType": "font",
+            "transferSize": 60920,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/df348384f91cc9ecf2f7.8cf7315c70cb.woff",
+            "resourceType": "font",
+            "transferSize": 61456,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/f86b36700825a41a1b4a.27eaf2a5c297.woff",
+            "resourceType": "font",
+            "transferSize": 59720,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://media.torchbox.com/images/NHS_logo_on_6x4_background_IHQiQTc.width-400.png",
+            "resourceType": "image",
+            "transferSize": 16756,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/RCA_logo_on_6x4_background__5VTAvai.width-400.png",
+            "resourceType": "image",
+            "transferSize": 38657,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Department_of_health_logo_on_6x4_background__C.width-400.png",
+            "resourceType": "image",
+            "transferSize": 32885,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/sams.width-400.png",
+            "resourceType": "image",
+            "transferSize": 28890,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/nesta.width-400.png",
+            "resourceType": "image",
+            "transferSize": 10858,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/gw.width-400.png",
+            "resourceType": "image",
+            "transferSize": 19549,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/University_of_Oxford_logo_on_6x4_background_rh.width-400.png",
+            "resourceType": "image",
+            "transferSize": 23108,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/CIFF_logo.width-400.png",
+            "resourceType": "image",
+            "transferSize": 22344,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/dit.width-400.png",
+            "resourceType": "image",
+            "transferSize": 21531,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/ny.width-400.png",
+            "resourceType": "image",
+            "transferSize": 10281,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Girl_effect_logo_on_6x4_background__WWmw36B.width-400.png",
+            "resourceType": "image",
+            "transferSize": 63874,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/CCA_logo_on_6x4_42CUPvQ.width-400.png",
+            "resourceType": "image",
+            "transferSize": 43155,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Certified_B_Corporation_B_Corp_Logo_2022_Black.height-90.png",
+            "resourceType": "image",
+            "transferSize": 2438,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-Top25_Best-Mid-Sized-Companies_1.original.height-90.png",
+            "resourceType": "image",
+            "transferSize": 5830,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Inhabit-Carbon-Neutral-Badge-Connected-Blue.or.height-90.png",
+            "resourceType": "image",
+            "transferSize": 3829,
+            "fileExtension": "png"
+        }
+    ],
+    "images": {
+        "jpg": {
+            "count": 7,
+            "size": 634183
+        },
+        "png": {
+            "count": 15,
+            "size": 343985
+        }
+    },
+    "fonts": {
+        "woff": {
+            "count": 4,
+            "size": 243720
+        }
+    },
+    "pageWeight": 1804504,
+    "iframes": []
+}

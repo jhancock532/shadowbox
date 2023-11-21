@@ -1,0 +1,1363 @@
+[
+    {
+        "id": "006d0623-c9da-442a",
+        "url": "https://www.youtube.com/embed/e1P0yE7VWSg?feature=oembed",
+        "title": "Mozilla PWA demo - YouTube",
+        "networkRequests": [
+            {
+                "url": "https://www.youtube.com/embed/e1P0yE7VWSg?feature=oembed",
+                "resourceType": "document",
+                "transferSize": 39091,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-player.css",
+                "resourceType": "stylesheet",
+                "transferSize": 49095,
+                "fileExtension": "css"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+                "resourceType": "font",
+                "transferSize": 11048,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+                "resourceType": "font",
+                "transferSize": 11088,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/embed.js",
+                "resourceType": "script",
+                "transferSize": 18053,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-embed-player.vflset/www-embed-player.js",
+                "resourceType": "script",
+                "transferSize": 98894,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/base.js",
+                "resourceType": "script",
+                "transferSize": 780333,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://googleads.g.doubleclick.net/pagead/id",
+                "resourceType": "xhr",
+                "transferSize": 420,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://static.doubleclick.net/instream/ad_status.js",
+                "resourceType": "script",
+                "transferSize": 329,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+                "resourceType": "xhr",
+                "transferSize": 1599,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/remote.js",
+                "resourceType": "script",
+                "transferSize": 33773,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js",
+                "resourceType": "script",
+                "transferSize": 39655,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://i.ytimg.com/vi_webp/e1P0yE7VWSg/maxresdefault.webp",
+                "resourceType": "image",
+                "transferSize": 8378,
+                "fileExtension": "webp"
+            },
+            {
+                "url": "https://yt3.ggpht.com/ytc/APkrFKY1lA2xziUHZeE0G6ost4Q_DbNFMEJm8L0T0Jdhggc=s68-c-k-c0x00ffffff-no-rj",
+                "resourceType": "stylesheet",
+                "transferSize": 2579,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+                "resourceType": "xhr",
+                "transferSize": 1603,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+                "resourceType": "script",
+                "transferSize": 4272,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/generate_204?iRC52Q",
+                "resourceType": "image",
+                "transferSize": 300,
+                "fileExtension": "unknown"
+            }
+        ],
+        "totalSize": 1100510,
+        "resourceSizes": {
+            "document": 39091,
+            "stylesheet": 51674,
+            "font": 22136,
+            "script": 975309,
+            "xhr": 3622,
+            "image": 8678
+        }
+    },
+    {
+        "id": "c7d9ce48-2b85-4675",
+        "url": "https://player.vimeo.com/video/330732915?app_id=122963",
+        "title": "oxfam-cs on Vimeo",
+        "networkRequests": [
+            {
+                "url": "https://player.vimeo.com/video/330732915?app_id=122963",
+                "resourceType": "document",
+                "transferSize": 6424,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://f.vimeocdn.com/p/4.26.4/js/player.module.js",
+                "resourceType": "script",
+                "transferSize": 553919,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://f.vimeocdn.com/p/4.26.4/js/vendor.module.js",
+                "resourceType": "script",
+                "transferSize": 419914,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://f.vimeocdn.com/p/4.26.4/css/player.css",
+                "resourceType": "stylesheet",
+                "transferSize": 210729,
+                "fileExtension": "css"
+            },
+            {
+                "url": "https://i.vimeocdn.com/video/775904051-edcadbebda709fcccca2c7739ccd068cb4a63e09e95c5758022da4b4f04b4c51-d?mw=80&q=85",
+                "resourceType": "image",
+                "transferSize": 1072,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js",
+                "resourceType": "script",
+                "transferSize": 1285,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://i.vimeocdn.com/video/775904051-edcadbebda709fcccca2c7739ccd068cb4a63e09e95c5758022da4b4f04b4c51-d?mw=2880&mh=1620&q=70",
+                "resourceType": "image",
+                "transferSize": 53844,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://fresnel.vimeocdn.com/add/player-stats?beacon=1&session-id=b213e9ad6a581813d896247663793d097b3ef6151700582200",
+                "resourceType": "beacon",
+                "transferSize": 9,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://vimeo.com/ablincoln/vuid?pid=b213e9ad6a581813d896247663793d097b3ef6151700582200",
+                "resourceType": "beacon",
+                "transferSize": 0,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://i.vimeocdn.com/portrait/31328464_60x60",
+                "resourceType": "image",
+                "transferSize": 1511,
+                "fileExtension": "unknown"
+            }
+        ],
+        "totalSize": 1248707,
+        "resourceSizes": {
+            "document": 6424,
+            "script": 975118,
+            "stylesheet": 210729,
+            "image": 56427,
+            "beacon": 9
+        }
+    },
+    {
+        "id": "5574661b-4a6f-4882",
+        "url": "https://www.youtube.com/embed/NKOqhto7CKc?feature=oembed",
+        "title": "Royal College of Art (RCA) Intranet | Wagtail CMS - YouTube",
+        "networkRequests": [
+            {
+                "url": "https://www.youtube.com/embed/NKOqhto7CKc?feature=oembed",
+                "resourceType": "document",
+                "transferSize": 39304,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-player.css",
+                "resourceType": "stylesheet",
+                "transferSize": 386719,
+                "fileExtension": "css"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+                "resourceType": "font",
+                "transferSize": 10748,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+                "resourceType": "font",
+                "transferSize": 10788,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/embed.js",
+                "resourceType": "script",
+                "transferSize": 57715,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-embed-player.vflset/www-embed-player.js",
+                "resourceType": "script",
+                "transferSize": 329430,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/base.js",
+                "resourceType": "script",
+                "transferSize": 2449086,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://googleads.g.doubleclick.net/pagead/id",
+                "resourceType": "xhr",
+                "transferSize": 420,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://static.doubleclick.net/instream/ad_status.js",
+                "resourceType": "script",
+                "transferSize": 29,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+                "resourceType": "xhr",
+                "transferSize": 1599,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/remote.js",
+                "resourceType": "script",
+                "transferSize": 118987,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js",
+                "resourceType": "script",
+                "transferSize": 39655,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://i.ytimg.com/vi_webp/NKOqhto7CKc/maxresdefault.webp",
+                "resourceType": "image",
+                "transferSize": 111118,
+                "fileExtension": "webp"
+            },
+            {
+                "url": "https://yt3.ggpht.com/ytc/APkrFKZNCtfC9sBGko5evXTBiZ27wonFAnRK9U-djTxE=s68-c-k-c0x00ffffff-no-rj",
+                "resourceType": "stylesheet",
+                "transferSize": 2395,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+                "resourceType": "xhr",
+                "transferSize": 1603,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+                "resourceType": "script",
+                "transferSize": 4272,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/generate_204?EJ2D9w",
+                "resourceType": "image",
+                "transferSize": 300,
+                "fileExtension": "unknown"
+            }
+        ],
+        "totalSize": 3564168,
+        "resourceSizes": {
+            "document": 39304,
+            "stylesheet": 389114,
+            "font": 21536,
+            "script": 2999174,
+            "xhr": 3622,
+            "image": 111418
+        }
+    },
+    {
+        "id": "9a23e6fa-ed8d-4cef",
+        "url": "https://stories.site/torchbox/samaritans-digital-transformation-story/#visibilityState=prerender&origin=https%3A%2F%2Ftorchbox.com&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe",
+        "title": "Samaritans Digital Transformation Story",
+        "networkRequests": [
+            {
+                "url": "https://stories.site/torchbox/samaritans-digital-transformation-story/#visibilityState=prerender&origin=https%3A%2F%2Ftorchbox.com&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe",
+                "resourceType": "document",
+                "transferSize": 54543,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://cdn.ampproject.org/v0.js",
+                "resourceType": "script",
+                "transferSize": 73500,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://cdn.ampproject.org/v0/amp-analytics-0.1.js",
+                "resourceType": "script",
+                "transferSize": 32527,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://cdn.ampproject.org/v0/amp-story-1.0.js",
+                "resourceType": "script",
+                "transferSize": 50543,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://fonts.googleapis.com/css?display=swap&family=Poppins:400,700,600,800|Lato:400|Open%20Sans:400",
+                "resourceType": "unknown",
+                "transferSize": 1229,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+                "resourceType": "font",
+                "transferSize": 8116,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+                "resourceType": "font",
+                "transferSize": 8300,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVIUwaEQbjA.woff2",
+                "resourceType": "font",
+                "transferSize": 13772,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+                "resourceType": "font",
+                "transferSize": 8184,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlFd2JQEk.woff2",
+                "resourceType": "font",
+                "transferSize": 8124,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXiWtFCc.woff2",
+                "resourceType": "font",
+                "transferSize": 14280,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://stories.site/torchbox/samaritans-digital-transformation-story/assets/2.jpeg",
+                "resourceType": "image",
+                "transferSize": 113426,
+                "fileExtension": "jpeg"
+            },
+            {
+                "url": "https://stories.site/torchbox/samaritans-digital-transformation-story/assets/3.png",
+                "resourceType": "image",
+                "transferSize": 4840,
+                "fileExtension": "png"
+            },
+            {
+                "url": "https://cdn.ampproject.org/rtv/012310301456000/v0/amp-loader-0.1.js",
+                "resourceType": "script",
+                "transferSize": 4238,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://cdn.ampproject.org/rtv/012310301456000/v0/amp-viewer-integration-0.1.js",
+                "resourceType": "script",
+                "transferSize": 12302,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://cdn.ampproject.org/rtv/012310301456000/v0/amp-animation-0.1.js",
+                "resourceType": "script",
+                "transferSize": 19287,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://cdn.ampproject.org/rtv/012310301456000/v0/amp-story.en.json?__amp_source_origin=https%3A%2F%2Fstories.site",
+                "resourceType": "json",
+                "transferSize": 848,
+                "fileExtension": "json"
+            }
+        ],
+        "totalSize": 428059,
+        "resourceSizes": {
+            "document": 54543,
+            "script": 192397,
+            "unknown": 1229,
+            "font": 60776,
+            "image": 118266,
+            "json": 848
+        }
+    },
+    {
+        "id": "21a01eb3-94a2-464b",
+        "url": "https://www.youtube-nocookie.com/embed/Mea30YK8rs8",
+        "title": "Torchbox – Our EO Story: Our road to financial freedom - YouTube",
+        "networkRequests": [
+            {
+                "url": "https://www.youtube-nocookie.com/embed/Mea30YK8rs8",
+                "resourceType": "document",
+                "transferSize": 39343,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube-nocookie.com/s/player/190c935f/www-player.css",
+                "resourceType": "stylesheet",
+                "transferSize": 49095,
+                "fileExtension": "css"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+                "resourceType": "font",
+                "transferSize": 10748,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+                "resourceType": "font",
+                "transferSize": 10788,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://www.youtube-nocookie.com/s/player/190c935f/player_ias.vflset/en_US/embed.js",
+                "resourceType": "script",
+                "transferSize": 18053,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube-nocookie.com/s/player/190c935f/www-embed-player.vflset/www-embed-player.js",
+                "resourceType": "script",
+                "transferSize": 98894,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube-nocookie.com/s/player/190c935f/player_ias.vflset/en_US/base.js",
+                "resourceType": "script",
+                "transferSize": 780333,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+                "resourceType": "xhr",
+                "transferSize": 1599,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube-nocookie.com/s/player/190c935f/player_ias.vflset/en_US/remote.js",
+                "resourceType": "script",
+                "transferSize": 33773,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js",
+                "resourceType": "script",
+                "transferSize": 39655,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://i.ytimg.com/vi/Mea30YK8rs8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgSSgyMA8=&rs=AOn4CLDIxvrnWjV6ZQ2cUye5iop7iB0ATw",
+                "resourceType": "image",
+                "transferSize": 44284,
+                "fileExtension": "jpg"
+            },
+            {
+                "url": "https://yt3.ggpht.com/ytc/APkrFKZNCtfC9sBGko5evXTBiZ27wonFAnRK9U-djTxE=s68-c-k-c0x00ffffff-no-rj",
+                "resourceType": "stylesheet",
+                "transferSize": 2095,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+                "resourceType": "xhr",
+                "transferSize": 1603,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+                "resourceType": "script",
+                "transferSize": 4272,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube-nocookie.com/generate_204?c_zxVw",
+                "resourceType": "image",
+                "transferSize": 300,
+                "fileExtension": "unknown"
+            }
+        ],
+        "totalSize": 1134835,
+        "resourceSizes": {
+            "document": 39343,
+            "stylesheet": 51190,
+            "font": 21536,
+            "script": 974980,
+            "xhr": 3202,
+            "image": 44584
+        }
+    },
+    {
+        "id": "2baca488-f02d-46f1",
+        "url": "https://www.youtube.com/embed/oUswLU2t4qM?feature=oembed",
+        "title": "How Wharton Interactive is Transforming Education - YouTube",
+        "networkRequests": [
+            {
+                "url": "https://www.youtube.com/embed/oUswLU2t4qM?feature=oembed",
+                "resourceType": "document",
+                "transferSize": 39361,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-player.css",
+                "resourceType": "stylesheet",
+                "transferSize": 386719,
+                "fileExtension": "css"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/embed.js",
+                "resourceType": "script",
+                "transferSize": 57715,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-embed-player.vflset/www-embed-player.js",
+                "resourceType": "script",
+                "transferSize": 329430,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/base.js",
+                "resourceType": "script",
+                "transferSize": 2449086,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+                "resourceType": "font",
+                "transferSize": 10748,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+                "resourceType": "font",
+                "transferSize": 10788,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://googleads.g.doubleclick.net/pagead/id",
+                "resourceType": "xhr",
+                "transferSize": 420,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://static.doubleclick.net/instream/ad_status.js",
+                "resourceType": "script",
+                "transferSize": 29,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+                "resourceType": "xhr",
+                "transferSize": 1599,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/remote.js",
+                "resourceType": "script",
+                "transferSize": 118987,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js",
+                "resourceType": "script",
+                "transferSize": 39655,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://i.ytimg.com/vi_webp/oUswLU2t4qM/sddefault.webp",
+                "resourceType": "image",
+                "transferSize": 42432,
+                "fileExtension": "webp"
+            },
+            {
+                "url": "https://yt3.ggpht.com/ytc/APkrFKZNCtfC9sBGko5evXTBiZ27wonFAnRK9U-djTxE=s68-c-k-c0x00ffffff-no-rj",
+                "resourceType": "stylesheet",
+                "transferSize": 2095,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+                "resourceType": "xhr",
+                "transferSize": 1603,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+                "resourceType": "script",
+                "transferSize": 4272,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/generate_204?8-l_CA",
+                "resourceType": "image",
+                "transferSize": 300,
+                "fileExtension": "unknown"
+            }
+        ],
+        "totalSize": 3495239,
+        "resourceSizes": {
+            "document": 39361,
+            "stylesheet": 388814,
+            "script": 2999174,
+            "font": 21536,
+            "xhr": 3622,
+            "image": 42732
+        }
+    },
+    {
+        "id": "84e40eae-fdfd-4c4a",
+        "url": "https://www.youtube.com/embed/QxGr262OaOc?feature=oembed",
+        "title": "Live Q&A | Why Oxfam switched from Sitecore to Wagtail CMS - YouTube",
+        "networkRequests": [
+            {
+                "url": "https://www.youtube.com/embed/QxGr262OaOc?feature=oembed",
+                "resourceType": "document",
+                "transferSize": 39370,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-player.css",
+                "resourceType": "stylesheet",
+                "transferSize": 386719,
+                "fileExtension": "css"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/embed.js",
+                "resourceType": "script",
+                "transferSize": 57715,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-embed-player.vflset/www-embed-player.js",
+                "resourceType": "script",
+                "transferSize": 329430,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/base.js",
+                "resourceType": "script",
+                "transferSize": 2449086,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+                "resourceType": "font",
+                "transferSize": 10748,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+                "resourceType": "font",
+                "transferSize": 10788,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://googleads.g.doubleclick.net/pagead/id",
+                "resourceType": "xhr",
+                "transferSize": 420,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://static.doubleclick.net/instream/ad_status.js",
+                "resourceType": "script",
+                "transferSize": 29,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+                "resourceType": "xhr",
+                "transferSize": 1599,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/remote.js",
+                "resourceType": "script",
+                "transferSize": 118987,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js",
+                "resourceType": "script",
+                "transferSize": 39655,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://i.ytimg.com/vi/QxGr262OaOc/sddefault.jpg",
+                "resourceType": "image",
+                "transferSize": 34748,
+                "fileExtension": "jpg"
+            },
+            {
+                "url": "https://yt3.ggpht.com/ytc/APkrFKZNCtfC9sBGko5evXTBiZ27wonFAnRK9U-djTxE=s68-c-k-c0x00ffffff-no-rj",
+                "resourceType": "stylesheet",
+                "transferSize": 2095,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+                "resourceType": "xhr",
+                "transferSize": 1603,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+                "resourceType": "script",
+                "transferSize": 4272,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/generate_204?Lda79A",
+                "resourceType": "image",
+                "transferSize": 300,
+                "fileExtension": "unknown"
+            }
+        ],
+        "totalSize": 3487564,
+        "resourceSizes": {
+            "document": 39370,
+            "stylesheet": 388814,
+            "script": 2999174,
+            "font": 21536,
+            "xhr": 3622,
+            "image": 35048
+        }
+    },
+    {
+        "id": "68e6779d-952e-4cbd",
+        "url": "https://www.youtube.com/embed/TPMNAKF8re4?feature=oembed",
+        "title": "NHS Digital Transformation workshop - YouTube",
+        "networkRequests": [
+            {
+                "url": "https://www.youtube.com/embed/TPMNAKF8re4?feature=oembed",
+                "resourceType": "document",
+                "transferSize": 39415,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-player.css",
+                "resourceType": "stylesheet",
+                "transferSize": 386719,
+                "fileExtension": "css"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+                "resourceType": "font",
+                "transferSize": 10748,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+                "resourceType": "font",
+                "transferSize": 10788,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/embed.js",
+                "resourceType": "script",
+                "transferSize": 57715,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-embed-player.vflset/www-embed-player.js",
+                "resourceType": "script",
+                "transferSize": 329430,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/base.js",
+                "resourceType": "script",
+                "transferSize": 2449086,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://googleads.g.doubleclick.net/pagead/id",
+                "resourceType": "xhr",
+                "transferSize": 420,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://static.doubleclick.net/instream/ad_status.js",
+                "resourceType": "script",
+                "transferSize": 29,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+                "resourceType": "xhr",
+                "transferSize": 1599,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/remote.js",
+                "resourceType": "script",
+                "transferSize": 118987,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js",
+                "resourceType": "script",
+                "transferSize": 39655,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://i.ytimg.com/vi_webp/TPMNAKF8re4/maxresdefault.webp",
+                "resourceType": "image",
+                "transferSize": 85734,
+                "fileExtension": "webp"
+            },
+            {
+                "url": "https://yt3.ggpht.com/ytc/APkrFKZNCtfC9sBGko5evXTBiZ27wonFAnRK9U-djTxE=s68-c-k-c0x00ffffff-no-rj",
+                "resourceType": "stylesheet",
+                "transferSize": 2095,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+                "resourceType": "xhr",
+                "transferSize": 1603,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+                "resourceType": "script",
+                "transferSize": 4272,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/generate_204?Ypf_8Q",
+                "resourceType": "image",
+                "transferSize": 300,
+                "fileExtension": "unknown"
+            }
+        ],
+        "totalSize": 3538595,
+        "resourceSizes": {
+            "document": 39415,
+            "stylesheet": 388814,
+            "font": 21536,
+            "script": 2999174,
+            "xhr": 3622,
+            "image": 86034
+        }
+    },
+    {
+        "id": "5c405167-dddc-4298",
+        "url": "https://www.youtube.com/embed/jdAceUHlFqc?feature=oembed",
+        "title": "NHS Digital Service Manual - YouTube",
+        "networkRequests": [
+            {
+                "url": "https://www.youtube.com/embed/jdAceUHlFqc?feature=oembed",
+                "resourceType": "document",
+                "transferSize": 39188,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-player.css",
+                "resourceType": "stylesheet",
+                "transferSize": 386719,
+                "fileExtension": "css"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+                "resourceType": "font",
+                "transferSize": 10748,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+                "resourceType": "font",
+                "transferSize": 10788,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/embed.js",
+                "resourceType": "script",
+                "transferSize": 57715,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-embed-player.vflset/www-embed-player.js",
+                "resourceType": "script",
+                "transferSize": 329430,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/base.js",
+                "resourceType": "script",
+                "transferSize": 2449086,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://googleads.g.doubleclick.net/pagead/id",
+                "resourceType": "xhr",
+                "transferSize": 420,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://static.doubleclick.net/instream/ad_status.js",
+                "resourceType": "script",
+                "transferSize": 29,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+                "resourceType": "xhr",
+                "transferSize": 1599,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/remote.js",
+                "resourceType": "script",
+                "transferSize": 118987,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js",
+                "resourceType": "script",
+                "transferSize": 39655,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://i.ytimg.com/vi_webp/jdAceUHlFqc/maxresdefault.webp",
+                "resourceType": "image",
+                "transferSize": 12486,
+                "fileExtension": "webp"
+            },
+            {
+                "url": "https://yt3.ggpht.com/ytc/APkrFKZNCtfC9sBGko5evXTBiZ27wonFAnRK9U-djTxE=s68-c-k-c0x00ffffff-no-rj",
+                "resourceType": "stylesheet",
+                "transferSize": 2095,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+                "resourceType": "xhr",
+                "transferSize": 1603,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+                "resourceType": "script",
+                "transferSize": 4272,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/generate_204?N-RSIw",
+                "resourceType": "image",
+                "transferSize": 300,
+                "fileExtension": "unknown"
+            }
+        ],
+        "totalSize": 3465120,
+        "resourceSizes": {
+            "document": 39188,
+            "stylesheet": 388814,
+            "font": 21536,
+            "script": 2999174,
+            "xhr": 3622,
+            "image": 12786
+        }
+    },
+    {
+        "id": "06d9c1ea-0ab9-4c22",
+        "url": "https://www.youtube.com/embed/RUMjGjBQfrE?feature=oembed",
+        "title": "Design-powered digital marketing for charities and nonprofits - YouTube",
+        "networkRequests": [
+            {
+                "url": "https://www.youtube.com/embed/RUMjGjBQfrE?feature=oembed",
+                "resourceType": "document",
+                "transferSize": 39590,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-player.css",
+                "resourceType": "stylesheet",
+                "transferSize": 386719,
+                "fileExtension": "css"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+                "resourceType": "font",
+                "transferSize": 10748,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+                "resourceType": "font",
+                "transferSize": 10788,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/embed.js",
+                "resourceType": "script",
+                "transferSize": 57715,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-embed-player.vflset/www-embed-player.js",
+                "resourceType": "script",
+                "transferSize": 329430,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/base.js",
+                "resourceType": "script",
+                "transferSize": 2449086,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://googleads.g.doubleclick.net/pagead/id",
+                "resourceType": "xhr",
+                "transferSize": 420,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://static.doubleclick.net/instream/ad_status.js",
+                "resourceType": "script",
+                "transferSize": 29,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+                "resourceType": "xhr",
+                "transferSize": 1599,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/remote.js",
+                "resourceType": "script",
+                "transferSize": 118987,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js",
+                "resourceType": "script",
+                "transferSize": 39655,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://i.ytimg.com/vi/RUMjGjBQfrE/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWihbMA8=&rs=AOn4CLCchUANjnSaT3RRa8kNBTnUhGgumA",
+                "resourceType": "image",
+                "transferSize": 74418,
+                "fileExtension": "jpg"
+            },
+            {
+                "url": "https://yt3.ggpht.com/ytc/APkrFKZNCtfC9sBGko5evXTBiZ27wonFAnRK9U-djTxE=s68-c-k-c0x00ffffff-no-rj",
+                "resourceType": "stylesheet",
+                "transferSize": 2095,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+                "resourceType": "xhr",
+                "transferSize": 1603,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+                "resourceType": "script",
+                "transferSize": 4272,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/generate_204?dgHHEA",
+                "resourceType": "image",
+                "transferSize": 300,
+                "fileExtension": "unknown"
+            }
+        ],
+        "totalSize": 3527454,
+        "resourceSizes": {
+            "document": 39590,
+            "stylesheet": 388814,
+            "font": 21536,
+            "script": 2999174,
+            "xhr": 3622,
+            "image": 74718
+        }
+    },
+    {
+        "id": "8ae99ffc-4ee2-4ed6",
+        "url": "https://www.youtube.com/embed/fyOEnZj3FsA?feature=oembed",
+        "title": "Uncover the underestimated impact of AI for nonprofits | Torchbox AI and Innovation - YouTube",
+        "networkRequests": [
+            {
+                "url": "https://www.youtube.com/embed/fyOEnZj3FsA?feature=oembed",
+                "resourceType": "document",
+                "transferSize": 39467,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-player.css",
+                "resourceType": "stylesheet",
+                "transferSize": 386719,
+                "fileExtension": "css"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/embed.js",
+                "resourceType": "script",
+                "transferSize": 57715,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-embed-player.vflset/www-embed-player.js",
+                "resourceType": "script",
+                "transferSize": 329430,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/base.js",
+                "resourceType": "script",
+                "transferSize": 2449086,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+                "resourceType": "font",
+                "transferSize": 10748,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+                "resourceType": "font",
+                "transferSize": 10788,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://googleads.g.doubleclick.net/pagead/id",
+                "resourceType": "xhr",
+                "transferSize": 420,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://static.doubleclick.net/instream/ad_status.js",
+                "resourceType": "script",
+                "transferSize": 29,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+                "resourceType": "xhr",
+                "transferSize": 1599,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/remote.js",
+                "resourceType": "script",
+                "transferSize": 118987,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js",
+                "resourceType": "script",
+                "transferSize": 39655,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://i.ytimg.com/vi/fyOEnZj3FsA/maxresdefault.jpg",
+                "resourceType": "image",
+                "transferSize": 70296,
+                "fileExtension": "jpg"
+            },
+            {
+                "url": "https://yt3.ggpht.com/ytc/APkrFKZNCtfC9sBGko5evXTBiZ27wonFAnRK9U-djTxE=s68-c-k-c0x00ffffff-no-rj",
+                "resourceType": "stylesheet",
+                "transferSize": 2095,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+                "resourceType": "xhr",
+                "transferSize": 1603,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+                "resourceType": "script",
+                "transferSize": 4272,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/generate_204?ilVOsQ",
+                "resourceType": "image",
+                "transferSize": 300,
+                "fileExtension": "unknown"
+            }
+        ],
+        "totalSize": 3523209,
+        "resourceSizes": {
+            "document": 39467,
+            "stylesheet": 388814,
+            "script": 2999174,
+            "font": 21536,
+            "xhr": 3622,
+            "image": 70596
+        }
+    },
+    {
+        "id": "ec6ccecc-fc5d-49a2",
+        "url": "https://www.youtube.com/embed/eHxqcZp1bBo?feature=oembed",
+        "title": "Reimagining Collaboration for Mind's Staff and Volunteers: A Video Case Study - YouTube",
+        "networkRequests": [
+            {
+                "url": "https://www.youtube.com/embed/eHxqcZp1bBo?feature=oembed",
+                "resourceType": "document",
+                "transferSize": 39214,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-player.css",
+                "resourceType": "stylesheet",
+                "transferSize": 386719,
+                "fileExtension": "css"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/embed.js",
+                "resourceType": "script",
+                "transferSize": 57715,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/www-embed-player.vflset/www-embed-player.js",
+                "resourceType": "script",
+                "transferSize": 329430,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/base.js",
+                "resourceType": "script",
+                "transferSize": 2449086,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+                "resourceType": "font",
+                "transferSize": 10748,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+                "resourceType": "font",
+                "transferSize": 10788,
+                "fileExtension": "woff2"
+            },
+            {
+                "url": "https://googleads.g.doubleclick.net/pagead/id",
+                "resourceType": "xhr",
+                "transferSize": 420,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://static.doubleclick.net/instream/ad_status.js",
+                "resourceType": "script",
+                "transferSize": 29,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+                "resourceType": "xhr",
+                "transferSize": 1599,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/remote.js",
+                "resourceType": "script",
+                "transferSize": 118987,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js",
+                "resourceType": "script",
+                "transferSize": 39655,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://i.ytimg.com/vi/eHxqcZp1bBo/maxresdefault.jpg",
+                "resourceType": "image",
+                "transferSize": 111677,
+                "fileExtension": "jpg"
+            },
+            {
+                "url": "https://yt3.ggpht.com/ytc/APkrFKZNCtfC9sBGko5evXTBiZ27wonFAnRK9U-djTxE=s68-c-k-c0x00ffffff-no-rj",
+                "resourceType": "stylesheet",
+                "transferSize": 2095,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+                "resourceType": "xhr",
+                "transferSize": 1603,
+                "fileExtension": "unknown"
+            },
+            {
+                "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+                "resourceType": "script",
+                "transferSize": 4272,
+                "fileExtension": "js"
+            },
+            {
+                "url": "https://www.youtube.com/generate_204?p03FVw",
+                "resourceType": "image",
+                "transferSize": 300,
+                "fileExtension": "unknown"
+            }
+        ],
+        "totalSize": 3564337,
+        "resourceSizes": {
+            "document": 39214,
+            "stylesheet": 388814,
+            "script": 2999174,
+            "font": 21536,
+            "xhr": 3622,
+            "image": 111977
+        }
+    }
+]

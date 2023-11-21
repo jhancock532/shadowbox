@@ -1,0 +1,22 @@
+{
+    "url": "https://torchbox.com/events/?filter=email-marketing",
+    "id": "442c9f95-3023-40ad",
+    "title": "Events",
+    "metadata": {
+        "description": "",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Events",
+            "description": "Torchbox - the digital product agency for tomorrow’s nonprofits."
+        },
+        "og": {
+            "type": "website",
+            "url": "/events/",
+            "title": "Events",
+            "description": "Torchbox - the digital product agency for tomorrow’s nonprofits."
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

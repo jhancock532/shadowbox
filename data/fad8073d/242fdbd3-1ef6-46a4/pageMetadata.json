@@ -1,0 +1,32 @@
+{
+    "url": "https://torchbox.com/blog/oxfam-cms-replatform/",
+    "id": "242fdbd3-1ef6-46a4",
+    "title": "Oxfam's 6 principles for a successful CMS replatform project",
+    "metadata": {
+        "description": "Oxfam joined us to share their replatforming journey, here are our 6 key takeaways from the webinar",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Oxfam's 6 principles for a successful CMS replatform project",
+            "description": "Oxfam joined us to share their replatforming journey, here are our 6 key takeaways from the webinar",
+            "image": "https://media.torchbox.com/images/Screenshot_2021-02-02_at_12.31.42.width-1000.png"
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/oxfam-cms-replatform/",
+            "title": "Oxfam's 6 principles for a successful CMS replatform project",
+            "description": "Oxfam joined us to share their replatforming journey, here are our 6 key takeaways from the webinar",
+            "image": "https://media.torchbox.com/images/Screenshot_2021-02-02_at_12.31.42.2e16d0ba.fill-1200x630.png",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": [
+        {
+            "src": "https://www.youtube.com/embed/QxGr262OaOc?feature=oembed",
+            "title": "",
+            "thumbnail": "https://i.ytimg.com/vi/QxGr262OaOc/mqdefault.jpg"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "url": "https://torchbox.com/wagtail-cms/feature-sponsorship/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/wagtail-cms/feature-sponsorship/",
+            "resourceType": "document",
+            "transferSize": 12516,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.4ae77b7a8130.css",
+            "resourceType": "stylesheet",
+            "transferSize": 129345,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 230966,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.fill-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 3568,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Olly.2e16d0ba.fill-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 2000,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tom_d.2e16d0ba.fill-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 3374,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.d536022fa2da.js",
+            "resourceType": "script",
+            "transferSize": 206710,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
+            "resourceType": "font",
+            "transferSize": 61624,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/4aa0abf35762d3d96221.0cd7caae30ac.woff",
+            "resourceType": "font",
+            "transferSize": 60920,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/df348384f91cc9ecf2f7.8cf7315c70cb.woff",
+            "resourceType": "font",
+            "transferSize": 61456,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/f86b36700825a41a1b4a.27eaf2a5c297.woff",
+            "resourceType": "font",
+            "transferSize": 60028,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://media.torchbox.com/images/dit.width-400.png",
+            "resourceType": "image",
+            "transferSize": 21531,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/mozilla.width-400.png",
+            "resourceType": "image",
+            "transferSize": 5921,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/YouGov.width-400.png",
+            "resourceType": "image",
+            "transferSize": 22334,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Google.width-400.png",
+            "resourceType": "image",
+            "transferSize": 27070,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Motley_Fool_CBLVnl9.width-400.png",
+            "resourceType": "image",
+            "transferSize": 17259,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/ny.width-400.png",
+            "resourceType": "image",
+            "transferSize": 10281,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Certified_B_Corporation_B_Corp_Logo_2022_Black.height-90.png",
+            "resourceType": "image",
+            "transferSize": 2438,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-Top25_Best-Mid-Sized-Companies_1.original.height-90.png",
+            "resourceType": "image",
+            "transferSize": 5830,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Inhabit-Carbon-Neutral-Badge-Connected-Blue.or.height-90.png",
+            "resourceType": "image",
+            "transferSize": 3829,
+            "fileExtension": "png"
+        }
+    ],
+    "images": {
+        "jpg": {
+            "count": 3,
+            "size": 8942
+        },
+        "png": {
+            "count": 9,
+            "size": 116493
+        }
+    },
+    "fonts": {
+        "woff": {
+            "count": 4,
+            "size": 244028
+        }
+    },
+    "pageWeight": 950239,
+    "iframes": []
+}

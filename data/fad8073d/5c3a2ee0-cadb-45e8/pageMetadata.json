@@ -1,0 +1,37 @@
+{
+    "url": "https://torchbox.com/blog/nhs-digital-meet-torchbox-offices/",
+    "id": "5c3a2ee0-cadb-45e8",
+    "title": "NHS Digital meetup",
+    "metadata": {
+        "description": "Torchbox and the NHS, partnering for digital transformation.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "NHS Digital Transformation meet up at Torchbox",
+            "description": "Torchbox and the NHS, partnering for digital transformation.",
+            "image": "https://media.torchbox.com/images/audience_clapping.width-1000.jpg"
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/nhs-digital-meet-torchbox-offices/",
+            "title": "NHS Digital Transformation meet up at Torchbox",
+            "description": "Torchbox and the NHS, partnering for digital transformation.",
+            "image": "https://media.torchbox.com/images/audience_clapping.2e16d0ba.fill-1200x630.jpg",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": [
+        {
+            "src": "https://www.youtube.com/embed/TPMNAKF8re4?feature=oembed",
+            "title": "",
+            "thumbnail": "https://i.ytimg.com/vi/TPMNAKF8re4/mqdefault.jpg"
+        },
+        {
+            "src": "https://www.youtube.com/embed/jdAceUHlFqc?feature=oembed",
+            "title": "",
+            "thumbnail": "https://i.ytimg.com/vi/jdAceUHlFqc/mqdefault.jpg"
+        }
+    ]
+}

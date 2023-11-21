@@ -13,6 +13,8 @@ const mapRequestTypeToBackground = (
         switch (requestType) {
             case 'document':
                 return 'var(--color--primary-gradient-1)';
+            case 'iframe':
+                return 'var(--color--primary-gradient-2)';
             case 'font':
                 return 'var(--color--primary-gradient-3)';
             case 'image':
@@ -28,6 +30,8 @@ const mapRequestTypeToBackground = (
     switch (requestType) {
         case 'document':
             return 'var(--color--secondary-gradient-1)';
+        case 'iframe':
+            return 'var(--color--secondary-gradient-2)';
         case 'font':
             return 'var(--color--secondary-gradient-3)';
         case 'image':

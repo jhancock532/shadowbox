@@ -1,0 +1,26 @@
+{
+    "url": "https://torchbox.com/blog/mplus-multilingual-website/",
+    "id": "0d461ae0-38a3-4d03",
+    "title": "MPlus Multilingual Wagtail CMS Website | Torchbox",
+    "metadata": {
+        "description": "The new M+ multilingual website is live - the digital home for Hong Kong’s museum of culture. A headless Wagtail CMS project, built by Torchbox, with a vibrant design by Anton and Irene.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "An ambitious multilingual website for Hong Kong's newest cultural icon",
+            "description": "The new M+ multilingual website is live - the digital home for Hong Kong’s museum of culture. A headless Wagtail CMS project, built by Torchbox, with a vibrant design by Anton and Irene.",
+            "image": "https://media.torchbox.com/images/Screenshot_2021-09-22_at_14.46.22.width-1000.png"
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/mplus-multilingual-website/",
+            "title": "An ambitious multilingual website for Hong Kong's newest cultural icon",
+            "description": "The new M+ multilingual website is live - the digital home for Hong Kong’s museum of culture. A headless Wagtail CMS project, built by Torchbox, with a vibrant design by Anton and Irene.",
+            "image": "https://media.torchbox.com/images/Screenshot_2021-09-22_at_14.46.22.2e16d0ba.fill-1200x630.png",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

@@ -11,6 +11,7 @@
         background-color: var(--color--background);
         color: var(--color--text);
         width: max-content;
+        height: 22px; // fix for long urls that break two lines
     }
 }
 
@@ -50,7 +51,6 @@
         background-color: var(--color--text);
         color: var(--color--background);
         width: max-content;
-        height: min-content;
         padding: 5px;
     }
 

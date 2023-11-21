@@ -44,7 +44,11 @@ export const PairedBar = ({ itemPair, maxValue, index }: PairedBarProps) => {
                 {itemBar}
                 {comparedItemBar}
             </div>
-            <p className={styles.pairedBar__legend}>{`${itemPair.item.key}`}</p>
+            {itemPair.item && itemPair.item.key && (
+                <p
+                    className={styles.pairedBar__legend}
+                >{`${itemPair.item.key}`}</p>
+            )}
         </div>
     );
 };

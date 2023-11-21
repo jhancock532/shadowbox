@@ -1,0 +1,22 @@
+{
+    "url": "https://torchbox.com/wagtail-cms/support/",
+    "id": "91187921-fa04-434f",
+    "title": "Wagtail developer support",
+    "metadata": {
+        "description": "Our Wagtail developer support gives you direct access to the Wagtail core team for feature development, emergency support or help with hosting setup.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Wagtail developer support service",
+            "description": "Our Wagtail developer support gives you direct access to the Wagtail core team for feature development, emergency support or help with hosting setup."
+        },
+        "og": {
+            "type": "website",
+            "url": "/wagtail-cms/support/",
+            "title": "Wagtail developer support service",
+            "description": "Our Wagtail developer support gives you direct access to the Wagtail core team for feature development, emergency support or help with hosting setup."
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

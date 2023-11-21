@@ -1,0 +1,22 @@
+{
+    "url": "https://torchbox.com/blog/?filter=digital-marketing",
+    "id": "ed04ed24-fb80-44ed",
+    "title": "Design, Development, UX & Tech Blog",
+    "metadata": {
+        "description": "Get the latest news and views from Torchbox on the work we do, the web and the wider world.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Blog",
+            "description": "Get the latest news and views from Torchbox on the work we do, the web and the wider world."
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/",
+            "title": "Blog",
+            "description": "Get the latest news and views from Torchbox on the work we do, the web and the wider world."
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

@@ -1,0 +1,107 @@
+@use 'variables' as *;
+
+/* ============================================
+    Media queries
+*/
+@mixin media-query($queries...) {
+    @each $query in $queries {
+        @each $breakpoint in $breakpoints {
+            $name: nth($breakpoint, 1);
+            $declaration: nth($breakpoint, 2);
+
+            @if $query == $name and $declaration {
+                @media only screen and #{$declaration} {
+                    @content;
+                }
+            }
+        }
+    }
+}
+
+/* ============================================
+    z-index
+*/
+
+@mixin z-index($key) {
+    z-index: z-index($key);
+}
+
+/* ============================================
+  Hide text
+*/
+@mixin hidden() {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ============================================
+  iOS Native vertical scroll
+*/
+@mixin native-vertical-scroll() {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* ============================================
+    Font sizes
+*/
+@mixin font-size($size) {
+    @if $size == null {
+        @warn 'Font size ‘#{$keyword}’ does not exist';
+    } @else {
+        $small-size: map-get($small-font-sizes, $size);
+        font-size: $small-size;
+
+        @include media-query(medium) {
+            $medium-size: map-get($medium-font-sizes, $size);
+            font-size: $medium-size;
+        }
+
+        @include media-query(large) {
+            $large-size: map-get($large-font-sizes, $size);
+            font-size: $large-size;
+        }
+    }
+}
+
+/* ============================================
+    Animations
+*/
+@mixin animation() {
+    @keyframes fadeOut {
+        0% {
+            opacity: 1;
+            display: block;
+        }
+
+        100% {
+            opacity: 0;
+            display: none;
+        }
+    }
+}
+
+/* ============================================
+    Link underscore
+*/
+
+@mixin link-underscore($height) {
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: #{$height}px;
+        bottom: 0;
+        left: 0;
+        background-color: var(--color--underline);
+        transition: height $transition-quick;
+    }
+}

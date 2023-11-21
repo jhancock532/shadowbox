@@ -1,0 +1,22 @@
+{
+    "url": "https://torchbox.com/privacy/",
+    "id": "8b2813d7-5002-40ee",
+    "title": "Privacy page | Torchbox",
+    "metadata": {
+        "description": "Here you'll find Torchbox's privacy policy outlining our use of personal information, our use of data, copyright and access to information.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Privacy",
+            "description": "Here you'll find Torchbox's privacy policy outlining our use of personal information, our use of data, copyright and access to information."
+        },
+        "og": {
+            "type": "website",
+            "url": "/privacy/",
+            "title": "Privacy",
+            "description": "Here you'll find Torchbox's privacy policy outlining our use of personal information, our use of data, copyright and access to information."
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

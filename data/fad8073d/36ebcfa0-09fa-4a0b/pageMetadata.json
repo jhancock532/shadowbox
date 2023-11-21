@@ -1,0 +1,32 @@
+{
+    "url": "https://torchbox.com/work/pwa-digital-product-mozilla/",
+    "id": "36ebcfa0-09fa-4a0b",
+    "title": "Building a Progressive Web App (PWA) for Mozilla",
+    "metadata": {
+        "description": "Read about how we built a Progressive Web App (PWA) to get the Mozilla team from prototype to Google Play Store in just 4 weeks.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "A PWA in 4 weeks for Mozilla (oh yeah!)",
+            "description": "Read about how we built a Progressive Web App (PWA) to get the Mozilla team from prototype to Google Play Store in just 4 weeks.",
+            "image": "https://media.torchbox.com/images/man-1718099_1920.width-1000.jpg"
+        },
+        "og": {
+            "type": "website",
+            "url": "/work/pwa-digital-product-mozilla/",
+            "title": "A PWA in 4 weeks for Mozilla (oh yeah!)",
+            "description": "Read about how we built a Progressive Web App (PWA) to get the Mozilla team from prototype to Google Play Store in just 4 weeks.",
+            "image": "https://media.torchbox.com/images/man-1718099_1920.2e16d0ba.fill-1200x630.jpg",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": [
+        {
+            "src": "https://www.youtube.com/embed/e1P0yE7VWSg?feature=oembed",
+            "title": "",
+            "thumbnail": "https://i.ytimg.com/vi/e1P0yE7VWSg/mqdefault.jpg"
+        }
+    ]
+}

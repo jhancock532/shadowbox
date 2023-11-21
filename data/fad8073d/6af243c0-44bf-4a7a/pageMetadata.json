@@ -1,0 +1,26 @@
+{
+    "url": "https://torchbox.com/blog/introducing-our-wagtail-cms-developer-training-programme/",
+    "id": "6af243c0-44bf-4a7a",
+    "title": "Wagtail CMS Developer Training Programme | Torchbox",
+    "metadata": {
+        "description": "Build your knowledge and skills in essential Django and Wagtail CMS practices. A two-part training programme, led by Senior Wagtail Developers that extends way beyond typical tutorials and documentation.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Introducing our Wagtail CMS Developer Training Programme",
+            "description": "Build your knowledge and skills in essential Django and Wagtail CMS practices. A two-part training programme, led by Senior Wagtail Developers that extends way beyond typical tutorials and documentation.",
+            "image": "https://media.torchbox.com/images/Blog_image_1200x630.width-1000.png"
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/introducing-our-wagtail-cms-developer-training-programme/",
+            "title": "Introducing our Wagtail CMS Developer Training Programme",
+            "description": "Build your knowledge and skills in essential Django and Wagtail CMS practices. A two-part training programme, led by Senior Wagtail Developers that extends way beyond typical tutorials and documentation.",
+            "image": "https://media.torchbox.com/images/Blog_image_1200x630.2e16d0ba.fill-1200x630.png",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

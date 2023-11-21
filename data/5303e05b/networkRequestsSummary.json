@@ -1,0 +1,2773 @@
+{
+    "averagePageWeight": 1619387.641509434,
+    "medianPageWeight": 1096534,
+    "largestPageWeight": 17191849,
+    "websiteNetworkRequestSummary": [
+        {
+            "url": "https://torchbox.com/team/",
+            "networkRequestSizeTallies": {
+                "document": 14157,
+                "stylesheet": 21407,
+                "script": 337037,
+                "font": 184789,
+                "image": 16634459
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 108,
+                    "size": 4983556
+                },
+                "png": {
+                    "count": 29,
+                    "size": 11650903
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184789
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/",
+            "networkRequestSizeTallies": {
+                "document": 9886,
+                "stylesheet": 129929,
+                "script": 475046,
+                "font": 184000,
+                "image": 98534
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                },
+                "jpg": {
+                    "count": 2,
+                    "size": 86437
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/digital-products/",
+            "networkRequestSizeTallies": {
+                "document": 12189,
+                "stylesheet": 129929,
+                "image": 253017,
+                "script": 475046,
+                "font": 244027
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 72277
+                },
+                "png": {
+                    "count": 14,
+                    "size": 180740
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 4,
+                    "size": 244027
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/wagtail-cms/",
+            "networkRequestSizeTallies": {
+                "document": 12434,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 203562,
+                "font": 243720
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 61968
+                },
+                "png": {
+                    "count": 13,
+                    "size": 141594
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 4,
+                    "size": 243720
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/digital-marketing/",
+            "networkRequestSizeTallies": {
+                "document": 12431,
+                "stylesheet": 129929,
+                "script": 475046,
+                "font": 243720,
+                "image": 147434
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 84027
+                },
+                "png": {
+                    "count": 15,
+                    "size": 63407
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 4,
+                    "size": 243720
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/innovation/",
+            "networkRequestSizeTallies": {
+                "document": 10546,
+                "stylesheet": 23347,
+                "image": 217554,
+                "script": 70224,
+                "font": 140764
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 8,
+                    "size": 183735
+                },
+                "png": {
+                    "count": 6,
+                    "size": 33819
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 3,
+                    "size": 140764
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/careers/jobs",
+            "networkRequestSizeTallies": {
+                "document": 10662,
+                "font": 186404,
+                "stylesheet": 46371,
+                "script": 394042,
+                "json": 4995,
+                "image": 58230
+            },
+            "imageFileTallies": {
+                "jpeg": {
+                    "count": 1,
+                    "size": 58230
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 4,
+                    "size": 186404
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/careers",
+            "networkRequestSizeTallies": {
+                "document": 17927,
+                "font": 1200,
+                "stylesheet": 92512,
+                "image": 379657,
+                "script": 674351,
+                "json": 4523
+            },
+            "imageFileTallies": {
+                "jpeg": {
+                    "count": 4,
+                    "size": 234472
+                },
+                "png": {
+                    "count": 4,
+                    "size": 63346
+                },
+                "webp": {
+                    "count": 2,
+                    "size": 61386
+                },
+                "svg": {
+                    "count": 1,
+                    "size": 5445
+                },
+                "jpg": {
+                    "count": 3,
+                    "size": 15008
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 4,
+                    "size": 1200
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/events/",
+            "networkRequestSizeTallies": {
+                "document": 10007,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 23603,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 11506
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/",
+            "networkRequestSizeTallies": {
+                "document": 10579,
+                "stylesheet": 129929,
+                "image": 97514,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 5,
+                    "size": 17881
+                },
+                "png": {
+                    "count": 6,
+                    "size": 79633
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/abigail-hampson/",
+            "networkRequestSizeTallies": {
+                "document": 15030,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 1526659,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 4,
+                    "size": 411975
+                },
+                "png": {
+                    "count": 4,
+                    "size": 1114684
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/",
+            "networkRequestSizeTallies": {
+                "document": 11344,
+                "stylesheet": 129929,
+                "script": 475046,
+                "font": 184000,
+                "image": 5891917
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 9,
+                    "size": 5003673
+                },
+                "jpg": {
+                    "count": 5,
+                    "size": 888244
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/albina-starykova/",
+            "networkRequestSizeTallies": {
+                "document": 14089,
+                "stylesheet": 129929,
+                "script": 475046,
+                "font": 184000,
+                "image": 172610
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 160513
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/alex-bridge/",
+            "networkRequestSizeTallies": {
+                "document": 14373,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 96051,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 83954
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/alex-morega/",
+            "networkRequestSizeTallies": {
+                "document": 13861,
+                "stylesheet": 129929,
+                "image": 1944520,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 1940952
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/alina-markowska/",
+            "networkRequestSizeTallies": {
+                "document": 13931,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 1409008,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 1405440
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/ali-vowles/",
+            "networkRequestSizeTallies": {
+                "document": 14372,
+                "stylesheet": 129929,
+                "image": 1915509,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 214702
+                },
+                "png": {
+                    "count": 4,
+                    "size": 1700807
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/amanda-lim-cabuloy/",
+            "networkRequestSizeTallies": {
+                "document": 14302,
+                "stylesheet": 129929,
+                "image": 173560,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 161463
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/amina-iqbal/",
+            "networkRequestSizeTallies": {
+                "document": 15079,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 380310,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 5,
+                    "size": 368213
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/andrew-wilding-smith/",
+            "networkRequestSizeTallies": {
+                "document": 14301,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 1936242,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 1932674
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/andy-babic/",
+            "networkRequestSizeTallies": {
+                "document": 14296,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 196635,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 184538
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/andy-gordon/",
+            "networkRequestSizeTallies": {
+                "document": 14303,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 259670,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 247573
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/ania-obarska/",
+            "networkRequestSizeTallies": {
+                "document": 14039,
+                "stylesheet": 129929,
+                "image": 377991,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 365894
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/anna-grieve/",
+            "networkRequestSizeTallies": {
+                "document": 14508,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 181985,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 169888
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/anna-pellicci/",
+            "networkRequestSizeTallies": {
+                "document": 14479,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 403430,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 391333
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/ben-dickinson/",
+            "networkRequestSizeTallies": {
+                "document": 13885,
+                "stylesheet": 129929,
+                "script": 475046,
+                "font": 184000,
+                "image": 220300
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 208203
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/ben-enright/",
+            "networkRequestSizeTallies": {
+                "document": 14911,
+                "stylesheet": 129929,
+                "image": 1731130,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 4,
+                    "size": 96117
+                },
+                "png": {
+                    "count": 4,
+                    "size": 1635013
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/ben-heasman/",
+            "networkRequestSizeTallies": {
+                "document": 14709,
+                "script": 475046,
+                "stylesheet": 129929,
+                "image": 848125,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 4,
+                    "size": 836028
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/ben-morse/",
+            "networkRequestSizeTallies": {
+                "document": 14071,
+                "stylesheet": 21407,
+                "image": 888227,
+                "script": 337037,
+                "font": 184786
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 884659
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184786
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/ben-tuckwell/",
+            "networkRequestSizeTallies": {
+                "document": 14489,
+                "stylesheet": 129929,
+                "script": 475046,
+                "font": 184000,
+                "image": 108083
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 95986
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/bethan-morris/",
+            "networkRequestSizeTallies": {
+                "document": 13916,
+                "stylesheet": 129929,
+                "script": 475046,
+                "font": 184000,
+                "image": 80320
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 68223
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/bonny-colville-hyde/",
+            "networkRequestSizeTallies": {
+                "document": 14529,
+                "stylesheet": 129929,
+                "image": 293030,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 4,
+                    "size": 280933
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/cassandra-cardiff/",
+            "networkRequestSizeTallies": {
+                "document": 14058,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 87481,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 75384
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/cassidy-pittman/",
+            "networkRequestSizeTallies": {
+                "document": 13924,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 1808690,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 1805122
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/charmagne-rayman-bacchus-thompson/",
+            "networkRequestSizeTallies": {
+                "document": 14069,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 348161,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 336064
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/chloe-lawrence/",
+            "networkRequestSizeTallies": {
+                "document": 13999,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 1775214,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 1771646
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/chris-danks/",
+            "networkRequestSizeTallies": {
+                "document": 14398,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 162074,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 149977
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/chris-harris/",
+            "networkRequestSizeTallies": {
+                "document": 13768,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 221556,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 209459
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/chris-lawton/",
+            "networkRequestSizeTallies": {
+                "document": 14531,
+                "stylesheet": 129929,
+                "image": 114208,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 102111
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/chris-shaw/",
+            "networkRequestSizeTallies": {
+                "document": 13789,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 307375,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 295278
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/claudia-dangelo/",
+            "networkRequestSizeTallies": {
+                "document": 13882,
+                "stylesheet": 129929,
+                "image": 332834,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 320737
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/colin-wade/",
+            "networkRequestSizeTallies": {
+                "document": 13889,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 66954,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 54857
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/dan-braghis/",
+            "networkRequestSizeTallies": {
+                "document": 14555,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 96996,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 84899
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/dave-harris/",
+            "networkRequestSizeTallies": {
+                "document": 14396,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 1670398,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 133936
+                },
+                "png": {
+                    "count": 4,
+                    "size": 1536462
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/devon-bonner-smith/",
+            "networkRequestSizeTallies": {
+                "document": 14093,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 59577,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 47480
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/dot-cross/",
+            "networkRequestSizeTallies": {
+                "document": 14270,
+                "stylesheet": 129929,
+                "image": 926586,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 5,
+                    "size": 923018
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/edd-baldry/",
+            "networkRequestSizeTallies": {
+                "document": 14677,
+                "stylesheet": 129929,
+                "image": 158766,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 146669
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/ellie-craven/",
+            "networkRequestSizeTallies": {
+                "document": 15280,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 523726,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 4,
+                    "size": 347469
+                },
+                "png": {
+                    "count": 4,
+                    "size": 176257
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/ellie-ulrich/",
+            "networkRequestSizeTallies": {
+                "document": 13975,
+                "stylesheet": 129929,
+                "image": 3568445,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 3564877
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/emma-bennett/",
+            "networkRequestSizeTallies": {
+                "document": 14700,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 163041,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 150944
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/emma-delescolle/",
+            "networkRequestSizeTallies": {
+                "document": 13982,
+                "stylesheet": 129929,
+                "image": 2187027,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 2183459
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/ester-beltrami/",
+            "networkRequestSizeTallies": {
+                "document": 14438,
+                "stylesheet": 129929,
+                "image": 2191042,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 2187474
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/fatemeh-fartousi/",
+            "networkRequestSizeTallies": {
+                "document": 14006,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 167255,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 155158
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/felicity-hindle/",
+            "networkRequestSizeTallies": {
+                "document": 14819,
+                "script": 475046,
+                "stylesheet": 129929,
+                "image": 1780835,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 350179
+                },
+                "png": {
+                    "count": 4,
+                    "size": 1430656
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/gareth-beck/",
+            "networkRequestSizeTallies": {
+                "document": 14213,
+                "stylesheet": 129929,
+                "image": 51343,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 39246
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/gemma-margetts/",
+            "networkRequestSizeTallies": {
+                "document": 14742,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 190814,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 178717
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/geraldine-williams/",
+            "networkRequestSizeTallies": {
+                "document": 13821,
+                "stylesheet": 129929,
+                "image": 219791,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 207694
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/helen-chapman/",
+            "networkRequestSizeTallies": {
+                "document": 14798,
+                "stylesheet": 21407,
+                "script": 336887,
+                "image": 1384006,
+                "font": 184238
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 5,
+                    "size": 1380438
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184238
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/dr-helen-warren/",
+            "networkRequestSizeTallies": {
+                "document": 14620,
+                "stylesheet": 129929,
+                "script": 475046,
+                "font": 184548,
+                "image": 320521
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 308424
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184548
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/holly-davis/",
+            "networkRequestSizeTallies": {
+                "document": 14461,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 2313313,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 5,
+                    "size": 2309745
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/ian-bellchambers/",
+            "networkRequestSizeTallies": {
+                "document": 14384,
+                "stylesheet": 129929,
+                "image": 347899,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 335802
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/ian-meigh/",
+            "networkRequestSizeTallies": {
+                "document": 13713,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 994799,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 991231
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/iona-twiston-davies/",
+            "networkRequestSizeTallies": {
+                "document": 15072,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 376663,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 5,
+                    "size": 364566
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jack-harper/",
+            "networkRequestSizeTallies": {
+                "document": 13807,
+                "stylesheet": 129929,
+                "script": 475046,
+                "font": 184000,
+                "image": 93648
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 81551
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jacob-topp-mugglestone/",
+            "networkRequestSizeTallies": {
+                "document": 14475,
+                "script": 475046,
+                "stylesheet": 129929,
+                "image": 121576,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 109479
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jake-howard/",
+            "networkRequestSizeTallies": {
+                "document": 14199,
+                "stylesheet": 129929,
+                "image": 132113,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 120016
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jakub-mastalerz/",
+            "networkRequestSizeTallies": {
+                "document": 13858,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 1330678,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 1327110
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/james-ellis/",
+            "networkRequestSizeTallies": {
+                "document": 14013,
+                "stylesheet": 129929,
+                "image": 521553,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 509456
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/james-hancock/",
+            "networkRequestSizeTallies": {
+                "document": 14140,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 211309,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 199212
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/james-leavesley/",
+            "networkRequestSizeTallies": {
+                "document": 14218,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 250445,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 238348
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jane-hughes/",
+            "networkRequestSizeTallies": {
+                "document": 14364,
+                "stylesheet": 129929,
+                "image": 628651,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 5,
+                    "size": 625083
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jemma-notley/",
+            "networkRequestSizeTallies": {
+                "document": 14660,
+                "stylesheet": 129929,
+                "image": 304003,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 291906
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jennifer-hearn/",
+            "networkRequestSizeTallies": {
+                "document": 15455,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 1429024,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 4,
+                    "size": 199834
+                },
+                "png": {
+                    "count": 4,
+                    "size": 1229190
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jesmond-allen/",
+            "networkRequestSizeTallies": {
+                "document": 14243,
+                "stylesheet": 129929,
+                "image": 1712900,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 1709332
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jess-kerridge/",
+            "networkRequestSizeTallies": {
+                "document": 13944,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 287156,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 275059
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jess-mackereth/",
+            "networkRequestSizeTallies": {
+                "document": 14541,
+                "stylesheet": 129929,
+                "image": 107050,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 94953
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jess-rackham/",
+            "networkRequestSizeTallies": {
+                "document": 14053,
+                "stylesheet": 129929,
+                "image": 304966,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 292869
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jeth-ordeniza/",
+            "networkRequestSizeTallies": {
+                "document": 14045,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 304139,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 292042
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jhonatan-lopes/",
+            "networkRequestSizeTallies": {
+                "document": 13939,
+                "stylesheet": 129929,
+                "image": 211294,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 199197
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/joe-honywill/",
+            "networkRequestSizeTallies": {
+                "document": 13869,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 126042,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 113945
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jonny-peacock/",
+            "networkRequestSizeTallies": {
+                "document": 14108,
+                "stylesheet": 129929,
+                "image": 151014,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 138917
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/jo-ford/",
+            "networkRequestSizeTallies": {
+                "document": 14431,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 860557,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 206962
+                },
+                "png": {
+                    "count": 4,
+                    "size": 653595
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/joshua-munn/",
+            "networkRequestSizeTallies": {
+                "document": 13917,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 167317,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 155220
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/katherine-domingo/",
+            "networkRequestSizeTallies": {
+                "document": 13768,
+                "stylesheet": 129929,
+                "image": 70854,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 58757
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/katy-cherry/",
+            "networkRequestSizeTallies": {
+                "document": 15051,
+                "stylesheet": 129929,
+                "image": 403850,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 5,
+                    "size": 391753
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/kevin-brian-howbrook/",
+            "networkRequestSizeTallies": {
+                "document": 13940,
+                "stylesheet": 129929,
+                "image": 163733,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 151636
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/kyle-bayliss/",
+            "networkRequestSizeTallies": {
+                "document": 14440,
+                "stylesheet": 129929,
+                "image": 177314,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 165217
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/laura-gonzalez/",
+            "networkRequestSizeTallies": {
+                "document": 14034,
+                "stylesheet": 21407,
+                "script": 337091,
+                "image": 1284627,
+                "font": 184764
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 1281059
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184764
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/lauren-davey/",
+            "networkRequestSizeTallies": {
+                "document": 14472,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 273022,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 260925
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/lauren-parsons/",
+            "networkRequestSizeTallies": {
+                "document": 14011,
+                "stylesheet": 129929,
+                "image": 139815,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 127718
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/lily-veale/",
+            "networkRequestSizeTallies": {
+                "document": 14688,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 137767,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 125670
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/louise-horner/",
+            "networkRequestSizeTallies": {
+                "document": 14532,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 1570960,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 31575
+                },
+                "png": {
+                    "count": 4,
+                    "size": 1539385
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/lisa-ballam/",
+            "networkRequestSizeTallies": {
+                "document": 16466,
+                "stylesheet": 129929,
+                "image": 302087,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 289990
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/maitreyee-kshirsagar/",
+            "networkRequestSizeTallies": {
+                "document": 14265,
+                "stylesheet": 129929,
+                "image": 2645185,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 2641617
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/mark-boyle/",
+            "networkRequestSizeTallies": {
+                "document": 13858,
+                "stylesheet": 129929,
+                "image": 104575,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 92478
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/marnie-winter-burke/",
+            "networkRequestSizeTallies": {
+                "document": 15267,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 1392264,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 6,
+                    "size": 957499
+                },
+                "jpg": {
+                    "count": 2,
+                    "size": 434765
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/matthew-westcott/",
+            "networkRequestSizeTallies": {
+                "document": 14575,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 60123,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 48026
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/maya-gibbs/",
+            "networkRequestSizeTallies": {
+                "document": 14875,
+                "stylesheet": 129929,
+                "image": 1538872,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 5,
+                    "size": 1455773
+                },
+                "jpg": {
+                    "count": 2,
+                    "size": 83099
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/meagen-voss/",
+            "networkRequestSizeTallies": {
+                "document": 14227,
+                "stylesheet": 129929,
+                "image": 350239,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 338142
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/michael-worthington/",
+            "networkRequestSizeTallies": {
+                "document": 14392,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 413394,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 401297
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/miles-taylor/",
+            "networkRequestSizeTallies": {
+                "document": 14033,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 167512,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 155415
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/millie-bowie/",
+            "networkRequestSizeTallies": {
+                "document": 14119,
+                "stylesheet": 129929,
+                "image": 2634806,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "png": {
+                    "count": 4,
+                    "size": 2631238
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 3568
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/millie-bullivant/",
+            "networkRequestSizeTallies": {
+                "document": 14400,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 164943,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 152846
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/mitchel-cabuloy/",
+            "networkRequestSizeTallies": {
+                "document": 14169,
+                "stylesheet": 129929,
+                "image": 147412,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 2,
+                    "size": 135315
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/mollie-rogers/",
+            "networkRequestSizeTallies": {
+                "document": 14111,
+                "stylesheet": 129929,
+                "script": 475046,
+                "image": 328622,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 316525
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/team/naomi-march/",
+            "networkRequestSizeTallies": {
+                "document": 14334,
+                "stylesheet": 129929,
+                "image": 268620,
+                "script": 475046,
+                "font": 184000
+            },
+            "imageFileTallies": {
+                "jpg": {
+                    "count": 3,
+                    "size": 256523
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12097
+                }
+            },
+            "fontFileTallies": {
+                "woff": {
+                    "count": 3,
+                    "size": 184000
+                }
+            }
+        }
+    ]
+}

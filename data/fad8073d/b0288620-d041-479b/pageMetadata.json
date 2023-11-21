@@ -1,0 +1,22 @@
+{
+    "url": "https://torchbox.com/events/?filter=social-media",
+    "id": "b0288620-d041-479b",
+    "title": "Events",
+    "metadata": {
+        "description": "",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Events",
+            "description": "Torchbox - the digital product agency for tomorrow’s nonprofits."
+        },
+        "og": {
+            "type": "website",
+            "url": "/events/",
+            "title": "Events",
+            "description": "Torchbox - the digital product agency for tomorrow’s nonprofits."
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

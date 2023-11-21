@@ -1,0 +1,26 @@
+{
+  "name": "shadow-crawler",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Fetches resources from a website to identify sustainability and performance issues",
+  "dependencies": {
+    "crawlee": "3.5.8",
+    "puppeteer": "*"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "iframes": "node src/iframes.js",
+    "crawl": "node src/main.js",
+    "download-requests": "node src/analysis/downloadRequests.js",
+    "process-requests": "node src/analysis/processRequests.js",
+    "report-metadata": "node src/analysis/reportMetadata.js",
+    "page-metadata": "node src/analysis/pageMetadata.js",
+    "export": "node src/analysis/downloadRequests.js && node src/analysis/processRequests.js && node src/analysis/reportMetadata.js && node src/analysis/pageMetadata.js",
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  },
+  "author": "TBX",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "29.7.0"
+  }
+}

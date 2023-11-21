@@ -1,0 +1,148 @@
+{
+    "url": "https://torchbox.com/innovation/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/innovation/",
+            "resourceType": "document",
+            "transferSize": 10546,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/innovation/files/main.7ffc1e73be1e.css",
+            "resourceType": "stylesheet",
+            "transferSize": 23347,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/nature.jpg",
+            "resourceType": "image",
+            "transferSize": 132612,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/direction.png",
+            "resourceType": "image",
+            "transferSize": 8969,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/scale.png",
+            "resourceType": "image",
+            "transferSize": 8815,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/lisa_ballam-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 4303,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/accelerate.png",
+            "resourceType": "image",
+            "transferSize": 3038,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/edd_baldry-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 2548,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/innovation/files/main.d536022fa2da.js",
+            "resourceType": "script",
+            "transferSize": 68985,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/innovation/fonts/apercu-bold-pro.woff2",
+            "resourceType": "font",
+            "transferSize": 46672,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://torchbox.com/innovation/fonts/apercu-black-pro.woff2",
+            "resourceType": "font",
+            "transferSize": 47016,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://torchbox.com/innovation/fonts/apercu-regular-pro.woff2",
+            "resourceType": "font",
+            "transferSize": 47076,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/mind.jpg",
+            "resourceType": "image",
+            "transferSize": 7697,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/artfund.jpg",
+            "resourceType": "image",
+            "transferSize": 6060,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/oxfam.jpg",
+            "resourceType": "image",
+            "transferSize": 8412,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/gosh.jpg",
+            "resourceType": "image",
+            "transferSize": 11260,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/cruk.jpg",
+            "resourceType": "image",
+            "transferSize": 10843,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/Certified_B_Corporation_B_Corp_Logo_2022_Black.height-90.png",
+            "resourceType": "image",
+            "transferSize": 2738,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/2022-Top25_Best-Mid-Sized-Companies_1.original.height-90.png",
+            "resourceType": "image",
+            "transferSize": 6130,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://torchbox.com/innovation/img/Inhabit-Carbon-Neutral-Badge-Connected-Blue.or.height-90.png",
+            "resourceType": "image",
+            "transferSize": 4129,
+            "fileExtension": "png"
+        }
+    ],
+    "images": {
+        "jpg": {
+            "count": 8,
+            "size": 183735
+        },
+        "png": {
+            "count": 6,
+            "size": 33819
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 3,
+            "size": 140764
+        }
+    },
+    "pageWeight": 462435
+}

@@ -1,3 +1,3 @@
-import WebsiteSummary from "./WebsiteSummary";
+import WebsiteSummary from './WebsiteSummary';
 
 export default WebsiteSummary;

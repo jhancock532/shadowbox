@@ -1,0 +1,52 @@
+.container {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.title {
+    color: var(--color--text);
+    @include font-size(l);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    text-wrap: nowrap;
+    margin: 0;
+    margin-bottom: $grid + 5px;
+}
+
+.baseNumber {
+    color: var(--color--secondary-gradient-1);
+    @include font-size(xl);
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    background: var(--color--secondary-gradient-7);
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.accentNumber {
+    color: var(--color--background);
+    @include font-size(xl);
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    background: linear-gradient(
+        32deg,
+        var(--color--primary-gradient-1) 0%,
+        var(--color--primary-gradient-3) 100%
+    );
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.percentageChange {
+    margin-top: 10px;
+    color: var(--color--text-muted);
+}

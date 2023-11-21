@@ -1,0 +1,99 @@
+// Font weights
+$weight--extrabold: 900;
+$weight--heavy: 800;
+$weight--bold: 700;
+$weight--semibold: 600;
+$weight--medium: 500;
+$weight--normal: 400;
+$weight--light: 100;
+
+// Font sizes
+$large-font-sizes: (
+    xxl: 46px,
+    xl: 32px,
+    l: 24px,
+    m: 20px,
+    s: 18px,
+    xs: 16px,
+    xxs: 14px,
+    xxxs: 13px,
+);
+
+$medium-font-sizes: (
+    xxl: 38px,
+    xl: 28px,
+    l: 22px,
+    m: 20px,
+    s: 18px,
+    xs: 16px,
+    xxs: 14px,
+    xxxs: 13px,
+);
+
+$small-font-sizes: (
+    xxl: 28px,
+    xl: 24px,
+    l: 20px,
+    m: 18px,
+    s: 16px,
+    xs: 15px,
+    xxs: 14px,
+    xxxs: 13px,
+);
+
+// --------------------------------- Breakpoints --------------------------------------
+$breakpoints: (
+    'medium' '(min-width: 599px)',
+    'large' '(min-width: 1023px)',
+    'site-width' '(min-width: 1441px)',
+    'x-large' '(min-width: 1919px)'
+);
+
+// --------------------------------- Grid Dimensions --------------------------------------
+
+// Wrappers
+$site-width: 1440px;
+$content--narrow: 755px;
+
+// Grid setup
+$grid: 25px;
+$gutter: $grid;
+
+$variable-gutter--small: 8.33vw;
+$variable-gutter--medium: ($variable-gutter--small * 2);
+$variable-gutter--large: ($variable-gutter--small * 3);
+
+$component-spacing--small: $grid;
+$component-spacing--medium: ($component-spacing--small * 3);
+$component-spacing--large: ($component-spacing--small * 5.5);
+
+// --------------------------------- Transitions --------------------------------------
+
+$transition: 0.25s ease-out;
+$transition-quick: 0.2s ease;
+
+// --------------------------------- Z-indices --------------------------------------
+
+$z-index: (
+    under: -1,
+    zero: 0,
+    one: 1,
+    two: 2,
+    three: 3,
+    four: 4,
+    badge: 5,
+    base: 10,
+    overlap: 20,
+    header: 30,
+    footer: 40,
+    nav: 50,
+    cookie-message: 100,
+    skip-link: 105,
+    modal: 110,
+    modal-controls: 120,
+    menu-button: 130,
+);
+
+// ---- Extras -----
+
+$border-radius: 5px;

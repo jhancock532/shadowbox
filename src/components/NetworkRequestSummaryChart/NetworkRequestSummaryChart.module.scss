@@ -1,0 +1,83 @@
+.pair {
+    margin-bottom: 0px;
+
+    &__text {
+        position: relative;
+        top: 0;
+        @include font-size(xs);
+        margin: 0 0 -8px 0;
+        padding: 0px 4px;
+        transition: opacity $transition;
+        background-color: var(--color--background);
+        color: var(--color--text);
+        width: max-content;
+        height: 22px; // fix for long urls that break two lines
+    }
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    height: $grid;
+    width: 100%;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__label {
+        @include font-size(xs);
+        font-weight: 300;
+        padding-left: $grid / 2;
+        margin: 0;
+        flex-shrink: 0;
+        color: var(--color--text);
+    }
+}
+
+.segment {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+
+    &__label {
+        position: absolute;
+        z-index: 3;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--color--text);
+        color: var(--color--background);
+        width: max-content;
+        padding: 5px;
+    }
+
+    &__text {
+        display: block;
+        @include font-size(xxs);
+        color: var(--color--background);
+        padding: 0;
+        margin: 0;
+    }
+
+    &__pattern {
+        opacity: 0.6;
+    }
+}
+
+.showMoreButton {
+    @include font-size(m);
+    cursor: pointer;
+    border: none;
+    border-radius: $border-radius;
+    padding: 6px 10px;
+    margin-top: $grid / 2;
+    background-color: var(--color--button);
+    color: var(--color--background);
+
+    &:hover {
+        background-color: var(--color--button-hover);
+    }
+}

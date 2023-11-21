@@ -1,0 +1,31 @@
+{
+    "url": "https://torchbox.com/blog/an-extrovert-intranet-royal-college-art/",
+    "id": "be13a15a-3803-4ae7",
+    "title": "An Extrovert Intranet for the Royal College of Art",
+    "metadata": {
+        "description": "Client Services Director, Paul Vetch, takes a look at the Royal College of Art's beautiful new intranet - powered by none other than Wagtail CMS.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "An extrovert intranet for the Royal College of Art",
+            "description": "Client Services Director, Paul Vetch, takes a look at the Royal College of Art's beautiful new intranet - powered by none other than Wagtail CMS.",
+            "image": "https://media.torchbox.com/images/Royal_College_of_Art.width-1000.jpg"
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/an-extrovert-intranet-royal-college-art/",
+            "title": "An extrovert intranet for the Royal College of Art",
+            "description": "Client Services Director, Paul Vetch, takes a look at the Royal College of Art's beautiful new intranet - powered by none other than Wagtail CMS.",
+            "image": "https://media.torchbox.com/images/Royal_College_of_Art.2e16d0ba.fill-1200x630.jpg",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "youtubeEmbeds": [
+        {
+            "src": "https://www.youtube.com/embed/NKOqhto7CKc?feature=oembed",
+            "title": "",
+            "thumbnail": "https://i.ytimg.com/vi/NKOqhto7CKc/mqdefault.jpg"
+        }
+    ]
+}

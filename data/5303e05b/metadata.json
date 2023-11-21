@@ -1,0 +1,354 @@
+{
+    "reportId": "5303e05b",
+    "reportDateTime": "2023-11-06T16:51:36.577Z",
+    "crawlerStatistics": {
+        "requestsFinished": 106,
+        "requestsFailed": 0,
+        "requestsRetries": 0,
+        "requestsFailedPerMinute": 0,
+        "requestsFinishedPerMinute": 101,
+        "requestMinDurationMillis": 997,
+        "requestMaxDurationMillis": 22988,
+        "requestTotalFailedDurationMillis": 0,
+        "requestTotalFinishedDurationMillis": 212813,
+        "crawlerStartedAt": "2023-11-06T16:51:36.577Z",
+        "crawlerFinishedAt": "2023-11-06T16:52:39.765Z",
+        "statsPersistedAt": "2023-11-06T16:52:39.765Z",
+        "crawlerRuntimeMillis": 63222,
+        "crawlerLastStartTimestamp": 1699289496543,
+        "requestRetryHistogram": [
+            106
+        ],
+        "statsId": 0,
+        "requestAvgFailedDurationMillis": null,
+        "requestAvgFinishedDurationMillis": 2008,
+        "requestTotalDurationMillis": 212813,
+        "requestsTotal": 106,
+        "requestsWithStatusCode": {
+            "200": 106
+        },
+        "errors": {},
+        "retryErrors": {},
+        "reportId": "5303e05b"
+    },
+    "urlToIdMapping": [
+        {
+            "https://torchbox.com/team/": "4dab2f01-e29d-430c"
+        },
+        {
+            "https://torchbox.com/": "bea796a1-e415-4f67"
+        },
+        {
+            "https://torchbox.com/digital-products/": "466b2652-2110-4482"
+        },
+        {
+            "https://torchbox.com/wagtail-cms/": "4ace7aaf-dc51-46a7"
+        },
+        {
+            "https://torchbox.com/digital-marketing/": "2988e853-f007-45b8"
+        },
+        {
+            "https://torchbox.com/innovation/": "afafc7ed-97cf-4b4b"
+        },
+        {
+            "https://torchbox.com/careers/jobs": "8b7e4f22-9852-4f78"
+        },
+        {
+            "https://torchbox.com/careers": "a5e0fb5e-3d0f-492e"
+        },
+        {
+            "https://torchbox.com/events/": "9a589b95-bc01-4bb9"
+        },
+        {
+            "https://torchbox.com/blog/": "02236641-2663-4934"
+        },
+        {
+            "https://torchbox.com/team/abigail-hampson/": "618ed079-bdbf-4408"
+        },
+        {
+            "https://torchbox.com/work/": "2f19dc13-c4b1-4a1b"
+        },
+        {
+            "https://torchbox.com/team/albina-starykova/": "a8c65629-5fa3-4116"
+        },
+        {
+            "https://torchbox.com/team/alex-bridge/": "8325276c-e553-4280"
+        },
+        {
+            "https://torchbox.com/team/alex-morega/": "2b220376-badd-4cce"
+        },
+        {
+            "https://torchbox.com/team/alina-markowska/": "392cc540-b902-49af"
+        },
+        {
+            "https://torchbox.com/team/ali-vowles/": "87b70bcd-484f-406a"
+        },
+        {
+            "https://torchbox.com/team/amanda-lim-cabuloy/": "d7e6ec47-2a29-4dfb"
+        },
+        {
+            "https://torchbox.com/team/amina-iqbal/": "25355647-b1ce-4079"
+        },
+        {
+            "https://torchbox.com/team/andrew-wilding-smith/": "05567be7-18f0-4f45"
+        },
+        {
+            "https://torchbox.com/team/andy-babic/": "95f84b84-4922-4092"
+        },
+        {
+            "https://torchbox.com/team/andy-gordon/": "ffe03c6d-6363-41c0"
+        },
+        {
+            "https://torchbox.com/team/ania-obarska/": "754c568c-d549-4064"
+        },
+        {
+            "https://torchbox.com/team/anna-grieve/": "e361efae-f8af-4fe2"
+        },
+        {
+            "https://torchbox.com/team/anna-pellicci/": "87d9fc01-041f-484a"
+        },
+        {
+            "https://torchbox.com/team/ben-dickinson/": "2e1b07f6-35de-43b3"
+        },
+        {
+            "https://torchbox.com/team/ben-enright/": "47c05518-b8fb-4b9b"
+        },
+        {
+            "https://torchbox.com/team/ben-heasman/": "7339bc08-aa27-4c9a"
+        },
+        {
+            "https://torchbox.com/team/ben-morse/": "4236d8ba-9bd7-496d"
+        },
+        {
+            "https://torchbox.com/team/ben-tuckwell/": "05868fa7-74b7-4d33"
+        },
+        {
+            "https://torchbox.com/team/bethan-morris/": "a9148114-17a5-4eb2"
+        },
+        {
+            "https://torchbox.com/team/bonny-colville-hyde/": "abeb6222-1fe5-4293"
+        },
+        {
+            "https://torchbox.com/team/cassandra-cardiff/": "887b2248-c31a-4619"
+        },
+        {
+            "https://torchbox.com/team/cassidy-pittman/": "f7f6d96f-ed19-42e6"
+        },
+        {
+            "https://torchbox.com/team/charmagne-rayman-bacchus-thompson/": "c19f24dd-f182-4ba0"
+        },
+        {
+            "https://torchbox.com/team/chloe-lawrence/": "1c215a5d-4ceb-468f"
+        },
+        {
+            "https://torchbox.com/team/chris-danks/": "1e0001d1-f764-4638"
+        },
+        {
+            "https://torchbox.com/team/chris-harris/": "adfa3472-cfa1-4d79"
+        },
+        {
+            "https://torchbox.com/team/chris-lawton/": "d091485a-3812-431f"
+        },
+        {
+            "https://torchbox.com/team/chris-shaw/": "919de818-bd20-4157"
+        },
+        {
+            "https://torchbox.com/team/claudia-dangelo/": "a95cfe9c-b9c9-486b"
+        },
+        {
+            "https://torchbox.com/team/colin-wade/": "e909d626-3005-4f9d"
+        },
+        {
+            "https://torchbox.com/team/dan-braghis/": "032dc727-5dcc-4d3a"
+        },
+        {
+            "https://torchbox.com/team/dave-harris/": "e06ccc27-5dd0-46c1"
+        },
+        {
+            "https://torchbox.com/team/devon-bonner-smith/": "c9a92841-fb73-41a7"
+        },
+        {
+            "https://torchbox.com/team/dot-cross/": "582db6c1-8521-4584"
+        },
+        {
+            "https://torchbox.com/team/edd-baldry/": "c2c35de6-d5a3-401b"
+        },
+        {
+            "https://torchbox.com/team/ellie-craven/": "df3507d3-6f47-411e"
+        },
+        {
+            "https://torchbox.com/team/ellie-ulrich/": "429b680e-9d01-4c40"
+        },
+        {
+            "https://torchbox.com/team/emma-bennett/": "530ec3b4-470b-449a"
+        },
+        {
+            "https://torchbox.com/team/emma-delescolle/": "936d425f-3d62-4d18"
+        },
+        {
+            "https://torchbox.com/team/ester-beltrami/": "7b2cecc2-fa91-43f0"
+        },
+        {
+            "https://torchbox.com/team/fatemeh-fartousi/": "73d839ca-5637-4170"
+        },
+        {
+            "https://torchbox.com/team/felicity-hindle/": "1f643541-30ff-42ce"
+        },
+        {
+            "https://torchbox.com/team/gareth-beck/": "52239aa4-7e71-4f9c"
+        },
+        {
+            "https://torchbox.com/team/gemma-margetts/": "f31b56cb-9409-4115"
+        },
+        {
+            "https://torchbox.com/team/geraldine-williams/": "584276fd-0dbe-4f1d"
+        },
+        {
+            "https://torchbox.com/team/helen-chapman/": "0c121a05-b331-464f"
+        },
+        {
+            "https://torchbox.com/team/dr-helen-warren/": "d8856d60-2f23-49bf"
+        },
+        {
+            "https://torchbox.com/team/holly-davis/": "a9d39c11-71de-43ca"
+        },
+        {
+            "https://torchbox.com/team/ian-bellchambers/": "7300e3d4-7738-4f0c"
+        },
+        {
+            "https://torchbox.com/team/ian-meigh/": "4b0a0dfa-d4c2-4c01"
+        },
+        {
+            "https://torchbox.com/team/iona-twiston-davies/": "d5072f2a-30ba-49fd"
+        },
+        {
+            "https://torchbox.com/team/jack-harper/": "a91536bf-e162-496f"
+        },
+        {
+            "https://torchbox.com/team/jacob-topp-mugglestone/": "e0fad93f-2a78-4206"
+        },
+        {
+            "https://torchbox.com/team/jake-howard/": "b871ad9f-e816-43ec"
+        },
+        {
+            "https://torchbox.com/team/jakub-mastalerz/": "ca5be570-d35c-4379"
+        },
+        {
+            "https://torchbox.com/team/james-ellis/": "0c1d7341-3986-4010"
+        },
+        {
+            "https://torchbox.com/team/james-hancock/": "3e302e0f-54f7-4878"
+        },
+        {
+            "https://torchbox.com/team/james-leavesley/": "442ad659-ab6a-4e95"
+        },
+        {
+            "https://torchbox.com/team/jane-hughes/": "564d6547-44a8-4fd4"
+        },
+        {
+            "https://torchbox.com/team/jemma-notley/": "e9b4539d-6780-4965"
+        },
+        {
+            "https://torchbox.com/team/jennifer-hearn/": "1affc61e-2c7d-4f94"
+        },
+        {
+            "https://torchbox.com/team/jesmond-allen/": "c34063a2-46d8-4371"
+        },
+        {
+            "https://torchbox.com/team/jess-kerridge/": "675d658e-5d43-4660"
+        },
+        {
+            "https://torchbox.com/team/jess-mackereth/": "2b2d0239-5f08-40c2"
+        },
+        {
+            "https://torchbox.com/team/jess-rackham/": "b135aaaf-46f1-437a"
+        },
+        {
+            "https://torchbox.com/team/jeth-ordeniza/": "9ebcf30f-9ef6-4664"
+        },
+        {
+            "https://torchbox.com/team/jhonatan-lopes/": "1bf8f5de-11bc-419d"
+        },
+        {
+            "https://torchbox.com/team/joe-honywill/": "06a47da2-23ba-442d"
+        },
+        {
+            "https://torchbox.com/team/jonny-peacock/": "985f871e-f26b-4d5d"
+        },
+        {
+            "https://torchbox.com/team/jo-ford/": "206e4a80-42d9-408a"
+        },
+        {
+            "https://torchbox.com/team/joshua-munn/": "73ccd1ec-b198-45bb"
+        },
+        {
+            "https://torchbox.com/team/katherine-domingo/": "b5fe17af-cb1b-4535"
+        },
+        {
+            "https://torchbox.com/team/katy-cherry/": "f3ea14c2-5567-4c31"
+        },
+        {
+            "https://torchbox.com/team/kevin-brian-howbrook/": "179b746c-f0a6-431a"
+        },
+        {
+            "https://torchbox.com/team/kyle-bayliss/": "6b5d9f47-dadc-400d"
+        },
+        {
+            "https://torchbox.com/team/laura-gonzalez/": "ee4522a3-ab7d-492f"
+        },
+        {
+            "https://torchbox.com/team/lauren-davey/": "67d2c522-1219-4cef"
+        },
+        {
+            "https://torchbox.com/team/lauren-parsons/": "e59fe269-b36a-4aa2"
+        },
+        {
+            "https://torchbox.com/team/lily-veale/": "dd3f6aaa-63be-48e6"
+        },
+        {
+            "https://torchbox.com/team/louise-horner/": "4cb7e204-dc4a-43f1"
+        },
+        {
+            "https://torchbox.com/team/lisa-ballam/": "72db6f89-1890-4fa9"
+        },
+        {
+            "https://torchbox.com/team/maitreyee-kshirsagar/": "36132bc9-c847-4ac4"
+        },
+        {
+            "https://torchbox.com/team/mark-boyle/": "00d3f1bc-1f45-4424"
+        },
+        {
+            "https://torchbox.com/team/marnie-winter-burke/": "107cd9a3-8f00-4327"
+        },
+        {
+            "https://torchbox.com/team/matthew-westcott/": "616f7b50-cd82-4992"
+        },
+        {
+            "https://torchbox.com/team/maya-gibbs/": "15826650-3779-41e8"
+        },
+        {
+            "https://torchbox.com/team/meagen-voss/": "ab0791a9-aa7e-45a2"
+        },
+        {
+            "https://torchbox.com/team/michael-worthington/": "26e2bceb-210e-4466"
+        },
+        {
+            "https://torchbox.com/team/miles-taylor/": "6bbebbf0-7bb3-4e13"
+        },
+        {
+            "https://torchbox.com/team/millie-bowie/": "6971fd4f-009b-4076"
+        },
+        {
+            "https://torchbox.com/team/millie-bullivant/": "8988bcab-4586-4636"
+        },
+        {
+            "https://torchbox.com/team/mitchel-cabuloy/": "ba3e326d-22f4-48a8"
+        },
+        {
+            "https://torchbox.com/team/mollie-rogers/": "b43ac6fc-44f5-4ce6"
+        },
+        {
+            "https://torchbox.com/team/naomi-march/": "633e6309-7f14-4a84"
+        }
+    ]
+}

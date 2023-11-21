@@ -1,0 +1,165 @@
+{
+    "url": "https://torchbox.com/careers/about-us",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/careers/about-us",
+            "resourceType": "document",
+            "transferSize": 16682,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/careers/fonts/apercu/apercu-light-pro.woff2",
+            "resourceType": "font",
+            "transferSize": 45640,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://torchbox.com/careers/fonts/apercu/apercu-regular-pro.woff2",
+            "resourceType": "font",
+            "transferSize": 47076,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://torchbox.com/careers/fonts/apercu/apercu-bold-pro.woff2",
+            "resourceType": "font",
+            "transferSize": 46672,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://torchbox.com/careers/fonts/apercu/apercu-black-pro.woff2",
+            "resourceType": "font",
+            "transferSize": 47016,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/css/3b6902c2001dedb0.css",
+            "resourceType": "stylesheet",
+            "transferSize": 2330,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fj97ble2qvn7g%2F2zrQsaM51V3NrqIOSlDYo%2F19645f7a6be9032625ee6561e6a08fc6%2Fabigail-zoom.jpg%3Fw%3D1000%26h%3D1000&w=3840&q=75",
+            "resourceType": "image",
+            "transferSize": 62750,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/css/be5361a9c10c48f2.css",
+            "resourceType": "stylesheet",
+            "transferSize": 5633,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/css/28777cba62019a42.css",
+            "resourceType": "stylesheet",
+            "transferSize": 6449,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/webpack-8efdb749f000e7a4.js",
+            "resourceType": "script",
+            "transferSize": 1124,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/framework-3b5a00d5d7e8d93b.js",
+            "resourceType": "script",
+            "transferSize": 46764,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/main-c4a446960822f6d5.js",
+            "resourceType": "script",
+            "transferSize": 27565,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/pages/_app-0466f45a84800200.js",
+            "resourceType": "script",
+            "transferSize": 4928,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/72-da23d4e70aeb4db8.js",
+            "resourceType": "script",
+            "transferSize": 8757,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/270-c203f7dc7f3793e2.js",
+            "resourceType": "script",
+            "transferSize": 25891,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/960-e4e207382ec372d1.js",
+            "resourceType": "script",
+            "transferSize": 10823,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/tu19FiTFyXMTSvGW2k6GJ/_buildManifest.js",
+            "resourceType": "script",
+            "transferSize": 841,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/chunks/pages/about-us-19a24d8f34a09d63.js",
+            "resourceType": "script",
+            "transferSize": 6633,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/static/tu19FiTFyXMTSvGW2k6GJ/_ssgManifest.js",
+            "resourceType": "script",
+            "transferSize": 421,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR&gtm_auth=&gtm_preview=&gtm_cookies_win=x",
+            "resourceType": "script",
+            "transferSize": 230960,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fj97ble2qvn7g%2F4iVzkojZ4xB4XDDLV4YTnZ%2Fa2f840337d877d85179aba9c3b85a111%2F1.png%3Fw%3D1000%26h%3D1000&w=3840&q=75",
+            "resourceType": "image",
+            "transferSize": 18070,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://torchbox.com/careers/_next/image?url=%2Fcareers%2Fimages%2Fwill.jpeg&w=3840&q=75",
+            "resourceType": "image",
+            "transferSize": 58230,
+            "fileExtension": "jpeg"
+        }
+    ],
+    "images": {
+        "jpg": {
+            "count": 1,
+            "size": 62750
+        },
+        "png": {
+            "count": 1,
+            "size": 18070
+        },
+        "jpeg": {
+            "count": 1,
+            "size": 58230
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 4,
+            "size": 186404
+        }
+    },
+    "pageWeight": 722494,
+    "iframes": []
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://torchbox.com/wagtail-cms/feature-sponsorship/",
+    "id": "482fa977-a888-48ca",
+    "title": "Feature sponsorship",
+    "metadata": {
+        "description": "Wagtail is an open source CMS, which means it's free for all, but sometimes we need a little help with funding for particular features and enhancements.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Feature sponsorship",
+            "description": "Wagtail is an open source CMS, which means it's free for all, but sometimes we need a little help with funding for particular features and enhancements."
+        },
+        "og": {
+            "type": "website",
+            "url": "/wagtail-cms/feature-sponsorship/",
+            "title": "Feature sponsorship",
+            "description": "Wagtail is an open source CMS, which means it's free for all, but sometimes we need a little help with funding for particular features and enhancements."
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

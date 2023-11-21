@@ -1,0 +1,26 @@
+{
+    "url": "https://torchbox.com/work/great-ormond-street-hospital-wagtail-cms/",
+    "id": "b02e8c74-5d6d-4900",
+    "title": "Great Ormond Street Hospital Moves to Wagtail CMS",
+    "metadata": {
+        "description": "We’re delighted to be joined by Seth Freach, GOSH Charity’s Head of Digital Development, to share the full story of their migration from Drupal to Wagtail CMS.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Great Ormond Street Hospital moves to Wagtail CMS",
+            "description": "We’re delighted to be joined by Seth Freach, GOSH Charity’s Head of Digital Development, to share the full story of their migration from Drupal to Wagtail CMS.",
+            "image": "https://media.torchbox.com/images/GOSH_Generic.width-1000.jpg"
+        },
+        "og": {
+            "type": "website",
+            "url": "/work/great-ormond-street-hospital-wagtail-cms/",
+            "title": "Great Ormond Street Hospital moves to Wagtail CMS",
+            "description": "We’re delighted to be joined by Seth Freach, GOSH Charity’s Head of Digital Development, to share the full story of their migration from Drupal to Wagtail CMS.",
+            "image": "https://media.torchbox.com/images/GOSH_Generic.2e16d0ba.fill-1200x630.jpg",
+            "image_width": "1030",
+            "image_height": "540"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

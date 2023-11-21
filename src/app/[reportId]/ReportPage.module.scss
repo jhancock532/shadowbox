@@ -1,0 +1,23 @@
+@use 'typography' as *;
+
+.title {
+    @include h1();
+}
+
+.secondaryTitle {
+    @include h2();
+}
+
+.code {
+    padding-top: $grid;
+    max-width: 80ch;
+    font-family: monospace;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.details {
+    &__list {
+        padding-top: $grid;
+    }
+}

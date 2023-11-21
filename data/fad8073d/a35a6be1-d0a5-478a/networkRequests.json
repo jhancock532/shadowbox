@@ -1,0 +1,368 @@
+{
+    "url": "https://torchbox.com/work/samaritans-digital-transformation-webstory/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/work/samaritans-digital-transformation-webstory/",
+            "resourceType": "document",
+            "transferSize": 10835,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.4ae77b7a8130.css",
+            "resourceType": "stylesheet",
+            "transferSize": 129345,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 230966,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://cdn.ampproject.org/amp-story-player-v0.js",
+            "resourceType": "script",
+            "transferSize": 17032,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.d536022fa2da.js",
+            "resourceType": "script",
+            "transferSize": 206710,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Young_boy_in_hospital_wearing_a_superhero_sty.width-1280.jpg",
+            "resourceType": "image",
+            "transferSize": 136497,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Mind-Sharing-Image.width-1280.png",
+            "resourceType": "image",
+            "transferSize": 164160,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Action_for_children_case_study.width-1280.png",
+            "resourceType": "image",
+            "transferSize": 641498,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Resized-Sue_Ryder_diary_study_image.width-1280.jpg",
+            "resourceType": "image",
+            "transferSize": 156738,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
+            "resourceType": "font",
+            "transferSize": 61624,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/4aa0abf35762d3d96221.0cd7caae30ac.woff",
+            "resourceType": "font",
+            "transferSize": 60920,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/df348384f91cc9ecf2f7.8cf7315c70cb.woff",
+            "resourceType": "font",
+            "transferSize": 61456,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Dave_Harris.2e16d0ba.fill-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 3775,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Certified_B_Corporation_B_Corp_Logo_2022_Black.height-90.png",
+            "resourceType": "image",
+            "transferSize": 2438,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-Top25_Best-Mid-Sized-Companies_1.original.height-90.png",
+            "resourceType": "image",
+            "transferSize": 5830,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Inhabit-Carbon-Neutral-Badge-Connected-Blue.or.height-90.png",
+            "resourceType": "image",
+            "transferSize": 3829,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.fill-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 3568,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://stories.site/torchbox/samaritans-digital-transformation-story/#visibilityState=prerender&origin=https%3A%2F%2Ftorchbox.com&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe",
+            "resourceType": "iframe",
+            "transferSize": 428059,
+            "fileExtension": "unknown",
+            "networkRequests": [
+                {
+                    "url": "https://stories.site/torchbox/samaritans-digital-transformation-story/#visibilityState=prerender&origin=https%3A%2F%2Ftorchbox.com&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe",
+                    "resourceType": "document",
+                    "transferSize": 54543,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/v0.js",
+                    "resourceType": "script",
+                    "transferSize": 73500,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/v0/amp-analytics-0.1.js",
+                    "resourceType": "script",
+                    "transferSize": 32527,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/v0/amp-story-1.0.js",
+                    "resourceType": "script",
+                    "transferSize": 50543,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://fonts.googleapis.com/css?display=swap&family=Poppins:400,700,600,800|Lato:400|Open%20Sans:400",
+                    "resourceType": "unknown",
+                    "transferSize": 1229,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+                    "resourceType": "font",
+                    "transferSize": 8116,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+                    "resourceType": "font",
+                    "transferSize": 8300,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVIUwaEQbjA.woff2",
+                    "resourceType": "font",
+                    "transferSize": 13772,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+                    "resourceType": "font",
+                    "transferSize": 8184,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlFd2JQEk.woff2",
+                    "resourceType": "font",
+                    "transferSize": 8124,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXiWtFCc.woff2",
+                    "resourceType": "font",
+                    "transferSize": 14280,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://stories.site/torchbox/samaritans-digital-transformation-story/assets/2.jpeg",
+                    "resourceType": "image",
+                    "transferSize": 113426,
+                    "fileExtension": "jpeg"
+                },
+                {
+                    "url": "https://stories.site/torchbox/samaritans-digital-transformation-story/assets/3.png",
+                    "resourceType": "image",
+                    "transferSize": 4840,
+                    "fileExtension": "png"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/rtv/012310301456000/v0/amp-loader-0.1.js",
+                    "resourceType": "script",
+                    "transferSize": 4238,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/rtv/012310301456000/v0/amp-viewer-integration-0.1.js",
+                    "resourceType": "script",
+                    "transferSize": 12302,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/rtv/012310301456000/v0/amp-animation-0.1.js",
+                    "resourceType": "script",
+                    "transferSize": 19287,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/rtv/012310301456000/v0/amp-story.en.json?__amp_source_origin=https%3A%2F%2Fstories.site",
+                    "resourceType": "json",
+                    "transferSize": 848,
+                    "fileExtension": "json"
+                }
+            ],
+            "resourceSizes": {
+                "document": 54543,
+                "script": 192397,
+                "unknown": 1229,
+                "font": 60776,
+                "image": 118266,
+                "json": 848
+            }
+        }
+    ],
+    "images": {
+        "jpg": {
+            "count": 4,
+            "size": 300578
+        },
+        "png": {
+            "count": 5,
+            "size": 817755
+        }
+    },
+    "fonts": {
+        "woff": {
+            "count": 3,
+            "size": 184000
+        }
+    },
+    "pageWeight": 2326519,
+    "iframes": [
+        {
+            "url": "https://stories.site/torchbox/samaritans-digital-transformation-story/#visibilityState=prerender&origin=https%3A%2F%2Ftorchbox.com&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe",
+            "resourceType": "iframe",
+            "transferSize": 428059,
+            "fileExtension": "unknown",
+            "networkRequests": [
+                {
+                    "url": "https://stories.site/torchbox/samaritans-digital-transformation-story/#visibilityState=prerender&origin=https%3A%2F%2Ftorchbox.com&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe",
+                    "resourceType": "document",
+                    "transferSize": 54543,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/v0.js",
+                    "resourceType": "script",
+                    "transferSize": 73500,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/v0/amp-analytics-0.1.js",
+                    "resourceType": "script",
+                    "transferSize": 32527,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/v0/amp-story-1.0.js",
+                    "resourceType": "script",
+                    "transferSize": 50543,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://fonts.googleapis.com/css?display=swap&family=Poppins:400,700,600,800|Lato:400|Open%20Sans:400",
+                    "resourceType": "unknown",
+                    "transferSize": 1229,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+                    "resourceType": "font",
+                    "transferSize": 8116,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+                    "resourceType": "font",
+                    "transferSize": 8300,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVIUwaEQbjA.woff2",
+                    "resourceType": "font",
+                    "transferSize": 13772,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+                    "resourceType": "font",
+                    "transferSize": 8184,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlFd2JQEk.woff2",
+                    "resourceType": "font",
+                    "transferSize": 8124,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXiWtFCc.woff2",
+                    "resourceType": "font",
+                    "transferSize": 14280,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://stories.site/torchbox/samaritans-digital-transformation-story/assets/2.jpeg",
+                    "resourceType": "image",
+                    "transferSize": 113426,
+                    "fileExtension": "jpeg"
+                },
+                {
+                    "url": "https://stories.site/torchbox/samaritans-digital-transformation-story/assets/3.png",
+                    "resourceType": "image",
+                    "transferSize": 4840,
+                    "fileExtension": "png"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/rtv/012310301456000/v0/amp-loader-0.1.js",
+                    "resourceType": "script",
+                    "transferSize": 4238,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/rtv/012310301456000/v0/amp-viewer-integration-0.1.js",
+                    "resourceType": "script",
+                    "transferSize": 12302,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/rtv/012310301456000/v0/amp-animation-0.1.js",
+                    "resourceType": "script",
+                    "transferSize": 19287,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://cdn.ampproject.org/rtv/012310301456000/v0/amp-story.en.json?__amp_source_origin=https%3A%2F%2Fstories.site",
+                    "resourceType": "json",
+                    "transferSize": 848,
+                    "fileExtension": "json"
+                }
+            ],
+            "resourceSizes": {
+                "document": 54543,
+                "script": 192397,
+                "unknown": 1229,
+                "font": 60776,
+                "image": 118266,
+                "json": 848
+            }
+        }
+    ]
+}

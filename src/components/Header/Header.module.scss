@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: $grid * 2;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin-left: auto;
+
+    &__name {
+        font-size: 1.5rem;
+        font-weight: 900;
+        background: linear-gradient(
+            356deg,
+            var(--color--text) 50%,
+            rgba(0, 0, 0, 0) 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0;
+
+        text-align: center;
+        font-weight: 900;
+        line-height: 1.4rem;
+        letter-spacing: 0.24px;
+    }
+
+    &__tagline {
+        color: var(--color--text, #2d2d2d);
+        text-align: center;
+        @include font-size(xs);
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.18px;
+        margin: 0;
+    }
+}

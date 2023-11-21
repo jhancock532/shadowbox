@@ -1,0 +1,32 @@
+{
+    "url": "https://torchbox.com/work/minds-wagtail-cms-intranet-case-study/",
+    "id": "b6d22ac9-199f-48f5",
+    "title": "Mind's Powerful Wagtail CMS Intranet | Torchbox Case Study",
+    "metadata": {
+        "description": "Mind has improved knowledge sharing, networking and collaboration across its federated network of 100+ independent local Minds with the launch of a powerful new intranet built on Wagtail CMS.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Reimagining collaboration and communication for 5k+ Mind staff and volunteers",
+            "description": "Mind has improved knowledge sharing, networking and collaboration across its federated network of 100+ independent local Minds with the launch of a powerful new intranet built on Wagtail CMS.",
+            "image": "https://media.torchbox.com/images/Mind-Sharing-Image.width-1000.png"
+        },
+        "og": {
+            "type": "website",
+            "url": "/work/minds-wagtail-cms-intranet-case-study/",
+            "title": "Reimagining collaboration and communication for 5k+ Mind staff and volunteers",
+            "description": "Mind has improved knowledge sharing, networking and collaboration across its federated network of 100+ independent local Minds with the launch of a powerful new intranet built on Wagtail CMS.",
+            "image": "https://media.torchbox.com/images/Mind-Sharing-Image.2e16d0ba.fill-1200x630.png",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": [
+        {
+            "src": "https://www.youtube.com/embed/eHxqcZp1bBo?feature=oembed",
+            "title": "Reimagining Collaboration for Mind's Staff and Volunteers: A Video Case Study",
+            "thumbnail": "https://i.ytimg.com/vi/eHxqcZp1bBo/mqdefault.jpg"
+        }
+    ]
+}

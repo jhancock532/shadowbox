@@ -1,0 +1,386 @@
+{
+    "url": "https://torchbox.com/work/breast-cancer-now-pink-ribbon-lottery-creative/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/work/breast-cancer-now-pink-ribbon-lottery-creative/",
+            "resourceType": "document",
+            "transferSize": 14178,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.4ae77b7a8130.css",
+            "resourceType": "stylesheet",
+            "transferSize": 129345,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 230966,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.youtube.com/embed/RUMjGjBQfrE?feature=oembed",
+            "resourceType": "iframe",
+            "transferSize": 3527454,
+            "fileExtension": "unknown",
+            "networkRequests": [
+                {
+                    "url": "https://www.youtube.com/embed/RUMjGjBQfrE?feature=oembed",
+                    "resourceType": "document",
+                    "transferSize": 39590,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://www.youtube.com/s/player/190c935f/www-player.css",
+                    "resourceType": "stylesheet",
+                    "transferSize": 386719,
+                    "fileExtension": "css"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+                    "resourceType": "font",
+                    "transferSize": 10748,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+                    "resourceType": "font",
+                    "transferSize": 10788,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/embed.js",
+                    "resourceType": "script",
+                    "transferSize": 57715,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://www.youtube.com/s/player/190c935f/www-embed-player.vflset/www-embed-player.js",
+                    "resourceType": "script",
+                    "transferSize": 329430,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/base.js",
+                    "resourceType": "script",
+                    "transferSize": 2449086,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://googleads.g.doubleclick.net/pagead/id",
+                    "resourceType": "xhr",
+                    "transferSize": 420,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://static.doubleclick.net/instream/ad_status.js",
+                    "resourceType": "script",
+                    "transferSize": 29,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+                    "resourceType": "xhr",
+                    "transferSize": 1599,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/remote.js",
+                    "resourceType": "script",
+                    "transferSize": 118987,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js",
+                    "resourceType": "script",
+                    "transferSize": 39655,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/RUMjGjBQfrE/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWihbMA8=&rs=AOn4CLCchUANjnSaT3RRa8kNBTnUhGgumA",
+                    "resourceType": "image",
+                    "transferSize": 74418,
+                    "fileExtension": "jpg"
+                },
+                {
+                    "url": "https://yt3.ggpht.com/ytc/APkrFKZNCtfC9sBGko5evXTBiZ27wonFAnRK9U-djTxE=s68-c-k-c0x00ffffff-no-rj",
+                    "resourceType": "stylesheet",
+                    "transferSize": 2095,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+                    "resourceType": "xhr",
+                    "transferSize": 1603,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+                    "resourceType": "script",
+                    "transferSize": 4272,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://www.youtube.com/generate_204?dgHHEA",
+                    "resourceType": "image",
+                    "transferSize": 300,
+                    "fileExtension": "unknown"
+                }
+            ],
+            "resourceSizes": {
+                "document": 39590,
+                "stylesheet": 388814,
+                "font": 21536,
+                "script": 2999174,
+                "xhr": 3622,
+                "image": 74718
+            }
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.d536022fa2da.js",
+            "resourceType": "script",
+            "transferSize": 206710,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://media.torchbox.com/images/GOSH_Image.width-1280.png",
+            "resourceType": "image",
+            "transferSize": 1527288,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/iStock-856980680.width-1280.jpg",
+            "resourceType": "image",
+            "transferSize": 309647,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Action_for_children_case_study.width-1280.png",
+            "resourceType": "image",
+            "transferSize": 641498,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/12309_CATHERINE_HELPLINE__BCN7213.width-1280.jpg",
+            "resourceType": "image",
+            "transferSize": 91385,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
+            "resourceType": "font",
+            "transferSize": 61624,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/4aa0abf35762d3d96221.0cd7caae30ac.woff",
+            "resourceType": "font",
+            "transferSize": 60920,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/df348384f91cc9ecf2f7.8cf7315c70cb.woff",
+            "resourceType": "font",
+            "transferSize": 61456,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IMG_3103.2e16d0ba.fill-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 3260,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/BCN2-PinkRibbon-home.max-1280x860.jpg",
+            "resourceType": "image",
+            "transferSize": 146773,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/BCN_Cause_ads_-_blog_article_only.max-1280x860.jpg",
+            "resourceType": "image",
+            "transferSize": 59571,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/BCN_Prize_ads_-_blog_article_only.max-1280x860.jpg",
+            "resourceType": "image",
+            "transferSize": 46202,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/BCN_Case_study_ads_-_blog_article_only.max-1280x860.jpg",
+            "resourceType": "image",
+            "transferSize": 48961,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Certified_B_Corporation_B_Corp_Logo_2022_Black.height-90.png",
+            "resourceType": "image",
+            "transferSize": 2438,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-Top25_Best-Mid-Sized-Companies_1.original.height-90.png",
+            "resourceType": "image",
+            "transferSize": 5830,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Inhabit-Carbon-Neutral-Badge-Connected-Blue.or.height-90.png",
+            "resourceType": "image",
+            "transferSize": 3829,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.fill-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 3568,
+            "fileExtension": "jpg"
+        }
+    ],
+    "images": {
+        "png": {
+            "count": 5,
+            "size": 2180883
+        },
+        "jpg": {
+            "count": 8,
+            "size": 709367
+        }
+    },
+    "fonts": {
+        "woff": {
+            "count": 3,
+            "size": 184000
+        }
+    },
+    "pageWeight": 7184142,
+    "iframes": [
+        {
+            "url": "https://www.youtube.com/embed/RUMjGjBQfrE?feature=oembed",
+            "resourceType": "iframe",
+            "transferSize": 3527454,
+            "fileExtension": "unknown",
+            "networkRequests": [
+                {
+                    "url": "https://www.youtube.com/embed/RUMjGjBQfrE?feature=oembed",
+                    "resourceType": "document",
+                    "transferSize": 39590,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://www.youtube.com/s/player/190c935f/www-player.css",
+                    "resourceType": "stylesheet",
+                    "transferSize": 386719,
+                    "fileExtension": "css"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+                    "resourceType": "font",
+                    "transferSize": 10748,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+                    "resourceType": "font",
+                    "transferSize": 10788,
+                    "fileExtension": "woff2"
+                },
+                {
+                    "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/embed.js",
+                    "resourceType": "script",
+                    "transferSize": 57715,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://www.youtube.com/s/player/190c935f/www-embed-player.vflset/www-embed-player.js",
+                    "resourceType": "script",
+                    "transferSize": 329430,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/base.js",
+                    "resourceType": "script",
+                    "transferSize": 2449086,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://googleads.g.doubleclick.net/pagead/id",
+                    "resourceType": "xhr",
+                    "transferSize": 420,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://static.doubleclick.net/instream/ad_status.js",
+                    "resourceType": "script",
+                    "transferSize": 29,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+                    "resourceType": "xhr",
+                    "transferSize": 1599,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://www.youtube.com/s/player/190c935f/player_ias.vflset/en_US/remote.js",
+                    "resourceType": "script",
+                    "transferSize": 118987,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js",
+                    "resourceType": "script",
+                    "transferSize": 39655,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/RUMjGjBQfrE/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWihbMA8=&rs=AOn4CLCchUANjnSaT3RRa8kNBTnUhGgumA",
+                    "resourceType": "image",
+                    "transferSize": 74418,
+                    "fileExtension": "jpg"
+                },
+                {
+                    "url": "https://yt3.ggpht.com/ytc/APkrFKZNCtfC9sBGko5evXTBiZ27wonFAnRK9U-djTxE=s68-c-k-c0x00ffffff-no-rj",
+                    "resourceType": "stylesheet",
+                    "transferSize": 2095,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+                    "resourceType": "xhr",
+                    "transferSize": 1603,
+                    "fileExtension": "unknown"
+                },
+                {
+                    "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+                    "resourceType": "script",
+                    "transferSize": 4272,
+                    "fileExtension": "js"
+                },
+                {
+                    "url": "https://www.youtube.com/generate_204?dgHHEA",
+                    "resourceType": "image",
+                    "transferSize": 300,
+                    "fileExtension": "unknown"
+                }
+            ],
+            "resourceSizes": {
+                "document": 39590,
+                "stylesheet": 388814,
+                "font": 21536,
+                "script": 2999174,
+                "xhr": 3622,
+                "image": 74718
+            }
+        }
+    ]
+}

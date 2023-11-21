@@ -1,0 +1,22 @@
+{
+    "url": "https://torchbox.com/events/?filter=wagtail-cms",
+    "id": "54678129-0de7-43ab",
+    "title": "Events",
+    "metadata": {
+        "description": "",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Events",
+            "description": "Torchbox - the digital product agency for tomorrow’s nonprofits."
+        },
+        "og": {
+            "type": "website",
+            "url": "/events/",
+            "title": "Events",
+            "description": "Torchbox - the digital product agency for tomorrow’s nonprofits."
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

@@ -1,0 +1,22 @@
+.title {
+    @include font-size(xl);
+    font-weight: 600;
+    margin-top: $grid;
+
+    @include media-query(medium) {
+        margin-top: $grid * 2;
+    }
+}
+
+.container {
+    margin-bottom: $grid * 2;
+}
+
+.details {
+    margin: $grid * 1.5;
+    margin-left: 0;
+
+    &__list {
+        margin-top: $grid;
+    }
+}

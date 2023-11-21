@@ -1,0 +1,32 @@
+{
+    "url": "https://torchbox.com/blog/beyond-the-ai-hype-webinar-for-nonprofits/",
+    "id": "1dc14365-d52a-4e11",
+    "title": "Webinar for Nonprofits | AI Beyond the Hype | Torchbox",
+    "metadata": {
+        "description": "Explore the untapped potential of AI for nonprofits in this webinar with our innovation leads Edd and Andy.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Beyond the AI Hype - Webinar for Nonprofits",
+            "description": "Explore the untapped potential of AI for nonprofits in this webinar with our innovation leads Edd and Andy.",
+            "image": "https://media.torchbox.com/images/beyond-the-ai-hype_twitter.width-1000.jpg"
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/beyond-the-ai-hype-webinar-for-nonprofits/",
+            "title": "Beyond the AI Hype - Webinar for Nonprofits",
+            "description": "Explore the untapped potential of AI for nonprofits in this webinar with our innovation leads Edd and Andy.",
+            "image": "https://media.torchbox.com/images/beyond-the-ai-hype_twitter.2e16d0ba.fill-1200x630.jpg",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": [
+        {
+            "src": "https://www.youtube.com/embed/fyOEnZj3FsA?feature=oembed",
+            "title": "Uncover the underestimated impact of AI for nonprofits | Torchbox AI and Innovation",
+            "thumbnail": "https://i.ytimg.com/vi/fyOEnZj3FsA/mqdefault.jpg"
+        }
+    ]
+}

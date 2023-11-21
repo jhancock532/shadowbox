@@ -1,0 +1,141 @@
+{
+    "url": "https://torchbox.com/team/olly-white/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/team/olly-white/",
+            "resourceType": "document",
+            "transferSize": 13821,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.4ae77b7a8130.css",
+            "resourceType": "stylesheet",
+            "transferSize": 129345,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Olly-White.width-1280.jpg",
+            "resourceType": "image",
+            "transferSize": 128585,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.d536022fa2da.js",
+            "resourceType": "script",
+            "transferSize": 206710,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 230966,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/fa5b3aada7c0f3ce7f71.8a3437107a65.woff",
+            "resourceType": "font",
+            "transferSize": 61624,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/4aa0abf35762d3d96221.0cd7caae30ac.woff",
+            "resourceType": "font",
+            "transferSize": 60920,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://torchbox.com/static/df348384f91cc9ecf2f7.8cf7315c70cb.woff",
+            "resourceType": "font",
+            "transferSize": 61456,
+            "fileExtension": "woff"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Certified_B_Corporation_B_Corp_Logo_2022_Black.height-90.png",
+            "resourceType": "image",
+            "transferSize": 2438,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-Top25_Best-Mid-Sized-Companies_1.original.height-90.png",
+            "resourceType": "image",
+            "transferSize": 5830,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Inhabit-Carbon-Neutral-Badge-Connected-Blue.or.height-90.png",
+            "resourceType": "image",
+            "transferSize": 3829,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.fill-100x100.jpg",
+            "resourceType": "image",
+            "transferSize": 3568,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://www.googletagmanager.com/a?id=GTM-K5HPMR&v=3&t=t&pid=48028694&cv=91&rv=3b81&tc=56&es=1&e=gtm.init_consent&eid=-1&u=AAAAAAAAAAAAAACA&h=Ag&dl=torchbox.com%2Fteam%2Folly-white%2F&tdp=GTM-K5HPMR;1622124;0;0;0&z=0",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://www.googletagmanager.com/td?id=GTM-K5HPMR&v=3&t=t&pid=48028694&cv=91&rv=3b81&tc=56&es=1&e=gtm.init_consent&eid=-1&u=AAAAAAAAAAAAAACA&h=Ag&dl=torchbox.com%2Fteam%2Folly-white%2F&tdp=GTM-K5HPMR;1622124;0;0;0&z=0",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://www.googletagmanager.com/a?id=GTM-K5HPMR&v=3&t=t&pid=48028694&cv=91&rv=3b81&tc=56&es=1&e=gtm.init&eid=0&u=AAAAAAAAAAAAAACA&h=Ag&z=0",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://www.googletagmanager.com/a?id=GTM-K5HPMR&v=3&t=t&pid=48028694&cv=91&rv=3b81&tc=56&es=1&e=gtm.js&eid=1&u=AAAAAAAAAAAAAACA&h=Ag&tr=1lcl.1lcl.1lcl.1lcl.1sdl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1evl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1cl.1cl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl&ti=1lcl.1lcl.1lcl.1lcl.1sdl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1evl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1cl.1cl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl&z=0",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://www.googletagmanager.com/a?id=GTM-K5HPMR&v=3&t=t&pid=48028694&cv=91&rv=3b81&tc=56&es=1&e=gtm.dom&eid=2&u=AAAAAAAAAAAAAACA&h=Ag&tr=1ytl&ti=1ytl&z=0",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://www.googletagmanager.com/a?id=GTM-K5HPMR&v=3&t=t&pid=48028694&cv=91&rv=3b81&tc=56&e=gtm.js&eid=1&u=AAAAAAAAAAAAAACA&h=Ag&tr=5lcl.5lcl.5lcl.5lcl.5lcl.5lcl.5lcl.5lcl.5lcl.5lcl.5lcl.5evl.5lcl.5lcl.5lcl.5lcl.5lcl.5lcl.5lcl.5lcl.5lcl.5lcl.5lcl.5lcl.5cl.5cl.5lcl.5lcl.5lcl.5lcl.5lcl.5lcl&ti=1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1evl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1cl.1cl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl&z=0",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        }
+    ],
+    "images": {
+        "jpg": {
+            "count": 2,
+            "size": 132153
+        },
+        "png": {
+            "count": 3,
+            "size": 12097
+        },
+        "unknown": {
+            "count": 6,
+            "size": 0
+        }
+    },
+    "fonts": {
+        "woff": {
+            "count": 3,
+            "size": 184000
+        }
+    },
+    "pageWeight": 910331,
+    "iframes": []
+}

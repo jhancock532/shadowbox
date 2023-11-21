@@ -45,7 +45,7 @@ export const Bar: React.FC<any> = ({
                     />
                 )}
 
-                {isTooltipShown ? (
+                {tooltip && isTooltipShown ? (
                     <div className={styles.bar__tooltip}>
                         <p className={styles.bar__tooltipText}>{tooltip}</p>
                     </div>

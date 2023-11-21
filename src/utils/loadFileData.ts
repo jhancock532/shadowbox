@@ -49,7 +49,11 @@ export const loadListOfReports = () => {
         return JSON.parse(reportFileData.toString());
     });
 
-    return availableReports;
+    return availableReports.sort(
+        (a: any, b: any) =>
+            new Date(b.reportDateTime).getTime() -
+            new Date(a.reportDateTime).getTime(),
+    );
 };
 
 export const loadRequestSizes = (reportId: string) => {

@@ -12,13 +12,9 @@ export const calculateLabelOnSize = (item: any) => {
  * @returns {string} - Formatted string.
  */
 export const calculateLabelFromBytes = (bytes: number) => {
-    const sizes = ['KB', 'MB', 'GB'];
+    if (bytes > 1000000) {
+        return `${Math.floor(bytes / 1000000)} MB`;
+    }
 
-    if (bytes === 0) return '0 KB';
-
-    const i = Math.floor(Math.log2(bytes) / 10);
-    // eslint-disable-next-line no-bitwise
-    const formattedSize = (bytes / (1 << (i * 10))).toFixed(2);
-
-    return `${formattedSize} ${sizes[i - 1]}`;
+    return `${Math.floor(bytes / 1000)} kB`;
 };

@@ -3,7 +3,7 @@ import { PuppeteerCrawler, Dataset } from 'crawlee';
 import { exportReportMetadataToJSON } from './metadataExport.js';
 import { router } from './routes.js';
 
-const startUrls = ['http://127.0.0.1:5500/index.html'];
+const startUrls = ['https://www.example.com'];
 let failedURLs = [];
 
 // Documentation: https://crawlee.dev/

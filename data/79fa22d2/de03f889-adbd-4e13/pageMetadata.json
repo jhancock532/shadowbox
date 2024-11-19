@@ -1,0 +1,26 @@
+{
+    "url": "https://torchbox.com/blog/wagtail-website-migration/",
+    "id": "de03f889-adbd-4e13",
+    "title": "Wagtail Website Migration | Torchbox",
+    "metadata": {
+        "description": "Many of our projects involve data migration from other CMS platforms into Wagtail, so we’ve developed a robust process that works.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "The Zen of (Wagtail) Website Migration",
+            "description": "Many of our projects involve data migration from other CMS platforms into Wagtail, so we’ve developed a robust process that works.",
+            "image": "https://media.torchbox.com/images/ZEN_of_Migration-Bluebirds_origi.format-webp.width-1000.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/wagtail-website-migration/",
+            "title": "The Zen of (Wagtail) Website Migration",
+            "description": "Many of our projects involve data migration from other CMS platforms into Wagtail, so we’ve developed a robust process that works.",
+            "image": "https://media.torchbox.com/images/ZEN_of_Migration-Blu.2e16d0ba.format-webp.fill-1200x630.webp",
+            "image_width": "900",
+            "image_height": "474"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

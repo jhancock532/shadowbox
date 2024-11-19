@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/about/team/alex-bridge/",
+    "id": "1d7ed93a-fa84-4aaf",
+    "title": "Alex Bridge – Lead Support Engineer | Torchbox",
+    "metadata": {
+        "description": "Alex provides critical support for our existing clients, as well as adding new features and keeping software up-to-date.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Alex Bridge",
+            "description": "Alex provides critical support for our existing clients, as well as adding new features and keeping software up-to-date.",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-earth.ecb0d3950e18.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/about/team/alex-bridge/",
+            "title": "Alex Bridge",
+            "description": "Alex provides critical support for our existing clients, as well as adding new features and keeping software up-to-date.",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

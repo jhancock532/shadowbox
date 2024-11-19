@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/services/wagtail-cms-services/wagtail-developer-training/django-developer-fundamentals/",
+    "id": "74e94491-be13-4ac4",
+    "title": "Django developer fundamentals training | Torchbox",
+    "metadata": {
+        "description": "Get your developers up to speed with Django, the high-level Python development framework that powers Wagtail CMS.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Django Developer Fundamentals",
+            "description": "Get your developers up to speed with Django, the high-level Python development framework that powers Wagtail CMS.",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-lagoon.a3a2a090a56c.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/services/wagtail-cms-services/wagtail-developer-training/django-developer-fundamentals/",
+            "title": "Django Developer Fundamentals",
+            "description": "Get your developers up to speed with Django, the high-level Python development framework that powers Wagtail CMS.",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

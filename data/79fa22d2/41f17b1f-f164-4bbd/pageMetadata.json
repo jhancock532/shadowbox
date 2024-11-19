@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/services/digital-products-services/development/",
+    "id": "41f17b1f-f164-4bbd",
+    "title": "Torchbox Development | Wagtail CMS | Torchbox",
+    "metadata": {
+        "description": "Where better place to start a Wagtail project than with the founders of Wagtail? Did you know we build big, beautiful Wagtail websites and applications?",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Development",
+            "description": "Where better place to start a Wagtail project than with the founders of Wagtail? Did you know we build big, beautiful Wagtail websites and applications?",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-coral.0754e8c6e6cb.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/services/digital-products-services/development/",
+            "title": "Development",
+            "description": "Where better place to start a Wagtail project than with the founders of Wagtail? Did you know we build big, beautiful Wagtail websites and applications?",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

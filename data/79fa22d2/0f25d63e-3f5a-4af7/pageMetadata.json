@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/blog/?filter=ppc",
+    "id": "0f25d63e-3f5a-4af7",
+    "title": "Design, Development, UX & Tech Blog | Torchbox",
+    "metadata": {
+        "description": "Get the latest news and views from Torchbox on the work we do, the web and the wider world.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Blog",
+            "description": "Get the latest news and views from Torchbox on the work we do, the web and the wider world.",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-lagoon.a3a2a090a56c.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/",
+            "title": "Blog",
+            "description": "Get the latest news and views from Torchbox on the work we do, the web and the wider world.",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

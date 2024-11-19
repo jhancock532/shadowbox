@@ -1,0 +1,143 @@
+{
+    "url": "https://torchbox.com/work/learning-assessment-platform-wharton-school-university-pennsylvania/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/work/learning-assessment-platform-wharton-school-university-pennsylvania/",
+            "resourceType": "document",
+            "transferSize": 26007,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.851f9506992c.css",
+            "resourceType": "stylesheet",
+            "transferSize": 165926,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Wharton-Logo-RGB.width-175.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 5628,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/coverimageforreport_.135dc8ba.fill-2000x875.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 112028,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://i.ytimg.com/vi/pNr0QgNTWI0/hqdefault.jpg",
+            "resourceType": "image",
+            "transferSize": 15116,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Wharton-Logo-RGB.max-110x70.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 2878,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Tomasz_Knapik_rLINaLU.7ac3ae3e.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 9896,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 14510,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.c74839c1c83d.js",
+            "resourceType": "script",
+            "transferSize": 16006,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 271861,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/858c2c51370727066039.1598da759a06.woff2",
+            "resourceType": "font",
+            "transferSize": 45064,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Platform_vision_spider_diagram.format-webp.width-1600.webp",
+            "resourceType": "image",
+            "transferSize": 45080,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://i.ytimg.com/vi_webp/pNr0QgNTWI0/sddefault.webp",
+            "resourceType": "image",
+            "transferSize": 9290,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/volunteers-wanted_230.672ee33f.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 26364,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/230328-29_SP_SUE_R_TH.4622b372.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 25044,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Case_Study_Image.2e16d0ba.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 27152,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/certified_b_corporation_b_corp_.max-100x100.format-webp_3bc1uST.webp",
+            "resourceType": "image",
+            "transferSize": 2788,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-top25_best-mid-sized-compa.max-100x100.format-webp_Xl42X5Q.webp",
+            "resourceType": "image",
+            "transferSize": 4080,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/EOA_Members_RGB_PNG_EOA_Members.max-200x100.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6980,
+            "fileExtension": "webp"
+        }
+    ],
+    "images": {
+        "webp": {
+            "count": 13,
+            "size": 291718
+        },
+        "jpg": {
+            "count": 1,
+            "size": 15116
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 1,
+            "size": 45064
+        }
+    },
+    "pageWeight": 832937,
+    "iframes": []
+}

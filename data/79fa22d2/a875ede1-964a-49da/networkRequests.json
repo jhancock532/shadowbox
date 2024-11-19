@@ -1,0 +1,151 @@
+{
+    "url": "https://torchbox.com/services/digital-marketing/digital-marketing-training/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/services/digital-marketing/digital-marketing-training/",
+            "resourceType": "document",
+            "transferSize": 24171,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.851f9506992c.css",
+            "resourceType": "stylesheet",
+            "transferSize": 165926,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IMG_3103.2e16d0ba.format-webp.fill-286x286_F7IezHO.webp",
+            "resourceType": "image",
+            "transferSize": 13562,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.c74839c1c83d.js",
+            "resourceType": "script",
+            "transferSize": 16006,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 271861,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/858c2c51370727066039.1598da759a06.woff2",
+            "resourceType": "font",
+            "transferSize": 45064,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Diabetes_UK.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 5310,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/GOSH.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 8394,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/NHS_mOAcGVF.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 2740,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/MNDA.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6758,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Sue_Ryder.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6138,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/The_Royal_Marsden_Cancer_Charit.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 10882,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Afternoon_Tea.b7262478.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 76446,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Diabetes.b245610a.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 25360,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/kids-Nepal-school-min.2e8949df.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 86722,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Amina_1.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 12294,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Image_from_iOS_1AKVZh.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 11716,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Felicity.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 19350,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/certified_b_corporation_b_corp_.max-100x100.format-webp_3bc1uST.webp",
+            "resourceType": "image",
+            "transferSize": 2788,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-top25_best-mid-sized-compa.max-100x100.format-webp_Xl42X5Q.webp",
+            "resourceType": "image",
+            "transferSize": 4080,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/EOA_Members_RGB_PNG_EOA_Members.max-200x100.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6980,
+            "fileExtension": "webp"
+        }
+    ],
+    "images": {
+        "webp": {
+            "count": 16,
+            "size": 299520
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 1,
+            "size": 45064
+        }
+    },
+    "pageWeight": 823787,
+    "iframes": []
+}

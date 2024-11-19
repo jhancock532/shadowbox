@@ -1,0 +1,169 @@
+{
+    "url": "https://torchbox.com/services/digital-products-services/research-design/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/services/digital-products-services/research-design/",
+            "resourceType": "document",
+            "transferSize": 25383,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.851f9506992c.css",
+            "resourceType": "stylesheet",
+            "transferSize": 165926,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://media.torchbox.com/images/230328-29_SP_SUE_R_T.4622b372.format-webp.fill-1600x900.webp",
+            "resourceType": "image",
+            "transferSize": 28508,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Sue_Ryder.max-110x70.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 2798,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 14510,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.c74839c1c83d.js",
+            "resourceType": "script",
+            "transferSize": 16006,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 271861,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/858c2c51370727066039.1598da759a06.woff2",
+            "resourceType": "font",
+            "transferSize": 45064,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://media.torchbox.com/images/prod-strat-workshop.2e16d0ba.fill-1040x1260.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 86996,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Buckinghamshire_Council_logo.sv.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 10470,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/CCA_logo.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 4178,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Sue_Ryder.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6138,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Royal_Opera_House.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 10810,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Oxfam_04BRe3J.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 5974,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/RNIB_SmywwKO.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 4570,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Upscaled_2.ba47a082.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 62566,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Resized-Sue_Ryder_dia.2a411fda.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 61708,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/jpegPIA25315.width-16.5c4472b2.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 98216,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Millie_Meet_the_Team_.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 22790,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Trish.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 10904,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IMG_6303.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 7828,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/certified_b_corporation_b_corp_.max-100x100.format-webp_3bc1uST.webp",
+            "resourceType": "image",
+            "transferSize": 2788,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-top25_best-mid-sized-compa.max-100x100.format-webp_Xl42X5Q.webp",
+            "resourceType": "image",
+            "transferSize": 4080,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/EOA_Members_RGB_PNG_EOA_Members.max-200x100.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6980,
+            "fileExtension": "webp"
+        }
+    ],
+    "images": {
+        "webp": {
+            "count": 19,
+            "size": 452812
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 1,
+            "size": 45064
+        }
+    },
+    "pageWeight": 978291,
+    "iframes": []
+}

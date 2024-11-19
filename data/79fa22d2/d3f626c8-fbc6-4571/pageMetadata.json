@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/services/wagtail-cms-services/",
+    "id": "d3f626c8-fbc6-4571",
+    "title": "Wagtail CMS Services | Torchbox",
+    "metadata": {
+        "description": "Expert consultancy, development, support and training from the creators of Wagtail CMS.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Wagtail CMS services",
+            "description": "Expert consultancy, development, support and training from the creators of Wagtail CMS.",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-lagoon.a3a2a090a56c.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/services/wagtail-cms-services/",
+            "title": "Wagtail CMS services",
+            "description": "Expert consultancy, development, support and training from the creators of Wagtail CMS.",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/services/digital-products-services/hosting-support/",
+    "id": "ed64ae5b-bace-4d69",
+    "title": "Torchbox Cloud Hosting and 24/7 Support | Wagtail | Torchbox",
+    "metadata": {
+        "description": "Get 24/7 application support from the creators of Wagtail and scalable, performant and resilient cloud hosting optimised for Wagtail. For more info, contact us!",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Hosting and support",
+            "description": "Get 24/7 application support from the creators of Wagtail and scalable, performant and resilient cloud hosting optimised for Wagtail. For more info, contact us!",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-coral.0754e8c6e6cb.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/services/digital-products-services/hosting-support/",
+            "title": "Hosting and support",
+            "description": "Get 24/7 application support from the creators of Wagtail and scalable, performant and resilient cloud hosting optimised for Wagtail. For more info, contact us!",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

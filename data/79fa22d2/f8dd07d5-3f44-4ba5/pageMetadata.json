@@ -1,0 +1,26 @@
+{
+    "url": "https://torchbox.com/",
+    "id": "f8dd07d5-3f44-4ba5",
+    "title": "Torchbox | Digital Agency - Charity, Nonprofit & Education Sectors",
+    "metadata": {
+        "description": "Torchbox is the agency partner for socially progressive organisations with ambitious digital ideas. Services include UX Design, Website Development, Custom Web Apps, PPC & SEO, Google Analytics, Wagtail Development and Social Media Marketing.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "The digital partner for positive change",
+            "description": "Torchbox is the agency partner for socially progressive organisations with ambitious digital ideas.",
+            "image": "https://media.torchbox.com/images/prod-strat-workshop_2018-12-18_1.format-webp.width-1000.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/",
+            "title": "The digital partner for positive change",
+            "description": "Torchbox is the agency partner for socially progressive organisations with ambitious digital ideas.",
+            "image": "https://media.torchbox.com/images/prod-strat-workshop_.2e16d0ba.format-webp.fill-1200x630.webp",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

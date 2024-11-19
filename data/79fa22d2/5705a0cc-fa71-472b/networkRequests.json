@@ -1,0 +1,133 @@
+{
+    "url": "https://torchbox.com/about/careers/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/about/careers/",
+            "resourceType": "document",
+            "transferSize": 21285,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.851f9506992c.css",
+            "resourceType": "stylesheet",
+            "transferSize": 165926,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 271861,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 14510,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.c74839c1c83d.js",
+            "resourceType": "script",
+            "transferSize": 16006,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/858c2c51370727066039.1598da759a06.woff2",
+            "resourceType": "font",
+            "transferSize": 45064,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://media.torchbox.com/images/7.2e16d0ba.fill-1040x1260.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 70682,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Three-Peaks.82910daf.fill-1040x1260.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 176096,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/torchfest3_50.2e16d0ba.format-webp.fill-576x576.webp",
+            "resourceType": "image",
+            "transferSize": 57240,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/resize_kyle-dan-will-.2e16d0ba.format-webp.fill-576x576.webp",
+            "resourceType": "image",
+            "transferSize": 45660,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/provibers-throw_iWkd8.cdfdf133.format-webp.fill-696x968.webp",
+            "resourceType": "image",
+            "transferSize": 168282,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/img_4036.2e16d0ba.format-webp.fill-576x576.webp",
+            "resourceType": "image",
+            "transferSize": 43648,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2018-12-18_11.37.28_1.2e16d0ba.format-webp.fill-816x810.webp",
+            "resourceType": "image",
+            "transferSize": 59584,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Torchbox_Ski_Trip_s66.2e16d0ba.format-webp.fill-576x576.webp",
+            "resourceType": "image",
+            "transferSize": 63064,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/4_Values.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 31552,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/certified_b_corporation_b_corp_.max-100x100.format-webp_3bc1uST.webp",
+            "resourceType": "image",
+            "transferSize": 2788,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-top25_best-mid-sized-compa.max-100x100.format-webp_Xl42X5Q.webp",
+            "resourceType": "image",
+            "transferSize": 4080,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/EOA_Members_RGB_PNG_EOA_Members.max-200x100.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6980,
+            "fileExtension": "webp"
+        }
+    ],
+    "images": {
+        "webp": {
+            "count": 13,
+            "size": 744166
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 1,
+            "size": 45064
+        }
+    },
+    "pageWeight": 1265547,
+    "iframes": []
+}

@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/services/wagtail-cms-services/wagtail-developer-training/wagtail-cms-fundamentals/",
+    "id": "78e37309-2c34-4bff",
+    "title": "Wagtail CMS Fundamentals Training | Torchbox",
+    "metadata": {
+        "description": "Our Wagtail CMS Fundamentals training course takes you from a beginner to a proficient Wagtail developer, covering all the core elements of the CMS.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Wagtail CMS Fundamentals",
+            "description": "Our Wagtail CMS Fundamentals training course takes you from a beginner to a proficient Wagtail developer, covering all the core elements of the CMS.",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-lagoon.a3a2a090a56c.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/services/wagtail-cms-services/wagtail-developer-training/wagtail-cms-fundamentals/",
+            "title": "Wagtail CMS Fundamentals",
+            "description": "Our Wagtail CMS Fundamentals training course takes you from a beginner to a proficient Wagtail developer, covering all the core elements of the CMS.",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

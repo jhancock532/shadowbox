@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/services/digital-marketing/",
+    "id": "374696f6-87a4-4740",
+    "title": "Digital Marketing Agency for Charities & Nonprofits | Torchbox",
+    "metadata": {
+        "description": "The digital marketing agency for nonprofits. Offering SEO & data analytics services, as well as Ad Grants, PPC & social media management. Find out more here.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Digital marketing for charities",
+            "description": "The digital marketing agency for nonprofits. Offering SEO & data analytics services, as well as Ad Grants, PPC & social media management. Find out more here.",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-coral.0754e8c6e6cb.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/services/digital-marketing/",
+            "title": "Digital marketing for charities",
+            "description": "The digital marketing agency for nonprofits. Offering SEO & data analytics services, as well as Ad Grants, PPC & social media management. Find out more here.",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

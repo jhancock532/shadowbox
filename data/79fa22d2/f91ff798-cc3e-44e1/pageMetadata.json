@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/services/wagtail-cms-services/wagtail-sponsorship/",
+    "id": "f91ff798-cc3e-44e1",
+    "title": "Wagtail CMS Sponsorship | Torchbox",
+    "metadata": {
+        "description": "Make Wagtail CMS better for you, and better for everyone, by sponsoring new features or packages.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Wagtail sponsorship",
+            "description": "Make Wagtail CMS better for you, and better for everyone, by sponsoring new features or packages.",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-lagoon.a3a2a090a56c.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/services/wagtail-cms-services/wagtail-sponsorship/",
+            "title": "Wagtail sponsorship",
+            "description": "Make Wagtail CMS better for you, and better for everyone, by sponsoring new features or packages.",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

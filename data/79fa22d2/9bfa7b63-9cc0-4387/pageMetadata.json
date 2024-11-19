@@ -1,0 +1,26 @@
+{
+    "url": "https://torchbox.com/blog/govuk-design-system-with-wagtail-accelerator-kit/",
+    "id": "9bfa7b63-9cc0-4387",
+    "title": "GOV.UK Design System with Wagtail Accelerator Kit | Torchbox",
+    "metadata": {
+        "description": "Hooking up the GOV.UK design system with Wagtail CMS Accelerator Kit in just 1 day!",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Hooking up the GOV.UK Design System with Wagtail Accelerator Kit in 1 day flat",
+            "description": "Hooking up the GOV.UK design system with Wagtail CMS Accelerator Kit in just 1 day!",
+            "image": "https://media.torchbox.com/images/Gov.uk-design-system.format-webp.width-1000.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/govuk-design-system-with-wagtail-accelerator-kit/",
+            "title": "Hooking up the GOV.UK Design System with Wagtail Accelerator Kit in 1 day flat",
+            "description": "Hooking up the GOV.UK design system with Wagtail CMS Accelerator Kit in just 1 day!",
+            "image": "https://media.torchbox.com/images/Gov.uk-design-system.2e16d0ba.format-webp.fill-1200x630.webp",
+            "image_width": "1024",
+            "image_height": "539"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

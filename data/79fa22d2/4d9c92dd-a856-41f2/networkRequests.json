@@ -1,0 +1,169 @@
+{
+    "url": "https://torchbox.com/services/digital-marketing/data-and-measurement/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/services/digital-marketing/data-and-measurement/",
+            "resourceType": "document",
+            "transferSize": 28819,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.851f9506992c.css",
+            "resourceType": "stylesheet",
+            "transferSize": 165926,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Untitled_design_32.4703e10e.format-webp.fill-1600x900.webp",
+            "resourceType": "image",
+            "transferSize": 116704,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Mind.max-110x70.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 2574,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IMG_3103.2e16d0ba.format-webp.fill-286x286_F7IezHO.webp",
+            "resourceType": "image",
+            "transferSize": 13562,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/girlguiding.max-110x70.format-webp_U4Pp1vk.webp",
+            "resourceType": "image",
+            "transferSize": 3314,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.c74839c1c83d.js",
+            "resourceType": "script",
+            "transferSize": 16006,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 271861,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/858c2c51370727066039.1598da759a06.woff2",
+            "resourceType": "font",
+            "transferSize": 45064,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Oxfam-logo-new.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6038,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/NHS_Digital.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6464,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/islamic-relief.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 2828,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/UNAIDS_U0sQ6oO.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 7162,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Chatham_House_N7IaHnV.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 7488,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Blood_Cancer_UK.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 7914,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Diabetes.b245610a.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 25360,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/GOSH_Image.a18cf5c3.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 71260,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IRHome.max-800x600.509f1c94.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 12364,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IMG_20170913_084331.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 7866,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/peter.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 10968,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/home-img.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 12742,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/certified_b_corporation_b_corp_.max-100x100.format-webp_3bc1uST.webp",
+            "resourceType": "image",
+            "transferSize": 2788,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-top25_best-mid-sized-compa.max-100x100.format-webp_Xl42X5Q.webp",
+            "resourceType": "image",
+            "transferSize": 4080,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/EOA_Members_RGB_PNG_EOA_Members.max-200x100.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6980,
+            "fileExtension": "webp"
+        }
+    ],
+    "images": {
+        "webp": {
+            "count": 19,
+            "size": 328456
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 1,
+            "size": 45064
+        }
+    },
+    "pageWeight": 857371,
+    "iframes": []
+}

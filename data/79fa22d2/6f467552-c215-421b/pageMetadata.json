@@ -1,0 +1,26 @@
+{
+    "url": "https://torchbox.com/blog/nasa-jpl-launches-on-wagtail/",
+    "id": "6f467552-c215-421b",
+    "title": "NASA JPL launches on Wagtail CMS | Torchbox",
+    "metadata": {
+        "description": "JPL's digital home for missions, science news, images and videos, recently redesigned and rebuilt on Wagtail with the help of Torchbox.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "NASA’s Jet Propulsion Laboratory launches on Wagtail CMS",
+            "description": "JPL's digital home for missions, science news, images and videos, recently redesigned and rebuilt on Wagtail with the help of Torchbox.",
+            "image": "https://media.torchbox.com/images/NASA_JPL2.format-webp.width-1000.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/nasa-jpl-launches-on-wagtail/",
+            "title": "NASA’s Jet Propulsion Laboratory launches on Wagtail CMS",
+            "description": "JPL's digital home for missions, science news, images and videos, recently redesigned and rebuilt on Wagtail with the help of Torchbox.",
+            "image": "https://media.torchbox.com/images/NASA_JPL2.2e16d0ba.format-webp.fill-1200x630.webp",
+            "image_width": "643",
+            "image_height": "337"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

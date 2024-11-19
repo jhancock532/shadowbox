@@ -1,0 +1,165 @@
+{
+    "url": "https://torchbox.com/blog/winners-at-the-employee-ownership-association-awards/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/blog/winners-at-the-employee-ownership-association-awards/",
+            "resourceType": "document",
+            "transferSize": 22194,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.851f9506992c.css",
+            "resourceType": "stylesheet",
+            "transferSize": 165926,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://media.torchbox.com/images/DSCF7994.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 16944,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://i.ytimg.com/vi/Mea30YK8rs8/hqdefault.jpg",
+            "resourceType": "image",
+            "transferSize": 22803,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 14510,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.c74839c1c83d.js",
+            "resourceType": "script",
+            "transferSize": 16006,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 271861,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/858c2c51370727066039.1598da759a06.woff2",
+            "resourceType": "font",
+            "transferSize": 45064,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://media.torchbox.com/images/award-pic.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 166188,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/james.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 71606,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Fighting-talk.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 133972,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://i.ytimg.com/vi_webp/Mea30YK8rs8/sddefault.webp",
+            "resourceType": "image",
+            "transferSize": 16258,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://www.googletagmanager.com/a?id=GTM-K5HPMR&v=3&t=t&pid=65966149&cv=97&rv=4be0&tc=46&tag_exp=101925629~102067555~102067808~102077855&es=1&e=gtm.init_consent&eid=-1&u=AAAAAIAAAAAAAACA&ut=AAAI&h=Ag&tr=1cvt&ti=2cvt&z=0",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://www.googletagmanager.com/a?id=GTM-K5HPMR&v=3&t=t&pid=65966149&cv=97&rv=4be0&tc=46&tag_exp=101925629~102067555~102067808~102077855&es=1&e=gtm.init&eid=0&u=AAAAAIAAAAAAAACA&ut=AAAI&h=Ag&z=0",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://www.googletagmanager.com/a?id=GTM-K5HPMR&v=3&t=t&pid=65966149&cv=97&rv=4be0&tc=46&tag_exp=101925629~102067555~102067808~102077855&es=1&e=*&eid=1&u=AAAAAIAAAAAAAACA&ut=AAAI&h=Ag&z=0",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://www.googletagmanager.com/a?id=GTM-K5HPMR&v=3&t=t&pid=65966149&cv=97&rv=4be0&tc=46&tag_exp=101925629~102067555~102067808~102077855&es=1&e=gtm.js&eid=2&u=AAAAAIAAAAAAAACA&ut=AAAI&h=Ag&tr=1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1cl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1cl.1lcl.1lcl&ti=2lcl.2lcl.2lcl.2lcl.2lcl.2lcl.2lcl.2lcl.2lcl.2lcl.2cl.2lcl.2lcl.2lcl.2lcl.2lcl.2lcl.2lcl.2cl.2lcl.2lcl&z=0",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://www.googletagmanager.com/a?id=GTM-K5HPMR&v=3&t=t&pid=65966149&cv=97&rv=4be0&tc=46&tag_exp=101925629~102067555~102067808~102077855&e=gtm.init_consent&eid=-1&u=AAAAAIAAAAAAAACA&ut=AAAI&h=Ag&tr=5cvt&ti=2cvt&z=0",
+            "resourceType": "image",
+            "transferSize": 0,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://media.torchbox.com/images/edd_baldry_torchbox.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 14090,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Maya_ErA5nim.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 9876,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/certified_b_corporation_b_corp_.max-100x100.format-webp_3bc1uST.webp",
+            "resourceType": "image",
+            "transferSize": 2788,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-top25_best-mid-sized-compa.max-100x100.format-webp_Xl42X5Q.webp",
+            "resourceType": "image",
+            "transferSize": 4080,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/EOA_Members_RGB_PNG_EOA_Members.max-200x100.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6980,
+            "fileExtension": "webp"
+        }
+    ],
+    "images": {
+        "webp": {
+            "count": 11,
+            "size": 457292
+        },
+        "jpg": {
+            "count": 1,
+            "size": 22803
+        },
+        "unknown": {
+            "count": 5,
+            "size": 0
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 1,
+            "size": 45064
+        }
+    },
+    "pageWeight": 1002385,
+    "iframes": []
+}

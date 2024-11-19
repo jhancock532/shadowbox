@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/about/about-torchbox/",
+    "id": "4790be4c-b057-4ea1",
+    "title": "About Torchbox | Torchbox",
+    "metadata": {
+        "description": "Torchbox is an employee-owned digital agency. We create digital products and services for organisations that are socially progressive and environmentally sustainable.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "About Torchbox",
+            "description": "Torchbox is an employee-owned digital agency. We create digital products and services for organisations that are socially progressive and environmentally sustainable.",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-banana.b203a06d9a63.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/about/about-torchbox/",
+            "title": "About Torchbox",
+            "description": "Torchbox is an employee-owned digital agency. We create digital products and services for organisations that are socially progressive and environmentally sustainable.",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

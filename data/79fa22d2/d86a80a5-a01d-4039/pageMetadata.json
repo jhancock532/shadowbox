@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/events/",
+    "id": "d86a80a5-a01d-4039",
+    "title": "Torchbox Events and Webinars | Torchbox",
+    "metadata": {
+        "description": "Join one of our upcoming events.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Events",
+            "description": "Join one of our upcoming events.",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-banana.b203a06d9a63.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/events/",
+            "title": "Events",
+            "description": "Join one of our upcoming events.",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

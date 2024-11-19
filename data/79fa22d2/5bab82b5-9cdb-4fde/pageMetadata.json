@@ -1,0 +1,26 @@
+{
+    "url": "https://torchbox.com/work/a-voyage-of-discovery-with-nasa-jpl/",
+    "id": "5bab82b5-9cdb-4fde",
+    "title": "A Voyage Of Discovery With NASA JPL | Torchbox",
+    "metadata": {
+        "description": "Discover how our user-centric design and Wagtail integration will make space and science more accessible on NASA JPL's Education site.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "A voyage of discovery with NASA JPL",
+            "description": "A Voyage Of Discovery With NASA JPL",
+            "image": "https://media.torchbox.com/images/jpegPIA25315.width-1600.format-webp.width-1000.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/work/a-voyage-of-discovery-with-nasa-jpl/",
+            "title": "A voyage of discovery with NASA JPL",
+            "description": "A Voyage Of Discovery With NASA JPL",
+            "image": "https://media.torchbox.com/images/jpegPIA25315.width-1.5c4472b2.format-webp.fill-1200x630.webp",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

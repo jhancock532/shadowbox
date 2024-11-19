@@ -1,0 +1,26 @@
+{
+    "url": "https://torchbox.com/work/learning-assessment-platform-wharton-school-university-pennsylvania/",
+    "id": "f4277830-9aff-4195",
+    "title": "Building a learning assessment platform for The Wharton School at the University of Pennsylvania | Torchbox",
+    "metadata": {
+        "description": "Powered by Wagtail CMS, the new platform aims to be the gold standard for scientifically grounded self-assessments to support personal and professional development.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Building a learning assessment platform",
+            "description": "Powered by Wagtail CMS, the new platform aims to be the gold standard for scientifically grounded self-assessments to support personal and professional development.",
+            "image": "https://media.torchbox.com/images/coverimageforreport_2.format-webp.width-1000.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/work/learning-assessment-platform-wharton-school-university-pennsylvania/",
+            "title": "Building a learning assessment platform",
+            "description": "Powered by Wagtail CMS, the new platform aims to be the gold standard for scientifically grounded self-assessments to support personal and professional development.",
+            "image": "https://media.torchbox.com/images/coverimageforreport_.135dc8ba.format-webp.fill-1200x630.webp",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

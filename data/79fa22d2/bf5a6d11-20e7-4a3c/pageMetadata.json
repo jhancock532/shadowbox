@@ -1,0 +1,26 @@
+{
+    "url": "https://torchbox.com/blog/experiment-large-language-model-optimisation-finetuning/",
+    "id": "bf5a6d11-20e7-4a3c",
+    "title": "To Finetune or Not to Finetune: An Experiment in Large Language Model Optimisation | Torchbox",
+    "metadata": {
+        "description": "Victor explores the transformative potential of artificial intelligence through finetuning techniques such as Prompt Engineering and Retrieval Augmented Generation. He provides a detailed comparison of these methods with our existing approaches, offering valuable insights into enhancing AI performance.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "To Finetune or not to Finetune: An experiment in Large Language Model optimisation",
+            "description": "Victor explores the transformative potential of artificial intelligence through finetuning techniques such as Prompt Engineering and Retrieval Augmented Generation. He provides a detailed comparison of these methods with our existing approaches, offering valuable insights into enhancing AI performance.",
+            "image": "https://media.torchbox.com/images/og_share_img.format-webp.width-1000.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/experiment-large-language-model-optimisation-finetuning/",
+            "title": "To Finetune or not to Finetune: An experiment in Large Language Model optimisation",
+            "description": "Victor explores the transformative potential of artificial intelligence through finetuning techniques such as Prompt Engineering and Retrieval Augmented Generation. He provides a detailed comparison of these methods with our existing approaches, offering valuable insights into enhancing AI performance.",
+            "image": "https://media.torchbox.com/images/og_share_img.2e16d0ba.format-webp.fill-1200x630.webp",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

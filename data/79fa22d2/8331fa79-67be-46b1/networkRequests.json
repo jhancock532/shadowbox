@@ -1,0 +1,127 @@
+{
+    "url": "https://torchbox.com/work/?page=11",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/work/?page=11",
+            "resourceType": "document",
+            "transferSize": 20845,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.851f9506992c.css",
+            "resourceType": "stylesheet",
+            "transferSize": 165926,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.format-webp.fill-144x144.webp",
+            "resourceType": "image",
+            "transferSize": 4734,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.c74839c1c83d.js",
+            "resourceType": "script",
+            "transferSize": 16006,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 271861,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/858c2c51370727066039.1598da759a06.woff2",
+            "resourceType": "font",
+            "transferSize": 45064,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://media.torchbox.com/images/oil_barrels.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 37878,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/rau2_7nzXzSB.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 27356,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/SGOSS.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 20628,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/children-306607.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 14062,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Children.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 33536,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/12639490405_5513df208.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 49006,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/hrh.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 24398,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/meningitis_now.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 22712,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/certified_b_corporation_b_corp_.max-100x100.format-webp_3bc1uST.webp",
+            "resourceType": "image",
+            "transferSize": 2788,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-top25_best-mid-sized-compa.max-100x100.format-webp_Xl42X5Q.webp",
+            "resourceType": "image",
+            "transferSize": 4080,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/EOA_Members_RGB_PNG_EOA_Members.max-200x100.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6980,
+            "fileExtension": "webp"
+        }
+    ],
+    "images": {
+        "webp": {
+            "count": 12,
+            "size": 248158
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 1,
+            "size": 45064
+        }
+    },
+    "pageWeight": 769099,
+    "iframes": []
+}

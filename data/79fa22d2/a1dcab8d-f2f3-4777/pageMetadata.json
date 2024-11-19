@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/services/wagtail-cms-services/wagtail-developer-training/",
+    "id": "a1dcab8d-f2f3-4777",
+    "title": "Wagtail CMS Developer Training | Torchbox",
+    "metadata": {
+        "description": "Developer training in the fundamentals of Django and Wagtail CMS development, from the creators of Wagtail.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Wagtail CMS developer training",
+            "description": "Developer training in the fundamentals of Django and Wagtail CMS development, from the creators of Wagtail.",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-lagoon.a3a2a090a56c.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/services/wagtail-cms-services/wagtail-developer-training/",
+            "title": "Wagtail CMS developer training",
+            "description": "Developer training in the fundamentals of Django and Wagtail CMS development, from the creators of Wagtail.",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

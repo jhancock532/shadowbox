@@ -1,0 +1,26 @@
+{
+    "url": "https://torchbox.com/blog/caltech-multisite/",
+    "id": "33785e75-6eb5-4179",
+    "title": "Caltech goes multisite with Wagtail | Torchbox",
+    "metadata": {
+        "description": "How one of the world’s most prestigious universities has addressed the gnarly challenge of site proliferation.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Caltech goes multisite with Wagtail",
+            "description": "How one of the world’s most prestigious universities has addressed the gnarly challenge of site proliferation.",
+            "image": "https://media.torchbox.com/images/resize_mutisite.format-webp.width-1000.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/caltech-multisite/",
+            "title": "Caltech goes multisite with Wagtail",
+            "description": "How one of the world’s most prestigious universities has addressed the gnarly challenge of site proliferation.",
+            "image": "https://media.torchbox.com/images/resize_mutisite.2e16d0ba.format-webp.fill-1200x630.webp",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

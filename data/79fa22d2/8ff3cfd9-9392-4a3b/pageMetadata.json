@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/privacy/",
+    "id": "8ff3cfd9-9392-4a3b",
+    "title": "Privacy page | Torchbox",
+    "metadata": {
+        "description": "Here you'll find Torchbox's privacy policy outlining our use of personal information, our use of data, copyright and access to information.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Privacy policy",
+            "description": "Here you'll find Torchbox's privacy policy outlining our use of personal information, our use of data, copyright and access to information.",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-coral.0754e8c6e6cb.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/privacy/",
+            "title": "Privacy policy",
+            "description": "Here you'll find Torchbox's privacy policy outlining our use of personal information, our use of data, copyright and access to information.",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

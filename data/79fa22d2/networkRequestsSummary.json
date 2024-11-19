@@ -1,0 +1,5964 @@
+{
+    "averagePageWeight": 823777.0568181818,
+    "medianPageWeight": 680417,
+    "largestPageWeight": 22663854,
+    "websiteNetworkRequestSummary": [
+        {
+            "url": "https://torchbox.com/",
+            "networkRequestSizeTallies": {
+                "document": 28063,
+                "stylesheet": 22319,
+                "image": 854142,
+                "script": 277595,
+                "font": 45364
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 27,
+                    "size": 854142
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45364
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/#main-content",
+            "networkRequestSizeTallies": {
+                "document": 28063,
+                "stylesheet": 165926,
+                "image": 854142,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 27,
+                    "size": 854142
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/",
+            "networkRequestSizeTallies": {
+                "document": 19869,
+                "stylesheet": 165926,
+                "image": 56468,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 56468
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/strategy-innovation-ai/",
+            "networkRequestSizeTallies": {
+                "document": 20598,
+                "stylesheet": 165926,
+                "image": 347962,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 15,
+                    "size": 347962
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/strategy-innovation-ai/ai-strategy/",
+            "networkRequestSizeTallies": {
+                "document": 23336,
+                "stylesheet": 165926,
+                "image": 72912,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 72912
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/strategy-innovation-ai/innovation-strategy/",
+            "networkRequestSizeTallies": {
+                "document": 21820,
+                "stylesheet": 165926,
+                "image": 74812,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 74812
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-products-services/",
+            "networkRequestSizeTallies": {
+                "document": 21276,
+                "stylesheet": 165926,
+                "image": 429558,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 21,
+                    "size": 429558
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-products-services/research-design/",
+            "networkRequestSizeTallies": {
+                "document": 25383,
+                "stylesheet": 165926,
+                "image": 452812,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 19,
+                    "size": 452812
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-products-services/development/",
+            "networkRequestSizeTallies": {
+                "document": 28634,
+                "stylesheet": 165926,
+                "image": 399422,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 19,
+                    "size": 399422
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-products-services/hosting-support/",
+            "networkRequestSizeTallies": {
+                "document": 22476,
+                "stylesheet": 165926,
+                "image": 256596,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 256596
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-marketing/",
+            "networkRequestSizeTallies": {
+                "document": 25062,
+                "stylesheet": 165926,
+                "image": 573878,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 21,
+                    "size": 573878
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-products-services/accessibility/",
+            "networkRequestSizeTallies": {
+                "document": 29620,
+                "stylesheet": 165926,
+                "image": 218998,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 218998
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-marketing/google-ad-grants-management/",
+            "networkRequestSizeTallies": {
+                "document": 27881,
+                "stylesheet": 165926,
+                "image": 294978,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 19,
+                    "size": 294978
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-marketing/asset-and-campaign-creative/",
+            "networkRequestSizeTallies": {
+                "document": 26704,
+                "stylesheet": 165926,
+                "image": 321374,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 16,
+                    "size": 321374
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-marketing/data-and-measurement/",
+            "networkRequestSizeTallies": {
+                "document": 28819,
+                "stylesheet": 165926,
+                "image": 328456,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 19,
+                    "size": 328456
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-marketing/digital-marketing-training/",
+            "networkRequestSizeTallies": {
+                "document": 24171,
+                "stylesheet": 165926,
+                "image": 299520,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 16,
+                    "size": 299520
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-marketing/email-marketing/",
+            "networkRequestSizeTallies": {
+                "document": 28141,
+                "stylesheet": 165926,
+                "image": 384170,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 17,
+                    "size": 384170
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-marketing/pay-per-click-ppc-management/",
+            "networkRequestSizeTallies": {
+                "document": 28887,
+                "stylesheet": 165926,
+                "image": 266512,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 18,
+                    "size": 266512
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-marketing/search-engine-optimisation-seo/",
+            "networkRequestSizeTallies": {
+                "document": 28286,
+                "stylesheet": 165926,
+                "image": 320000,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 22,
+                    "size": 320000
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-marketing/social-media-management/",
+            "networkRequestSizeTallies": {
+                "document": 28249,
+                "stylesheet": 165926,
+                "image": 302850,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 19,
+                    "size": 302850
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/wagtail-cms-services/",
+            "networkRequestSizeTallies": {
+                "document": 24751,
+                "stylesheet": 165926,
+                "image": 609516,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 24,
+                    "size": 609516
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/wagtail-cms-services/wagtail-developer-training/",
+            "networkRequestSizeTallies": {
+                "document": 20605,
+                "stylesheet": 165926,
+                "image": 45516,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 45516
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/wagtail-cms-services/wagtail-staff-augmentation/",
+            "networkRequestSizeTallies": {
+                "document": 24171,
+                "stylesheet": 165926,
+                "image": 286080,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 24,
+                    "size": 286080
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/wagtail-cms-services/wagtail-developer-support/",
+            "networkRequestSizeTallies": {
+                "document": 24323,
+                "stylesheet": 165926,
+                "image": 279856,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 23,
+                    "size": 279856
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/",
+            "networkRequestSizeTallies": {
+                "document": 19310,
+                "stylesheet": 165926,
+                "image": 28358,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 4,
+                    "size": 28358
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/wagtail-cms-services/wagtail-accelerator-kit/",
+            "networkRequestSizeTallies": {
+                "document": 20377,
+                "stylesheet": 165926,
+                "image": 92548,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 7,
+                    "size": 92548
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/wagtail-cms-services/wagtail-sponsorship/",
+            "networkRequestSizeTallies": {
+                "document": 22954,
+                "stylesheet": 165926,
+                "image": 86036,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 86036
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/about-torchbox/",
+            "networkRequestSizeTallies": {
+                "document": 24770,
+                "stylesheet": 165926,
+                "image": 767768,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 21,
+                    "size": 767768
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/",
+            "networkRequestSizeTallies": {
+                "document": 20627,
+                "stylesheet": 22319,
+                "image": 449232,
+                "script": 277595,
+                "font": 45364
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 25,
+                    "size": 449232
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45364
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/employee-owned/",
+            "networkRequestSizeTallies": {
+                "document": 22881,
+                "stylesheet": 165926,
+                "image": 224243,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 201440
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 22803
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/careers/",
+            "networkRequestSizeTallies": {
+                "document": 21285,
+                "stylesheet": 165926,
+                "script": 289106,
+                "image": 744166,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 744166
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/diversity-and-inclusion/",
+            "networkRequestSizeTallies": {
+                "document": 24157,
+                "stylesheet": 165926,
+                "image": 696790,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 696790
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/impact-report-2023/",
+            "networkRequestSizeTallies": {
+                "document": 32866,
+                "stylesheet": 165926,
+                "image": 681876,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 17,
+                    "size": 668936
+                },
+                "png": {
+                    "count": 3,
+                    "size": 12940
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/events/",
+            "networkRequestSizeTallies": {
+                "document": 19259,
+                "stylesheet": 165926,
+                "image": 72028,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 72028
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/",
+            "networkRequestSizeTallies": {
+                "document": 21352,
+                "stylesheet": 165926,
+                "image": 133224,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 133224
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/",
+            "networkRequestSizeTallies": {
+                "document": 21522,
+                "stylesheet": 165926,
+                "image": 431904,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 431904
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/volunteering-form-improvements/",
+            "networkRequestSizeTallies": {
+                "document": 24214,
+                "stylesheet": 165926,
+                "image": 307110,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 273800
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 33310
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-products-services/accessibility/accessibility-testing/",
+            "networkRequestSizeTallies": {
+                "document": 23947,
+                "stylesheet": 165926,
+                "image": 238418,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 238418
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/national-data-library-lessons-from-govuk-registers/",
+            "networkRequestSizeTallies": {
+                "document": 27197,
+                "stylesheet": 165926,
+                "image": 247342,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 247342
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=innovation",
+            "networkRequestSizeTallies": {
+                "document": 20989,
+                "stylesheet": 165926,
+                "image": 91596,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 91596
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=digital-products",
+            "networkRequestSizeTallies": {
+                "document": 21188,
+                "stylesheet": 165926,
+                "image": 124266,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 124266
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=research-design",
+            "networkRequestSizeTallies": {
+                "document": 20998,
+                "stylesheet": 165926,
+                "image": 102178,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 102178
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/transforming-service-delivery-ai-chat-technology-rnib/",
+            "networkRequestSizeTallies": {
+                "document": 23289,
+                "stylesheet": 165926,
+                "image": 71840,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 71840
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=data",
+            "networkRequestSizeTallies": {
+                "document": 21366,
+                "stylesheet": 165926,
+                "image": 119500,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 119500
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=public-sector",
+            "networkRequestSizeTallies": {
+                "document": 21194,
+                "stylesheet": 165926,
+                "image": 131968,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 131968
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=ai",
+            "networkRequestSizeTallies": {
+                "document": 21136,
+                "stylesheet": 165926,
+                "image": 121926,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 121926
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=charity-non-profit",
+            "networkRequestSizeTallies": {
+                "document": 21127,
+                "stylesheet": 165926,
+                "image": 139308,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 139308
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/london-museums-radical-digital-transformation/",
+            "networkRequestSizeTallies": {
+                "document": 25008,
+                "stylesheet": 165926,
+                "image": 442650,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 442650
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=wagtail-cms",
+            "networkRequestSizeTallies": {
+                "document": 21049,
+                "stylesheet": 165926,
+                "image": 85016,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 85016
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/leveraging-tv-coverage-for-mnd-association/",
+            "networkRequestSizeTallies": {
+                "document": 26797,
+                "stylesheet": 165926,
+                "image": 275676,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 275676
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=seo",
+            "networkRequestSizeTallies": {
+                "document": 21306,
+                "stylesheet": 165926,
+                "image": 482176,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 482176
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=ppc",
+            "networkRequestSizeTallies": {
+                "document": 21233,
+                "stylesheet": 165926,
+                "image": 655948,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 655948
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=digital-marketing",
+            "networkRequestSizeTallies": {
+                "document": 21384,
+                "stylesheet": 165926,
+                "image": 580880,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 580880
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=data",
+            "networkRequestSizeTallies": {
+                "document": 20239,
+                "stylesheet": 165926,
+                "image": 263084,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 263084
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=social-media",
+            "networkRequestSizeTallies": {
+                "document": 21121,
+                "stylesheet": 165926,
+                "image": 462284,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 462284
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=charity-non-profit",
+            "networkRequestSizeTallies": {
+                "document": 21416,
+                "stylesheet": 165926,
+                "image": 460334,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 460334
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/media-campaign-brand-partnership-wwt/",
+            "networkRequestSizeTallies": {
+                "document": 24457,
+                "stylesheet": 165926,
+                "image": 555444,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 555444
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/sue-ryders-new-brand-identity/",
+            "networkRequestSizeTallies": {
+                "document": 26078,
+                "stylesheet": 22319,
+                "image": 447736,
+                "script": 277595,
+                "font": 45364
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 17,
+                    "size": 447736
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45364
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/privacy/",
+            "networkRequestSizeTallies": {
+                "document": 20283,
+                "stylesheet": 165926,
+                "image": 28358,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 4,
+                    "size": 28358
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/cookies/",
+            "networkRequestSizeTallies": {
+                "document": 20243,
+                "stylesheet": 165926,
+                "image": 28358,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 4,
+                    "size": 28358
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=research-design",
+            "networkRequestSizeTallies": {
+                "document": 20452,
+                "stylesheet": 165926,
+                "image": 227428,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 227428
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=digital-products",
+            "networkRequestSizeTallies": {
+                "document": 21333,
+                "stylesheet": 165926,
+                "image": 471360,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 471360
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/anti-slavery-and-human-trafficking-policy/",
+            "networkRequestSizeTallies": {
+                "document": 19906,
+                "stylesheet": 165926,
+                "image": 28358,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 4,
+                    "size": 28358
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/environment-policy/",
+            "networkRequestSizeTallies": {
+                "document": 21303,
+                "stylesheet": 165926,
+                "image": 28358,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 4,
+                    "size": 28358
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/how-we-work/",
+            "networkRequestSizeTallies": {
+                "document": 20782,
+                "stylesheet": 165926,
+                "image": 28358,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 4,
+                    "size": 28358
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/digital-emissions/",
+            "networkRequestSizeTallies": {
+                "document": 20068,
+                "stylesheet": 165926,
+                "image": 28358,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 4,
+                    "size": 28358
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=digital-marketing",
+            "networkRequestSizeTallies": {
+                "document": 21136,
+                "stylesheet": 165926,
+                "image": 125814,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 125814
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/power-of-automating-innovation-for-charities/",
+            "networkRequestSizeTallies": {
+                "document": 22560,
+                "stylesheet": 165926,
+                "image": 126340,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 126340
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=culture",
+            "networkRequestSizeTallies": {
+                "document": 21145,
+                "stylesheet": 165926,
+                "image": 126744,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 126744
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/why-your-nonprofit-needs-an-ai-strategy/",
+            "networkRequestSizeTallies": {
+                "document": 23234,
+                "stylesheet": 165926,
+                "image": 118079,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 89738
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 28341
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=tech",
+            "networkRequestSizeTallies": {
+                "document": 21192,
+                "stylesheet": 165926,
+                "image": 161536,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 161536
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/experiment-large-language-model-optimisation-finetuning/",
+            "networkRequestSizeTallies": {
+                "document": 31850,
+                "stylesheet": 167409,
+                "image": 130308,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 130308
+                },
+                "unknown": {
+                    "count": 8,
+                    "size": 0
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-products-services/kick-start-your-product-with-a-design-sprint/",
+            "networkRequestSizeTallies": {
+                "document": 21810,
+                "stylesheet": 165926,
+                "image": 239622,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 7,
+                    "size": 239622
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/learning-assessment-platform-wharton-school-university-pennsylvania/",
+            "networkRequestSizeTallies": {
+                "document": 26007,
+                "stylesheet": 165926,
+                "image": 306834,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 291718
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 15116
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=wagtail-cms",
+            "networkRequestSizeTallies": {
+                "document": 21205,
+                "stylesheet": 165926,
+                "image": 507052,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 507052
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/rnib-digital-transformation/",
+            "networkRequestSizeTallies": {
+                "document": 26657,
+                "stylesheet": 165926,
+                "image": 308356,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 308356
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/sue-ryder-diary-study/",
+            "networkRequestSizeTallies": {
+                "document": 26290,
+                "stylesheet": 165926,
+                "image": 374536,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 374536
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/a-voyage-of-discovery-with-nasa-jpl/",
+            "networkRequestSizeTallies": {
+                "document": 26308,
+                "stylesheet": 165926,
+                "image": 702558,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 702558
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/design-positive-online-experience-deaf-community-and-people-with-hearing-loss/",
+            "networkRequestSizeTallies": {
+                "document": 24258,
+                "stylesheet": 165926,
+                "image": 193502,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 193502
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/nonprofit-storytelling-guide/",
+            "networkRequestSizeTallies": {
+                "document": 29622,
+                "stylesheet": 165926,
+                "image": 525956,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 525956
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=public-sector",
+            "networkRequestSizeTallies": {
+                "document": 21153,
+                "stylesheet": 165926,
+                "image": 613812,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 613812
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/new-oxfam-wagtail-website/",
+            "networkRequestSizeTallies": {
+                "document": 25761,
+                "stylesheet": 165926,
+                "image": 351962,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 351962
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/financial-reporting-council-website-launch/",
+            "networkRequestSizeTallies": {
+                "document": 24287,
+                "stylesheet": 165926,
+                "image": 188466,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 188466
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/to-finetune-or-not-to-finetune-part-2/",
+            "networkRequestSizeTallies": {
+                "document": 25973,
+                "stylesheet": 173226,
+                "image": 185997,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 145942
+                },
+                "jpg": {
+                    "count": 2,
+                    "size": 40055
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/onwards-accessibility-auditing-with-wcag-22-and-beyond/",
+            "networkRequestSizeTallies": {
+                "document": 23839,
+                "stylesheet": 165926,
+                "image": 95458,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 95458
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/great-ormond-street-hospital-wagtail-cms/",
+            "networkRequestSizeTallies": {
+                "document": 24109,
+                "stylesheet": 165926,
+                "image": 293856,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 293856
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/nasa-jpl-launches-on-wagtail/",
+            "networkRequestSizeTallies": {
+                "document": 23263,
+                "stylesheet": 165926,
+                "image": 153074,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 153074
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/nesta-torchbox-case-study/",
+            "networkRequestSizeTallies": {
+                "document": 25971,
+                "stylesheet": 165926,
+                "image": 364143,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 352406
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 11737
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/were-supporting-google-nasa-oxfam-nhs-wagtail-now-we-can-support-you-too/",
+            "networkRequestSizeTallies": {
+                "document": 21473,
+                "stylesheet": 165926,
+                "image": 228700,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 228700
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=higher-education",
+            "networkRequestSizeTallies": {
+                "document": 20914,
+                "stylesheet": 22319,
+                "image": 80532,
+                "script": 277595,
+                "font": 45364
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 80532
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45364
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/caltech-multisite/",
+            "networkRequestSizeTallies": {
+                "document": 21540,
+                "stylesheet": 165926,
+                "image": 92674,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 73900
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 18774
+                },
+                "unknown": {
+                    "count": 5,
+                    "size": 0
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/?filter=digital-marketing",
+            "networkRequestSizeTallies": {
+                "document": 20467,
+                "stylesheet": 165926,
+                "image": 243536,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 25,
+                    "size": 243536
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/32-million-raised-for-decs-afghanistan-crisis-appeal/",
+            "networkRequestSizeTallies": {
+                "document": 26527,
+                "stylesheet": 165926,
+                "image": 441312,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 441312
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/improving-accessibility-for-the-internet-society/",
+            "networkRequestSizeTallies": {
+                "document": 24955,
+                "stylesheet": 165926,
+                "image": 144670,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 144670
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-products-services/accessibility/accessibility-strategy/",
+            "networkRequestSizeTallies": {
+                "document": 23998,
+                "stylesheet": 165926,
+                "image": 174350,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 174350
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-products-services/accessibility/accessibility-training/",
+            "networkRequestSizeTallies": {
+                "document": 21441,
+                "stylesheet": 165926,
+                "image": 60704,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 6,
+                    "size": 60704
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-products-services/accessibility/accessibility-remediation/",
+            "networkRequestSizeTallies": {
+                "document": 21787,
+                "stylesheet": 165926,
+                "image": 78746,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 7,
+                    "size": 78746
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-products-services/accessibility/accessibility-audits/",
+            "networkRequestSizeTallies": {
+                "document": 23728,
+                "stylesheet": 165926,
+                "image": 178906,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 178906
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-products-services/accessibility/accessibility-monitoring/",
+            "networkRequestSizeTallies": {
+                "document": 21338,
+                "stylesheet": 165926,
+                "image": 68254,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 7,
+                    "size": 68254
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/guide-to-website-accessibility-for-charities/",
+            "networkRequestSizeTallies": {
+                "document": 25384,
+                "stylesheet": 165926,
+                "image": 231704,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 231704
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/oite-website-launch/",
+            "networkRequestSizeTallies": {
+                "document": 23094,
+                "stylesheet": 165926,
+                "image": 127498,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 127498
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/how-to-make-your-social-media-creative-more-accessible/",
+            "networkRequestSizeTallies": {
+                "document": 23877,
+                "stylesheet": 165926,
+                "image": 156444,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 156444
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=social-media",
+            "networkRequestSizeTallies": {
+                "document": 21153,
+                "stylesheet": 165926,
+                "image": 118156,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 118156
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/six-lessons-learnt-from-the-rnib-site-build/",
+            "networkRequestSizeTallies": {
+                "document": 23973,
+                "stylesheet": 165926,
+                "image": 260138,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 260138
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/how-to-turn-around-google-ad-grants-account/",
+            "networkRequestSizeTallies": {
+                "document": 26519,
+                "stylesheet": 165926,
+                "image": 194266,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 194266
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=google-ad-grants",
+            "networkRequestSizeTallies": {
+                "document": 20501,
+                "stylesheet": 165926,
+                "image": 180836,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 180836
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/google-ad-grants-mozilla/",
+            "networkRequestSizeTallies": {
+                "document": 24967,
+                "stylesheet": 165926,
+                "image": 276518,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 276518
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/mind-charity-optimised-google-ad-grants-account/",
+            "networkRequestSizeTallies": {
+                "document": 23239,
+                "stylesheet": 165926,
+                "image": 162168,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 162168
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/global-witness-google-grants/",
+            "networkRequestSizeTallies": {
+                "document": 24196,
+                "stylesheet": 165926,
+                "image": 162438,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 162438
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=ppc",
+            "networkRequestSizeTallies": {
+                "document": 21149,
+                "stylesheet": 165926,
+                "image": 129956,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 129956
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/google-marketing-live-2024-key-highlights/",
+            "networkRequestSizeTallies": {
+                "document": 23278,
+                "stylesheet": 165926,
+                "image": 80452,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 80452
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=seo",
+            "networkRequestSizeTallies": {
+                "document": 21019,
+                "stylesheet": 165926,
+                "image": 124010,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 124010
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/what-is-googles-stance-on-ai-generated-content/",
+            "networkRequestSizeTallies": {
+                "document": 25254,
+                "stylesheet": 165926,
+                "image": 79874,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 79874
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/google-ad-grants-5-advanced-tips-success/",
+            "networkRequestSizeTallies": {
+                "document": 24733,
+                "stylesheet": 165926,
+                "image": 135912,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 135912
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=google-ad-grants",
+            "networkRequestSizeTallies": {
+                "document": 20697,
+                "stylesheet": 165926,
+                "image": 99682,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 99682
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/breast-cancer-now-pink-ribbon-lottery-creative/",
+            "networkRequestSizeTallies": {
+                "document": 24662,
+                "stylesheet": 165926,
+                "image": 306250,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 293512
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 12738
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/ai-and-nonprofit-digital-marketing/",
+            "networkRequestSizeTallies": {
+                "document": 28134,
+                "stylesheet": 165926,
+                "image": 177246,
+                "script": 289106,
+                "media": 21958378,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 177246
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/impactful-visuals-for-breast-cancer/",
+            "networkRequestSizeTallies": {
+                "document": 25125,
+                "stylesheet": 165926,
+                "image": 319368,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 306930
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 12438
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/refugee-council-handraiser-campaign/",
+            "networkRequestSizeTallies": {
+                "document": 24919,
+                "stylesheet": 165926,
+                "image": 229916,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 229916
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/design-powered-digital-marketing/",
+            "networkRequestSizeTallies": {
+                "document": 25761,
+                "stylesheet": 165926,
+                "image": 941325,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 912176
+                },
+                "jpg": {
+                    "count": 3,
+                    "size": 29149
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/donation-form-experiments-with-mind/",
+            "networkRequestSizeTallies": {
+                "document": 24170,
+                "stylesheet": 165926,
+                "image": 225540,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 225540
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/diabetes-uk-seo-content-strategy/",
+            "networkRequestSizeTallies": {
+                "document": 23002,
+                "stylesheet": 165926,
+                "image": 159288,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 159288
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/gosh-one-step-closer-christmas-appeal/",
+            "networkRequestSizeTallies": {
+                "document": 25188,
+                "stylesheet": 22319,
+                "image": 303256,
+                "script": 277595,
+                "font": 45364
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 303256
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45364
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/measurement-framework-mnd-association/",
+            "networkRequestSizeTallies": {
+                "document": 24415,
+                "stylesheet": 165926,
+                "image": 195128,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 195128
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/google-tag-manager-setup-spring-clean/",
+            "networkRequestSizeTallies": {
+                "document": 25560,
+                "stylesheet": 165926,
+                "image": 73076,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 73076
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/islamic-relief-uk-ramadan-campaign/",
+            "networkRequestSizeTallies": {
+                "document": 24623,
+                "stylesheet": 165926,
+                "image": 986265,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 244046
+                },
+                "gif": {
+                    "count": 1,
+                    "size": 742219
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=email-marketing",
+            "networkRequestSizeTallies": {
+                "document": 19707,
+                "stylesheet": 165926,
+                "image": 115080,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 115080
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/record-breaking-campaign-afternoon-tea/",
+            "networkRequestSizeTallies": {
+                "document": 24917,
+                "stylesheet": 165926,
+                "image": 443540,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 443540
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/internet-society-email-subscriber-list-growth/",
+            "networkRequestSizeTallies": {
+                "document": 24371,
+                "stylesheet": 165926,
+                "image": 581544,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 581544
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/the-ultimate-guide-to-performance-max-for-nonprofits/",
+            "networkRequestSizeTallies": {
+                "document": 25300,
+                "stylesheet": 165926,
+                "image": 125020,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 125020
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/moorfields-eye-charity-tick-tock-campaign/",
+            "networkRequestSizeTallies": {
+                "document": 26711,
+                "stylesheet": 165926,
+                "image": 317022,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 317022
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/royal-marsden-cancer-charity-email-marketing/",
+            "networkRequestSizeTallies": {
+                "document": 24162,
+                "stylesheet": 165926,
+                "image": 297356,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 297356
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/how-to-write-a-fundraising-email/",
+            "networkRequestSizeTallies": {
+                "document": 24942,
+                "stylesheet": 165926,
+                "image": 88286,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 88286
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/chatham-house-email-marketing/",
+            "networkRequestSizeTallies": {
+                "document": 24129,
+                "stylesheet": 165926,
+                "image": 471082,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 471082
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=email-marketing",
+            "networkRequestSizeTallies": {
+                "document": 19972,
+                "stylesheet": 165926,
+                "image": 66180,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 7,
+                    "size": 66180
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/11-subject-line-tips-for-charity-and-nonprofit-emails/",
+            "networkRequestSizeTallies": {
+                "document": 22914,
+                "stylesheet": 165926,
+                "image": 95380,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 95380
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/charity-marketing-campaign-nextdoor/",
+            "networkRequestSizeTallies": {
+                "document": 22926,
+                "stylesheet": 165926,
+                "image": 206130,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 206130
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/digital-marketing/search-engine-optimisation-seo/eeat-review/",
+            "networkRequestSizeTallies": {
+                "document": 21304,
+                "stylesheet": 165926,
+                "image": 53014,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 6,
+                    "size": 53014
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/seo-organic-search-authority-unlimit-health/",
+            "networkRequestSizeTallies": {
+                "document": 27533,
+                "stylesheet": 165926,
+                "image": 358090,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 358090
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/evergreen-content-strategy-for-chatham-house/",
+            "networkRequestSizeTallies": {
+                "document": 25965,
+                "stylesheet": 165926,
+                "image": 337120,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 337120
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/connecting-greenpeace-uk-supporters-seo/",
+            "networkRequestSizeTallies": {
+                "document": 26007,
+                "stylesheet": 165926,
+                "image": 364678,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 364678
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/google-launches-ai-overviews-in-the-uk/",
+            "networkRequestSizeTallies": {
+                "document": 23082,
+                "stylesheet": 165926,
+                "image": 290708,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 290708
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/7-things-nonprofits-need-to-know-ai-overviews/",
+            "networkRequestSizeTallies": {
+                "document": 26274,
+                "stylesheet": 165926,
+                "image": 934616,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 17,
+                    "size": 934616
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/wagtail-cms-services/wagtail-developer-training/django-developer-fundamentals/",
+            "networkRequestSizeTallies": {
+                "document": 21107,
+                "stylesheet": 165926,
+                "image": 45516,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 45516
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/services/wagtail-cms-services/wagtail-developer-training/wagtail-cms-fundamentals/",
+            "networkRequestSizeTallies": {
+                "document": 20723,
+                "stylesheet": 165926,
+                "image": 45516,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 45516
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/whats-new-in-wagtail-returns-oct-2024/",
+            "networkRequestSizeTallies": {
+                "document": 21655,
+                "stylesheet": 165926,
+                "image": 133516,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 108060
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 25456
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/wagtail-support-and-expert-guidance/",
+            "networkRequestSizeTallies": {
+                "document": 24097,
+                "stylesheet": 165926,
+                "image": 70890,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 70890
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/wagtail-website-migration/",
+            "networkRequestSizeTallies": {
+                "document": 26117,
+                "stylesheet": 165926,
+                "image": 89792,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 89792
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/govuk-design-system-with-wagtail-accelerator-kit/",
+            "networkRequestSizeTallies": {
+                "document": 22726,
+                "stylesheet": 165926,
+                "image": 160856,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 150492
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 10364
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/sustainability-at-torchbox/",
+            "networkRequestSizeTallies": {
+                "document": 22571,
+                "stylesheet": 165926,
+                "image": 763048,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 763048
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/how-charities-and-nhs-can-drive-change/",
+            "networkRequestSizeTallies": {
+                "document": 23359,
+                "stylesheet": 165926,
+                "image": 441016,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 441016
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/democratic-vitality-key-takeaways-john-lewis-partnership-council/",
+            "networkRequestSizeTallies": {
+                "document": 24230,
+                "stylesheet": 165926,
+                "image": 454400,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 454400
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/torchbox-is-a-b-corp/",
+            "networkRequestSizeTallies": {
+                "document": 23169,
+                "stylesheet": 165926,
+                "image": 147858,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 147858
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/?filter=",
+            "networkRequestSizeTallies": {
+                "document": 20525,
+                "stylesheet": 165926,
+                "image": 449232,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 25,
+                    "size": 449232
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/?filter=innovation",
+            "networkRequestSizeTallies": {
+                "document": 19330,
+                "stylesheet": 165926,
+                "image": 82598,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 7,
+                    "size": 82598
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/?filter=product-delivery-management",
+            "networkRequestSizeTallies": {
+                "document": 20166,
+                "stylesheet": 22319,
+                "image": 181846,
+                "script": 277595,
+                "font": 45364
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 20,
+                    "size": 181846
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45364
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/?filter=human-centred-design",
+            "networkRequestSizeTallies": {
+                "document": 19918,
+                "stylesheet": 165926,
+                "image": 154814,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 17,
+                    "size": 154814
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/?filter=wagtail-product",
+            "networkRequestSizeTallies": {
+                "document": 19783,
+                "stylesheet": 165926,
+                "image": 163482,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 15,
+                    "size": 163482
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/?filter=development",
+            "networkRequestSizeTallies": {
+                "document": 20605,
+                "stylesheet": 165926,
+                "image": 230992,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 25,
+                    "size": 230992
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/?filter=operations",
+            "networkRequestSizeTallies": {
+                "document": 20247,
+                "stylesheet": 165926,
+                "image": 215720,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 23,
+                    "size": 215720
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/abigail-hampson/",
+            "networkRequestSizeTallies": {
+                "document": 20919,
+                "stylesheet": 165926,
+                "image": 115824,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 7,
+                    "size": 115824
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/albina-starykova/",
+            "networkRequestSizeTallies": {
+                "document": 19834,
+                "stylesheet": 165926,
+                "image": 51632,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 51632
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/alex-bridge/",
+            "networkRequestSizeTallies": {
+                "document": 19873,
+                "stylesheet": 165926,
+                "image": 78986,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 78986
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/alex-morega/",
+            "networkRequestSizeTallies": {
+                "document": 19587,
+                "stylesheet": 165926,
+                "image": 68312,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 68312
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/alice-logan/",
+            "networkRequestSizeTallies": {
+                "document": 19664,
+                "stylesheet": 165926,
+                "image": 62040,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 62040
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/ali-vowles/",
+            "networkRequestSizeTallies": {
+                "document": 20081,
+                "stylesheet": 165926,
+                "image": 103716,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 6,
+                    "size": 103716
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/amanda-lim-cabuloy/",
+            "networkRequestSizeTallies": {
+                "document": 19869,
+                "stylesheet": 165926,
+                "image": 63958,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 63958
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/andy-babic/",
+            "networkRequestSizeTallies": {
+                "document": 19979,
+                "stylesheet": 165926,
+                "image": 55892,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 55892
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/amina-iqbal/",
+            "networkRequestSizeTallies": {
+                "document": 21065,
+                "stylesheet": 165926,
+                "image": 119506,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 119506
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/andy-gordon/",
+            "networkRequestSizeTallies": {
+                "document": 20006,
+                "stylesheet": 165926,
+                "image": 80562,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 80562
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/ania-obarska/",
+            "networkRequestSizeTallies": {
+                "document": 19658,
+                "stylesheet": 165926,
+                "image": 107074,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 107074
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/anna-pellicci/",
+            "networkRequestSizeTallies": {
+                "document": 20157,
+                "stylesheet": 165926,
+                "image": 122058,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 122058
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/arran-bell/",
+            "networkRequestSizeTallies": {
+                "document": 19420,
+                "stylesheet": 165926,
+                "image": 57426,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 57426
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/ben-enright/",
+            "networkRequestSizeTallies": {
+                "document": 20702,
+                "stylesheet": 165926,
+                "image": 132228,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 6,
+                    "size": 132228
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/ben-heasman/",
+            "networkRequestSizeTallies": {
+                "document": 21170,
+                "stylesheet": 165926,
+                "image": 214614,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 214614
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/ben-tuckwell/",
+            "networkRequestSizeTallies": {
+                "document": 20851,
+                "stylesheet": 165926,
+                "image": 70048,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 6,
+                    "size": 70048
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/cassandra-cardiff/",
+            "networkRequestSizeTallies": {
+                "document": 19478,
+                "stylesheet": 165926,
+                "image": 55744,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 55744
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/charmagne-rayman-bacchus-thompson/",
+            "networkRequestSizeTallies": {
+                "document": 19589,
+                "stylesheet": 165926,
+                "image": 126874,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 126874
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/chloe-lawrence/",
+            "networkRequestSizeTallies": {
+                "document": 19481,
+                "stylesheet": 165926,
+                "image": 97838,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 97838
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/chris-danks/",
+            "networkRequestSizeTallies": {
+                "document": 20063,
+                "stylesheet": 165926,
+                "image": 49686,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 49686
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/?page=1",
+            "networkRequestSizeTallies": {
+                "document": 20517,
+                "stylesheet": 165926,
+                "image": 241312,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 25,
+                    "size": 241312
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/?page=2",
+            "networkRequestSizeTallies": {
+                "document": 20832,
+                "stylesheet": 165926,
+                "image": 223674,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 25,
+                    "size": 223674
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/?page=6",
+            "networkRequestSizeTallies": {
+                "document": 20168,
+                "stylesheet": 165926,
+                "image": 144574,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 144574
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/voice-groups-impact-2023/",
+            "networkRequestSizeTallies": {
+                "document": 25202,
+                "stylesheet": 165926,
+                "image": 817850,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 817850
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/embracing-the-eo-effect-our-four-year-journey/",
+            "networkRequestSizeTallies": {
+                "document": 22602,
+                "stylesheet": 165926,
+                "image": 563552,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 563552
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/careers/jobs/",
+            "networkRequestSizeTallies": {
+                "document": 21172,
+                "stylesheet": 165926,
+                "image": 85536,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 85536
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/winners-at-the-employee-ownership-association-awards/",
+            "networkRequestSizeTallies": {
+                "document": 22194,
+                "stylesheet": 165926,
+                "image": 480095,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 457292
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 22803
+                },
+                "unknown": {
+                    "count": 5,
+                    "size": 0
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/careers/benefits/",
+            "networkRequestSizeTallies": {
+                "document": 20776,
+                "stylesheet": 22319,
+                "image": 18582,
+                "script": 277595,
+                "font": 45364
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 4,
+                    "size": 18582
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45364
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/an-evolution-of-our-purpose-vision-and-values/",
+            "networkRequestSizeTallies": {
+                "document": 22550,
+                "stylesheet": 165926,
+                "image": 210964,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 210964
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/careers/academy/",
+            "networkRequestSizeTallies": {
+                "document": 23952,
+                "stylesheet": 165926,
+                "image": 180370,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 180370
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/diversity-and-inclusion/navigating-maternity-uk-workplace/",
+            "networkRequestSizeTallies": {
+                "document": 30921,
+                "stylesheet": 165926,
+                "image": 218272,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 218272
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/environment-policy/sustainable-travel-policy/",
+            "networkRequestSizeTallies": {
+                "document": 22939,
+                "stylesheet": 165926,
+                "image": 36778,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 36778
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/digital-day-city-academy-bristol/",
+            "networkRequestSizeTallies": {
+                "document": 23909,
+                "stylesheet": 165926,
+                "image": 188770,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 188770
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?filter=",
+            "networkRequestSizeTallies": {
+                "document": 21415,
+                "stylesheet": 165926,
+                "image": 58502,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 58502
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/olly-willans/",
+            "networkRequestSizeTallies": {
+                "document": 21110,
+                "stylesheet": 165926,
+                "image": 96810,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 96810
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/maximise-intranet-impact/",
+            "networkRequestSizeTallies": {
+                "document": 24084,
+                "stylesheet": 165926,
+                "image": 35004,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 35004
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/common-accessibility-issues-and-how-to-solve-them/",
+            "networkRequestSizeTallies": {
+                "document": 23041,
+                "stylesheet": 165926,
+                "image": 90324,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 90324
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/shadowbox-automating-sustainability-audits/",
+            "networkRequestSizeTallies": {
+                "document": 24279,
+                "stylesheet": 165926,
+                "image": 164924,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 164924
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=2",
+            "networkRequestSizeTallies": {
+                "document": 21177,
+                "stylesheet": 165926,
+                "image": 49616,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 49616
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=1",
+            "networkRequestSizeTallies": {
+                "document": 21155,
+                "stylesheet": 165926,
+                "image": 58502,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 58502
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/events/?filter=upcoming",
+            "networkRequestSizeTallies": {
+                "document": 19323,
+                "stylesheet": 165926,
+                "image": 34054,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 34054
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=35",
+            "networkRequestSizeTallies": {
+                "document": 20697,
+                "stylesheet": 165926,
+                "image": 34594,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 34594
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=tech",
+            "networkRequestSizeTallies": {
+                "document": 19561,
+                "stylesheet": 165926,
+                "image": 38808,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 5,
+                    "size": 38808
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/events/?filter=past",
+            "networkRequestSizeTallies": {
+                "document": 20337,
+                "stylesheet": 165926,
+                "image": 108296,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 108296
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=",
+            "networkRequestSizeTallies": {
+                "document": 21596,
+                "stylesheet": 165926,
+                "image": 190502,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 190502
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?filter=higher-education",
+            "networkRequestSizeTallies": {
+                "document": 20702,
+                "stylesheet": 165926,
+                "image": 264260,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 13,
+                    "size": 264260
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/stephanie-brown/",
+            "networkRequestSizeTallies": {
+                "document": 20642,
+                "stylesheet": 165926,
+                "image": 100266,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 100266
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?page=1",
+            "networkRequestSizeTallies": {
+                "document": 21382,
+                "stylesheet": 165926,
+                "image": 190502,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 190502
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?page=2",
+            "networkRequestSizeTallies": {
+                "document": 21409,
+                "stylesheet": 165926,
+                "image": 276668,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 276668
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/volunteering-form-improvements/?filter=ppc",
+            "networkRequestSizeTallies": {
+                "document": 24501,
+                "stylesheet": 165926,
+                "image": 197262,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 164252
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 33010
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/volunteering-form-improvements/?filter=digital-marketing",
+            "networkRequestSizeTallies": {
+                "document": 24246,
+                "stylesheet": 165926,
+                "image": 197562,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 164252
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 33310
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/volunteering-form-improvements/?filter=data",
+            "networkRequestSizeTallies": {
+                "document": 24329,
+                "stylesheet": 165926,
+                "image": 197262,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 164252
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 33010
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/volunteering-form-improvements/?filter=charity-non-profit",
+            "networkRequestSizeTallies": {
+                "document": 24409,
+                "stylesheet": 165926,
+                "image": 197262,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 164252
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 33010
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/volunteering-form-improvements/?filter=digital-products",
+            "networkRequestSizeTallies": {
+                "document": 24284,
+                "stylesheet": 165926,
+                "image": 197262,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 164252
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 33010
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/volunteering-form-improvements/?filter=seo",
+            "networkRequestSizeTallies": {
+                "document": 24186,
+                "stylesheet": 165926,
+                "image": 197262,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 164252
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 33010
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/volunteering-form-improvements/?filter=research-design",
+            "networkRequestSizeTallies": {
+                "document": 24423,
+                "stylesheet": 165926,
+                "image": 197262,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 164252
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 33010
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/?page=11",
+            "networkRequestSizeTallies": {
+                "document": 20845,
+                "stylesheet": 165926,
+                "image": 248158,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 248158
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/ai-platforms-in-action-webinar/",
+            "networkRequestSizeTallies": {
+                "document": 21633,
+                "stylesheet": 165926,
+                "image": 95370,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 60994
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 34376
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/future-of-fundraising-webinar/",
+            "networkRequestSizeTallies": {
+                "document": 21836,
+                "stylesheet": 165926,
+                "image": 92271,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 62150
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 30121
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/about/team/ellie-craven/",
+            "networkRequestSizeTallies": {
+                "document": 21150,
+                "stylesheet": 165926,
+                "image": 103088,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 103088
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/work/volunteering-form-improvements/?filter=social-media",
+            "networkRequestSizeTallies": {
+                "document": 24227,
+                "stylesheet": 165926,
+                "image": 197262,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 164252
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 33010
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/ai-in-content-management-wagtail-ai-webinar/",
+            "networkRequestSizeTallies": {
+                "document": 21788,
+                "stylesheet": 165926,
+                "image": 91376,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 62190
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 29186
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/how-to-solve-the-right-problem-with-ai/",
+            "networkRequestSizeTallies": {
+                "document": 24412,
+                "stylesheet": 165926,
+                "image": 157970,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 157970
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/tips-uncertainty-into-opportunities-innovation/",
+            "networkRequestSizeTallies": {
+                "document": 25405,
+                "stylesheet": 165926,
+                "image": 123220,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 123220
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=1&filter=innovation",
+            "networkRequestSizeTallies": {
+                "document": 21149,
+                "stylesheet": 165926,
+                "image": 42944,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 42944
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=2&filter=innovation",
+            "networkRequestSizeTallies": {
+                "document": 20780,
+                "stylesheet": 165926,
+                "image": 72954,
+                "script": 277595,
+                "font": 45364
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 7,
+                    "size": 72954
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45364
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=1&filter=digital-products",
+            "networkRequestSizeTallies": {
+                "document": 21066,
+                "stylesheet": 22319,
+                "image": 124266,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 124266
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/mnd-association-unified-their-digital-strategy-webinar/",
+            "networkRequestSizeTallies": {
+                "document": 21706,
+                "stylesheet": 165926,
+                "image": 197649,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 167718
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 29931
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=2&filter=digital-products",
+            "networkRequestSizeTallies": {
+                "document": 21200,
+                "stylesheet": 165926,
+                "image": 94312,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 94312
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=16&filter=digital-products",
+            "networkRequestSizeTallies": {
+                "document": 20505,
+                "stylesheet": 165926,
+                "image": 71242,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 71242
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/10-ways-charities-can-diversify-income-streams/",
+            "networkRequestSizeTallies": {
+                "document": 27381,
+                "stylesheet": 165926,
+                "image": 178630,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 178630
+                },
+                "unknown": {
+                    "count": 5,
+                    "size": 0
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=1&filter=research-design",
+            "networkRequestSizeTallies": {
+                "document": 21001,
+                "stylesheet": 165926,
+                "image": 102178,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 102178
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/how-to-build-donor-loyalty/",
+            "networkRequestSizeTallies": {
+                "document": 27780,
+                "stylesheet": 165926,
+                "image": 284002,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 284002
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/unlock-the-potential-of-digital-accessibility-for-nonprofits/",
+            "networkRequestSizeTallies": {
+                "document": 21965,
+                "stylesheet": 165926,
+                "image": 137588,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 108816
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 28772
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=3&filter=research-design",
+            "networkRequestSizeTallies": {
+                "document": 19866,
+                "stylesheet": 165926,
+                "image": 50000,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 6,
+                    "size": 50000
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=2&filter=research-design",
+            "networkRequestSizeTallies": {
+                "document": 21108,
+                "stylesheet": 165926,
+                "image": 101704,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 101704
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/how-you-can-grow-gen-z-to-be-a-strong-ally-for-your-charity/",
+            "networkRequestSizeTallies": {
+                "document": 29771,
+                "stylesheet": 165926,
+                "image": 259729,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 229608
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 30121
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/8-key-challenges-facing-charities/",
+            "networkRequestSizeTallies": {
+                "document": 26701,
+                "stylesheet": 165926,
+                "image": 347238,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 347238
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/learnings-ai-enabled-one-day-sprints/",
+            "networkRequestSizeTallies": {
+                "document": 24933,
+                "stylesheet": 165926,
+                "image": 277774,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 242956
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 34818
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/beyond-the-ai-hype-webinar-for-nonprofits/",
+            "networkRequestSizeTallies": {
+                "document": 22910,
+                "stylesheet": 165926,
+                "image": 145844,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 111326
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 34518
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/ga4-training-days-for-nonprofits/",
+            "networkRequestSizeTallies": {
+                "document": 23764,
+                "stylesheet": 165926,
+                "image": 127490,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 127490
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=1&filter=data",
+            "networkRequestSizeTallies": {
+                "document": 21112,
+                "stylesheet": 165926,
+                "image": 119500,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 119500
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/learnings-from-measurefest-2023/",
+            "networkRequestSizeTallies": {
+                "document": 24978,
+                "stylesheet": 165926,
+                "image": 315146,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 315146
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=2&filter=data",
+            "networkRequestSizeTallies": {
+                "document": 20963,
+                "stylesheet": 165926,
+                "image": 114412,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 114412
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=3&filter=data",
+            "networkRequestSizeTallies": {
+                "document": 20484,
+                "stylesheet": 165926,
+                "image": 66148,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 7,
+                    "size": 66148
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/sdingov-content-as-a-product/",
+            "networkRequestSizeTallies": {
+                "document": 24561,
+                "stylesheet": 165926,
+                "image": 244388,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 244388
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/torchbox-at-sdingov-2022/",
+            "networkRequestSizeTallies": {
+                "document": 22463,
+                "stylesheet": 165926,
+                "image": 323924,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 323924
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/service-design-in-gov-talk-2022/",
+            "networkRequestSizeTallies": {
+                "document": 20720,
+                "stylesheet": 165926,
+                "image": 88736,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 88736
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/government-service-standard-benefits-for-digital-transformation-pt2/",
+            "networkRequestSizeTallies": {
+                "document": 24456,
+                "stylesheet": 165926,
+                "image": 70002,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 7,
+                    "size": 70002
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=1&filter=public-sector",
+            "networkRequestSizeTallies": {
+                "document": 21214,
+                "stylesheet": 165926,
+                "image": 131968,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 131968
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=2&filter=public-sector",
+            "networkRequestSizeTallies": {
+                "document": 21060,
+                "stylesheet": 165926,
+                "image": 96202,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 96202
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/what-does-perplexity-ai-mean-for-google-search/",
+            "networkRequestSizeTallies": {
+                "document": 24442,
+                "stylesheet": 165926,
+                "image": 312338,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 14,
+                    "size": 312338
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=1&filter=ai",
+            "networkRequestSizeTallies": {
+                "document": 21202,
+                "stylesheet": 165926,
+                "image": 121926,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 121926
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=2&filter=ai",
+            "networkRequestSizeTallies": {
+                "document": 20975,
+                "stylesheet": 165926,
+                "image": 98314,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 98314
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=3&filter=ai",
+            "networkRequestSizeTallies": {
+                "document": 20746,
+                "stylesheet": 165926,
+                "image": 82682,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 82682
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=1&filter=charity-non-profit",
+            "networkRequestSizeTallies": {
+                "document": 21250,
+                "stylesheet": 165926,
+                "image": 139308,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 139308
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=2&filter=charity-non-profit",
+            "networkRequestSizeTallies": {
+                "document": 21331,
+                "stylesheet": 165926,
+                "image": 122518,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 12,
+                    "size": 122518
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=9&filter=charity-non-profit",
+            "networkRequestSizeTallies": {
+                "document": 21002,
+                "stylesheet": 22319,
+                "image": 103256,
+                "script": 277595,
+                "font": 45364
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 11,
+                    "size": 103256
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45364
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/accessibility-best-practices-webinar-insights/",
+            "networkRequestSizeTallies": {
+                "document": 22783,
+                "stylesheet": 165926,
+                "image": 154366,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 119082
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 35284
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/whats-new-in-wagtail-cms-march-2024/",
+            "networkRequestSizeTallies": {
+                "document": 21529,
+                "stylesheet": 165926,
+                "image": 120666,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 8,
+                    "size": 90598
+                },
+                "jpg": {
+                    "count": 1,
+                    "size": 30068
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/the-evolution-of-our-developer-training-programme/",
+            "networkRequestSizeTallies": {
+                "document": 22114,
+                "stylesheet": 165926,
+                "image": 95820,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 95820
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/navigating-ai-and-the-path-to-social-innovation/",
+            "networkRequestSizeTallies": {
+                "document": 24141,
+                "stylesheet": 165926,
+                "image": 149782,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 149782
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/whats-new-in-wagtail-cms-september-2023/",
+            "networkRequestSizeTallies": {
+                "document": 21343,
+                "stylesheet": 165926,
+                "image": 117946,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 9,
+                    "size": 117946
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        },
+        {
+            "url": "https://torchbox.com/blog/?page=1&filter=wagtail-cms",
+            "networkRequestSizeTallies": {
+                "document": 21104,
+                "stylesheet": 165926,
+                "image": 85016,
+                "script": 289106,
+                "font": 45064
+            },
+            "imageFileTallies": {
+                "webp": {
+                    "count": 10,
+                    "size": 85016
+                }
+            },
+            "fontFileTallies": {
+                "woff2": {
+                    "count": 1,
+                    "size": 45064
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://torchbox.com/blog/ai-in-content-management-wagtail-ai-webinar/",
+    "id": "60f9dc1c-be62-4b84",
+    "title": "Wagtail AI Webinar | Torchbox",
+    "metadata": {
+        "description": "Join us to find out more about Wagtail AI’s practical tools for augmenting content management with artificial intelligence, including live demos from high-profile Wagtail users, including The Motley Fool and RNIB.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Explore the potential of AI in content management",
+            "description": "Join us to find out more about Wagtail AI’s practical tools for augmenting content management with artificial intelligence, including live demos from high-profile Wagtail users, including The Motley Fool and RNIB.",
+            "image": "https://media.torchbox.com/images/wagtail_Ai_Blog_1200x630.format-webp.width-1000.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/blog/ai-in-content-management-wagtail-ai-webinar/",
+            "title": "Explore the potential of AI in content management",
+            "description": "Join us to find out more about Wagtail AI’s practical tools for augmenting content management with artificial intelligence, including live demos from high-profile Wagtail users, including The Motley Fool and RNIB.",
+            "image": "https://media.torchbox.com/images/wagtail_Ai_Blog_1200.2e16d0ba.format-webp.fill-1200x630.webp",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

@@ -1,0 +1,163 @@
+{
+    "url": "https://torchbox.com/services/digital-marketing/pay-per-click-ppc-management/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/services/digital-marketing/pay-per-click-ppc-management/",
+            "resourceType": "document",
+            "transferSize": 28887,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.851f9506992c.css",
+            "resourceType": "stylesheet",
+            "transferSize": 165926,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IRHome.max-800x600.509f1c94.format-webp.fill-800x450.webp",
+            "resourceType": "image",
+            "transferSize": 13632,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/islamic-relief.max-110x70.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 2792,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IMG_3103.2e16d0ba.format-webp.fill-286x286_F7IezHO.webp",
+            "resourceType": "image",
+            "transferSize": 13562,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/10315_BCN_Core_Logo_Purple_RGB.max-110x70.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 5510,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.c74839c1c83d.js",
+            "resourceType": "script",
+            "transferSize": 16006,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 271861,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/858c2c51370727066039.1598da759a06.woff2",
+            "resourceType": "font",
+            "transferSize": 45064,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://media.torchbox.com/images/MS_Society_EHTLntn.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 5988,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Mind.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6062,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Shakespeare_Birthplace_Trust_1e.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6506,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Mozilla.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 1698,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/DEC.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 8108,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Meningitis_Now_WvlmMPl.max-200x180.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6780,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/MND_Coronation_Street.7a1a5f25.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 46978,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/WWT_Bing_trail_1.9c7c6abc.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 81152,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Moorfields_1.2e16d0ba.fill-740x740.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 23274,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Amina_1.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 12294,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Screenshot_2020-02-24.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 18328,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/certified_b_corporation_b_corp_.max-100x100.format-webp_3bc1uST.webp",
+            "resourceType": "image",
+            "transferSize": 2788,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-top25_best-mid-sized-compa.max-100x100.format-webp_Xl42X5Q.webp",
+            "resourceType": "image",
+            "transferSize": 4080,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/EOA_Members_RGB_PNG_EOA_Members.max-200x100.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6980,
+            "fileExtension": "webp"
+        }
+    ],
+    "images": {
+        "webp": {
+            "count": 18,
+            "size": 266512
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 1,
+            "size": 45064
+        }
+    },
+    "pageWeight": 795495,
+    "iframes": []
+}

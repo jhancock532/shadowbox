@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/services/wagtail-cms-services/wagtail-developer-support/",
+    "id": "5b8f1e5a-3a38-4e65",
+    "title": "Wagtail CMS Developer Support | Torchbox",
+    "metadata": {
+        "description": "From the creators of Wagtail, our Wagtail developer support service gives you direct access to our Wagtail team for everything from expert consultancy to general support.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Wagtail developer support",
+            "description": "From the creators of Wagtail, our Wagtail developer support service gives you direct access to our Wagtail team for everything from expert consultancy to general support.",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-lagoon.a3a2a090a56c.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/services/wagtail-cms-services/wagtail-developer-support/",
+            "title": "Wagtail developer support",
+            "description": "From the creators of Wagtail, our Wagtail developer support service gives you direct access to our Wagtail team for everything from expert consultancy to general support.",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

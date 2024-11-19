@@ -1,0 +1,25 @@
+{
+    "url": "https://torchbox.com/services/wagtail-cms-services/wagtail-accelerator-kit/",
+    "id": "05c305fe-655f-4a74",
+    "title": "Wagtail Accelerator Kit | Torchbox",
+    "metadata": {
+        "description": "Kick-start your digital project with the Wagtail CMS Accelerator Kit, created by the founding developers of Wagtail.",
+        "twitter": {
+            "card": "summary",
+            "site": "@torchbox",
+            "title": "Wagtail accelerator kit",
+            "description": "Kick-start your digital project with the Wagtail CMS Accelerator Kit, created by the founding developers of Wagtail. Designed to accelerate project timelines by up to eight weeks.",
+            "image": "https://torchbox.com/static/images/social/twitter-theme-lagoon.a3a2a090a56c.webp"
+        },
+        "og": {
+            "type": "website",
+            "url": "/services/wagtail-cms-services/wagtail-accelerator-kit/",
+            "title": "Wagtail accelerator kit",
+            "description": "Kick-start your digital project with the Wagtail CMS Accelerator Kit, created by the founding developers of Wagtail. Designed to accelerate project timelines by up to eight weeks.",
+            "image_width": "1200",
+            "image_height": "630"
+        }
+    },
+    "pageLinks": [],
+    "youtubeEmbeds": []
+}

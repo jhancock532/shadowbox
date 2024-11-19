@@ -1,0 +1,127 @@
+{
+    "url": "https://torchbox.com/services/digital-products-services/accessibility/accessibility-strategy/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/services/digital-products-services/accessibility/accessibility-strategy/",
+            "resourceType": "document",
+            "transferSize": 23998,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.851f9506992c.css",
+            "resourceType": "stylesheet",
+            "transferSize": 165926,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Upscaled_2.ba47a082.format-webp.fill-1280x720.webp",
+            "resourceType": "image",
+            "transferSize": 68314,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/RNIB_SmywwKO.max-110x70.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 1984,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 14510,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.c74839c1c83d.js",
+            "resourceType": "script",
+            "transferSize": 16006,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 271861,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/858c2c51370727066039.1598da759a06.woff2",
+            "resourceType": "font",
+            "transferSize": 45064,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://media.torchbox.com/images/230328-29_SP_SUE_R_TH.4622b372.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 9794,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Testing_of_LED_lights.abe0ba43.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 14568,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/internetsociety.2364d65e.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 11436,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Michael_cropped.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 7488,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/20211015_1803000_1.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 7550,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/linkedin.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 24858,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/certified_b_corporation_b_corp_.max-100x100.format-webp_3bc1uST.webp",
+            "resourceType": "image",
+            "transferSize": 2788,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-top25_best-mid-sized-compa.max-100x100.format-webp_Xl42X5Q.webp",
+            "resourceType": "image",
+            "transferSize": 4080,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/EOA_Members_RGB_PNG_EOA_Members.max-200x100.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6980,
+            "fileExtension": "webp"
+        }
+    ],
+    "images": {
+        "webp": {
+            "count": 12,
+            "size": 174350
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 1,
+            "size": 45064
+        }
+    },
+    "pageWeight": 698444,
+    "iframes": []
+}

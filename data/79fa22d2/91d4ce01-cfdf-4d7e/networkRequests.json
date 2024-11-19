@@ -1,0 +1,179 @@
+{
+    "url": "https://torchbox.com/about/impact-report-2023/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/about/impact-report-2023/",
+            "resourceType": "document",
+            "transferSize": 32866,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.851f9506992c.css",
+            "resourceType": "stylesheet",
+            "transferSize": 165926,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://media.torchbox.com/images/hero-banner.2e16d0ba.fill-2000x875.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 40732,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/earth-target.2e16d0ba.fill-62x62.png",
+            "resourceType": "image",
+            "transferSize": 4026,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/25557-mia-badges-_change.max-800x600.1dd70a89.fill-62x62.png",
+            "resourceType": "image",
+            "transferSize": 5984,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Bright_pink.2e16d0ba.fill-62x62.png",
+            "resourceType": "image",
+            "transferSize": 2930,
+            "fileExtension": "png"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Olly.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 5062,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 14510,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.c74839c1c83d.js",
+            "resourceType": "script",
+            "transferSize": 16006,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 271861,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/858c2c51370727066039.1598da759a06.woff2",
+            "resourceType": "font",
+            "transferSize": 45064,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://media.torchbox.com/images/empowering_change.max-2540x900.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 21048,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Core_values_2.format-webp.width-1600.webp",
+            "resourceType": "image",
+            "transferSize": 42572,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Income_by_Sector.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 53730,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/test_better_business.max-2540x900.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 20452,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/co-ownership_GHRxbFr.max-2540x900.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 24474,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/diversity.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 26174,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/gender.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 23422,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/sexual_orientation_stats.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 102496,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/leadership_stats.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 26310,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Zen_Bus.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 223166,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/b-corp.max-2540x900.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 30940,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/certified_b_corporation_b_corp_.max-100x100.format-webp_3bc1uST.webp",
+            "resourceType": "image",
+            "transferSize": 2788,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-top25_best-mid-sized-compa.max-100x100.format-webp_Xl42X5Q.webp",
+            "resourceType": "image",
+            "transferSize": 4080,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/EOA_Members_RGB_PNG_EOA_Members.max-200x100.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6980,
+            "fileExtension": "webp"
+        }
+    ],
+    "images": {
+        "webp": {
+            "count": 17,
+            "size": 668936
+        },
+        "png": {
+            "count": 3,
+            "size": 12940
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 1,
+            "size": 45064
+        }
+    },
+    "pageWeight": 1214838,
+    "iframes": []
+}

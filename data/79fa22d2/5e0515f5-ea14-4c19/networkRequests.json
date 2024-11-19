@@ -1,0 +1,205 @@
+{
+    "url": "https://torchbox.com/about/team/?filter=",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/about/team/?filter=",
+            "resourceType": "document",
+            "transferSize": 20525,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.851f9506992c.css",
+            "resourceType": "stylesheet",
+            "transferSize": 165926,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://media.torchbox.com/images/resize_Abigail.origin.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 18382,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/20211015_1803000_1.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 10284,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-alex.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 22026,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Alex_1.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 17018,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Alice.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 14126,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-will.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 14510,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.c74839c1c83d.js",
+            "resourceType": "script",
+            "transferSize": 16006,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 271861,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/4a676b1b00d2b0c98a85.3d607df80edd.webp",
+            "resourceType": "image",
+            "transferSize": 16416,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://torchbox.com/static/858c2c51370727066039.1598da759a06.woff2",
+            "resourceType": "font",
+            "transferSize": 45064,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Ali_j4az1oD.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 18430,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/resize_Amanda_-_Image.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 20412,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Amina_1.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 17190,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Andy.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 10806,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 16804,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Ania_web_pic.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 24638,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/20210412_081652.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 27802,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Arran.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 13764,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/tbx_team-ben_1.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 25752,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IMG_7756_nAztGhQ.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 35812,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/ben_d30RmxK.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 13882,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Cassidy.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 12086,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/E2525D02-500C-4C86-8F.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 44648,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Chloe.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 29554,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Chris_FDm1DsT.2e16d0ba.fill-370x370.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 11042,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/certified_b_corporation_b_corp_.max-100x100.format-webp_3bc1uST.webp",
+            "resourceType": "image",
+            "transferSize": 2788,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-top25_best-mid-sized-compa.max-100x100.format-webp_Xl42X5Q.webp",
+            "resourceType": "image",
+            "transferSize": 4080,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/EOA_Members_RGB_PNG_EOA_Members.max-200x100.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6980,
+            "fileExtension": "webp"
+        }
+    ],
+    "images": {
+        "webp": {
+            "count": 25,
+            "size": 449232
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 1,
+            "size": 45064
+        }
+    },
+    "pageWeight": 969853,
+    "iframes": []
+}

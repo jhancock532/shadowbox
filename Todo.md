@@ -48,8 +48,26 @@ I've added a function that scrolls to the bottom of each page before continuing 
 - [ ] Woff2 font files from the careers site only weigh 300, while the same file from the innovation site 46672.
       "https://torchbox.com/careers/fonts/apercu/apercu-bold-pro.woff2": 300,
       "https://torchbox.com/innovation/fonts/apercu-bold-pro.woff2": 46672,
+- [ ] Files can be served with the type string `.png` in their name, but actually be sent with the request header of file type `.webp`. In this way the crawler thinks that the sites images haven't been optimized yet, unless it can figure out how to access this request header data.
 
 ### Unknown resources to handle
 
 - Unknown resource type: link https://torchbox.com/static/images/icons/site.cb209cc06aee.webmanifest
 - Unknown resource type: link https://torchbox.com/careers/site.webmanifest
+
+## Extended functionality
+
+- Instead of fetching performance metrics via `window.performance.getEntries()`, can Puppeteer fetch accurate performance values from the [Chrome devtools protocol](https://chromedevtools.github.io/devtools-protocol/tot/Performance/#method-getMetrics) API of the browser directly?
+
+- Would it be valuable to see how much content is lazy-loaded - the % of data saved by only looking at above the fold content, vs looking at the entire webpage?
+
+- Energy usage when viewing the page.
+
+  - How could the crawler detect heavy runtime use of JS or layered animations?
+  - Could the crawler detect support for dark mode, showing dark mode by default, or detect what % of the page uses lighter vs darker colors?
+
+- Support static export of pages with the app router? v14.1.0
+
+- Review how https://yellowlab.tools/ uses [Phantomas](https://github.com/macbre/phantomas) for excellent performance analysis.
+
+- Monitor all requests sent and received via https://crawlee.dev/api/puppeteer-crawler/namespace/puppeteerRequestInterception instead of using the window.getperformancemetrics call

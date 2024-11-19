@@ -1,0 +1,161 @@
+{
+    "url": "https://torchbox.com/blog/design-powered-digital-marketing/",
+    "networkRequests": [
+        {
+            "url": "https://torchbox.com/blog/design-powered-digital-marketing/",
+            "resourceType": "document",
+            "transferSize": 25761,
+            "fileExtension": "unknown"
+        },
+        {
+            "url": "https://torchbox.com/static/css/main.851f9506992c.css",
+            "resourceType": "stylesheet",
+            "transferSize": 165926,
+            "fileExtension": "css"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IMG_3103.2e16d0ba.format-webp.fill-286x286_F7IezHO.webp",
+            "resourceType": "image",
+            "transferSize": 13562,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://i.ytimg.com/vi/qjSMHzVxkEA/hqdefault.jpg",
+            "resourceType": "image",
+            "transferSize": 7238,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://i.ytimg.com/vi/ig2sTlKB_Ko/hqdefault.jpg",
+            "resourceType": "image",
+            "transferSize": 9473,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://i.ytimg.com/vi/RUMjGjBQfrE/hqdefault.jpg",
+            "resourceType": "image",
+            "transferSize": 12438,
+            "fileExtension": "jpg"
+        },
+        {
+            "url": "https://torchbox.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "resourceType": "script",
+            "transferSize": 1239,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/js/main.c74839c1c83d.js",
+            "resourceType": "script",
+            "transferSize": 16006,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K5HPMR",
+            "resourceType": "script",
+            "transferSize": 271861,
+            "fileExtension": "js"
+        },
+        {
+            "url": "https://torchbox.com/static/858c2c51370727066039.1598da759a06.woff2",
+            "resourceType": "font",
+            "transferSize": 45064,
+            "fileExtension": "woff2"
+        },
+        {
+            "url": "https://media.torchbox.com/images/MNDAcreative-min.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 112420,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/DECcreative-min.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 227724,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://i.ytimg.com/vi_webp/qjSMHzVxkEA/sddefault.webp",
+            "resourceType": "image",
+            "transferSize": 8132,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://i.ytimg.com/vi_webp/ig2sTlKB_Ko/sddefault.webp",
+            "resourceType": "image",
+            "transferSize": 13338,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://i.ytimg.com/vi_webp/RUMjGjBQfrE/sddefault.webp",
+            "resourceType": "image",
+            "transferSize": 21620,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/GOSHcreative-min.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 194616,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/Chatham_Housecreative-min.format-webp.width-1800.webp",
+            "resourceType": "image",
+            "transferSize": 259974,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/IMG_7756_nAztGhQ.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 21884,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/edd_baldry_torchbox.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 14090,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/peter.2e16d0ba.format-webp.fill-286x286.webp",
+            "resourceType": "image",
+            "transferSize": 10968,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/certified_b_corporation_b_corp_.max-100x100.format-webp_3bc1uST.webp",
+            "resourceType": "image",
+            "transferSize": 2788,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/2022-top25_best-mid-sized-compa.max-100x100.format-webp_Xl42X5Q.webp",
+            "resourceType": "image",
+            "transferSize": 4080,
+            "fileExtension": "webp"
+        },
+        {
+            "url": "https://media.torchbox.com/images/EOA_Members_RGB_PNG_EOA_Members.max-200x100.format-webp.webp",
+            "resourceType": "image",
+            "transferSize": 6980,
+            "fileExtension": "webp"
+        }
+    ],
+    "images": {
+        "webp": {
+            "count": 14,
+            "size": 912176
+        },
+        "jpg": {
+            "count": 3,
+            "size": 29149
+        }
+    },
+    "fonts": {
+        "woff2": {
+            "count": 1,
+            "size": 45064
+        }
+    },
+    "pageWeight": 1467182,
+    "iframes": []
+}

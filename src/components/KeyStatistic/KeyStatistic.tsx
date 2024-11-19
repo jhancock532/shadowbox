@@ -47,33 +47,39 @@ const KeyStatistic = ({
     return (
         <div className={styles.container}>
             <p className={styles.title}>{title}</p>
-            <p
-                className={styles.baseNumber}
-                style={{
-                    width: comparisonNumber
-                        ? comparisonNumber > number
-                            ? `${widthPercentage}%`
-                            : '100%'
-                        : '100%',
-                }}
-            >
-                {number}
-                {units || ''}
-            </p>
-            {comparisonNumber && (
+            <div className={styles.barContainer}>
                 <p
-                    className={styles.accentNumber}
+                    className={styles.baseNumber}
                     style={{
-                        width:
-                            comparisonNumber < number
+                        width: comparisonNumber
+                            ? comparisonNumber > number
                                 ? `${widthPercentage}%`
-                                : '100%',
+                                : '100%'
+                            : '100%',
                     }}
                 >
-                    {comparisonNumber}
-                    {units || ''}
+                    <span className={styles.overlayText}>
+                        {number}
+                        {units || ''}
+                    </span>
                 </p>
-            )}
+                {comparisonNumber && (
+                    <p
+                        className={styles.accentNumber}
+                        style={{
+                            width:
+                                comparisonNumber < number
+                                    ? `${widthPercentage}%`
+                                    : '100%',
+                        }}
+                    >
+                        <span className={styles.overlayText}>
+                            {comparisonNumber}
+                            {units || ''}
+                        </span>
+                    </p>
+                )}
+            </div>
             {showPercentageChange && percentageChange && (
                 <p className={styles.percentageChange}>{percentageChange}</p>
             )}

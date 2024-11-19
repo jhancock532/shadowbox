@@ -163,7 +163,7 @@ const Bar: React.FC<any> = ({
                             sortedNetworkRequestTallies[
                                 networkRequestSizeTally
                             ] / 1000,
-                        )} kB of ${networkRequestSizeTally}s`;
+                        )} kB of ${networkRequestSizeTally}${networkRequestSizeTally === 'media' ? '' : 's'}`;
 
                         return (
                             <BarSegment

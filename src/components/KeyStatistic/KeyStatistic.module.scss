@@ -15,7 +15,16 @@
     margin-bottom: $grid + 5px;
 }
 
+.barContainer {
+    position: relative;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .baseNumber {
+    position: relative;
     color: var(--color--secondary-gradient-1);
     @include font-size(xl);
     font-style: normal;
@@ -24,12 +33,19 @@
     letter-spacing: 1.6px;
     background: var(--color--secondary-gradient-7);
     border-radius: 3px;
-    padding: 5px 10px;
     margin: 0;
-    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 2px 10px;
+    height: 40px;
+
+    @include media-query(medium) {
+        padding: 5px 10px;
+        height: 60px;
+    }
 }
 
 .accentNumber {
+    position: relative;
     color: var(--color--background);
     @include font-size(xl);
     font-style: normal;
@@ -42,11 +58,23 @@
         var(--color--primary-gradient-3) 100%
     );
     border-radius: 3px;
-    padding: 5px 10px;
     margin: 0;
+    box-sizing: border-box;
+    padding: 2px 10px;
+    height: 40px;
+
+    @include media-query(medium) {
+        padding: 5px 10px;
+        height: 60px;
+    }
+}
+
+.overlayText {
+    position: relative;
+    white-space: nowrap;
 }
 
 .percentageChange {
-    margin-top: 10px;
+    margin-top: 20px;
     color: var(--color--text-muted);
 }
